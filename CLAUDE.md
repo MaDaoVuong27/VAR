@@ -42,6 +42,9 @@ File này dành cho cả người (teammate mới join) lẫn LLM agent (Claude 
 ### `docs/TASK_SPEC.md`
 Bản tóm tắt đề bài + công thức chấm điểm. Chỉ đọc. Nếu đề bài gốc trong `TASK/` có thay đổi thật (BTC cập nhật), cập nhật file này cho khớp.
 
+### `docs/EDA_FINDINGS.md`
+Quan sát đặc điểm dữ liệu test (cấu trúc, nhiễu, phân bố assertion, hệ quả từ metric) + checklist EDA cần chạy bằng code. Đọc khi cần hiểu "dữ liệu trông thế nào" trước khi thiết kế/sửa NER hay rule. Cập nhật khi có quan sát mới (vd sau khi gán nhãn dev set, hoặc phân tích lỗi experiment).
+
 ### `docs/IDEAS.md` — nơi lên kế hoạch, **đọc đầu tiên mỗi phiên làm việc**
 - Khi bắt đầu 1 ý tưởng/hướng tiếp cận mới → thêm mục vào **"Ý tưởng đang theo đuổi"** (mô tả, vì sao chọn, trạng thái, link experiment liên quan).
 - Khi 1 ý tưởng bị dừng/thay hướng (dù đã chạy experiment hay chưa) → chuyển xuống **"Ý tưởng đã thử/loại bỏ"**, ghi rõ ưu điểm, nhược điểm, kết quả (score nếu có), lý do bỏ, bài học rút ra. **Không xoá ý tưởng cũ** — mục đích của phần này là để không thử lại hướng đã biết không hiệu quả.
