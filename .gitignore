@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Env / secrets
+.env
+
+# Model weights (self-hosted, too large for git)
+*.safetensors
+*.bin
+*.gguf
+*.pt
+*.ckpt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# RxNorm raw dumps (large — several files >100MB GitHub hard limit, ~2.1GB total —
+# re-downloadable, see knowledge_base/rxnorm/raw/SOURCE.md). ICD-10 raw (PDFs, ~22MB)
+# is small enough to track normally and is NOT excluded here.
+knowledge_base/rxnorm/raw/**/*.RRF
+knowledge_base/rxnorm/raw/**/*.zip
+knowledge_base/rxnorm/raw/**/*.txt
