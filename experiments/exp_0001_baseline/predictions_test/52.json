@@ -1,0 +1,21 @@
+[
+  {
+    "text": "run rẩy kèm sốt kèm theo sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      401,
+      429
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ba stent mật kim loại đã được đặt",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      866,
+      899
+    ],
+    "assertions": [],
+    "candidates": []
+  }
+]

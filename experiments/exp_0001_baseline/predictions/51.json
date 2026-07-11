@@ -1,0 +1,183 @@
+[
+  {
+    "text": "Đái tháo đường type 2",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      57,
+      78
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E11",
+      "O24.1",
+      "E10"
+    ]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      85,
+      98
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I10",
+      "I11",
+      "I11.0"
+    ]
+  },
+  {
+    "text": "cảm thấy khó chịu chung",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      205,
+      228
+    ],
+    "assertions": []
+  },
+  {
+    "text": "nghẹt mũi nhiều hơn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      235,
+      254
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đau đầu bên trái",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      261,
+      277
+    ],
+    "assertions": []
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      284,
+      291
+    ],
+    "assertions": []
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      298,
+      307
+    ],
+    "assertions": []
+  },
+  {
+    "text": "vài lần mỗi ngày",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      378,
+      394
+    ],
+    "assertions": []
+  },
+  {
+    "text": "chủ yếu là phân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      396,
+      411
+    ],
+    "assertions": []
+  },
+  {
+    "text": "nhầy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      451,
+      455
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "máu đỏ tươi hoặc dịch nhầy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      457,
+      483
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "kali",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      614,
+      618
+    ]
+  },
+  {
+    "text": "80",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      619,
+      621
+    ]
+  },
+  {
+    "text": "kali",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1032,
+      1036
+    ]
+  },
+  {
+    "text": "2.4",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1040,
+      1043
+    ]
+  },
+  {
+    "text": "kali",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1050,
+      1054
+    ]
+  },
+  {
+    "text": "2.2",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1070,
+      1073
+    ]
+  },
+  {
+    "text": "kali",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1080,
+      1084
+    ]
+  },
+  {
+    "text": "2.2",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1094,
+      1097
+    ]
+  }
+]

@@ -1,0 +1,130 @@
+[
+  {
+    "text": "u cơ trơn tử cung, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      39,
+      72
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "D25.9",
+      "D25"
+    ]
+  },
+  {
+    "text": "iron",
+    "type": "THUỐC",
+    "position": [
+      104,
+      108
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "90176"
+    ]
+  },
+  {
+    "text": "Bắt đầu đau bụng dưới và chảy máu nhiều",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      157,
+      196
+    ],
+    "assertions": []
+  },
+  {
+    "text": "lower abdominal pain",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      228,
+      248
+    ],
+    "assertions": []
+  },
+  {
+    "text": "chảy máu nhiều",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      255,
+      269
+    ],
+    "assertions": []
+  },
+  {
+    "text": "siêu âm tử cung vào [Date] cho thấy",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      749,
+      784
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Tử cung đo 14,2 x 8,8 x 7,5 cm",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      792,
+      822
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Dải nội mạc tử cung không thể xác định được",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      900,
+      943
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": [
+      "N80.0",
+      "W19",
+      "H50.9"
+    ]
+  },
+  {
+    "text": "Cả hai buồng trứng đều có vẻ bình thường",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      950,
+      990
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "Không thấy dịch tự do trong túi cùng Douglas",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      997,
+      1041
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Không có giãn bể thận",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1048,
+      1069
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": [
+      "O92.3"
+    ]
+  }
+]

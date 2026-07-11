@@ -1,0 +1,179 @@
+[
+  {
+    "text": "hen suyễn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      54,
+      63
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "rối loạn lo âu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      70,
+      84
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "F06.4",
+      "F40",
+      "F40.8"
+    ]
+  },
+  {
+    "text": "tăng huyết áp (tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      91,
+      119
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "Z01.3",
+      "I10",
+      "I11"
+    ]
+  },
+  {
+    "text": "Táo bón mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      127,
+      143
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "K59.0"
+    ]
+  },
+  {
+    "text": "ngưng thở khi ngủ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      151,
+      168
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "G47.3"
+    ]
+  },
+  {
+    "text": "nhịp thở nhanh và thiếu oxy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      211,
+      238
+    ],
+    "assertions": []
+  },
+  {
+    "text": "SPO2",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      555,
+      559
+    ]
+  },
+  {
+    "text": "2",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      558,
+      559
+    ]
+  },
+  {
+    "text": "bạch cầu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      847,
+      855
+    ]
+  },
+  {
+    "text": "26.7",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      856,
+      860
+    ]
+  },
+  {
+    "text": "4227",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      871,
+      875
+    ]
+  },
+  {
+    "text": "kali",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      882,
+      886
+    ]
+  },
+  {
+    "text": "3.2",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      887,
+      890
+    ]
+  },
+  {
+    "text": "troponin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      897,
+      905
+    ]
+  },
+  {
+    "text": "0.01",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      906,
+      910
+    ]
+  },
+  {
+    "text": "1.8",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      925,
+      928
+    ]
+  },
+  {
+    "text": "tổng phân tích",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      935,
+      949
+    ]
+  },
+  {
+    "text": "182",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      987,
+      990
+    ]
+  }
+]

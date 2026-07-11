@@ -1,0 +1,148 @@
+[
+  {
+    "text": "tăng huyết áp vô căn (nguyên phát) (Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      193,
+      242
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I10",
+      "I95.0",
+      "Z01.3"
+    ]
+  },
+  {
+    "text": "Đái tháo đường type 2 (Đái tháo đường típ 2",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      320,
+      363
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E11",
+      "E10",
+      "O24.1"
+    ]
+  },
+  {
+    "text": "aspirin 81mg",
+    "type": "THUỐC",
+    "position": [
+      760,
+      772
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "315431"
+    ]
+  },
+  {
+    "text": "clopidogrel",
+    "type": "THUỐC",
+    "position": [
+      787,
+      798
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "32968"
+    ]
+  },
+  {
+    "text": "metoprolol succinate 100mg daily",
+    "type": "THUỐC",
+    "position": [
+      860,
+      892
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "1370483"
+    ]
+  },
+  {
+    "text": "lasix 40mg daily",
+    "type": "THUỐC",
+    "position": [
+      911,
+      927
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "atorvastatin 80mg daily",
+    "type": "THUỐC",
+    "position": [
+      946,
+      969
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "329299"
+    ]
+  },
+  {
+    "text": "lisinopril 2.5mg daily",
+    "type": "THUỐC",
+    "position": [
+      986,
+      1008
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "316152"
+    ]
+  },
+  {
+    "text": "ranexa 500mg daily",
+    "type": "THUỐC",
+    "position": [
+      1025,
+      1043
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "1177694"
+    ]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1103,
+      1111
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1410,
+      1418
+    ],
+    "assertions": []
+  }
+]

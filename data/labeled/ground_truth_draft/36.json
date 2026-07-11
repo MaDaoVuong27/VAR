@@ -1,0 +1,92 @@
+[
+  {
+    "text": "azathioprine",
+    "type": "THUỐC",
+    "position": [
+      208,
+      220
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "1256"
+    ]
+  },
+  {
+    "text": "prograf",
+    "type": "THUỐC",
+    "position": [
+      233,
+      240
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "196463"
+    ]
+  },
+  {
+    "text": "cellcept",
+    "type": "THUỐC",
+    "position": [
+      294,
+      302
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "152633"
+    ]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1936,
+      1946
+    ]
+  },
+  {
+    "text": "5.1",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1947,
+      1950
+    ]
+  },
+  {
+    "text": "5.8",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1965,
+      1968
+    ]
+  },
+  {
+    "text": "Bệnh lý thận do BK",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2282,
+      2300
+    ],
+    "assertions": [],
+    "candidates": [
+      "B52.0",
+      "N14",
+      "N14.0"
+    ]
+  },
+  {
+    "text": "Lo ngại về đào thải",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2313,
+      2332
+    ],
+    "assertions": [],
+    "candidates": []
+  }
+]

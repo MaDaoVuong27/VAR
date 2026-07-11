@@ -1,0 +1,90 @@
+[
+  {
+    "text": "đau bụng vùng hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      871,
+      897
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "đau bụng vùng hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      979,
+      1005
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1012,
+      1023
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "buồn nôn thoáng qua",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1031,
+      1050
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "Nôn mửa",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1057,
+      1064
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "Bệnh nhân có  đau lưng âm ỉ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1071,
+      1098
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "đôi khi lan ra phía trước bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1223,
+      1253
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1312,
+      1323
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  }
+]

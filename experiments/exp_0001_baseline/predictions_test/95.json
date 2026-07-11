@@ -1,0 +1,13 @@
+[
+  {
+    "text": "đau âm ỉ vùng quanh rốn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      120,
+      143
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  }
+]

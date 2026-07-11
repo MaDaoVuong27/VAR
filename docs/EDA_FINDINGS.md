@@ -38,14 +38,37 @@ Liên kết: [TASK_SPEC.md](TASK_SPEC.md) (đề bài/metric), [IDEAS.md](IDEAS.
 | `TÊN_XÉT_NGHIỆM` | `bạch cầu`, `creatinin`, `troponin`, `alt`, `ast`, `inr`, `WBC`, `x-quang ngực`, `điện tâm đồ (ecg)`, `tổng phân tích nước tiểu` | Không cần candidate/assertion |
 | `KẾT_QUẢ_XÉT_NGHIỆM` | Giá trị + đơn vị: `39.2`, `3.0`, `0.10`, `176`, `240 đến 260`; đôi khi kèm đổi đơn vị `5.2 lên 6.3 mg/dl (460 - 557 umol/l)` | Cặp đôi với TÊN_XÉT_NGHIỆM; ranh giới value khó |
 
-## 4. Phân bố assertion (định hướng, chưa có ground truth)
+## 4. Phân bố assertion — proxy đo bằng feature-tagging (KHÔNG phải ground truth)
 
-- **`isHistorical`** — phổ biến nhất. 90/100 file có chữ "tiền sử". Tín hiệu mạnh theo **cấu trúc mục**: mọi thứ trong `1. Tiền sử bệnh` và `Thuốc trước khi nhập viện` gần như luôn historical. → một luật section-aware có thể ăn điểm lớn.
-- **`isNegated`** — phổ biến. 84/100 file có "không". Cue rõ: `Không buồn nôn`, `chưa ra huyết (VB -)`, `âm tính`, `loại trừ`, `không ghi nhận`. ⚠️ Bẫy: `không xác định`/`không đặc hiệu`/`không rõ` là **một phần tên bệnh**, KHÔNG phải phủ định → cần loại trừ khỏi rule negation.
-- **`isFamily`** — **hiếm**. Chỉ ~9/100 file nhắc tới người nhà, và phần lớn "người nhà" chỉ đóng vai **người kể chuyện** ("theo lời người nhà kể"), KHÔNG phải chủ thể mang bệnh. Trường hợp thật (người nhà mắc bệnh) gần như không thấy trong mẫu quan sát. → class cực mất cân bằng; default "không gán isFamily" có thể đã tốt, nhưng cần bắt đúng vài ca hiếm để không mất điểm Jaccard.
-- Lưu ý metric: assertions_score dùng Jaccard trung bình theo sample. Sample không có assertion nào (GT rỗng) mà mình đoán rỗng → được 1 điểm; đoán thừa → 0 điểm. → **thà bỏ sót (conservative) hơn gán bừa** ở các loại hiếm.
+> Các số dưới đây là **proxy từ khớp regex** trên 100 file không nhãn (script `notebooks/eda_features.py`), không phải nhãn thật. Chúng chỉ ra "tín hiệu xuất hiện ở mức file", không phải số lượng assertion thật trên từng khái niệm. Phân bố thật chỉ có sau khi gán nhãn `data/labeled/`.
 
-## 5. Hệ quả từ metric (định hướng ưu tiên công sức)
+- **`isHistorical`** — tín hiệu phổ biến nhất: 93/100 file khớp cue tiền sử ("tiền sử", "trước khi nhập viện", "bệnh mạn tính"...). Rất mạnh theo **cấu trúc mục** (`1. Tiền sử bệnh`, "Thuốc trước khi nhập viện" gần như luôn historical) → rule section-aware có thể ăn điểm lớn.
+- **`isNegated`** — proxy 82/100 file có cue phủ định (đã trừ false-friend). ⚠️ Bẫy đã xử lý trong tagging: `không xác định`/`không đặc hiệu`/`không rõ`/`không điển hình` là **một phần tên bệnh**, KHÔNG phải phủ định. Proxy này gần như chắc chắn *thổi phồng* số assertion thật (nhiều "không" mang nghĩa khác).
+- **`isFamily`** — **rất hiếm khi tách đúng**: chỉ **2/100 file** có chủ thể người nhà mang bệnh (`84.txt`: nhiều thành viên gia đình cùng triệu chứng; `77.txt`: mẹ tử vong). Thêm **2 file** chỉ có "người nhà kể" (`23.txt`, `87.txt`) — đây là **narrator**, KHÔNG tạo isFamily (bẫy dễ gán nhầm). → class cực mất cân bằng; default conservative (không gán isFamily trừ khi rõ) hợp lý, nhưng phải bắt đúng vài ca hiếm.
+- Lưu ý metric: assertions_score dùng Jaccard trung bình theo sample. Sample GT rỗng mà đoán rỗng → 1 điểm; đoán thừa → 0 điểm. → **thà bỏ sót hơn gán bừa** ở các loại hiếm.
+
+## 5. Độ phủ knowledge base & chiến lược matching (đã test thực nghiệm)
+
+Đã test độ phủ tên bệnh/thuốc xuất hiện trong 100 file so với `knowledge_base/*/processed/*.csv`. **Kết luận: KB đủ làm nền; vấn đề còn lại KHÔNG phải thiếu dữ liệu mà là lớp matching.**
+
+### RxNorm (thuốc) — gần như 100% với tên chuẩn
+
+- Test 38 tên thuốc thật (generic + brand) → **36/38 khớp** (`metoprolol`, `aspirin`, `gleevec`, `prograf`, `cellcept`, `coumadin`, `lasix`, `suboxone`, `klonopin`, `ranexa`, `azathioprine`, `tacrolimus`...).
+- Thuốc trong text hầu hết viết tên tiếng Anh → dùng RxNorm EN trực tiếp, **không cần dịch**.
+- 2 ca trượt: `laxis` (**typo** của lasix — bản đúng có trong KB) và `z-pack` (**tên lóng** của azithromycin). → gap là typo + tên lóng, không phải thiếu thuốc.
+
+### ICD-10 (bệnh) — đủ, lợi thế 2 cột VN + EN bù nhau
+
+- Exact-substring: cột `ten_benh_vi` **20/22** khớp, cột `disease_name_en` **12/13** khớp.
+- ⚠️ **Hai cột bổ trợ nhau — nên match song song cả hai để tăng recall**: `rối loạn lưỡng cực` trượt cột VN (KB ghi "rối loạn cảm xúc lưỡng cực") nhưng `bipolar` khớp cột EN; ngược lại `gastroesophageal reflux` trượt cột EN (KB dùng "gastro-oesophageal") nhưng `trào ngược dạ dày` khớp cột VN.
+- Ca trượt đều là paraphrase/đồng nghĩa/thứ tự từ (`tăng sản` vs `quá sản/phì đại tuyến tiền liệt`), không phải thiếu mã.
+
+### Hệ quả cho `src/normalization`
+
+- **Tên khái niệm có sẵn trong KB (recall khả thi)** — công việc chính là lớp matching, gồm: (1) **fuzzy match** cho typo/biến thể chính tả (RapidFuzz...); (2) **alias dict** nhỏ cho tên lóng/viết tắt (`z-pack`→azithromycin...); (3) **match song song cột VN + EN** của ICD-10; (4) xử lý **đồng nghĩa/thứ tự từ** (dense embedding giúp ở đây).
+- ⚠️ Test này chỉ chứng minh tên **tồn tại** trong KB (recall). Việc **chọn đúng 1 mã** giữa nhiều ứng viên (vd nhiều mã ICD cùng khớp một chẩn đoán) là bài toán **ranking/disambiguation** riêng — nơi trọng số candidates 0.4 được quyết định.
+
+## 6. Hệ quả từ metric (định hướng ưu tiên công sức)
 
 `final = 0.3·text + 0.3·assertions + 0.4·candidates` (chi tiết: [TASK_SPEC.md](TASK_SPEC.md)).
 
@@ -54,13 +77,17 @@ Liên kết: [TASK_SPEC.md](TASK_SPEC.md) (đề bài/metric), [IDEAS.md](IDEAS.
 - **assertions (0.3)**: rule-based khai thác cấu trúc mục + cue phủ định có thể đạt phần lớn điểm với chi phí thấp → nên làm sớm như một "quick win".
 - **Ưu tiên triển khai**: (1) eval harness + gán nhãn dev set → (2) NER + type → (3) assertion rule → (4) candidate mapping (đầu tư sâu nhất).
 
-## 6. Checklist EDA cần chạy bằng code (chưa làm — để trong notebooks/)
+## 7. Checklist EDA — ĐÃ CHẠY (script `notebooks/eda_features.py`, output `notebooks/eda_outputs/`)
 
-- [ ] Thống kê phân bố độ dài, số dòng, số bullet/ file (histogram).
-- [ ] Đếm tần suất header mục để chuẩn hoá bộ "section detector" (các biến thể: "Bệnh sử hiện tại" vs "Lịch sử bệnh hiện tại" vs "Tiền sử bệnh hiện tại").
-- [ ] Trích toàn bộ dòng khớp regex liều thuốc (`\d+\s?(mg|mcg|ml|g)`) → ước lượng số THUỐC/file, độ phủ tên thuốc so với RxNorm.
-- [ ] Trích ứng viên CHẨN_ĐOÁN (dòng trong mục bệnh mạn tính/lý do nhập viện) → đối chiếu tỉ lệ match ICD-10 VN (exact/fuzzy).
-- [ ] Đo mức độ code-switching (tỉ lệ token EN) để quyết định có cần bộ từ điển/dịch thuốc–triệu chứng EN↔VN.
-- [ ] Thống kê cue phủ định & vị trí, lọc các false-friend ("không xác định"...).
-- [ ] Đo trùng lặp token dính liền (regex phát hiện `(\w{4,})\1`) → thiết kế bước làm sạch an toàn cho offset.
-- [ ] Chọn ~15–20 file đa dạng (ngắn/dài, giàu thuốc/giàu triệu chứng/có phủ định/có người nhà) để gán nhãn tay làm `data/labeled/` dev set.
+- [x] Thống kê phân bố độ dài, số dòng/file. → min=136, median=1229, max=4428 ký tự.
+- [x] Section detector (đo `section_hits`): 99/100 file bán cấu trúc theo khung mục; chỉ 1 file freeform (`31.txt`).
+- [x] Đếm dòng liều thuốc (`\d+\s?(mg|mcg|ml|g)` + route po/iv/bid...): 15 file "giàu thuốc".
+- [x] Đo code-switching (tỉ lệ token thuần ASCII ≥4 ký tự): **61/100 file** có code-switching đáng kể → **cần bộ từ điển/xử lý EN↔VN** cho thuốc & triệu chứng.
+- [x] Cue phủ định (đã lọc false-friend): 82/100 file.
+- [x] Token dính liền (`camel-glue` lowercase→UPPER + cụm lặp): **27/100 file** — nhiễu đặc trưng, cần bước làm sạch an toàn offset.
+- [x] Chọn 15 file đa dạng phủ đủ feature → `data/labeled/input/` + [`data/labeled/SELECTION.md`](../data/labeled/SELECTION.md).
+- [x] Đối chiếu độ phủ tên bệnh/thuốc với KB (exact-substring) → RxNorm 36/38, ICD-10 VN 20/22 + EN 12/13. Chi tiết + chiến lược matching: **§5**.
+- [ ] (còn lại) Đo tỉ lệ **disambiguation** (chọn đúng mã giữa nhiều ứng viên) — cần khi dựng `src/normalization` + KB index, và cần ground truth.
+- [ ] (còn lại) Gán nhãn tay 15 file → `data/labeled/ground_truth/` (bước thủ công).
+
+Kết quả chi tiết per-file: `notebooks/eda_outputs/feature_matrix.csv` (cờ + số đo từng file), `notebooks/eda_outputs/eda_report.md` (phân bố + bảng chọn mẫu + template train).

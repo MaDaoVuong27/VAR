@@ -1,0 +1,144 @@
+[
+  {
+    "text": "biến đổi ý thức",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      484,
+      499
+    ],
+    "assertions": []
+  },
+  {
+    "text": "hạ thân nhiệt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      506,
+      519
+    ],
+    "assertions": []
+  },
+  {
+    "text": "hạ huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      526,
+      537
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đau toàn thân ít",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      544,
+      560
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đau ngực ít",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      567,
+      578
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      586,
+      594
+    ],
+    "assertions": []
+  },
+  {
+    "text": "kali",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      730,
+      734
+    ]
+  },
+  {
+    "text": "6.6",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      738,
+      741
+    ]
+  },
+  {
+    "text": "creatinin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      755,
+      764
+    ]
+  },
+  {
+    "text": "1.9",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      768,
+      771
+    ]
+  },
+  {
+    "text": "tiểu cầu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      785,
+      793
+    ]
+  },
+  {
+    "text": "81",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      797,
+      799
+    ]
+  },
+  {
+    "text": "bạch cầu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      810,
+      818
+    ]
+  },
+  {
+    "text": "10.9",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      822,
+      826
+    ]
+  },
+  {
+    "text": "tổng phân tích",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      837,
+      851
+    ]
+  },
+  {
+    "text": "điện tâm đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1179,
+      1190
+    ]
+  },
+  {
+    "text": "đường huyết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1219,
+      1230
+    ]
+  }
+]

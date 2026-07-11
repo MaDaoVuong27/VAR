@@ -6,7 +6,7 @@ Công thức nhắc lại: `final_score = 0.3 * text_score + 0.3 * assertions_sc
 
 | ID | Ngày | Mô tả ngắn | text_score | assertions_score | candidates_score | final_score | Nhận xét |
 |---|---|---|---|---|---|---|---|
-| _(chưa có experiment nào)_ | | | | | | | |
+| [exp_0001_baseline](../experiments/exp_0001_baseline/) | 2026-07-11 | Tier 0: rule/dict NER + assertion rule + fuzzy candidate (0 model ML) | — | — | — | **PENDING_GOLD** | Pipeline chạy end-to-end, sinh submission hợp lệ (100 file/32s, 980 concept). Chưa chấm vì `ground_truth/` rỗng; nhãn nháp chờ người sửa. Eval harness đã validate = 1.0 trên ví dụ đề. |
 
 ---
 

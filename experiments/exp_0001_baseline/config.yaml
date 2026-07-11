@@ -1,0 +1,31 @@
+id: exp_0001_baseline
+mo_ta: "Baseline Tier 0 — rule/dictionary NER + assertion rule + fuzzy candidate mapping"
+ngay: 2026-07-11
+
+# Ràng buộc: KHÔNG dùng model ML nào -> 0 params (thoả 9B tổng), chạy CPU offline.
+models: none
+
+pipeline:
+  extraction: heuristic section + bullet + cue (src/extraction/extractor.py)
+  assertion: rule isHistorical/isNegated/isFamily (src/assertion/rules.py)
+  normalization: fuzzy match KB (src/normalization/kb.py)
+  max_words_span: 10          # span dài hơn -> coi là câu, bỏ
+
+knowledge_base:
+  icd10: knowledge_base/icd10/processed/icd10_vn.csv   # match cả cột VN + EN
+  rxnorm: knowledge_base/rxnorm/processed/rxnorm_terms.csv
+  icd_scorer: token_set_ratio
+  icd_threshold: 78
+  icd_top_k: 3
+  rxnorm_scorer: token_sort_ratio   # ưu tiên clinical drug đúng liều thay vì ingredient
+  rxnorm_threshold: 60
+  rxnorm_top_k: 1
+
+inputs:
+  dev: data/labeled/input            # 15 file
+  test: data/raw/input               # 100 file (submission)
+
+outputs:
+  dev_predictions: predictions/
+  test_predictions: predictions_test/
+  submission: output.zip

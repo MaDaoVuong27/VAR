@@ -1,0 +1,129 @@
+[
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      387,
+      394
+    ],
+    "assertions": []
+  },
+  {
+    "text": "mất trí nhớ chi tiết",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      396,
+      416
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Khám hiện tại thấy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      587,
+      605
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Bệnh nhân tỉnhi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      606,
+      621
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Mệt mỏi nhiều",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      628,
+      641
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Ăn không ngon miệng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      648,
+      667
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "Ngứa da toàn thân nhiều",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      674,
+      697
+    ],
+    "assertions": []
+  },
+  {
+    "text": "mất trí nhớ chi tiết",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      704,
+      724
+    ],
+    "assertions": []
+  },
+  {
+    "text": "khó thở khi gắng sức",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      731,
+      751
+    ],
+    "assertions": []
+  },
+  {
+    "text": "buồn nôn và nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      759,
+      774
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Cận lâm sàng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      776,
+      788
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Ure",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      885,
+      888
+    ]
+  },
+  {
+    "text": "69",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      897,
+      899
+    ]
+  },
+  {
+    "text": "Điều trị bắt đầu chạy thận nhân tạo (HD",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1210,
+      1249
+    ],
+    "assertions": [],
+    "candidates": []
+  }
+]

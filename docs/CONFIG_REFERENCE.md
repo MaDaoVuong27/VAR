@@ -1,37 +1,48 @@
 # Tổng hợp tham số / model / settings
 
-Nguồn sự thật cho toàn bộ tham số, model, và cấu hình đang được dùng trong `src/`. Cập nhật file này **mỗi khi** thêm/đổi model hoặc tham số quan trọng trong code — mục tiêu là đọc file này là biết code đang chạy gì, không cần lục code.
+Nguồn sự thật cho toàn bộ tham số, model, cấu hình đang dùng trong `src/`. Cập nhật **mỗi khi** thêm/đổi model hoặc tham số quan trọng — đọc file này là biết code đang chạy gì, không cần lục code.
 
-Lưu ý ràng buộc đề bài: nếu dùng LLM/agent, bắt buộc **self-host, tối đa 9B params, không gọi API ngoài** (xem [TASK_SPEC.md](TASK_SPEC.md)). Cột "Params" bên dưới dùng để tự kiểm tra ràng buộc này.
+Ràng buộc: nếu dùng LLM/agent, **TỔNG tham số mọi model local ≤ 9B** (xem [TASK_SPEC.md](TASK_SPEC.md)).
 
 ---
 
 ## Models đang sử dụng
 
-| Module | Model | Params | Nguồn (HF repo / local) | Vai trò | File cấu hình |
+| Module | Model | Params | Nguồn | Vai trò | File |
 |---|---|---|---|---|---|
-| _(chưa có)_ | | | | | |
+| _(baseline Tier 0)_ | **KHÔNG có model ML** | 0 | — | Rule/dictionary + fuzzy string, chạy CPU offline | `src/` |
 
-## Retrieval / Knowledge base settings
+→ Baseline hiện tại tiêu tốn **0 / 9B** ngân sách tham số. Model ML sẽ thêm ở Tier 1+.
+
+## Retrieval / Knowledge base settings (`src/normalization/kb.py`)
 
 | Thành phần | Giá trị | Ghi chú |
 |---|---|---|
-| Embedding model dùng cho candidate retrieval | | |
-| Index type (FAISS/BM25/hybrid...) | | |
-| Top-k candidates trả về | | |
+| ICD-10 source | `knowledge_base/icd10/processed/icd10_vn.csv` | match **cả 2 cột** `ten_benh_vi` + `disease_name_en` |
+| RxNorm source | `knowledge_base/rxnorm/processed/rxnorm_terms.csv` | mọi TTY (IN/SCD/SBD/BN/SY...) |
+| ICD scorer / threshold / top-k | `token_set_ratio` / 78 / 3 | token_set mạnh cho tên bệnh VN (span là tập con) |
+| RxNorm scorer / threshold / top-k | `token_sort_ratio` / 60 / 1 | token_sort ưu tiên clinical drug đúng liều thay vì ingredient trần |
+| RxNorm blocking | token chữ đầu (head token) | thu hẹp 360k dòng → block nhỏ trước khi fuzzy |
 
-## Tham số pipeline
+## Tham số pipeline (`src/extraction`, `src/assertion`)
 
-| Tham số | Giá trị mặc định | Module | Ghi chú |
+| Tham số | Giá trị | Module | Ghi chú |
 |---|---|---|---|
-| | | | |
+| `_MAX_WORDS` | 10 | extraction | span dài hơn → coi là câu tường thuật, bỏ |
+| section bỏ qua | narrative / procedure / imaging | extraction | ưu tiên precision (bỏ văn xuôi) |
+| drug detection | route-word OR drug_vocab, loại lab-word | extraction | tránh bắt nhầm "creatinine" (ingredient RxNorm) |
+| isHistorical | section=history OR cue tiền sử trong dòng | assertion | |
+| isNegated | cue phủ định trong `[đầu dòng, hết span]`, lọc false-friend | assertion | |
+| isFamily | cue chủ thể người nhà, loại narrator | assertion | conservative |
 
-## Biến môi trường / đường dẫn quan trọng
+## Metric (`src/eval/metric.py`)
 
-| Tên | Ý nghĩa | Giá trị mặc định |
+| Điểm | Trọng số | Cách tính (giả định, xem docstring metric.py) |
 |---|---|---|
-| | | |
+| text_score | 0.3 | 1 - WER (word-level), ghép concept theo type+text/position |
+| assertions_score | 0.3 | Jaccard assertions trung bình theo concept (3 type có assertion) |
+| candidates_score | 0.4 | Jaccard candidates, weighted `len(gold)+1`, trung bình toàn cục |
 
 ---
 
-_Cập nhật lần cuối: (chưa có thay đổi code)_
+_Cập nhật lần cuối: exp_0001_baseline (2026-07-11)._

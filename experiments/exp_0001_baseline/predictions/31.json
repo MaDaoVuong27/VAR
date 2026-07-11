@@ -1,0 +1,33 @@
+[
+  {
+    "text": "thai máy tốt (FM",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      118,
+      134
+    ],
+    "assertions": []
+  },
+  {
+    "text": "chưa  ra huyết âm đạo (VB",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      140,
+      165
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "chưa vỡ ối/rỉ ối (LOF",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      170,
+      191
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  }
+]

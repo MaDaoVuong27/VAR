@@ -1,0 +1,18 @@
+[
+  {
+    "text": "bệnh động mạch vành, bệnh lý thần kinh ngoại biên",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      34,
+      83
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "G40",
+      "M54.1",
+      "G90.0"
+    ]
+  }
+]

@@ -1,0 +1,189 @@
+[
+  {
+    "text": "cipro",
+    "type": "THUỐC",
+    "position": [
+      165,
+      170
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "203563"
+    ]
+  },
+  {
+    "text": "bactrim",
+    "type": "THUỐC",
+    "position": [
+      177,
+      184
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "151399"
+    ]
+  },
+  {
+    "text": "đau bụng dưới",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      360,
+      373
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "Ban đầu có buồn nôn nhưng đã thuyên giảm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      552,
+      592
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "đau bụng dưới",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      700,
+      713
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      720,
+      727
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "khó chịu khi đi tiểu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      734,
+      754
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "khó chịu khi đại tiện",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      761,
+      782
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "Phủ nhận CPSOB (đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1356,
+      1380
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1382,
+      1389
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "NV (buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1392,
+      1404
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "nôn mửa",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1406,
+      1413
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "VB (chảy máu âm đạo",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1416,
+      1435
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "khí hư bất thường",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1438,
+      1455
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "thay đổi cân nặng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1457,
+      1474
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "công thức máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1527,
+      1540
+    ]
+  },
+  {
+    "text": "12",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1550,
+      1552
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "text": "Tái khám vì đau đầu gối phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      190,
+      218
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đau đầu gối phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      609,
+      625
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đặc biệt là leo cầu thang và gập sâu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      855,
+      891
+    ],
+    "assertions": []
+  }
+]

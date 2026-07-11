@@ -1,0 +1,131 @@
+[
+  {
+    "text": "omeprazole",
+    "type": "THUỐC",
+    "position": [
+      625,
+      635
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "7646"
+    ]
+  },
+  {
+    "text": "Nôn ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      726,
+      736
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Tập viêm dạ dày ruột do virus (trong năm nay",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      838,
+      882
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Tiếp tục khó khăn khi ăn uống qua đường miệng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      890,
+      935
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Nôn ra máu (trong 2 ngày qua",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1068,
+      1096
+    ],
+    "assertions": []
+  },
+  {
+    "text": "2",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1825,
+      1826
+    ]
+  },
+  {
+    "text": "Nôn ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1894,
+      1904
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Ăn uống kém",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1911,
+      1922
+    ],
+    "assertions": []
+  },
+  {
+    "text": "nausea",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1930,
+      1936
+    ],
+    "assertions": []
+  },
+  {
+    "text": "diarrhea",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1943,
+      1951
+    ],
+    "assertions": []
+  },
+  {
+    "text": "abdominal pain",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1958,
+      1972
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Viêm thực quản độ C ở thực quản dưới",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      3180,
+      3216
+    ],
+    "assertions": [],
+    "candidates": [
+      "K20",
+      "K22.1"
+    ]
+  },
+  {
+    "text": "Loét loét thực quản 6 mm có điểm sắc tố",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      3223,
+      3262
+    ],
+    "assertions": [],
+    "candidates": [
+      "K22.1",
+      "K20"
+    ]
+  }
+]

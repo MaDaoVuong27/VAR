@@ -1,0 +1,7 @@
+# Baseline (Tier 0) — pure CPU, offline, không model ML nào (thoả ràng buộc 9B tổng)
+rapidfuzz>=3.0      # fuzzy string matching cho candidate mapping
+unidecode>=1.3      # bỏ dấu để so khớp diacritic-insensitive
+pyyaml>=6.0         # đọc config experiment
+
+# ETL knowledge base (đã dùng ở scripts/)
+pdfplumber>=0.11    # parse PDF ICD-10 Bộ Y tế

@@ -1,0 +1,28 @@
+[
+  {
+    "text": "hẹp van động mạch chủ nghiêm trọng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1423,
+      1457
+    ],
+    "assertions": [],
+    "candidates": [
+      "I77.1",
+      "I37.0",
+      "I77.2"
+    ]
+  },
+  {
+    "text": "LHC không ghi nhận hẹp gây hạn chế dòng chảy",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1464,
+      1508
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": []
+  }
+]

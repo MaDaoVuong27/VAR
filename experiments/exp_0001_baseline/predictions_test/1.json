@@ -1,0 +1,209 @@
+[
+  {
+    "text": "metoprolol 25mg po bid",
+    "type": "THUỐC",
+    "position": [
+      53,
+      75
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "331561"
+    ]
+  },
+  {
+    "text": "doxycycline cho viêm tuyến mồ hôi",
+    "type": "THUỐC",
+    "position": [
+      82,
+      115
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "atenolol",
+    "type": "THUỐC",
+    "position": [
+      122,
+      130
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "1202"
+    ]
+  },
+  {
+    "text": "đánh trống ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      666,
+      681
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Khó thở nhẹ khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      688,
+      707
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Tăng đánh trống ngực (khởi phát lúc 17 giờ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      782,
+      824
+    ],
+    "assertions": []
+  },
+  {
+    "text": "khó thở (khởi phát lúc 17 giờ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      832,
+      861
+    ],
+    "assertions": []
+  },
+  {
+    "text": "liên quan đến đánh trống ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1135,
+      1164
+    ],
+    "assertions": []
+  },
+  {
+    "text": "liên quan đến khó thở (khởi phát lúc 17 giờ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1166,
+      1209
+    ],
+    "assertions": []
+  },
+  {
+    "text": "khởi phát lúc 17 giờ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1253,
+      1273
+    ],
+    "assertions": []
+  },
+  {
+    "text": "kéo dài 20 giây",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1275,
+      1290
+    ],
+    "assertions": []
+  },
+  {
+    "text": "không có khó chịu vùng ngực khi đến tầng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1292,
+      1332
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "khởi phát lúc 17 giờ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1379,
+      1399
+    ],
+    "assertions": []
+  },
+  {
+    "text": "kéo dài 20 giây",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1401,
+      1416
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Không  buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1454,
+      1469
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "hay nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1471,
+      1478
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "đổ mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1480,
+      1489
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "Không liên quan đến gắng sức hoặc tư thế",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1496,
+      1536
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2628,
+      2637
+    ]
+  },
+  {
+    "text": "điện tâm đồ là không ghi nhận gì bất thường",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2771,
+      2814
+    ],
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": [
+      "R09.3"
+    ]
+  }
+]

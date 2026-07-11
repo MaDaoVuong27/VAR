@@ -1,0 +1,30 @@
+[
+  {
+    "text": "siêu âm tim cho thấy hở van hai lá nặng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      247,
+      286
+    ],
+    "assertions": [],
+    "candidates": [
+      "I05.2",
+      "I07.1",
+      "I05.0"
+    ]
+  },
+  {
+    "text": "Điều trị",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      348,
+      356
+    ],
+    "assertions": [],
+    "candidates": [
+      "E03.2",
+      "F70.1",
+      "F71.1"
+    ]
+  }
+]

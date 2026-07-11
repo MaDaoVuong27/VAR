@@ -1,0 +1,217 @@
+"""Metric tự chấm điểm (proxy nội bộ của công thức BTC — xem docs/TASK_SPEC.md).
+
+final_score = 0.3*text_score + 0.3*assertions_score + 0.4*candidates_score
+
+⚠️ GIẢ ĐỊNH DIỄN GIẢI (công thức đề còn vài chỗ chưa nói rõ — user đồng ý cho tự
+implement + document, coi đây là proxy, có thể lệch nhẹ so với scorer BTC):
+
+1. Ghép concept dự đoán ↔ ground truth theo từng sample: chỉ ghép khi **cùng type**
+   và (text chuẩn hoá trùng khớp HOẶC position chồng lấn IoU > 0.5). Ghép greedy 1-1.
+   → Đúng type là bắt buộc: đoán đúng text nhưng sai type = KHÔNG ghép → tính vừa
+   thiếu (gold) vừa thừa (pred), 0 điểm cả 3 metric (khớp lưu ý trong đề).
+
+2. text_score(i) = 1 - WER, WER = (word-edit trên các cặp đã ghép + toàn bộ word của
+   gold chưa ghép [deletion] + toàn bộ word của pred chưa ghép [insertion]) / (tổng
+   word của gold). Trung bình trên các sample.
+
+3. assertions_score(i) = trung bình Jaccard(assertions) trên các concept type có
+   assertion (CHẨN_ĐOÁN/THUỐC/TRIỆU_CHỨNG): mỗi gold concept lấy Jaccard với pred đã
+   ghép (pred rỗng nếu chưa ghép); mỗi pred thừa tính như gold rỗng. Trung bình trên
+   sample. J theo quy ước đề: cả 2 rỗng→1; gold rỗng & pred khác rỗng→0.
+
+4. candidates_score = TRUNG BÌNH CÓ TRỌNG SỐ TOÀN CỤC (không theo sample) của
+   Jaccard(candidates) trên concept type CHẨN_ĐOÁN/THUỐC, trọng số mỗi concept =
+   len(gold_candidates)+1. = Σ_i Σ_k J_k·w_k / Σ_i Σ_k w_k. Pred thừa: gold rỗng, w=1.
+   (Tương đương công thức J_candidates(i)·Σ_k w_k / Σ w trong đề khi J(i) là weighted-avg.)
+"""
+from __future__ import annotations
+
+import re
+from dataclasses import dataclass
+from typing import Dict, List, Optional, Sequence, Tuple
+
+from ..schema import ASSERTION_TYPES, CANDIDATE_TYPES, Concept
+
+_WS = re.compile(r"\s+")
+
+
+def _norm_text(s: str) -> str:
+    return _WS.sub(" ", s.strip().lower())
+
+
+def _words(s: str) -> List[str]:
+    return _norm_text(s).split()
+
+
+def _word_levenshtein(a: Sequence[str], b: Sequence[str]) -> int:
+    """Số phép chèn/xoá/thay tối thiểu giữa 2 chuỗi word (DP O(n*m))."""
+    n, m = len(a), len(b)
+    if n == 0:
+        return m
+    if m == 0:
+        return n
+    prev = list(range(m + 1))
+    for i in range(1, n + 1):
+        cur = [i] + [0] * m
+        for j in range(1, m + 1):
+            cost = 0 if a[i - 1] == b[j - 1] else 1
+            cur[j] = min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + cost)
+        prev = cur
+    return prev[m]
+
+
+def _iou(p1: Sequence[int], p2: Sequence[int]) -> float:
+    if not p1 or not p2 or len(p1) < 2 or len(p2) < 2:
+        return 0.0
+    a0, a1 = p1[0], p1[1]
+    b0, b1 = p2[0], p2[1]
+    inter = max(0, min(a1, b1) - max(a0, b0))
+    union = max(a1, b1) - min(a0, b0)
+    return inter / union if union > 0 else 0.0
+
+
+def _jaccard(pred: Sequence[str], gold: Sequence[str]) -> float:
+    """Jaccard theo quy ước đề (empty rules)."""
+    ps, gs = set(pred), set(gold)
+    if not gs and not ps:
+        return 1.0
+    if not gs and ps:
+        return 0.0
+    if gs and not ps:
+        return 0.0
+    return len(ps & gs) / len(ps | gs)
+
+
+def _match(pred: List[Concept], gold: List[Concept]) -> Tuple[List[Tuple[int, int]], List[int], List[int]]:
+    """Ghép greedy 1-1 pred↔gold cùng type. Trả (pairs[(pi,gi)], pred_thừa_idx, gold_thiếu_idx)."""
+    used_p, used_g = set(), set()
+    scored: List[Tuple[float, int, int]] = []
+    for gi, g in enumerate(gold):
+        for pi, p in enumerate(pred):
+            if p.type != g.type:
+                continue
+            if _norm_text(p.text) == _norm_text(g.text):
+                s = 2.0  # ưu tiên khớp text tuyệt đối
+            else:
+                iou = _iou(p.position, g.position)
+                s = iou if iou > 0.5 else 0.0
+            if s > 0:
+                scored.append((s, pi, gi))
+    scored.sort(reverse=True)
+    pairs = []
+    for s, pi, gi in scored:
+        if pi in used_p or gi in used_g:
+            continue
+        used_p.add(pi)
+        used_g.add(gi)
+        pairs.append((pi, gi))
+    pred_extra = [i for i in range(len(pred)) if i not in used_p]
+    gold_missed = [i for i in range(len(gold)) if i not in used_g]
+    return pairs, pred_extra, gold_missed
+
+
+@dataclass
+class Scores:
+    text_score: float
+    assertions_score: float
+    candidates_score: float
+    final_score: float
+
+    def as_dict(self) -> dict:
+        return {
+            "text_score": round(self.text_score, 4),
+            "assertions_score": round(self.assertions_score, 4),
+            "candidates_score": round(self.candidates_score, 4),
+            "final_score": round(self.final_score, 4),
+        }
+
+
+def _sample_text_wer(pred, gold, pairs, pred_extra, gold_missed) -> Tuple[float, int]:
+    errors, ref = 0, 0
+    for pi, gi in pairs:
+        gw, pw = _words(gold[gi].text), _words(pred[pi].text)
+        errors += _word_levenshtein(pw, gw)
+        ref += len(gw)
+    for gi in gold_missed:
+        gw = _words(gold[gi].text)
+        errors += len(gw)
+        ref += len(gw)
+    for pi in pred_extra:
+        errors += len(_words(pred[pi].text))
+    return errors, ref
+
+
+def score_sample(pred: List[Concept], gold: List[Concept]):
+    """Trả (text_score, J_assertions, cand_num, cand_den) cho 1 sample.
+
+    text/assertions là điểm sample; candidates trả (num,den) để cộng dồn toàn cục.
+    """
+    pairs, pred_extra, gold_missed = _match(pred, gold)
+
+    # --- text ---
+    if not gold and not pred:
+        text_score = 1.0
+    else:
+        errors, ref = _sample_text_wer(pred, gold, pairs, pred_extra, gold_missed)
+        if ref == 0:
+            text_score = 0.0 if pred else 1.0
+        else:
+            text_score = max(0.0, 1.0 - errors / ref)
+
+    # --- assertions (type có assertion) ---
+    avals: List[float] = []
+    pair_g = {gi: pi for pi, gi in pairs}
+    for gi, g in enumerate(gold):
+        if g.type not in ASSERTION_TYPES:
+            continue
+        pi = pair_g.get(gi)
+        pa = pred[pi].assertions if pi is not None else []
+        avals.append(_jaccard(pa, g.assertions))
+    for pi in pred_extra:
+        if pred[pi].type in ASSERTION_TYPES:
+            avals.append(_jaccard(pred[pi].assertions, []))
+    j_assert = sum(avals) / len(avals) if avals else 1.0
+
+    # --- candidates (type có candidate) — trả num/den để cộng toàn cục ---
+    cnum, cden = 0.0, 0.0
+    for gi, g in enumerate(gold):
+        if g.type not in CANDIDATE_TYPES:
+            continue
+        pi = pair_g.get(gi)
+        pc = pred[pi].candidates if pi is not None else []
+        w = len(g.candidates) + 1
+        cnum += _jaccard(pc, g.candidates) * w
+        cden += w
+    for pi in pred_extra:
+        if pred[pi].type in CANDIDATE_TYPES:
+            w = 1  # gold rỗng -> len+1 = 1
+            cnum += _jaccard(pred[pi].candidates, []) * w
+            cden += w
+
+    return text_score, j_assert, cnum, cden
+
+
+def score_dataset(
+    preds: Dict[str, List[Concept]],
+    golds: Dict[str, List[Concept]],
+) -> Scores:
+    """Chấm trên tập file. Key = tên file; chỉ tính trên các file có trong golds."""
+    keys = list(golds.keys())
+    if not keys:
+        return Scores(0.0, 0.0, 0.0, 0.0)
+    t_sum, a_sum = 0.0, 0.0
+    cnum_all, cden_all = 0.0, 0.0
+    for k in keys:
+        p = preds.get(k, [])
+        g = golds[k]
+        ts, ja, cn, cd = score_sample(p, g)
+        t_sum += ts
+        a_sum += ja
+        cnum_all += cn
+        cden_all += cd
+    n = len(keys)
+    text_score = t_sum / n
+    assertions_score = a_sum / n
+    candidates_score = (cnum_all / cden_all) if cden_all > 0 else 1.0
+    final = 0.3 * text_score + 0.3 * assertions_score + 0.4 * candidates_score
+    return Scores(text_score, assertions_score, candidates_score, final)

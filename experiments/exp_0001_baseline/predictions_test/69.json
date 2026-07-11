@@ -1,0 +1,50 @@
+[
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      322,
+      329
+    ],
+    "assertions": []
+  },
+  {
+    "text": "thiếu máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      336,
+      345
+    ],
+    "assertions": []
+  },
+  {
+    "text": "phân có guaiac dương tính",
+    "type": "THUỐC",
+    "position": [
+      352,
+      377
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "khối ở chỗ uốn gan",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      824,
+      842
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "ung thư biểu mô tuyến trên sinh thiết",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      849,
+      886
+    ],
+    "assertions": [],
+    "candidates": []
+  }
+]

@@ -1,0 +1,250 @@
+[
+  {
+    "text": "Đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      48,
+      62
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E10",
+      "E10.0",
+      "E10.1"
+    ]
+  },
+  {
+    "text": "tăng lipid máu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      69,
+      83
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E78",
+      "E78.2",
+      "E78.4"
+    ]
+  },
+  {
+    "text": "bệnh động mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      91,
+      110
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I77.2",
+      "I06",
+      "I06.0"
+    ]
+  },
+  {
+    "text": "Nhồi máu cơ tim",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      118,
+      133
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I21",
+      "I21.0",
+      "I21.1"
+    ]
+  },
+  {
+    "text": "đột ngột xuất hiện đau ngực sau xương ức",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      444,
+      484
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Đau ngực dữ dội sau xương ức",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      798,
+      826
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đau kiểu bóp nghẹt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      828,
+      846
+    ],
+    "assertions": []
+  },
+  {
+    "text": "lan lên hàm và cánh tay trái",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      848,
+      876
+    ],
+    "assertions": []
+  },
+  {
+    "text": "VAS 7/10",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      878,
+      886
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đau trong 1.5h liên lục",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      888,
+      911
+    ],
+    "assertions": []
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      918,
+      925
+    ],
+    "assertions": []
+  },
+  {
+    "text": "vã mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      932,
+      941
+    ],
+    "assertions": []
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      948,
+      956
+    ],
+    "assertions": []
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      963,
+      966
+    ],
+    "assertions": []
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      973,
+      982
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Xử trí",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      983,
+      989
+    ],
+    "assertions": []
+  },
+  {
+    "text": "bắt đầu dùng heparin",
+    "type": "THUỐC",
+    "position": [
+      993,
+      1013
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "đau ngực giảm sau khi dùng nitro và dilaudid 3mg",
+    "type": "THUỐC",
+    "position": [
+      1014,
+      1062
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "troponin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1095,
+      1103
+    ]
+  },
+  {
+    "text": "0.03",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1107,
+      1111
+    ]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1118,
+      1128
+    ]
+  },
+  {
+    "text": "2.0",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1133,
+      1136
+    ]
+  },
+  {
+    "text": "kali",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1153,
+      1157
+    ]
+  },
+  {
+    "text": "5.4",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1162,
+      1165
+    ]
+  },
+  {
+    "text": "5.6",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1185,
+      1188
+    ]
+  }
+]

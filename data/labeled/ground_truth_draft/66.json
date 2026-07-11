@@ -1,0 +1,185 @@
+[
+  {
+    "text": "Tiểu đường loại 1 đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      54,
+      86
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E10"
+    ]
+  },
+  {
+    "text": "tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      93,
+      106
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I10",
+      "I11",
+      "I11.0"
+    ]
+  },
+  {
+    "text": "tăng lipid máu, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      113,
+      143
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E78.5"
+    ]
+  },
+  {
+    "text": "béo phì",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      150,
+      157
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E65",
+      "E66",
+      "E66.0"
+    ]
+  },
+  {
+    "text": "đau bàn chân phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      307,
+      324
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đau bàn chân phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      360,
+      377
+    ],
+    "assertions": []
+  },
+  {
+    "text": "mất thăng bằng khi đi lại",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      384,
+      409
+    ],
+    "assertions": []
+  },
+  {
+    "text": "hct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      808,
+      811
+    ]
+  },
+  {
+    "text": "8.126",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      825,
+      830
+    ]
+  },
+  {
+    "text": "tiểu cầu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      839,
+      847
+    ]
+  },
+  {
+    "text": "478",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      860,
+      863
+    ]
+  },
+  {
+    "text": "3",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      873,
+      874
+    ]
+  },
+  {
+    "text": "13",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      914,
+      916
+    ]
+  },
+  {
+    "text": "bun",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      923,
+      926
+    ]
+  },
+  {
+    "text": "glucose",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      961,
+      968
+    ]
+  },
+  {
+    "text": "316",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      983,
+      986
+    ]
+  },
+  {
+    "text": "1.3",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1015,
+      1018
+    ]
+  },
+  {
+    "text": "tổng phân tích",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1050,
+      1064
+    ]
+  },
+  {
+    "text": "12",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1077,
+      1079
+    ]
+  }
+]

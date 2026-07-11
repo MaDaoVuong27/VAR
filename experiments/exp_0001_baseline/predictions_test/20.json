@@ -1,0 +1,150 @@
+[
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      48,
+      61
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I10",
+      "I11",
+      "I11.0"
+    ]
+  },
+  {
+    "text": "bệnh thận mạn, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      68,
+      97
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "N05.6",
+      "N07.6",
+      "Q61"
+    ]
+  },
+  {
+    "text": "rung nhĩ kịch phát",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      172,
+      190
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I48.0"
+    ]
+  },
+  {
+    "text": "tăng sản tuyến tiền liệt",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      197,
+      221
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "N42.3",
+      "N42.0",
+      "N42.2"
+    ]
+  },
+  {
+    "text": "metoprolol",
+    "type": "THUỐC",
+    "position": [
+      354,
+      364
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "6918"
+    ]
+  },
+  {
+    "text": "desmopressin",
+    "type": "THUỐC",
+    "position": [
+      405,
+      417
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "3251"
+    ]
+  },
+  {
+    "text": "ngã với gãy cổ xương đùi di lệch",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      643,
+      675
+    ],
+    "assertions": []
+  },
+  {
+    "text": "thay đổi tư thế",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1087,
+      1102
+    ],
+    "assertions": []
+  },
+  {
+    "text": "chụp x-quang ngực: mức nước-khí",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2023,
+      2054
+    ],
+    "assertions": [],
+    "candidates": []
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      2335,
+      2342
+    ]
+  },
+  {
+    "text": "30",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      2394,
+      2396
+    ]
+  },
+  {
+    "text": "tiểu đêm nhiều  do  tăng sản tuyến tiền liệt",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      2963,
+      3007
+    ],
+    "assertions": [],
+    "candidates": [
+      "N42.3",
+      "N42.0",
+      "N42.2"
+    ]
+  }
+]

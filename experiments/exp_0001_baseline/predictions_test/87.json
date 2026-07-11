@@ -1,0 +1,43 @@
+[
+  {
+    "text": "trầm cảm và  rối loạn lo âu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      108,
+      135
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "F41.2",
+      "F41",
+      "F92.0"
+    ]
+  },
+  {
+    "text": "tổn thương chi dưới do tự tử không thành",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      179,
+      219
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "Điều trị",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      862,
+      870
+    ],
+    "assertions": [],
+    "candidates": [
+      "E03.2",
+      "F70.1",
+      "F71.1"
+    ]
+  }
+]

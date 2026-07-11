@@ -1,0 +1,125 @@
+[
+  {
+    "text": "ho Bệnh bạch cầu dòng tủy mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      43,
+      77
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "C92",
+      "R05",
+      "C92.0"
+    ]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      80,
+      93
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I10",
+      "I11",
+      "I11.0"
+    ]
+  },
+  {
+    "text": "Đái tháo đường típ 2",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      96,
+      116
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E11",
+      "O24.1",
+      "E10"
+    ]
+  },
+  {
+    "text": "ho Rung nhĩ kèm đáp ứng thất nhanh",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      119,
+      153
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "R05",
+      "I47.2"
+    ]
+  },
+  {
+    "text": "bệnh thận mạn, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      156,
+      185
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "N05.6",
+      "N07.6",
+      "Q61"
+    ]
+  },
+  {
+    "text": "Khó thở tăng dần",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1651,
+      1667
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "chủ yếu khi gắng sức",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1669,
+      1689
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "Nghẹt ngực kéo dài",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1691,
+      1709
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "Ho.Khò khè",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1711,
+      1721
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  }
+]

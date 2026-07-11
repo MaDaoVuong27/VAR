@@ -1,0 +1,14 @@
+[
+  {
+    "text": "Đái tháo đường type II",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      57,
+      79
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  }
+]

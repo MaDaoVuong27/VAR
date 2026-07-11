@@ -1,0 +1,141 @@
+[
+  {
+    "text": "bệnh tim mạch do xơ vữa động mạch",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      57,
+      90
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I25.1"
+    ]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      97,
+      110
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I10",
+      "I11",
+      "I11.0"
+    ]
+  },
+  {
+    "text": "tăng lipid máu, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      117,
+      147
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E78.5"
+    ]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      260,
+      268
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đau bụng vùng thượng vị",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      387,
+      410
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      417,
+      425
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "ast",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      809,
+      812
+    ]
+  },
+  {
+    "text": "319",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      845,
+      848
+    ]
+  },
+  {
+    "text": "alt",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      855,
+      858
+    ]
+  },
+  {
+    "text": "690",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      889,
+      892
+    ]
+  },
+  {
+    "text": "983",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      924,
+      927
+    ]
+  },
+  {
+    "text": "2.4",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      965,
+      968
+    ]
+  },
+  {
+    "text": "bạch cầu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      975,
+      983
+    ]
+  },
+  {
+    "text": "11.6",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      990,
+      994
+    ]
+  }
+]

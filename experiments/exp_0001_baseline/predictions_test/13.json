@@ -1,0 +1,161 @@
+[
+  {
+    "text": "Thở oxy tại nhà",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      102,
+      117
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Hội chứng kháng enzym tổng hợp protein",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      124,
+      162
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "F84.2",
+      "G93.7",
+      "Q90"
+    ]
+  },
+  {
+    "text": "béo phì",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      170,
+      177
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E65",
+      "E66",
+      "E66.0"
+    ]
+  },
+  {
+    "text": "Tăng huyết áp nguyên phát",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      184,
+      209
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I27.0",
+      "I15",
+      "I15.0"
+    ]
+  },
+  {
+    "text": "Corticoid liều cao kéo",
+    "type": "THUỐC",
+    "position": [
+      317,
+      339
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Thở oxy tại nhà",
+    "type": "THUỐC",
+    "position": [
+      350,
+      365
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Tăng liều bactrim",
+    "type": "THUỐC",
+    "position": [
+      372,
+      389
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "doxycycline",
+    "type": "THUỐC",
+    "position": [
+      430,
+      441
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "3640"
+    ]
+  },
+  {
+    "text": "Suy giảm miễn dịch do sử dụng corticoid kéo dài",
+    "type": "THUỐC",
+    "position": [
+      478,
+      525
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "tổn thương vùng âm hộ và mông bên phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1344,
+      1382
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Tổn thương cực kỳ đau đớn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1389,
+      1414
+    ],
+    "assertions": []
+  },
+  {
+    "text": "mông bên phải",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1618,
+      1631
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Báo cáo có cải thiện một phần về ban đỏ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1953,
+      1992
+    ],
+    "assertions": [],
+    "candidates": []
+  }
+]

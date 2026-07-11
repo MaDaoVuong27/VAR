@@ -1,0 +1,130 @@
+[
+  {
+    "text": "hen suyễn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      113,
+      122
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "albuterol nebs q4h tại nhà",
+    "type": "THUỐC",
+    "position": [
+      159,
+      185
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "z-pack",
+    "type": "THUỐC",
+    "position": [
+      192,
+      198
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "746839"
+    ]
+  },
+  {
+    "text": "khó thở và tiếng rít",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      246,
+      266
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ho nhẹ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      350,
+      356
+    ],
+    "assertions": []
+  },
+  {
+    "text": "tiếng rít vào ban đêm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      419,
+      440
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1251,
+      1258
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Khò khè",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1260,
+      1267
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Tiếng rít về đêm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1269,
+      1285
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Đau vùng xoang",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1287,
+      1301
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Ho nhẹ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1303,
+      1309
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Đau đầu dữ dội",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1311,
+      1325
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Đau hạ vị",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1327,
+      1336
+    ],
+    "assertions": []
+  }
+]

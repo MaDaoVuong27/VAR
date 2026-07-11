@@ -6,7 +6,7 @@ File này dành cho cả người (teammate mới join) lẫn LLM agent (Claude 
 
 ## Quy tắc bắt buộc
 
-- **Ràng buộc đề bài, không được vi phạm**: nếu dùng LLM/agent trong pipeline, model phải **self-host, tối đa 9B params, không được gọi API ngoài** (xem `docs/TASK_SPEC.md`). Áp dụng nguyên tắc này cho toàn bộ pipeline: mọi thứ chạy offline, không phụ thuộc mạng lúc inference.
+- **Ràng buộc đề bài, không được vi phạm**: nếu dùng LLM/agent trong pipeline, model phải **self-host, không gọi API ngoài**, và **TỔNG tham số của TẤT CẢ model local cộng lại ≤ 9B** (không phải mỗi model ≤9B — xem `docs/TASK_SPEC.md`). Áp dụng nguyên tắc này cho toàn bộ pipeline: mọi thứ chạy offline, không phụ thuộc mạng lúc inference.
 - **`TASK/` chỉ đọc, không sửa** — đây là đề bài gốc do BTC cung cấp.
 - **`data/raw/input/` là tập test của BTC, không có ground truth** — không dùng để train, không tự gán nhãn rồi coi là "đúng tuyệt đối". Muốn tự chấm điểm, dùng `data/labeled/`.
 - **`knowledge_base/rxnorm/raw/` bị gitignore** (~2.1GB, nhiều file >100MB — vượt giới hạn cứng của GitHub) — nếu clone repo về mà thiếu, đọc `rxnorm/raw/SOURCE.md` để biết link tải + hướng dẫn, đừng tự bịa dữ liệu thay thế. `knowledge_base/icd10/raw/` thì được track bình thường (nhỏ, ~22MB). Thứ code thực sự dùng luôn là `knowledge_base/*/processed/*.csv` (luôn có trong git, không cần raw để chạy pipeline).

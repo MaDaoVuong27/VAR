@@ -1,0 +1,57 @@
+[
+  {
+    "text": "xét nghiệm gắng sức bất thường",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      172,
+      202
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "khó chịu vùng ngực gián đoạn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      294,
+      322
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      325,
+      334
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "khó thở (khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      337,
+      353
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "đổ mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      357,
+      366
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  }
+]

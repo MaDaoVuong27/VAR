@@ -1,0 +1,35 @@
+[
+  {
+    "text": "đang dùng thuốc  weekly t",
+    "type": "THUỐC",
+    "position": [
+      81,
+      106
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "và fulvestrant để điều trị",
+    "type": "THUỐC",
+    "position": [
+      111,
+      137
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "đau bụng vùng hạ sườn phải ngày càng tăng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      181,
+      222
+    ],
+    "assertions": []
+  }
+]

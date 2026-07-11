@@ -1,0 +1,23 @@
+{
+  "status": "PENDING_GOLD",
+  "note": "Baseline pipeline chạy end-to-end, sinh submission hợp lệ. CHƯA có điểm final vì data/labeled/ground_truth/ còn rỗng (nhãn dev chưa được người xác minh). Chấm bằng: python scripts/run_eval.py --pred experiments/exp_0001_baseline/predictions, sau khi có gold.",
+  "eval_harness_validated": "src/eval chấm ví dụ trong đề (predict=gold) = final_score 1.0 (tests/test_metric.py)",
+  "output_stats": {
+    "test_files": 100,
+    "test_concepts": 980,
+    "test_by_type": {
+      "TRIỆU_CHỨNG": 543,
+      "CHẨN_ĐOÁN": 178,
+      "KẾT_QUẢ_XÉT_NGHIỆM": 100,
+      "TÊN_XÉT_NGHIỆM": 85,
+      "THUỐC": 74
+    },
+    "runtime_100_files_sec": 32
+  },
+  "scores": {
+    "text_score": null,
+    "assertions_score": null,
+    "candidates_score": null,
+    "final_score": null
+  }
+}

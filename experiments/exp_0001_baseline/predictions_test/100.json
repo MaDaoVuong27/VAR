@@ -1,0 +1,165 @@
+[
+  {
+    "text": "U ác của đại tràng",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      123,
+      141
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "C18",
+      "C18.2",
+      "C18.3"
+    ]
+  },
+  {
+    "text": "cường cận giáp nguyên phát",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      148,
+      174
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E21.0"
+    ]
+  },
+  {
+    "text": "Xơ vữa động mạch",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      181,
+      197
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I25.0",
+      "I25.1",
+      "I67.2"
+    ]
+  },
+  {
+    "text": "cơn đau thắt ngực ổn định",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      204,
+      229
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "I20",
+      "I20.0",
+      "I20.1"
+    ]
+  },
+  {
+    "text": "Bệnh sử",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      234,
+      241
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "Y74",
+      "Y74.0",
+      "Y74.1"
+    ]
+  },
+  {
+    "text": "đến khám vì tăng calci máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      263,
+      289
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "tăng calci máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      316,
+      330
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "MRI",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      769,
+      772
+    ]
+  },
+  {
+    "text": "5",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      952,
+      953
+    ]
+  },
+  {
+    "text": "01",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      988,
+      990
+    ]
+  },
+  {
+    "text": "Xử trí thuốc",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1414,
+      1426
+    ],
+    "assertions": [],
+    "candidates": [
+      "F11.6",
+      "F13.6",
+      "F17.6"
+    ]
+  },
+  {
+    "text": "đã dùng Laxis 20mg tiêm tĩnh mạch",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1433,
+      1466
+    ],
+    "assertions": [],
+    "candidates": [
+      "I87.1"
+    ]
+  },
+  {
+    "text": "Truyền  dịch Natriclori 0.9 %  tĩnh mạch",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      1473,
+      1513
+    ],
+    "assertions": [],
+    "candidates": [
+      "I87.1",
+      "Y65.1"
+    ]
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "text": "Đánh giá phù",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      220,
+      232
+    ],
+    "assertions": []
+  },
+  {
+    "text": "chủ quan sốt và ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      234,
+      257
+    ],
+    "assertions": []
+  },
+  {
+    "text": "và đau tăng dần khi đi lại",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      259,
+      285
+    ],
+    "assertions": []
+  },
+  {
+    "text": "phù hai bên",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      321,
+      332
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      339,
+      345
+    ],
+    "assertions": []
+  },
+  {
+    "text": "RL",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      347,
+      349
+    ],
+    "assertions": []
+  },
+  {
+    "text": "chủ quan sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      356,
+      368
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      375,
+      382
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đau tăng dần khi đi lại",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      389,
+      412
+    ],
+    "assertions": []
+  }
+]

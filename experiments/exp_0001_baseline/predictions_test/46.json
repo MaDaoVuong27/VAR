@@ -1,0 +1,52 @@
+[
+  {
+    "text": "tiền sử lâu dài của tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      39,
+      72
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "Z01.3"
+    ]
+  },
+  {
+    "text": "khó khăn với hạ huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      200,
+      224
+    ],
+    "assertions": []
+  },
+  {
+    "text": "không đặc hiệu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      226,
+      240
+    ],
+    "assertions": []
+  },
+  {
+    "text": "khó kiểm soát huyết áp đáng kể",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      247,
+      277
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đi khập khiễng cách quãng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      284,
+      309
+    ],
+    "assertions": []
+  }
+]

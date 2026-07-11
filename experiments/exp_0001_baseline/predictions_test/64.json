@@ -1,0 +1,73 @@
+[
+  {
+    "text": "táo bón trở nên tồi tệ hơn gần đây",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      878,
+      912
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đổ mồ hôi qua đêm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      919,
+      936
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Không ghi nhận sốt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      943,
+      961
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "Không chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      968,
+      983
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "Không hoa mắt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      990,
+      1003
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "đi tiêu bình thường",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1010,
+      1029
+    ],
+    "assertions": []
+  },
+  {
+    "text": "không ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1031,
+      1043
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  }
+]

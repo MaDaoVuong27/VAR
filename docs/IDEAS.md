@@ -8,15 +8,16 @@ Xem thêm: [TASK_SPEC.md](TASK_SPEC.md) (đề bài), [EDA_FINDINGS.md](EDA_FIND
 
 ## Trạng thái hiện tại
 
-Giai đoạn: **thiết kế, chưa code pipeline**. Đã có knowledge base (`icd10_vn.csv`, `rxnorm_terms.csv`) và EDA sơ bộ trên 100 file test. Lộ trình bên dưới đi từ baseline rule-based (Tier 0) đến hybrid nâng cao (Tier 3); nguyên tắc là **luôn có eval harness + dev set trước**, rồi mới tăng độ phức tạp từng bước, mỗi bước là 1 experiment đo được.
+Giai đoạn: **đã có baseline Tier 0 chạy end-to-end** (exp_0001_baseline). Nền tảng xong: eval harness (validate = 1.0 trên ví dụ đề), I/O + offset, KB matcher, pipeline sinh submission hợp lệ (100 file/32s). **Đang chờ nhãn dev** để có điểm số thật (nhãn nháp đã sinh, chờ người sửa). Lộ trình 4 tầng bên dưới; nguyên tắc: mỗi bước là 1 experiment đo được.
 
 ## Câu hỏi mở / TODO cần quyết định
 
-- [ ] **[ưu tiên #1]** Implement metric trong `src/eval/` (WER text + Jaccard assertions + Jaccard-weighted candidates) — không có cái này thì không so sánh được experiment nào.
-- [ ] **[ưu tiên #2]** Gán nhãn ~15–20 file đa dạng vào `data/labeled/` làm dev set (xem checklist cuối `EDA_FINDINGS.md`).
+- [x] **[ưu tiên #1]** Eval harness `src/eval/` — DONE (metric WER+Jaccard+weighted candidates, validate = 1.0 trên ví dụ đề, `tests/test_metric.py`).
+- [~] **[ưu tiên #2]** Dev set: 15 file đã chọn (`data/labeled/SELECTION.md`). Nhãn **nháp** đã sinh (`data/labeled/ground_truth_draft/`); **còn lại: người sửa → `data/labeled/ground_truth/`** rồi chạy `scripts/run_eval.py` để có điểm baseline thật.
+- [ ] **Synthetic train phải phủ cùng feature với dev set** (nhất là token dính liền + code-switching) — spec trong `data/labeled/SELECTION.md`. BTC input không dùng train → feature hiếm (freeform/markdown/N/A) phải chèn bằng code khi sinh data.
 - [x] Nguồn ICD-10/RxNorm — đã tải & build `processed/` (xem `knowledge_base/README.md`).
 - [ ] Kiến trúc tổng thể: **modular pipeline** (NER→assertion→normalization) hay **end-to-end LLM**? → xu hướng chọn modular (dễ debug/đo từng khối, kiểm soát offset), LLM chỉ chèn ở khối nào chứng minh có lợi. Chốt sau khi có baseline Tier 0–1.
-- [ ] Model self-host cho phần LLM/NER (≤9B, không API ngoài): ứng viên NER encoder `PhoBERT`/`XLM-R`/`ViHealthBERT`; ứng viên LLM sinh `Qwen2.5-7B-Instruct`/`Vistral-7B`/`SeaLLM-7B`. Cần benchmark trên dev set.
+- [ ] Model self-host cho phần LLM/NER — ⚠️ **ngân sách 9B là TỔNG cho toàn pipeline** (mọi model local cộng lại ≤9B, không phải mỗi model). Ứng viên NER encoder `PhoBERT`(~135M)/`XLM-R`/`ViHealthBERT`; LLM sinh `Qwen2.5-7B`/`Vistral-7B`/`SeaLLM-7B`; embedding + reranker cũng tính vào ngân sách. Vd 1 LLM 7B + PhoBERT 135M + embedder 560M ≈ 7.7B (OK); 2 model 7B (14B) là VI PHẠM. Cần benchmark trên dev set trong giới hạn tổng này.
 - [ ] Chiến lược retrieval cho candidate mapping (BM25 / dense embedding / hybrid + reranker) — phần "RAG" trọng số cao nhất (0.4).
 - [ ] Chiến lược sinh synthetic data để fine-tune (tự sinh note + nhãn từ KB, hoặc weak-labeling bằng rule rồi review).
 - [ ] Xử lý `THUỐC`: giữ nguyên cả liều (`metoprolol 25mg po bid`) hay tách hoạt chất+hàm lượng khi map RxNorm? Ảnh hưởng cả text_score (span) lẫn candidates_score.
@@ -34,13 +35,14 @@ Giai đoạn: **thiết kế, chưa code pipeline**. Đã có knowledge base (`i
 - **I/O + offset utility**: đọc `.txt` → sinh `.json` đúng format; hàm tìm `position` (offset ký tự) của span trên **raw text gốc** (chú ý nhiễu token dính liền — xem `EDA_FINDINGS.md` §2). Bước làm sạch (nếu có) phải giữ ánh xạ offset về bản gốc.
 - **KB index**: nạp `icd10_vn.csv` + `rxnorm_terms.csv`, dựng index tra cứu (exact dict + fuzzy + sau này là vector).
 
-### Tier 0 — Baseline rule-based + dictionary (mục tiêu: có điểm sàn nhanh)
+### Tier 0 — Baseline rule-based + dictionary ✅ ĐÃ TRIỂN KHAI (exp_0001_baseline)
 
-- **NER**: gazetteer/dictionary matching từ KB (tên bệnh ICD-10 VN, tên thuốc RxNorm) + regex cho `KẾT_QUẢ_XÉT_NGHIỆM` (số + đơn vị) và bullet lists; luật section-aware để đoán type theo mục ("Thuốc trước khi..." → THUỐC, "Triệu chứng..." → TRIỆU_CHỨNG).
-- **Assertion**: rule thuần — section-based (`1. Tiền sử`, "thuốc trước nhập viện" → `isHistorical`), cue phủ định (`không`, `chưa`, `âm tính`, `(-)`, loại trừ false-friend "không xác định") → `isNegated`, cue người nhà (chủ thể là bố/mẹ/anh/chị mang bệnh) → `isFamily` (rất hiếm, để conservative).
-- **Candidates**: exact + fuzzy string match (RapidFuzz) tên khái niệm với KB, trả top-k.
-- **Ưu điểm**: nhanh, không cần GPU/train, deterministic, chạy offline hoàn toàn (thoả ràng buộc). **Nhược điểm**: recall kém với biến thể diễn đạt, code-switching, lỗi chính tả.
-- **Vai trò**: thiết lập điểm sàn + kiểm chứng eval harness + lộ ra các case khó.
+- **NER** (`src/extraction`): heuristic section + bullet + cue nội dung; regex `KẾT_QUẢ_XÉT_NGHIỆM`; drug detection theo route/drug_vocab; bỏ section tường thuật để giữ precision.
+- **Assertion** (`src/assertion`): rule section-based `isHistorical`, cue phủ định (lọc false-friend) `isNegated`, cue người nhà `isFamily` (conservative).
+- **Candidates** (`src/normalization/kb.py`): fuzzy RapidFuzz với KB — ICD `token_set_ratio`, RxNorm `token_sort_ratio` (ưu tiên clinical drug đúng liều).
+- **Trạng thái**: chạy end-to-end, sinh submission hợp lệ. **Điểm: PENDING_GOLD** (chờ nhãn dev).
+- **Hạn chế đã lộ** (→ Tier 1): recall thấp do bỏ văn xuôi; candidate thuốc sai granularity; ICD map tên chung vào mã chuyên biệt; tên lay ("hen suyễn") không khớp. Chi tiết: `experiments/exp_0001_baseline/notes.md`.
+- **Next**: (1) người sửa nhãn dev → chấm điểm thật → biết khối nào yếu nhất; (2) từ đó quyết định điểm vào Tier 1 (NER fine-tuned hay cải thiện rule + candidate trước).
 
 ### Tier 1 — NER fine-tuned + retrieval có học (mục tiêu: nâng recall/độ chính xác NER & mapping)
 

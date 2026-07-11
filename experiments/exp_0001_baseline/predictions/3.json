@@ -1,0 +1,267 @@
+[
+  {
+    "text": "cơn ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      452,
+      464
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ngất xỉu trong xe",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      533,
+      550
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Tỉnh dậy thấy cháu gái hét lên",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      553,
+      583
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ước tính mất ý thức có thể trong 30 giây",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      586,
+      626
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Cảm thấy khỏe khi thức dậy",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      661,
+      687
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Không đánh trống ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      690,
+      711
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "Không quầng sáng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      714,
+      730
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "Không chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      733,
+      748
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "Không buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      751,
+      765
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "Không đổ mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      768,
+      783
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "Không mất kiểm soát đại tiện hoặc tiểu tiện",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      786,
+      829
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "đau chân sau khi đi bộ vài chặng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      832,
+      864
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      867,
+      875
+    ],
+    "assertions": []
+  },
+  {
+    "text": "khó thở khi gắng sức",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      878,
+      898
+    ],
+    "assertions": []
+  },
+  {
+    "text": "khó thở về đêm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      901,
+      915
+    ],
+    "assertions": []
+  },
+  {
+    "text": "khó thở khi nằm",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      918,
+      933
+    ],
+    "assertions": []
+  },
+  {
+    "text": "phù mắt cá chân",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      936,
+      951
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đánh trống ngực",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      954,
+      969
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      972,
+      980
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Xỉu trước",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      983,
+      992
+    ],
+    "assertions": []
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      1016,
+      1024
+    ],
+    "assertions": []
+  },
+  {
+    "text": "công thức máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      4027,
+      4040
+    ]
+  },
+  {
+    "text": "chức năng gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      4060,
+      4073
+    ]
+  },
+  {
+    "text": "nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      4102,
+      4111
+    ]
+  },
+  {
+    "text": "troponin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      4126,
+      4134
+    ]
+  },
+  {
+    "text": "0.01",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      4135,
+      4139
+    ]
+  },
+  {
+    "text": "130",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      4184,
+      4187
+    ]
+  },
+  {
+    "text": "điện tâm đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      4269,
+      4280
+    ]
+  },
+  {
+    "text": "điện tâm đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      4322,
+      4333
+    ]
+  }
+]

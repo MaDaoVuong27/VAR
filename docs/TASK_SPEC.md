@@ -65,7 +65,8 @@ final_score = 0.3 * text_score + 0.3 * assertions_score + 0.4 * candidates_score
 ## Ràng buộc tài nguyên
 
 - Tự chuẩn bị compute.
-- Nếu dùng LLM/agent: **bắt buộc self-host**, **không được gọi API ngoài**, **model tối đa 9B params**.
+- Nếu dùng LLM/agent: **bắt buộc self-host**, **không được gọi API ngoài**.
+- ⚠️ **Giới hạn 9B là TỔNG tham số của TẤT CẢ model local cộng lại**, không phải mỗi model ≤9B. Ví dụ: không thể chạy đồng thời 2 model 7B (=14B); NER encoder + LLM + reranker + embedding model — tổng phải ≤9B. → phải lập "ngân sách tham số" cho cả pipeline khi chọn model.
 
 ## Ràng buộc dữ liệu / vòng loại
 

@@ -1,0 +1,109 @@
+[
+  {
+    "text": "béo phì",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      48,
+      55
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "E65",
+      "E66",
+      "E66.0"
+    ]
+  },
+  {
+    "text": "đái tháo đường được kiểm soát bằng chế độ ăn",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      62,
+      106
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "ngừng thở khi ngủ",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      113,
+      130
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "P28.3",
+      "G47.3"
+    ]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      256,
+      263
+    ],
+    "assertions": []
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      441,
+      448
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "khó nằm vào ban đêm để ngủ vì thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      455,
+      488
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "căng cứng vai trái (ngắt quãng",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      495,
+      525
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "xảy ra vài lần mỗi ngày",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      527,
+      550
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  },
+  {
+    "text": "kéo dài 5 phút",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      552,
+      566
+    ],
+    "assertions": [
+      "isHistorical"
+    ]
+  }
+]

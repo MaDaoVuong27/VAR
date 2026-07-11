@@ -1,0 +1,70 @@
+[
+  {
+    "text": "vàng da không đau",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      118,
+      135
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "ngứa",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      138,
+      142
+    ],
+    "assertions": []
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      294,
+      301
+    ]
+  },
+  {
+    "text": "15",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      354,
+      356
+    ]
+  },
+  {
+    "text": "2",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      452,
+      453
+    ]
+  },
+  {
+    "text": "7",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      550,
+      551
+    ]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1013,
+      1020
+    ]
+  },
+  {
+    "text": "15",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1073,
+      1075
+    ]
+  }
+]

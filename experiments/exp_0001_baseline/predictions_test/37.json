@@ -1,0 +1,162 @@
+[
+  {
+    "text": "Bệnh thận mạn tính",
+    "type": "CHẨN_ĐOÁN",
+    "position": [
+      176,
+      194
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "N18"
+    ]
+  },
+  {
+    "text": "Torsemide: uống 1 viên/ngày, đôi khi 2 viên/ngày",
+    "type": "THUỐC",
+    "position": [
+      224,
+      272
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Isosorbide: đã hết thuốc khoảng 3 tuần trước nhập viện",
+    "type": "THUỐC",
+    "position": [
+      349,
+      403
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "Rosuvastatin",
+    "type": "THUỐC",
+    "position": [
+      405,
+      417
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "301542"
+    ]
+  },
+  {
+    "text": "Carvedilol: đã hết thuốc khoảng 3 tuần trước nhập viện",
+    "type": "THUỐC",
+    "position": [
+      473,
+      527
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": []
+  },
+  {
+    "text": "kali",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1356,
+      1360
+    ]
+  },
+  {
+    "text": "6.3",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1361,
+      1364
+    ]
+  },
+  {
+    "text": "kali",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1386,
+      1390
+    ]
+  },
+  {
+    "text": "8",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1395,
+      1396
+    ]
+  },
+  {
+    "text": "ure",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1399,
+      1402
+    ]
+  },
+  {
+    "text": "83",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1409,
+      1411
+    ]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1414,
+      1424
+    ]
+  },
+  {
+    "text": "5.7",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1425,
+      1428
+    ]
+  },
+  {
+    "text": "7.8",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1442,
+      1445
+    ]
+  },
+  {
+    "text": "1",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1451,
+      1452
+    ]
+  },
+  {
+    "text": "21,000",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      1464,
+      1470
+    ]
+  },
+  {
+    "text": "tổng phân tích",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      1473,
+      1487
+    ]
+  }
+]

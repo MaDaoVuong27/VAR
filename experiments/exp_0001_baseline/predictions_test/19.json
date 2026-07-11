@@ -1,0 +1,53 @@
+[
+  {
+    "text": "vicodin",
+    "type": "THUỐC",
+    "position": [
+      382,
+      389
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [
+      "128793"
+    ]
+  },
+  {
+    "text": "đau bẹn trái",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      464,
+      476
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đau bẹn trái",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      708,
+      720
+    ],
+    "assertions": []
+  },
+  {
+    "text": "xuống đầu gối trái khi đau dữ dội",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      814,
+      847
+    ],
+    "assertions": []
+  },
+  {
+    "text": "Yếu tố làm giảm: vicodin",
+    "type": "THUỐC",
+    "position": [
+      889,
+      913
+    ],
+    "assertions": [],
+    "candidates": []
+  }
+]

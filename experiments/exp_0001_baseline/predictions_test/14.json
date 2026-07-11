@@ -1,0 +1,58 @@
+[
+  {
+    "text": "đau ngực tráikèm theo  khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      69,
+      99
+    ],
+    "assertions": []
+  },
+  {
+    "text": "đau ngực trái",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      123,
+      136
+    ],
+    "assertions": []
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      139,
+      146
+    ],
+    "assertions": []
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      149,
+      158
+    ],
+    "assertions": []
+  },
+  {
+    "text": "không liên quan đến gắng sức",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      208,
+      236
+    ],
+    "assertions": [
+      "isNegated"
+    ]
+  },
+  {
+    "text": "đến rồi đi",
+    "type": "TRIỆU_CHỨNG",
+    "position": [
+      367,
+      377
+    ],
+    "assertions": []
+  }
+]
