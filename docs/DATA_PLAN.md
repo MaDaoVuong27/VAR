@@ -40,15 +40,17 @@ Triết lý user (đồng ý): **thử từ cơ bản → nâng cao, đo từng 
 - **Danh mục entity**: tên bệnh (ICD-10 VN+EN), tên thuốc (RxNorm), + **lexicon triệu chứng / tên xét nghiệm / kết quả** tự gom (từ 100 sample + guideline).
 - **Nguồn ngoài** (hợp lệ, đề khuyến khích tạo data train): MIMIC/i2b2/n2c2 (EN, dịch sang VN), VietMed-NER/ViMedNER.
 
+> 🚫 **CHỐNG DATA LEAKAGE (đọc kỹ)**: "câu thật/câu mẫu" ở mọi cấp bên dưới = câu **do TA tự viết** (template) hoặc từ **corpus ngoài hợp lệ** (MIMIC/i2b2 dịch — KHÔNG phải data thi). **TUYỆT ĐỐI KHÔNG** lấy 100 file `data/raw/input/` (test BTC) làm câu gốc để thay entity, kể cả chỉ "mượn cấu trúc câu" — đó là leakage (model học phân phối test). Triển khai hiện tại (`src/synthetic/generate.py`) dùng template tự viết, KHÔNG đọc file test — giữ nguyên tắc này.
+
 ### Cấp 1 — Entity replacement (brute force, ý user) ⭐ làm trước
-Giữ nguyên **câu thật**, thay các span khái niệm bằng entity khác **CÙNG TYPE** lấy từ danh mục:
+Lấy **câu template TỰ VIẾT** (mô phỏng văn phong lâm sàng, KHÔNG copy từ file test), thay các span khái niệm bằng entity khác **CÙNG TYPE** lấy từ danh mục KB:
 - "Bệnh nhân có tiền sử **hen suyễn**" → "...tiền sử **tăng huyết áp** / **viêm dạ dày** / ...".
-- Nhãn tự sinh **chính xác** vì ta biết vị trí + type + (map được mã từ KB). Assertion giữ theo cue câu gốc.
-- **Ưu**: rẻ, an toàn, nhãn chuẩn 100%, giữ cấu trúc + nhiễu thật (nếu chèn cả glue/code-switch). Dạy model "vị trí nào là entity". **Nhược**: nội dung có thể sai y học (không sao — main goal là bắt span/type); đa dạng ngữ cảnh hạn chế (vẫn là câu gốc).
-- **Biến thể**: thay cùng type (giữ nhãn đúng) HOẶC — như user gợi ý — thay cả bằng tên bất kỳ + random thêm assertion, chấp nhận sai lý thuyết, để tăng đa dạng bề mặt. → **thử cả hai, đo.**
+- Nhãn tự sinh **chính xác** vì ta biết vị trí + type + (map được mã từ KB). Assertion giữ theo cue câu.
+- **Ưu**: rẻ, an toàn, nhãn chuẩn 100%, giữ cấu trúc + nhiễu (nếu chèn glue/code-switch). Dạy model "vị trí nào là entity". **Nhược**: đa dạng ngữ cảnh hạn chế (phụ thuộc số template tự viết).
+- **Biến thể**: thay cùng type (giữ nhãn đúng) HOẶC thay tên bất kỳ + random assertion, chấp nhận sai lý thuyết, tăng đa dạng bề mặt. → **thử cả hai, đo.**
 
 ### Cấp 2 — Template + slot-filling
-Trừu tượng hoá câu thật thành template có slot (`Bệnh nhân {tiền_sử?} {DX}, được kê {DRUG} {liều}`), rồi điền slot ngẫu nhiên từ KB + bảng assertion. Sinh được **cấu trúc mới** (không chỉ câu gốc), kiểm soát được phân phối type/assertion (cân bằng `isFamily` hiếm).
+Viết template có slot (`Bệnh nhân {tiền_sử?} {DX}, được kê {DRUG} {liều}`) — **template do ta viết**, rồi điền slot ngẫu nhiên từ KB + bảng assertion. Sinh **cấu trúc mới**, kiểm soát phân phối type/assertion (cân bằng `isFamily` hiếm). *(Đây là cách `generate.py` hiện dùng.)*
 
 ### Cấp 3 — LLM sinh ghi chú (reverse từ code) — CHỈ self-host ≤9B
 Cho trước danh sách (mã ICD/RxNorm + assertion), yêu cầu **LLM self-host ≤9B** (vd Qwen2.5-7B, đã có qua Ollama) viết đoạn ghi chú lâm sàng VN chứa chúng theo văn phong test (kể cả văn xuôi xen kẽ — đúng thứ baseline chết). Vì ta *chọn trước* entity nên **nhãn biết sẵn** (chỉ cần căn offset lại trong câu LLM sinh). Đa dạng cao nhất, mô phỏng được prose.
@@ -65,7 +67,7 @@ Synthetic phải chứa cùng nhiễu với test: **token dính liền + code-sw
 Với 1 feature khó (vd văn xuôi xen kẽ — file baseline rỗng 6/8/25/93):
 - **DEV chỉ cần 1-2 ca "canary"** để ĐO năng lực, giữ đúng **phân phối** của 100 test (4 file rỗng = 4% test → ~1-2/30 dev là vừa; nhồi cả 4 vào dev = over-represent, lệch ngược).
 - **TRAIN (synthetic) mới là nơi đổ KHỐI LƯỢNG** ca prose để model HỌC — sinh nhiều câu văn xuôi xen kẽ, phủ định trong câu.
-- File prose KHÔNG đưa vào dev có thể dùng làm **template văn phong** để sinh synthetic (dùng kiểu câu, không train trực tiếp — vẫn là file test BTC).
+- ⚠️ **KHÔNG** dùng file test (kể cả file prose không vào dev) làm template/nguyên liệu synthetic — kể cả "mượn kiểu câu". Nếu cần bắt chước văn phong prose, **tự viết** template mô phỏng đặc điểm đó (câu dài xen kẽ, phủ định trong câu), không copy từ `data/raw/input/`.
 
 ## Thứ tự thực thi
 1. Gom lexicon (triệu chứng/xét nghiệm/kết quả) + chuẩn hoá danh mục entity từ KB.
