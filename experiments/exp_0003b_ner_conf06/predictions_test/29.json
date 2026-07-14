@@ -1,0 +1,81 @@
+[
+  {
+    "text": "tiểu tiện",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [70, 79]
+  },
+  {
+    "text": "tự chủ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [86, 92]
+  },
+  {
+    "text": "sa âm đạo",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [96, 105]
+  },
+  {
+    "text": "vài năm",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [146, 153]
+  },
+  {
+    "text": "tiểu tiện",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [177, 186]
+  },
+  {
+    "text": "tự chủ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [193, 199]
+  },
+  {
+    "text": "sa âm đạo",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [202, 211]
+  },
+  {
+    "text": "bàng quang",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [214, 224]
+  },
+  {
+    "text": "căng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [225, 229]
+  },
+  {
+    "text": "cảm giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [233, 241]
+  },
+  {
+    "text": "bí tiếu liên tục",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [242, 258]
+  },
+  {
+    "text": "sờ thấy một khối cứng trong âm đạo",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [309, 343]
+  },
+  {
+    "text": "vệ sinh cá nhân",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R46.0", "Z91.2", "Z85.4"],
+    "assertions": [],
+    "position": [358, 373]
+  }
+]

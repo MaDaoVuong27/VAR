@@ -1,0 +1,35 @@
+[
+  {
+    "text": "khàn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [43, 47]
+  },
+  {
+    "text": "do tổn thương dây thanh quản",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["S17.0"],
+    "assertions": [],
+    "position": [48, 76]
+  },
+  {
+    "text": "giọng khàn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [100, 110]
+  },
+  {
+    "text": "tổn thương dây thanh quản thật sự",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["S36.6"],
+    "assertions": [],
+    "position": [113, 146]
+  },
+  {
+    "text": "nạo vét tổn thương dây thanh quản",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["S17.0"],
+    "assertions": [],
+    "position": [202, 235]
+  }
+]

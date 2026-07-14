@@ -2,149 +2,99 @@
   {
     "text": "Yếu nửa người trái",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      123,
-      141
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [123, 141]
   },
   {
     "text": "Hôm nay, cảm thấy yếu sức",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      673,
-      698
-    ],
+    "candidates": [],
     "assertions": [],
-    "candidates": []
+    "position": [673, 698]
   },
   {
     "text": "khó khăn khi ăn",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      886,
-      901
-    ],
+    "candidates": ["R63.3"],
     "assertions": [],
-    "candidates": [
-      "R63.3"
-    ]
+    "position": [886, 901]
   },
   {
     "text": "Yếu nửa người trái",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1309,
-      1327
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1309, 1327]
   },
   {
     "text": "cảm thấy yếu sức",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1334,
-      1350
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1334, 1350]
   },
   {
     "text": "khó khăn khi cài cúc áo",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1357,
-      1380
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1357, 1380]
   },
   {
     "text": "Khó kéo khóa quần",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1387,
-      1404
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1387, 1404]
   },
   {
     "text": "Hơi vụng về",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1411,
-      1422
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1411, 1422]
   },
   {
     "text": "tiểu tiện ra sàn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1429,
-      1445
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1429, 1445]
   },
   {
     "text": "khó khăn khi ra khỏi ghế tựa",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1452,
-      1480
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1452, 1480]
   },
   {
     "text": "kéo lê chân trái",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1487,
-      1503
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1487, 1503]
   },
   {
     "text": "Cánh tay trái lơ lửng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1510,
-      1531
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1510, 1531]
   },
   {
     "text": "khó khăn khi ước lượng vị trí ngồi xuống ghế",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1538,
-      1582
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1538, 1582]
   },
   {
     "text": "khó khăn khi ăn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1589,
-      1604
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1589, 1604]
   },
   {
     "text": "cảm giác bất thường ở bên phải đầu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1611,
-      1645
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1611, 1645]
   },
   {
     "text": "bên phải đầu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1695,
-      1707
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1695, 1707]
   }
 ]

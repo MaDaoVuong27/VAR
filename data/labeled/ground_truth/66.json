@@ -1,0 +1,83 @@
+[
+  {
+    "text": "Tiểu đường loại 1 đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E10"],
+    "assertions": ["isHistorical"],
+    "position": [54, 86]
+  },
+  {
+    "text": "tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I10"],
+    "assertions": ["isHistorical"],
+    "position": [93, 106]
+  },
+  {
+    "text": "tăng lipid máu, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E78.5"],
+    "assertions": ["isHistorical"],
+    "position": [113, 143]
+  },
+  {
+    "text": "béo phì",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E66.9"],
+    "assertions": ["isHistorical"],
+    "position": [150, 157]
+  },
+  {
+    "text": "đau bàn chân phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [307, 324]
+  },
+  {
+    "text": "mất thăng bằng khi đi lại",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [384, 409]
+  },
+  {
+    "text": "viêm bể thận",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N10"],
+    "assertions": ["isHistorical"],
+    "position": [473, 485]
+  },
+  {
+    "text": "viêm phế quản",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["J40"],
+    "assertions": ["isHistorical"],
+    "position": [489, 502]
+  },
+  {
+    "text": "ertapenem",
+    "type": "THUỐC",
+    "candidates": ["325642"],
+    "assertions": ["isHistorical"],
+    "position": [587, 596]
+  },
+  {
+    "text": "tiểu cầu (platelets)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [839, 859]
+  },
+  {
+    "text": "478",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [860, 863]
+  },
+  {
+    "text": "glucose (đường huyết)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [961, 982]
+  },
+  {
+    "text": "316",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [983, 986]
+  }
+]

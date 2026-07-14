@@ -2,17 +2,8 @@
   {
     "text": "bàn chân vẹo bẩm sinh",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      39,
-      60
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "Q66.3",
-      "Q66.6",
-      "Q66"
-    ]
+    "candidates": ["Q66.3", "Q66.6", "Q66"],
+    "assertions": ["isHistorical"],
+    "position": [39, 60]
   }
 ]

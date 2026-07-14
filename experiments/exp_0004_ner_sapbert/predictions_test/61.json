@@ -1,0 +1,68 @@
+[
+  {
+    "text": "CGhi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E80.5"],
+    "assertions": ["isHistorical"],
+    "position": [21, 25]
+  },
+  {
+    "text": "đau vùng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [73, 81]
+  },
+  {
+    "text": "Tái khám vì đau đầu gối phải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z09"],
+    "assertions": [],
+    "position": [190, 218]
+  },
+  {
+    "text": "Khởi phát cấp tính hay dần dần: Không ghi rõ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F23.9"],
+    "assertions": ["isNegated"],
+    "position": [333, 377]
+  },
+  {
+    "text": "Đau bánh chè đùi phải dữ dội cách đây vài tháng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["G57.1"],
+    "assertions": ["isHistorical"],
+    "position": [434, 481]
+  },
+  {
+    "text": "đau đầu gối phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [609, 625]
+  },
+  {
+    "text": "Vị trí",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R29.3"],
+    "assertions": [],
+    "position": [657, 663]
+  },
+  {
+    "text": "dữ dội",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F05.9"],
+    "assertions": [],
+    "position": [705, 711]
+  },
+  {
+    "text": "Chiếu xạ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [777, 785]
+  },
+  {
+    "text": "những thay đổi thoái hóa nghiêm trọng của khớp bánh chè đùi phải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M42.07"],
+    "assertions": [],
+    "position": [1077, 1141]
+  }
+]

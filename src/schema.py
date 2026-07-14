@@ -1,7 +1,7 @@
 """Schema khái niệm y tế + (de)serialize JSON đúng format nộp bài.
 
-Format 1 phần tử output (xem docs/TASK_SPEC.md):
-    {"text","type","position":[start,end],"assertions":[...],"candidates":[...]}
+Format 1 phần tử output (xem docs/TASK_SPEC.md, khớp thứ tự key ví dụ đề bài):
+    {"text","type","candidates":[...],"assertions":[...],"position":[start,end]}
 - position: offset KÝ TỰ trên input gốc, 0-indexed, [start, end] (end exclusive theo
   quy ước Python; xem io_utils khi tìm offset).
 - assertions: chỉ có nghĩa cho CHẨN_ĐOÁN / THUỐC / TRIỆU_CHỨNG.
@@ -42,12 +42,17 @@ class Concept:
     candidates: List[str] = field(default_factory=list)
 
     def to_dict(self) -> dict:
-        """Serialize, chỉ chèn assertions/candidates cho type phù hợp (khớp ví dụ đề)."""
-        d = {"text": self.text, "type": self.type, "position": list(self.position)}
-        if self.type in ASSERTION_TYPES:
-            d["assertions"] = list(self.assertions)
+        """Serialize, chỉ chèn assertions/candidates cho type phù hợp.
+
+        Thứ tự key khớp CHÍNH XÁC ví dụ trong TASK/de_bai_chi_tiet.md:
+        text -> type -> candidates -> assertions -> position.
+        """
+        d = {"text": self.text, "type": self.type}
         if self.type in CANDIDATE_TYPES:
             d["candidates"] = list(self.candidates)
+        if self.type in ASSERTION_TYPES:
+            d["assertions"] = list(self.assertions)
+        d["position"] = list(self.position)
         return d
 
     @staticmethod

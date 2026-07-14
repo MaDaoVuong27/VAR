@@ -15,6 +15,11 @@ venv/
 *.pt
 *.ckpt
 
+# Embedding / vector cache (regenerable — build lại bằng scripts; .npz quá lớn cho git,
+# vd sapbert_rxn.npz ~1GB > giới hạn 100MB của GitHub)
+models/embeddings/
+*.npz
+
 # Jupyter
 .ipynb_checkpoints/
 

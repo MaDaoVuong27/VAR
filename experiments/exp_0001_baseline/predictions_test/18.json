@@ -2,28 +2,19 @@
   {
     "text": "đau ngực trái",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      292,
-      305
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [292, 305]
   },
   {
     "text": "đau sau xương ức",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      312,
-      328
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [312, 328]
   },
   {
     "text": "đau lan ra sau lưng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      335,
-      354
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [335, 354]
   }
 ]

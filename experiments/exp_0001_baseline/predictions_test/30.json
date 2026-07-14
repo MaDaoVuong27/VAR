@@ -2,213 +2,126 @@
   {
     "text": "Bệnh bạch cầu dòng tủy mãn tính",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      57,
-      88
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "C92",
-      "C92.1",
-      "C92.2"
-    ]
+    "candidates": ["C92", "C92.1", "C92.2"],
+    "assertions": ["isHistorical"],
+    "position": [57, 88]
   },
   {
     "text": "tăng cholesterol máu đơn thuần",
     "type": "THUỐC",
-    "position": [
-      95,
-      125
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": []
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [95, 125]
   },
   {
     "text": "tăng huyết áp",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      132,
-      145
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "I10",
-      "I11",
-      "I11.0"
-    ]
+    "candidates": ["I10", "I11", "I11.0"],
+    "assertions": ["isHistorical"],
+    "position": [132, 145]
   },
   {
     "text": "gleevec",
     "type": "THUỐC",
-    "position": [
-      190,
-      197
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "282386"
-    ]
+    "candidates": ["282386"],
+    "assertions": ["isHistorical"],
+    "position": [190, 197]
   },
   {
     "text": "allopurinol",
     "type": "THUỐC",
-    "position": [
-      239,
-      250
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "519"
-    ]
+    "candidates": ["519"],
+    "assertions": ["isHistorical"],
+    "position": [239, 250]
   },
   {
     "text": "cách nhập viện 5 ngày",
     "type": "THUỐC",
-    "position": [
-      264,
-      285
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": []
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [264, 285]
   },
   {
     "text": "Thuốc giảm đau",
     "type": "THUỐC",
-    "position": [
-      293,
-      307
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": []
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [293, 307]
   },
   {
     "text": "ảo giác",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      363,
-      370
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [363, 370]
   },
   {
     "text": "Liều gleevec đã ngừng cách nhập viện 5 ngày",
     "type": "THUỐC",
-    "position": [
-      746,
-      789
-    ],
+    "candidates": [],
     "assertions": [],
-    "candidates": []
+    "position": [746, 789]
   },
   {
     "text": "allopurinol đã ngừng cách nhập viện 5 ngày",
     "type": "THUỐC",
-    "position": [
-      797,
-      839
-    ],
+    "candidates": [],
     "assertions": [],
-    "candidates": []
+    "position": [797, 839]
   },
   {
     "text": "ảo giác",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      919,
-      926
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [919, 926]
   },
   {
     "text": "Thấy những người này đang nói chuyện với mình",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1029,
-      1074
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1029, 1074]
   },
   {
     "text": "Ảo giác không mang tính chất ra lệnh",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1076,
-      1112
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [1076, 1112]
   },
   {
     "text": "Diễn biên  trước khi nhập viện",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1186,
-      1216
-    ],
-    "assertions": [
-      "isHistorical"
-    ]
+    "assertions": ["isHistorical"],
+    "position": [1186, 1216]
   },
   {
     "text": "Điều trị nhiễm khuẩn đường tiết niệu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1223,
-      1259
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1223, 1259]
   },
   {
     "text": "vị trí không xác định",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1261,
-      1282
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1261, 1282]
   },
   {
     "text": "Thuốc giảm đau đã ngừng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1289,
-      1312
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1289, 1312]
   },
   {
     "text": "Liều gleevec đã ngừng cách nhập viện 5 ngày",
     "type": "THUỐC",
-    "position": [
-      1319,
-      1362
-    ],
+    "candidates": [],
     "assertions": [],
-    "candidates": []
+    "position": [1319, 1362]
   },
   {
     "text": "allopurinol đã ngừng cách nhập viện 5 ngày",
     "type": "THUỐC",
-    "position": [
-      1369,
-      1411
-    ],
+    "candidates": [],
     "assertions": [],
-    "candidates": []
+    "position": [1369, 1411]
   }
 ]

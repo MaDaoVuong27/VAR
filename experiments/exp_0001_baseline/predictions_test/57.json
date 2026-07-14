@@ -2,19 +2,13 @@
   {
     "text": "bệnh rễ thần kinh tuỷ sống ở ngón tay cái",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      74,
-      115
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [74, 115]
   },
   {
     "text": "bệnh rễ thần kinh tuỷ sống ở ngón tay cái",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      187,
-      228
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [187, 228]
   }
 ]

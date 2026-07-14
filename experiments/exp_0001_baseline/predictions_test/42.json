@@ -2,82 +2,55 @@
   {
     "text": "Đánh giá phù",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      220,
-      232
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [220, 232]
   },
   {
     "text": "chủ quan sốt và ớn lạnh",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      234,
-      257
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [234, 257]
   },
   {
     "text": "và đau tăng dần khi đi lại",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      259,
-      285
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [259, 285]
   },
   {
     "text": "phù hai bên",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      321,
-      332
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [321, 332]
   },
   {
     "text": "ban đỏ",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      339,
-      345
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [339, 345]
   },
   {
     "text": "RL",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      347,
-      349
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [347, 349]
   },
   {
     "text": "chủ quan sốt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      356,
-      368
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [356, 368]
   },
   {
     "text": "ớn lạnh",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      375,
-      382
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [375, 382]
   },
   {
     "text": "đau tăng dần khi đi lại",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      389,
-      412
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [389, 412]
   }
 ]

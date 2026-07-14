@@ -2,166 +2,107 @@
   {
     "text": "Bày tỏ tự tử với nhân viên khi xuất viện",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      393,
-      433
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [393, 433]
   },
   {
     "text": "tự tử",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      465,
-      470
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [465, 470]
   },
   {
     "text": "Lú lẫn từng đợt gần đây",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      477,
-      500
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [477, 500]
   },
   {
     "text": "cảm giác chóng mặt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      507,
-      525
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [507, 525]
   },
   {
     "text": "khó khăn khi nhìn gần",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      532,
-      553
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [532, 553]
   },
   {
     "text": "rối loạn thị giác",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      560,
-      577
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [560, 577]
   },
   {
     "text": "nhìn thấy con cái mình ở góc mắt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      579,
-      611
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [579, 611]
   },
   {
     "text": "ảo giác thị giác (ảo giác thị giác",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      618,
-      652
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [618, 652]
   },
   {
     "text": "Ảo thanh (AH) (ảo giác thính giác",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      660,
-      693
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [660, 693]
   },
   {
     "text": "diễn ra liên tục",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      743,
-      759
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [743, 759]
   },
   {
     "text": "chóng mặt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      840,
-      849
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [840, 849]
   },
   {
     "text": "Khó khăn về thị lực gần",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      856,
-      879
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [856, 879]
   },
   {
     "text": "ảo giác thị giác",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      939,
-      955
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [939, 955]
   },
   {
     "text": "đánh giá thần kinh để tìm bệnh lý chất trắng",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      1997,
-      2041
-    ],
+    "candidates": ["M54.1", "M14.6*", "A17†"],
     "assertions": [],
-    "candidates": [
-      "M54.1",
-      "M14.6*",
-      "A17†"
-    ]
+    "position": [1997, 2041]
   },
   {
     "text": "các băng nhóm oligoclonal đang chờ kết quả",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      2048,
-      2090
-    ],
+    "candidates": [],
     "assertions": [],
-    "candidates": []
+    "position": [2048, 2090]
   },
   {
     "text": "Ảo giác do rượu (suy nghĩ",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      2240,
-      2265
-    ],
+    "candidates": [],
     "assertions": [],
-    "candidates": []
+    "position": [2240, 2265]
   },
   {
     "text": "Không được coi là thực sự loạn thần",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      2273,
-      2308
-    ],
-    "assertions": [
-      "isNegated"
-    ],
-    "candidates": [
-      "F28"
-    ]
+    "candidates": ["F28"],
+    "assertions": ["isNegated"],
+    "position": [2273, 2308]
   }
 ]

@@ -2,155 +2,91 @@
   {
     "text": "Đái tháo đường típ 2",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      48,
-      68
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "E11",
-      "O24.1",
-      "E10"
-    ]
+    "candidates": ["E11", "O24.1", "E10"],
+    "assertions": ["isHistorical"],
+    "position": [48, 68]
   },
   {
     "text": "bệnh tim mạch do xơ vữa động mạch đặt stent",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      75,
-      118
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "I25.1",
-      "I67.2",
-      "I77.2"
-    ]
+    "candidates": ["I25.1", "I67.2", "I77.2"],
+    "assertions": ["isHistorical"],
+    "position": [75, 118]
   },
   {
     "text": "Suy tim dãn tâm thu giữ nguyên trương lực",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      125,
-      166
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "I50"
-    ]
+    "candidates": ["I50"],
+    "assertions": ["isHistorical"],
+    "position": [125, 166]
   },
   {
     "text": "đau họng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      261,
-      269
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [261, 269]
   },
   {
     "text": "đau họng kèm theo nuốt vướng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      369,
-      397
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [369, 397]
   },
   {
     "text": "buồn nôn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      404,
-      412
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [404, 412]
   },
   {
     "text": "Tăng tăng cân 3 pound trong 7 ngày qua",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      419,
-      457
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [419, 457]
   },
   {
     "text": "glucose",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      994,
-      1001
-    ]
+    "position": [994, 1001]
   },
   {
     "text": "537",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1002,
-      1005
-    ]
+    "position": [1002, 1005]
   },
   {
     "text": "glucose",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1012,
-      1019
-    ]
+    "position": [1012, 1019]
   },
   {
     "text": "367",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1036,
-      1039
-    ]
+    "position": [1036, 1039]
   },
   {
     "text": "bun",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1046,
-      1049
-    ]
+    "position": [1046, 1049]
   },
   {
     "text": "3",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1056,
-      1057
-    ]
+    "position": [1056, 1057]
   },
   {
     "text": "creatinine",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1068,
-      1078
-    ]
+    "position": [1068, 1078]
   },
   {
     "text": "1.2",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1080,
-      1083
-    ]
+    "position": [1080, 1083]
   },
   {
     "text": "17",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1105,
-      1107
-    ]
+    "position": [1105, 1107]
   }
 ]

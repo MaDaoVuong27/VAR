@@ -14,12 +14,26 @@ def read_input(path) -> str:
     return Path(path).read_text(encoding="utf-8")
 
 
+def _format_concept(d: dict) -> str:
+    """Format 1 concept dict giống hệt layout ví dụ đề: object thụt 4 space, mỗi
+    mảng (candidates/assertions/position) gọn trên 1 dòng (json.dumps mặc định sẽ
+    xuống dòng từng phần tử mảng nên không dùng được ở đây)."""
+    lines = ["  {"]
+    keys = list(d.keys())
+    for i, k in enumerate(keys):
+        comma = "," if i < len(keys) - 1 else ""
+        val = json.dumps(d[k], ensure_ascii=False)
+        lines.append(f'    "{k}": {val}{comma}')
+    lines.append("  }")
+    return "\n".join(lines)
+
+
 def write_output(concepts: List[Concept], path) -> None:
-    """Ghi list Concept ra .json (list các dict theo format đề)."""
-    data = [c.to_dict() for c in concepts]
-    Path(path).write_text(
-        json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
+    """Ghi list Concept ra .json, layout khớp CHÍNH XÁC ví dụ trong TASK/de_bai_chi_tiet.md
+    (thứ tự key text->type->candidates->assertions->position, mảng gọn 1 dòng)."""
+    items = [_format_concept(c.to_dict()) for c in concepts]
+    text = "[\n" + ",\n".join(items) + "\n]" if items else "[]"
+    Path(path).write_text(text, encoding="utf-8")
 
 
 def read_gold(path) -> List[Concept]:

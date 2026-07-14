@@ -2,20 +2,14 @@
   {
     "text": "run rẩy kèm sốt kèm theo sốt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      401,
-      429
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [401, 429]
   },
   {
     "text": "ba stent mật kim loại đã được đặt",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      866,
-      899
-    ],
+    "candidates": [],
     "assertions": [],
-    "candidates": []
+    "position": [866, 899]
   }
 ]

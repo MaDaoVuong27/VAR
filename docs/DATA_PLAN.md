@@ -1,0 +1,79 @@
+# DATA_PLAN — Làm sạch dữ liệu & Sinh synthetic data
+
+> Kế hoạch dữ liệu dùng chung cho cả 3 hướng ([IDEAS_1](IDEAS_1.md)/[2](IDEAS_2.md)/[3](IDEAS_3.md)). **Đây là phần quyết định thành bại** của mọi hướng có học: ta chỉ có 100 sample và **không được train trên chúng** (là tập test BTC). Không có synthetic tốt → không fine-tune được gì.
+
+---
+
+## PHẦN 1 — Làm sạch dữ liệu (cleaning)
+
+### Vấn đề (từ `EDA_FINDINGS.md` §2, đã kiểm chứng trên case study)
+- **Token dính liền** (camel glue): `động mạchcho`, `tạiBệnh`, `giáckhó` (27/100 file).
+- Thiếu dấu cách sau dấu câu; **token lặp**: `bình thườngbình thường`; **code-switch** VN-EN (61/100); markdown `**`; filler `N/A`.
+
+### ⚠️ Ràng buộc VÀNG: offset phải giữ trên RAW gốc
+Metric chấm `position` theo ký tự trên **input gốc chưa sửa**. Nếu clean làm đổi độ dài chuỗi → mọi offset lệch → hỏng text_score. Vì vậy **KHÔNG được nộp text đã clean**. Hai chiến lược:
+
+1. **[Khuyến nghị] Model chạy trên RAW, clean chỉ để hỗ trợ matching**: NER/LLM đọc raw (chịu nhiễu — model học được điều này nếu synthetic có nhiễu tương tự); chỉ khi *so khớp candidate* mới normalize (tách glue, bỏ dấu...) trên bản copy, không đụng offset.
+2. **Alignment map**: nếu buộc phải clean để model đọc, giữ mảng ánh xạ `offset_clean → offset_raw` để map ngược span về raw. Phức tạp, dễ sai — chỉ dùng nếu (1) không đủ.
+
+### Các bước clean (chỉ áp cho bản matching, không cho output)
+- Tách camel glue: chèn space giữa `[thường][HOA]` và giữa `[việt][ascii]` khi nghi dính.
+- Gộp token lặp liền kề; chuẩn hoá khoảng trắng; bỏ `**`, `N/A`.
+- **Quan trọng cho synthetic**: giữ LẠI các nhiễu này trong data train (xem Phần 2) để model **quen** với chúng — không "lau sạch" test bằng cách giả vờ test sạch.
+
+---
+
+## PHẦN 2 — Sinh Synthetic Data (cốt lõi)
+
+> ### ⚠️ RÀNG BUỘC NỘP BÀI & LIÊM CHÍNH CHO SYNTHETIC (đọc trước khi làm)
+> Top ~15 đội phải **nộp cả**: code pipeline (bao gồm **code sinh synthetic**) + **data đã dùng** + model weights + README. Hệ quả bắt buộc:
+> 1. **Nộp KÈM file synthetic gốc** mà ta thực sự đã train. Khi BTC re-run, code sinh synthetic có yếu tố ngẫu nhiên (seed, sampling LLM) nên **không tái tạo y hệt** — vì vậy phải nộp bản synthetic gốc; code sinh chỉ để BTC **tham khảo cách làm** + hiểu quy trình, không phải để tái tạo bit-by-bit.
+> 2. Vì code sinh synthetic **bị BTC review**, nó **cũng phải tuân luật**: chỉ dùng **model self-host ≤9B, KHÔNG API ngoài** (Claude/GPT/Gemini...). Không được dùng LLM mạnh ngoài để sinh data train — dù data train không phải output nộp bài, nhưng code lộ ra là dùng API ngoài → vi phạm tinh thần "self-host" và không tái tạo được.
+> 3. Ghi rõ trong README: seed, model dùng để sinh, phiên bản KB — để quy trình minh bạch, tái lập ở mức quy trình.
+>
+> (Lưu ý phân biệt với ngân sách 9B của inference: model sinh synthetic chạy **lúc train, khác thời điểm** với inference nên không cộng dồn vào tổng 9B của pipeline nộp; nhưng bản thân nó vẫn phải là self-host ≤9B, không API ngoài.)
+
+Triết lý user (đồng ý): **thử từ cơ bản → nâng cao, đo từng cái — biết đâu cơ bản đã đủ tốt**. Mục tiêu chính của bài là *model học được KHI NÀO một cụm là khái niệm y tế* (span + type) — nên đôi khi giữ **cấu trúc câu** quan trọng hơn tính đúng y học của nội dung.
+
+### Nguồn nguyên liệu
+- **Template câu**: cấu trúc 100 sample thật (mục, bullet, câu văn xuôi) — nhại lại để giữ phân phối test.
+- **Danh mục entity**: tên bệnh (ICD-10 VN+EN), tên thuốc (RxNorm), + **lexicon triệu chứng / tên xét nghiệm / kết quả** tự gom (từ 100 sample + guideline).
+- **Nguồn ngoài** (hợp lệ, đề khuyến khích tạo data train): MIMIC/i2b2/n2c2 (EN, dịch sang VN), VietMed-NER/ViMedNER.
+
+### Cấp 1 — Entity replacement (brute force, ý user) ⭐ làm trước
+Giữ nguyên **câu thật**, thay các span khái niệm bằng entity khác **CÙNG TYPE** lấy từ danh mục:
+- "Bệnh nhân có tiền sử **hen suyễn**" → "...tiền sử **tăng huyết áp** / **viêm dạ dày** / ...".
+- Nhãn tự sinh **chính xác** vì ta biết vị trí + type + (map được mã từ KB). Assertion giữ theo cue câu gốc.
+- **Ưu**: rẻ, an toàn, nhãn chuẩn 100%, giữ cấu trúc + nhiễu thật (nếu chèn cả glue/code-switch). Dạy model "vị trí nào là entity". **Nhược**: nội dung có thể sai y học (không sao — main goal là bắt span/type); đa dạng ngữ cảnh hạn chế (vẫn là câu gốc).
+- **Biến thể**: thay cùng type (giữ nhãn đúng) HOẶC — như user gợi ý — thay cả bằng tên bất kỳ + random thêm assertion, chấp nhận sai lý thuyết, để tăng đa dạng bề mặt. → **thử cả hai, đo.**
+
+### Cấp 2 — Template + slot-filling
+Trừu tượng hoá câu thật thành template có slot (`Bệnh nhân {tiền_sử?} {DX}, được kê {DRUG} {liều}`), rồi điền slot ngẫu nhiên từ KB + bảng assertion. Sinh được **cấu trúc mới** (không chỉ câu gốc), kiểm soát được phân phối type/assertion (cân bằng `isFamily` hiếm).
+
+### Cấp 3 — LLM sinh ghi chú (reverse từ code) — CHỈ self-host ≤9B
+Cho trước danh sách (mã ICD/RxNorm + assertion), yêu cầu **LLM self-host ≤9B** (vd Qwen2.5-7B, đã có qua Ollama) viết đoạn ghi chú lâm sàng VN chứa chúng theo văn phong test (kể cả văn xuôi xen kẽ — đúng thứ baseline chết). Vì ta *chọn trước* entity nên **nhãn biết sẵn** (chỉ cần căn offset lại trong câu LLM sinh). Đa dạng cao nhất, mô phỏng được prose.
+- ⚠️ **BẮT BUỘC self-host ≤9B, KHÔNG API ngoài** (xem callout đầu Phần 2). Không dùng Claude/GPT để sinh data train — code sinh bị BTC review, dùng API ngoài là vi phạm + không tái lập được. Model A100 của teammate chỉ để chạy nhanh hơn, vẫn phải là model self-host ≤9B.
+- Nộp kèm file synthetic gốc do bước này sinh ra (LLM sampling không tái tạo y hệt).
+
+### Cấp 4 — Kết hợp + weak-label review
+Trộn cấp 1-3; dùng rule/pipeline hiện tại **weak-label** thêm rồi người review (chỉ cho DEV, không cho test). Bổ sung ca biên (type dễ nhầm, phủ định phức tạp).
+
+### Đảm bảo phủ feature (bắt buộc)
+Synthetic phải chứa cùng nhiễu với test: **token dính liền + code-switch** (spec ở `data/labeled/SELECTION.md`), câu văn xuôi xen kẽ (như sample 6/8), phủ định trong câu, `isFamily` hiếm. Nếu train trên data "sạch đẹp" thì model sẽ lại chết trên test bẩn.
+
+### ⚠️ Nguyên tắc tách feature giữa DEV và TRAIN (đã chốt)
+Với 1 feature khó (vd văn xuôi xen kẽ — file baseline rỗng 6/8/25/93):
+- **DEV chỉ cần 1-2 ca "canary"** để ĐO năng lực, giữ đúng **phân phối** của 100 test (4 file rỗng = 4% test → ~1-2/30 dev là vừa; nhồi cả 4 vào dev = over-represent, lệch ngược).
+- **TRAIN (synthetic) mới là nơi đổ KHỐI LƯỢNG** ca prose để model HỌC — sinh nhiều câu văn xuôi xen kẽ, phủ định trong câu.
+- File prose KHÔNG đưa vào dev có thể dùng làm **template văn phong** để sinh synthetic (dùng kiểu câu, không train trực tiếp — vẫn là file test BTC).
+
+## Thứ tự thực thi
+1. Gom lexicon (triệu chứng/xét nghiệm/kết quả) + chuẩn hoá danh mục entity từ KB.
+2. **Cấp 1** entity replacement → tập train NER v1 → fine-tune ([IDEAS_1](IDEAS_1.md)) → đo. (Kiểm chứng giả thuyết "cơ bản đã đủ".)
+3. **Cấp 2/3** nếu cấp 1 chưa đủ đa dạng → đo delta.
+4. Cân bằng class + ca biên (cấp 4).
+
+## Nguồn tham khảo
+- [LLM-Based Synthetic Data Generation for Clinical NER (2025)](https://link.springer.com/chapter/10.1007/978-3-032-05176-9_26) + [code](https://github.com/LIAAD/SDG_clinical_ner)
+- [Structured LLM Augmentation for Clinical Information Extraction (2025)](https://pubmed.ncbi.nlm.nih.gov/40776002/)
+- [Tổng hợp SDG bằng LLM (repo)](https://github.com/ahmad-alismail/LLM_based_Synthetic_Data_Generation)

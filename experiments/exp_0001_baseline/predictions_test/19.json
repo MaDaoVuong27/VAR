@@ -2,52 +2,33 @@
   {
     "text": "vicodin",
     "type": "THUỐC",
-    "position": [
-      382,
-      389
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "128793"
-    ]
+    "candidates": ["128793"],
+    "assertions": ["isHistorical"],
+    "position": [382, 389]
   },
   {
     "text": "đau bẹn trái",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      464,
-      476
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [464, 476]
   },
   {
     "text": "đau bẹn trái",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      708,
-      720
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [708, 720]
   },
   {
     "text": "xuống đầu gối trái khi đau dữ dội",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      814,
-      847
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [814, 847]
   },
   {
     "text": "Yếu tố làm giảm: vicodin",
     "type": "THUỐC",
-    "position": [
-      889,
-      913
-    ],
+    "candidates": [],
     "assertions": [],
-    "candidates": []
+    "position": [889, 913]
   }
 ]

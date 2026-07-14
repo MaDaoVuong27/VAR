@@ -2,324 +2,194 @@
   {
     "text": "ho đái tháo đường",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      51,
-      68
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "R05",
-      "E10",
-      "E10.0"
-    ]
+    "candidates": ["R05", "E10", "E10.0"],
+    "assertions": ["isHistorical"],
+    "position": [51, 68]
   },
   {
     "text": "tăng huyết áp",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      75,
-      88
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "I10",
-      "I11",
-      "I11.0"
-    ]
+    "candidates": ["I10", "I11", "I11.0"],
+    "assertions": ["isHistorical"],
+    "position": [75, 88]
   },
   {
     "text": "béo phì",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      95,
-      102
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "E65",
-      "E66",
-      "E66.0"
-    ]
+    "candidates": ["E65", "E66", "E66.0"],
+    "assertions": ["isHistorical"],
+    "position": [95, 102]
   },
   {
     "text": "ngưng thở khi ngủ do tắc nghẽn",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      109,
-      139
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "G47.3"
-    ]
+    "candidates": ["G47.3"],
+    "assertions": ["isHistorical"],
+    "position": [109, 139]
   },
   {
     "text": "tylenol",
     "type": "THUỐC",
-    "position": [
-      176,
-      183
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "202433"
-    ]
+    "candidates": ["202433"],
+    "assertions": ["isHistorical"],
+    "position": [176, 183]
   },
   {
     "text": "mucinex d",
     "type": "THUỐC",
-    "position": [
-      190,
-      199
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "352777"
-    ]
+    "candidates": ["352777"],
+    "assertions": ["isHistorical"],
+    "position": [190, 199]
   },
   {
     "text": "thỉnh thoảng tiêu chảy các thuốc của ông ấy",
     "type": "THUỐC",
-    "position": [
-      206,
-      249
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": []
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [206, 249]
   },
   {
     "text": "ho",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      298,
-      300
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [298, 300]
   },
   {
     "text": "thiếu oxy",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      302,
-      311
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [302, 311]
   },
   {
     "text": "ho",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      407,
-      409
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [407, 409]
   },
   {
     "text": "nghẹt ngực",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      416,
-      426
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [416, 426]
   },
   {
     "text": "khó thở nhẹ-vừa khó thở khi gắng sức",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      433,
-      469
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [433, 469]
   },
   {
     "text": "mệt mỏi",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      476,
-      483
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [476, 483]
   },
   {
     "text": "mệt mỏi",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      490,
-      497
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [490, 497]
   },
   {
     "text": "sốt lên đến 101",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      504,
-      519
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [504, 519]
   },
   {
     "text": "thỉnh thoảng tiêu chảy các thuốc của ông ấy",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      526,
-      569
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [526, 569]
   },
   {
     "text": "đi tiểu nhiều lần vào ban đêm",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      576,
-      605
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [576, 605]
   },
   {
     "text": "không có đau buốt khi đi tiểu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      607,
-      636
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [607, 636]
   },
   {
     "text": "sốt lần cuối sốt là vào ngày",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      813,
-      841
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [813, 841]
   },
   {
     "text": "tiêu chảy đã tự khỏi vào buổi sáng hôm sau",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      848,
-      890
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [848, 890]
   },
   {
     "text": "Phủ nhận đau ngực",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      897,
-      914
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [897, 914]
   },
   {
     "text": "Phủ nhận buồn nôn/nôn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      921,
-      942
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [921, 942]
   },
   {
     "text": "Phủ nhận đổ mồ hôi đêm",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      949,
-      971
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [949, 971]
   },
   {
     "text": "Phủ nhận khó thở khi nằm",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      978,
-      1002
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [978, 1002]
   },
   {
     "text": "Tự điều trị bằng tylenol và mucinex d",
     "type": "THUỐC",
-    "position": [
-      1226,
-      1263
-    ],
+    "candidates": [],
     "assertions": [],
-    "candidates": []
+    "position": [1226, 1263]
   },
   {
     "text": "spo2",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1361,
-      1365
-    ]
+    "position": [1361, 1365]
   },
   {
     "text": "2",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1364,
-      1365
-    ]
+    "position": [1364, 1365]
   },
   {
     "text": "bạch cầu",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1541,
-      1549
-    ]
+    "position": [1541, 1549]
   },
   {
     "text": "12.5",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1553,
-      1557
-    ]
+    "position": [1553, 1557]
   },
   {
     "text": "tổng phân tích",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1564,
-      1578
-    ]
+    "position": [1564, 1578]
   },
   {
     "text": "troponin",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1636,
-      1644
-    ]
+    "position": [1636, 1644]
   },
   {
     "text": "1",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1654,
-      1655
-    ]
+    "position": [1654, 1655]
   }
 ]

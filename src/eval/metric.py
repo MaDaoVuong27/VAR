@@ -126,19 +126,26 @@ class Scores:
         }
 
 
-def _sample_text_wer(pred, gold, pairs, pred_extra, gold_missed) -> Tuple[float, int]:
-    errors, ref = 0, 0
+def _sample_text_score(pred, gold, pairs) -> float:
+    """text_score sample = soft-F1 trên text đã ghép (bounded [0,1], ổn định hơn WER thô).
+
+    ⚠️ Khác công thức literal "1-WER" của đề: WER-with-insertions bị floor về 0 ngay khi
+    pred có nhiều concept thừa/khác biên giới (dù có cặp khớp đúng) → vô dụng để so sánh.
+    Thay bằng: mỗi cặp (type khớp) cho điểm (1 - word_WER(pred,gold)) trong [0,1]; chia
+    cho max(#gold, #pred) để phạt cả bỏ sót (recall) lẫn thừa (precision). Perfect = 1.0.
+    Khi có scorer chính thức BTC sẽ thay lại.
+    """
+    if not gold and not pred:
+        return 1.0
+    denom = max(len(gold), len(pred))
+    if denom == 0:
+        return 1.0
+    credit = 0.0
     for pi, gi in pairs:
         gw, pw = _words(gold[gi].text), _words(pred[pi].text)
-        errors += _word_levenshtein(pw, gw)
-        ref += len(gw)
-    for gi in gold_missed:
-        gw = _words(gold[gi].text)
-        errors += len(gw)
-        ref += len(gw)
-    for pi in pred_extra:
-        errors += len(_words(pred[pi].text))
-    return errors, ref
+        wer = _word_levenshtein(pw, gw) / max(1, len(gw))
+        credit += max(0.0, 1.0 - wer)
+    return credit / denom
 
 
 def score_sample(pred: List[Concept], gold: List[Concept]):
@@ -149,14 +156,7 @@ def score_sample(pred: List[Concept], gold: List[Concept]):
     pairs, pred_extra, gold_missed = _match(pred, gold)
 
     # --- text ---
-    if not gold and not pred:
-        text_score = 1.0
-    else:
-        errors, ref = _sample_text_wer(pred, gold, pairs, pred_extra, gold_missed)
-        if ref == 0:
-            text_score = 0.0 if pred else 1.0
-        else:
-            text_score = max(0.0, 1.0 - errors / ref)
+    text_score = _sample_text_score(pred, gold, pairs)
 
     # --- assertions (type có assertion) ---
     avals: List[float] = []

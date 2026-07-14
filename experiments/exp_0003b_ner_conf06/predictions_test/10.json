@@ -1,0 +1,167 @@
+[
+  {
+    "text": "Đờm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [107, 110]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [113, 115]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [126, 134]
+  },
+  {
+    "text": "quặn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [135, 139]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [142, 151]
+  },
+  {
+    "text": "đi ngoài ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [162, 177]
+  },
+  {
+    "text": "tăng cân nhiều",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [186, 200]
+  },
+  {
+    "text": "cea (kháng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [247, 257]
+  },
+  {
+    "text": "nguyên ung thư phôi)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [258, 278]
+  },
+  {
+    "text": "tăng nhẹ lên",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [279, 291]
+  },
+  {
+    "text": "4.9",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [292, 295]
+  },
+  {
+    "text": "hình ảnh",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [314, 322]
+  },
+  {
+    "text": "mri vùng chậu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [325, 338]
+  },
+  {
+    "text": "không chẩn đoán được",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [347, 367]
+  },
+  {
+    "text": "không có mỡ nào trong cơ thể",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["O92.3", "L27.9", "V88.9"],
+    "assertions": ["isNegated"],
+    "position": [371, 399]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [402, 409]
+  },
+  {
+    "text": "khó khăn",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [427, 435]
+  },
+  {
+    "text": "có thể có một tổn thương t2 tốt nhất",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M75", "S26", "S36.2"],
+    "assertions": [],
+    "position": [452, 488]
+  },
+  {
+    "text": "vùng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A54.2", "A56.1", "A60"],
+    "assertions": [],
+    "position": [503, 507]
+  },
+  {
+    "text": "đánh giá tốt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z03"],
+    "assertions": ["isNegated"],
+    "position": [518, 530]
+  },
+  {
+    "text": "sinh thiết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [553, 563]
+  },
+  {
+    "text": "(trước đây)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [564, 575]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [578, 585]
+  },
+  {
+    "text": "khối u trực tràng với hình ảnh của một u ác trực tràng đáng kể",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K60.4", "C20"],
+    "assertions": [],
+    "position": [625, 687]
+  },
+  {
+    "text": "sinh thiết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [690, 700]
+  },
+  {
+    "text": "chỉ cho thấy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Q92.4", "Q93.6"],
+    "assertions": [],
+    "position": [701, 713]
+  },
+  {
+    "text": "một u",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [714, 719]
+  },
+  {
+    "text": "đoạn phẫu thuật với tem (viết tắt)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [750, 784]
+  }
+]

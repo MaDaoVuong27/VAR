@@ -2,91 +2,59 @@
   {
     "text": "Đờm",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      107,
-      110
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [107, 110]
   },
   {
     "text": "ho",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      113,
-      115
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [113, 115]
   },
   {
     "text": "đôi khi đau bụng quặn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      118,
-      139
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [118, 139]
   },
   {
     "text": "tiêu chảy",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      142,
-      151
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [142, 151]
   },
   {
     "text": "đôi khi đi ngoài ra máu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      154,
-      177
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [154, 177]
   },
   {
     "text": "không tăng cân nhiều",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      180,
-      200
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [180, 200]
   },
   {
     "text": "4.9",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      292,
-      295
-    ]
+    "position": [292, 295]
   },
   {
     "text": "siêu âm",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      402,
-      409
-    ]
+    "position": [402, 409]
   },
   {
     "text": "2",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      478,
-      479
-    ]
+    "position": [478, 479]
   },
   {
     "text": "sinh thiết chỉ cho thấy một u tuyến",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      690,
-      725
-    ],
+    "candidates": [],
     "assertions": [],
-    "candidates": []
+    "position": [690, 725]
   }
 ]

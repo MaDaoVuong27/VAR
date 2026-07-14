@@ -2,136 +2,89 @@
   {
     "text": "đang dùng eliquis",
     "type": "THUỐC",
-    "position": [
-      348,
-      365
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": []
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [348, 365]
   },
   {
     "text": "sốt và đau bụng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      428,
-      443
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [428, 443]
   },
   {
     "text": "khởi phát đau bụng trên (lần nhập viện trước",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      486,
-      530
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [486, 530]
   },
   {
     "text": "Hôm nay",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      538,
-      545
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [538, 545]
   },
   {
     "text": "ngày càng nặng hơn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      615,
-      633
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [615, 633]
   },
   {
     "text": "sốt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1066,
-      1069
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1066, 1069]
   },
   {
     "text": "đau bụng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1076,
-      1084
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1076, 1084]
   },
   {
     "text": "đau hạ sườn phải",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1091,
-      1107
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1091, 1107]
   },
   {
     "text": "sốt nhẹ đến 38.3°C",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1114,
-      1132
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1114, 1132]
   },
   {
     "text": "đau hạ sườn phải tái phát",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1139,
-      1164
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1139, 1164]
   },
   {
     "text": "ngày càng nặng hơn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1166,
-      1184
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1166, 1184]
   },
   {
     "text": "đau hạ sườn phải liên tục",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1191,
-      1216
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1191, 1216]
   },
   {
     "text": "623",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1793,
-      1796
-    ]
+    "position": [1793, 1796]
   },
   {
     "text": "men gan",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1830,
-      1837
-    ]
+    "position": [1830, 1837]
   },
   {
     "text": "1.0",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1885,
-      1888
-    ]
+    "position": [1885, 1888]
   }
 ]

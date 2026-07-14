@@ -2,28 +2,19 @@
   {
     "text": "sau khi xuất viện",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      342,
-      359
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [342, 359]
   },
   {
     "text": "ống dẫn lưu JP được rút vào ngày DD MM",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      366,
-      404
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [366, 404]
   },
   {
     "text": "được chuyển đến Khoa Cấp cứu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      808,
-      836
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [808, 836]
   }
 ]

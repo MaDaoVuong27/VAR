@@ -1,0 +1,221 @@
+[
+  {
+    "text": "bệnh tim mạch do xơ vữa động mạch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I25.1"],
+    "assertions": ["isHistorical"],
+    "position": [57, 90]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I10", "I11", "I11.0"],
+    "assertions": ["isHistorical"],
+    "position": [97, 110]
+  },
+  {
+    "text": "bệnh trào ngược dạ dày- thực quản không có viêm thực quản",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K20", "K21.9", "K21"],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [154, 211]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [260, 268]
+  },
+  {
+    "text": "Tiền sử 1 ngày",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z92.1", "Z92.2"],
+    "assertions": ["isHistorical"],
+    "position": [311, 325]
+  },
+  {
+    "text": "Khởi phát trong khi ăn tối",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E30.1"],
+    "assertions": ["isHistorical"],
+    "position": [332, 358]
+  },
+  {
+    "text": "đau bụng vùng thượng vị",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [387, 410]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [417, 425]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [466, 469]
+  },
+  {
+    "text": "ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [471, 478]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [480, 483]
+  },
+  {
+    "text": "táo bón",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [485, 492]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [494, 496]
+  },
+  {
+    "text": "tiểu khó",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [498, 506]
+  },
+  {
+    "text": "sốt",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [590, 593]
+  },
+  {
+    "text": "101.4",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [598, 603]
+  },
+  {
+    "text": "101.8",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [619, 624]
+  },
+  {
+    "text": "hạ huyết áp, không đặc hiệu trong khi thủ thuật",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I95.9"],
+    "assertions": [],
+    "position": [647, 694]
+  },
+  {
+    "text": "chỉ số huyết áp tâm thu trên đường A-line (khi đến MICU)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z01.3"],
+    "assertions": [],
+    "position": [701, 757]
+  },
+  {
+    "text": "viêm gan do men",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["B25.1†", "B58.1†", "B94.2"],
+    "assertions": [],
+    "position": [787, 802]
+  },
+  {
+    "text": "319",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [845, 848]
+  },
+  {
+    "text": "alt (alanine aminotransferase)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [855, 885]
+  },
+  {
+    "text": "690",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [889, 892]
+  },
+  {
+    "text": "phosphatase",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [899, 910]
+  },
+  {
+    "text": "983",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [924, 927]
+  },
+  {
+    "text": "bilirubin toàn phần (tbili)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [934, 961]
+  },
+  {
+    "text": "2.4",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [965, 968]
+  },
+  {
+    "text": "bạch cầu (wbc)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [975, 989]
+  },
+  {
+    "text": "11.6",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [990, 994]
+  },
+  {
+    "text": "Đã lấy cấy máu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z52.0"],
+    "assertions": [],
+    "position": [1001, 1015]
+  },
+  {
+    "text": "Siêu âm gan mật  ghi nhận tình trạng giãn đường mật, gợi ý tắc nghẽn đường mật",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K82.0", "K83.1", "K83.3"],
+    "assertions": [],
+    "position": [1046, 1124]
+  },
+  {
+    "text": "Nội soi mật tụy ngược dòng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M24.7"],
+    "assertions": [],
+    "position": [1188, 1214]
+  },
+  {
+    "text": "Đặt stent đường mật để dẫn lưu và giải áp đường mật",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K83.3", "K83.0"],
+    "assertions": [],
+    "position": [1216, 1267]
+  },
+  {
+    "text": "Đặt nội khí quản nhằm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["O29.6", "O74.7", "O89.6"],
+    "assertions": [],
+    "position": [1269, 1290]
+  },
+  {
+    "text": "Đặt catheter động mạch (",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I77.2"],
+    "assertions": [],
+    "position": [1292, 1316]
+  },
+  {
+    "text": "Đặt đường truyền tĩnh mạch ngoại vi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I87.1"],
+    "assertions": [],
+    "position": [1317, 1352]
+  }
+]

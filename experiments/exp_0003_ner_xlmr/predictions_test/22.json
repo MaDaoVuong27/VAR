@@ -1,0 +1,30 @@
+[
+  {
+    "text": "Bệnh lý mãn tính: bệnh mạch máu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["G95.1"],
+    "assertions": ["isHistorical"],
+    "position": [16, 47]
+  },
+  {
+    "text": "aspirin 325mg hằng ngày",
+    "type": "THUỐC",
+    "candidates": ["317300"],
+    "assertions": ["isHistorical"],
+    "position": [75, 98]
+  },
+  {
+    "text": "Không có rối loạn thần kinh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["G50.9", "G51.9", "G52.9"],
+    "assertions": ["isNegated"],
+    "position": [168, 195]
+  },
+  {
+    "text": "Hình ảnh  khối máu tụ dưới màng cứng bán cấp hai bên",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isNegated"],
+    "position": [261, 313]
+  }
+]

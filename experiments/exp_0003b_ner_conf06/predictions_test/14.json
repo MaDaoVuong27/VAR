@@ -1,0 +1,123 @@
+[
+  {
+    "text": "đau ngực tráikèm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [69, 85]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [92, 99]
+  },
+  {
+    "text": "đau ngực trái",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [123, 136]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [139, 146]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [149, 158]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [182, 190]
+  },
+  {
+    "text": "đến",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A16.2", "A16.3", "A16.4"],
+    "assertions": ["isNegated"],
+    "position": [224, 227]
+  },
+  {
+    "text": "gắng sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [228, 236]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [239, 246]
+  },
+  {
+    "text": "gắng sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [268, 276]
+  },
+  {
+    "text": "do dị ứng theo mùa và dị ứng phấn hoa",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["J30.1"],
+    "assertions": ["isNegated"],
+    "position": [290, 327]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [330, 339]
+  },
+  {
+    "text": "vài phút",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [357, 365]
+  },
+  {
+    "text": "Các nghiệm pháp gắng sức trước đây",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [412, 446]
+  },
+  {
+    "text": "thường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["B23.2", "C92.6", "D46.6"],
+    "assertions": ["isHistorical"],
+    "position": [463, 469]
+  },
+  {
+    "text": "Xạ hình tưới máu cơ tim gần đây cho thấy thiếu máu cơ tim vùng dưới và thành bên",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [472, 552]
+  },
+  {
+    "text": "Chụp động mạch vành: hẹp 60% đoạn gần động mạch liên thất trước trái",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I77.1", "I77.2", "I50.1"],
+    "assertions": [],
+    "position": [553, 621]
+  },
+  {
+    "text": "phẫu thuật bắc cầu động mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I77.2", "T82.2", "Z95.1"],
+    "assertions": [],
+    "position": [646, 679]
+  },
+  {
+    "text": "Bệnh động mạch vành mạn tính có thiếu máu cơ tim, hẹp 60% đoạn gần động mạch liên thất trước trái",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I77.1", "I77.2", "D64"],
+    "assertions": [],
+    "position": [699, 796]
+  }
+]

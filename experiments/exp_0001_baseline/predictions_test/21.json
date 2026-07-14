@@ -2,45 +2,22 @@
   {
     "text": "Tăng huyết áp",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      48,
-      61
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "I10",
-      "I11",
-      "I11.0"
-    ]
+    "candidates": ["I10", "I11", "I11.0"],
+    "assertions": ["isHistorical"],
+    "position": [48, 61]
   },
   {
     "text": "suy tim, không đặc hiệu",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      68,
-      91
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": []
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [68, 91]
   },
   {
     "text": "bệnh thận mạn, không đặc hiệu",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      98,
-      127
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "N05.6",
-      "N07.6",
-      "Q61"
-    ]
+    "candidates": ["N05.6", "N07.6", "Q61"],
+    "assertions": ["isHistorical"],
+    "position": [98, 127]
   }
 ]

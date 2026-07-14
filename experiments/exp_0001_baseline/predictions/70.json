@@ -2,252 +2,142 @@
   {
     "text": "đau bụng ngày càng nặng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      376,
-      399
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [376, 399]
   },
   {
     "text": "đau bụng ngày càng nặng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      775,
-      798
-    ],
-    "assertions": [
-      "isHistorical"
-    ]
+    "assertions": ["isHistorical"],
+    "position": [775, 798]
   },
   {
     "text": "đau bụng liên tục",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      801,
-      818
-    ],
-    "assertions": [
-      "isHistorical"
-    ]
+    "assertions": ["isHistorical"],
+    "position": [801, 818]
   },
   {
     "text": "mệt mỏi toàn thân",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      821,
-      838
-    ],
-    "assertions": [
-      "isHistorical"
-    ]
+    "assertions": ["isHistorical"],
+    "position": [821, 838]
   },
   {
     "text": "yếu sức",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      841,
-      848
-    ],
-    "assertions": [
-      "isHistorical"
-    ]
+    "assertions": ["isHistorical"],
+    "position": [841, 848]
   },
   {
     "text": "khó thở khi gắng sức",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      851,
-      871
-    ],
-    "assertions": [
-      "isHistorical"
-    ]
+    "assertions": ["isHistorical"],
+    "position": [851, 871]
   },
   {
     "text": "ngứa toàn thân",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      874,
-      888
-    ],
-    "assertions": [
-      "isHistorical"
-    ]
+    "assertions": ["isHistorical"],
+    "position": [874, 888]
   },
   {
     "text": "Vài lần tiểu ra máu không đau",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      891,
-      920
-    ],
-    "assertions": [
-      "isHistorical",
-      "isNegated"
-    ]
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [891, 920]
   },
   {
     "text": "Không có buồn nôn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1007,
-      1024
-    ],
-    "assertions": [
-      "isHistorical",
-      "isNegated"
-    ]
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [1007, 1024]
   },
   {
     "text": "Không có nôn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1027,
-      1039
-    ],
-    "assertions": [
-      "isHistorical",
-      "isNegated"
-    ]
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [1027, 1039]
   },
   {
     "text": "Không có thay đổi thói quen đại tiện",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1042,
-      1078
-    ],
-    "assertions": [
-      "isHistorical",
-      "isNegated"
-    ]
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [1042, 1078]
   },
   {
     "text": "Không có phân có máu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1081,
-      1101
-    ],
-    "assertions": [
-      "isHistorical",
-      "isNegated"
-    ]
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [1081, 1101]
   },
   {
     "text": "đen hoặc nhựa đường",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1103,
-      1122
-    ],
-    "assertions": [
-      "isHistorical",
-      "isNegated"
-    ]
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [1103, 1122]
   },
   {
     "text": "ast",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1830,
-      1833
-    ]
+    "position": [1830, 1833]
   },
   {
     "text": "421",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1834,
-      1837
-    ]
+    "position": [1834, 1837]
   },
   {
     "text": "alt",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1840,
-      1843
-    ]
+    "position": [1840, 1843]
   },
   {
     "text": "336",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1844,
-      1847
-    ]
+    "position": [1844, 1847]
   },
   {
     "text": "185",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1854,
-      1857
-    ]
+    "position": [1854, 1857]
   },
   {
     "text": "0.9",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1880,
-      1883
-    ]
+    "position": [1880, 1883]
   },
   {
     "text": "6.7",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1923,
-      1926
-    ]
+    "position": [1923, 1926]
   },
   {
     "text": "siêu âm bụng có doppler âm tính âm tính",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      2106,
-      2145
-    ],
-    "assertions": [
-      "isNegated"
-    ],
-    "candidates": []
+    "candidates": [],
+    "assertions": ["isNegated"],
+    "position": [2106, 2145]
   },
   {
     "text": "âm tính chụp hida",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      2148,
-      2165
-    ],
-    "assertions": [
-      "isNegated"
-    ],
-    "candidates": []
+    "candidates": [],
+    "assertions": ["isNegated"],
+    "position": [2148, 2165]
   },
   {
     "text": "tăng men gan",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      2327,
-      2339
-    ],
+    "candidates": [],
     "assertions": [],
-    "candidates": []
+    "position": [2327, 2339]
   },
   {
     "text": "tăng bilirubin máu",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      2342,
-      2360
-    ],
+    "candidates": ["R17", "R17.0", "R17.9"],
     "assertions": [],
-    "candidates": [
-      "R17",
-      "R17.0",
-      "R17.9"
-    ]
+    "position": [2342, 2360]
   }
 ]

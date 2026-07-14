@@ -2,10 +2,7 @@
   {
     "text": "hội chứng não gan",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      191,
-      208
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [191, 208]
   }
 ]

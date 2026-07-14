@@ -1,0 +1,35 @@
+[
+  {
+    "text": "Bệnh lý mãn tính: tách thành động mạch chủ  biến chứng bởi liệt hai chân",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I77.2", "G40", "L80"],
+    "assertions": ["isHistorical"],
+    "position": [30, 102]
+  },
+  {
+    "text": "nội mạch qua đường vào động mạch đùi phải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I77.2"],
+    "assertions": ["isHistorical"],
+    "position": [146, 187]
+  },
+  {
+    "text": "sờ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [266, 268]
+  },
+  {
+    "text": "rung động tại vị trí lỗ rò",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [274, 300]
+  },
+  {
+    "text": "Rò động - tĩnh mạch đùi phải do thủ thuật can thiệp ,",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I28.0", "I77.2", "I87.1"],
+    "assertions": [],
+    "position": [335, 388]
+  }
+]

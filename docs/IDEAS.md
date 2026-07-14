@@ -1,74 +1,118 @@
-# Ý tưởng & Planning
+# IDEAS — Chiến lược tổng & điều hướng kế hoạch
 
-File này dùng để hai bên (bạn + Claude) planning trực tiếp: ý tưởng đang theo đuổi, ý tưởng đã thử và lý do giữ/bỏ. Đây là nguồn "trí nhớ" chính của dự án — khi bắt đầu 1 phiên làm việc mới, đọc file này trước để nắm lại bối cảnh thay vì đọc lại toàn bộ code.
+Trang chủ của phần planning. Đọc file này để nắm **hướng giải tổng thể + vì sao**, rồi vào các doc chi tiết theo hướng. Bộ nhớ chính của dự án — đọc đầu mỗi phiên.
 
-Xem thêm: [TASK_SPEC.md](TASK_SPEC.md) (đề bài), [EDA_FINDINGS.md](EDA_FINDINGS.md) (quan sát dữ liệu), [CONFIG_REFERENCE.md](CONFIG_REFERENCE.md) (tham số đang dùng), [EXPERIMENTS_LOG.md](EXPERIMENTS_LOG.md) (kết quả).
+Xem thêm: [TASK_SPEC.md](TASK_SPEC.md) (đề+metric), [EDA_FINDINGS.md](EDA_FINDINGS.md) (dữ liệu), [EXPERIMENTS_LOG.md](EXPERIMENTS_LOG.md) (kết quả), [CONFIG_REFERENCE.md](CONFIG_REFERENCE.md) (tham số).
+
+## Bản đồ docs kế hoạch
+
+| Doc | Nội dung |
+|---|---|
+| **IDEAS.md** (đây) | Chiến lược tổng, so sánh 3 hướng, khuyến nghị, thứ tự thực thi |
+| [IDEAS_1.md](IDEAS_1.md) | **Hướng A** — Fine-tune NER encoder + ensemble (khối extraction) |
+| [IDEAS_2.md](IDEAS_2.md) | **Hướng B** — RAG / Entity Linking / Knowledge Graph (khối candidate, 0.4) |
+| [IDEAS_3.md](IDEAS_3.md) | **Hướng C** — Multi-agent (lớp điều phối, đẩy trần) |
+| [DATA_PLAN.md](DATA_PLAN.md) | Làm sạch dữ liệu + **sinh synthetic data** (nền cho A/B/C) |
 
 ---
 
-## Trạng thái hiện tại
+## 1. Ta đang ở đâu (dữ kiện, không phỏng đoán)
 
-Giai đoạn: **đã có baseline Tier 0 chạy end-to-end** (exp_0001_baseline). Nền tảng xong: eval harness (validate = 1.0 trên ví dụ đề), I/O + offset, KB matcher, pipeline sinh submission hợp lệ (100 file/32s). **Đang chờ nhãn dev** để có điểm số thật (nhãn nháp đã sinh, chờ người sửa). Lộ trình 4 tầng bên dưới; nguyên tắc: mỗi bước là 1 experiment đo được.
+- **Baseline Tier 0** (rule/fuzzy, 0 model): điểm THẬT từ BTC = **16.34/100** (text 19.2, assert 22.5, cand 9.6). Chi tiết `EXPERIMENTS_LOG.md`.
+- **exp_0003 — Tier 1 NER (XLM-R fine-tune synthetic)** ✅ **ĐIỂM THẬT BTC = 22.18 (+5.84 vs baseline 16.34)**. text 28.63 (+9.45), assert 31.03 (+8.58), cand 10.71 (+1.08).
+  - 🔑 **Bài học lớn**: dev báo text sẽ TỤT (0.328→0.207) nhưng BTC text lại TĂNG mạnh → **dev gold thiếu occurrence phạt oan recall; over-predict KHÔNG hại text trên gold đầy đủ**. → Không tin dev cho text/recall; dùng BTC làm chuẩn. Nỗi lo over-predict đã sai.
+  - **candidates vẫn thấp nhất (10.71, weight 0.4)** vì còn fuzzy → **Phase 2 SapBERT là đòn bẩy lớn nhất** còn lại.
+- **Đã loại bỏ**: dense retrieval off-the-shelf (exp_0002) — embedder general quá yếu (xem cuối trang).
+- **Case study** (6, 8, 25, 93 rỗng ở baseline): NER Tier 1 đã bắt được khái niệm trong văn xuôi (giải nút thắt), nhưng cần tiết chế over-predict.
+
+### 🔑 Việc quan trọng nhất tiếp theo (trước khi sang Phase 2)
+1. **Giảm mật độ entity trong synthetic** (nguyên nhân over-predict): synthetic hiện vẫn dày entity hơn note thật → NER over-label. Tăng tỉ lệ O (câu/đoạn không entity), giảm entity/câu, để precision khớp phân phối thật. Rồi retrain + đo lại.
+2. **Hoàn thiện dev gold** (đang INCOMPLETE — đếm sót occurrence) → text_score mới đáng tin. Nên annotate đầy đủ mọi occurrence theo convention đề (mỗi lần xuất hiện = 1 concept).
+3. Đo exp_0003 trên BTC để biết text/WER thật (dev không tin được do gold thiếu).
+
+## 2. Phân tích metric-driven → nút thắt gốc
+
+`final = 0.3·text + 0.3·assert + 0.4·candidates`. Điểm hiện tại thấp ĐỀU ở cả 3 → không phải chỉ candidate yếu. Nguyên nhân chung:
+
+> **Nếu NER không bắt được khái niệm thì cả 3 điểm thành phần đều = 0 cho khái niệm đó** — không có text để tính WER, không có assertion, không có candidate.
+
+→ **NER recall (bắt khái niệm bất kể vị trí trong câu) là nút thắt gốc.** Đây là đòn bẩy #1: cải thiện NER kéo lên cả text (0.3) và mở đường cho assert (0.3) + candidate (0.4).
+
+## 3. Insight quan trọng nhất: 3 hướng KHÔNG loại trừ nhau — chúng là 3 LỚP
+
+User nêu 3 hướng (fine-tune NER / RAG-KG / multi-agent) như các lựa chọn. Nhưng nhìn kỹ, chúng **không phải 3 con đường thay thế nhau** mà là **3 lớp của cùng 1 pipeline**:
+
+```
+   [ Văn bản thô ]
+          │
+   ┌──────▼───────┐
+   │  HƯỚNG A     │  Extraction: NER encoder tìm span + type   ← nút thắt, BẮT BUỘC
+   │  (IDEAS_1)   │
+   └──────┬───────┘
+          │  spans + types
+   ┌──────▼───────┐
+   │  HƯỚNG B     │  Normalization: span → mã ICD/RxNorm         ← trọng số 0.4, BẮT BUỘC
+   │  (IDEAS_2)   │  (SapBERT retrieval + reranker + ontology)
+   └──────┬───────┘
+          │  concepts + candidates + assertions
+   ┌──────▼───────┐
+   │  HƯỚNG C     │  Orchestration: agent điều phối + verify      ← tùy chọn, đẩy trần
+   │  (IDEAS_3)   │
+   └──────┬───────┘
+          ▼
+   [ output.json ]
+```
+
+- **A là bắt buộc** (giải nút thắt recall).
+- **B là bắt buộc** (giải trọng số 0.4 — mà A không đụng tới).
+- **C là tùy chọn** — chỉ đáng khi A+B đã tốt, để đẩy trần bằng verify/suy luận.
+
+→ Câu hỏi đúng KHÔNG phải "chọn hướng nào" mà là "**làm A và B cho tốt trước, C sau**". Cả 3 dùng chung [DATA_PLAN.md](DATA_PLAN.md).
+
+## 4. Kiến trúc tổng đề xuất (modular, đo được từng khối)
+
+**Modular pipeline** (không phải 1 LLM end-to-end): NER encoder → assertion → entity-linking retrieval → (tùy) LLM verify. Lý do chọn modular: kiểm soát offset ký tự chặt, đo/sửa từng khối, và **rẻ ngân sách 9B**.
+
+**Ngân sách 9B TỔNG — cấu hình inference đề xuất (đã chốt)**:
+| Khối | Model | Params |
+|---|---|---|
+| NER (A) | XLM-R-large (giữ lớn vì là nút thắt) | ~560M |
+| Bi-encoder linking (B) | SapBERT (nền XLM-R-base) | ~270M |
+| Reranker (B) | cross-encoder **mMiniLM ~118M** (fine-tune domain) — *không* dùng bge-v2-m3 570M (thừa cho task tên ngắn) | ~118M |
+| (tùy) LLM verify/hard-case (C) | Qwen2.5-7B | ~7,600M |
+| **Tổng (có LLM)** | | **~8.55B < 9B** ✅ margin ~450M |
+| **Tổng (encoder-only, chưa LLM)** | | **~0.95B** ✅ dư lớn |
+
+- Reranker cố tình dùng model nhỏ (~118M): task chỉ rerank *tên ngắn* (cụm y tế ↔ tên mã), không phải passage dài → base to không giúp; fine-tune domain quan trọng hơn size. Đo bi-encoder một mình trước, chỉ thêm reranker nếu tăng điểm.
+- **Không** chạy 2 LLM 7B đồng thời. Nếu cần margin rộng hơn: hạ NER→XLM-R-base (~270M) hoặc LLM→Qwen2.5-3B.
+
+## 5. Thứ tự thực thi khuyến nghị (mỗi bước = 1 experiment, đo trên dev gold)
+
+1. **DATA_PLAN cấp 1** (entity replacement) → tập train NER v1. *(kiểm chứng "cơ bản đã đủ chưa")*
+2. **A: NER XLM-R** thay `src/extraction` → đo delta so với 16.34. Kỳ vọng nhảy mạnh (hết mù văn xuôi).
+3. **B: SapBERT retrieval** thay fuzzy candidate → đẩy 0.4.
+4. **A: assertion classifier** (nếu rule chưa đủ) → đẩy 0.3.
+5. **B: reranker + ICD hierarchy/RxNorm relation** → tinh candidate.
+6. **C: verification agent** → đẩy trần.
+7. **ensemble** (A multi-seed/model, A∪C) → chốt.
+
+**Cần quyết trước bước 1**: chốt base NER model + phương án synthetic cấp 1 (xem câu hỏi mở).
 
 ## Câu hỏi mở / TODO cần quyết định
 
-- [x] **[ưu tiên #1]** Eval harness `src/eval/` — DONE (metric WER+Jaccard+weighted candidates, validate = 1.0 trên ví dụ đề, `tests/test_metric.py`).
-- [~] **[ưu tiên #2]** Dev set: 15 file đã chọn (`data/labeled/SELECTION.md`). Nhãn **nháp** đã sinh (`data/labeled/ground_truth_draft/`); **còn lại: người sửa → `data/labeled/ground_truth/`** rồi chạy `scripts/run_eval.py` để có điểm baseline thật.
-- [ ] **Synthetic train phải phủ cùng feature với dev set** (nhất là token dính liền + code-switching) — spec trong `data/labeled/SELECTION.md`. BTC input không dùng train → feature hiếm (freeform/markdown/N/A) phải chèn bằng code khi sinh data.
-- [x] Nguồn ICD-10/RxNorm — đã tải & build `processed/` (xem `knowledge_base/README.md`).
-- [ ] Kiến trúc tổng thể: **modular pipeline** (NER→assertion→normalization) hay **end-to-end LLM**? → xu hướng chọn modular (dễ debug/đo từng khối, kiểm soát offset), LLM chỉ chèn ở khối nào chứng minh có lợi. Chốt sau khi có baseline Tier 0–1.
-- [ ] Model self-host cho phần LLM/NER — ⚠️ **ngân sách 9B là TỔNG cho toàn pipeline** (mọi model local cộng lại ≤9B, không phải mỗi model). Ứng viên NER encoder `PhoBERT`(~135M)/`XLM-R`/`ViHealthBERT`; LLM sinh `Qwen2.5-7B`/`Vistral-7B`/`SeaLLM-7B`; embedding + reranker cũng tính vào ngân sách. Vd 1 LLM 7B + PhoBERT 135M + embedder 560M ≈ 7.7B (OK); 2 model 7B (14B) là VI PHẠM. Cần benchmark trên dev set trong giới hạn tổng này.
-- [ ] Chiến lược retrieval cho candidate mapping (BM25 / dense embedding / hybrid + reranker) — phần "RAG" trọng số cao nhất (0.4).
-- [ ] Chiến lược sinh synthetic data để fine-tune (tự sinh note + nhãn từ KB, hoặc weak-labeling bằng rule rồi review).
-- [ ] Xử lý `THUỐC`: giữ nguyên cả liều (`metoprolol 25mg po bid`) hay tách hoạt chất+hàm lượng khi map RxNorm? Ảnh hưởng cả text_score (span) lẫn candidates_score.
-
----
-
-## Ý tưởng đang theo đuổi — lộ trình 4 tầng (cơ bản → nâng cao)
-
-> Triết lý: mỗi tầng phải chạy được end-to-end và sinh submission hợp lệ, để luôn có "phao" điểm số và đo được cải tiến. Không nhảy thẳng lên tầng cao khi chưa có baseline + eval.
-
-### Nền tảng chung (làm trước mọi tầng — "infrastructure")
-
-- **Eval harness** (`src/eval/`): implement đúng công thức metric để tự chấm trên `data/labeled/`. Đây là điều kiện tiên quyết.
-- **Dev set** (`data/labeled/`): gán nhãn tay ~15–20 file đa dạng.
-- **I/O + offset utility**: đọc `.txt` → sinh `.json` đúng format; hàm tìm `position` (offset ký tự) của span trên **raw text gốc** (chú ý nhiễu token dính liền — xem `EDA_FINDINGS.md` §2). Bước làm sạch (nếu có) phải giữ ánh xạ offset về bản gốc.
-- **KB index**: nạp `icd10_vn.csv` + `rxnorm_terms.csv`, dựng index tra cứu (exact dict + fuzzy + sau này là vector).
-
-### Tier 0 — Baseline rule-based + dictionary ✅ ĐÃ TRIỂN KHAI (exp_0001_baseline)
-
-- **NER** (`src/extraction`): heuristic section + bullet + cue nội dung; regex `KẾT_QUẢ_XÉT_NGHIỆM`; drug detection theo route/drug_vocab; bỏ section tường thuật để giữ precision.
-- **Assertion** (`src/assertion`): rule section-based `isHistorical`, cue phủ định (lọc false-friend) `isNegated`, cue người nhà `isFamily` (conservative).
-- **Candidates** (`src/normalization/kb.py`): fuzzy RapidFuzz với KB — ICD `token_set_ratio`, RxNorm `token_sort_ratio` (ưu tiên clinical drug đúng liều).
-- **Trạng thái**: chạy end-to-end, sinh submission hợp lệ. **Điểm: PENDING_GOLD** (chờ nhãn dev).
-- **Hạn chế đã lộ** (→ Tier 1): recall thấp do bỏ văn xuôi; candidate thuốc sai granularity; ICD map tên chung vào mã chuyên biệt; tên lay ("hen suyễn") không khớp. Chi tiết: `experiments/exp_0001_baseline/notes.md`.
-- **Next**: (1) người sửa nhãn dev → chấm điểm thật → biết khối nào yếu nhất; (2) từ đó quyết định điểm vào Tier 1 (NER fine-tuned hay cải thiện rule + candidate trước).
-
-### Tier 1 — NER fine-tuned + retrieval có học (mục tiêu: nâng recall/độ chính xác NER & mapping)
-
-- **NER + type**: fine-tune token-classification encoder tiếng Việt (`PhoBERT`/`XLM-R`/`ViHealthBERT`, ≤9B) trên dev set + synthetic data; BIO tagging cho 5 type. Xử lý được biến thể ngôn ngữ tốt hơn dictionary.
-- **Assertion**: classifier riêng (encoder) trên span + context window, hoặc giữ rule Tier 0 nếu đã đủ tốt (đo để quyết định).
-- **Candidates (RAG lõi)**: hybrid retrieval — BM25 (lexical, mạnh cho tên thuốc EN/mã) + dense embedding (đa ngôn ngữ, mạnh cho paraphrase VN) → hợp nhất → **cross-encoder reranker** chọn top-k. Đây là nơi trọng số 0.4 được quyết định.
-- **Ưu điểm**: tổng quát hoá tốt hơn rule. **Nhược điểm**: cần dữ liệu train (→ phụ thuộc synthetic data), cần GPU, cần kiểm soát offset khi tokenize.
-
-### Tier 2 — LLM self-host sinh trực tiếp (extraction + assertion 1 lượt)
-
-- **LLM ≤9B** (`Qwen2.5-7B`/`Vistral-7B`/`SeaLLM-7B`) sinh trực tiếp danh sách khái niệm + type + assertion theo schema JSON (few-shot / fine-tune), có **post-process bắt buộc**: căn lại `position` về offset raw (LLM không đáng tin ở việc đếm ký tự), validate type/schema.
-- **Candidates**: LLM đề xuất tên chuẩn hoá → đưa vào retrieval Tier 1 (LLM không tự bịa mã, chỉ chuẩn hoá tên để tra KB → tránh hallucination mã ICD/RxNorm).
-- **Ưu điểm**: mạnh với văn bản nhiễu, code-switching, suy luận assertion ngữ cảnh. **Nhược điểm**: chậm, khó ép đúng offset, rủi ro hallucination → phải có lớp verify bằng KB + rule.
-
-### Tier 3 — Hybrid / ensemble / agentic (mục tiêu: đẩy trần điểm)
-
-- **Ensemble**: kết hợp NER encoder (Tier 1) cho span + LLM (Tier 2) cho assertion/normalization; vote/hợp nhất theo độ tin cậy.
-- **Agentic reasoning** cho ontology: với chẩn đoán/thuốc khó, agent truy vấn KB nhiều bước (mở rộng đồng nghĩa, xét mã cha/con ICD-10, lọc theo cờ "không dùng làm bệnh chính") → chọn candidate tốt hơn.
-- **Synthetic data pipeline**: sinh note giả lập từ KB (đảo ngược: chọn mã → sinh câu VN) để fine-tune NER/LLM ở quy mô lớn.
-- **Self-consistency / reranking nâng cao**, calibration ngưỡng assertion theo phân tích lỗi trên dev set.
-- **Ưu điểm**: trần điểm cao nhất. **Nhược điểm**: phức tạp, dễ overfit dev set nhỏ, chi phí thời gian lớn → chỉ làm khi Tier 1–2 đã ổn và còn thời gian.
+- [ ] Chốt base NER: XLM-R-base (đề xuất) vs PhoBERT vs ensemble. → benchmark nhanh sau khi có synthetic.
+- [ ] Verify/hoàn thiện **dev gold** (13→15 file) để đo tin cậy — hiện là gold v1 assistant.
+- [ ] Nguồn synthetic cấp 1: chỉ KB names, hay + dịch MIMIC/i2b2? (xem DATA_PLAN).
+- [ ] SapBERT: dùng bản EN gốc trước, hay fine-tune song ngữ ngay từ `icd10_vn.csv`?
+- [x] LLM sinh training data: **BẮT BUỘC self-host ≤9B, không API ngoài** (đã chốt) — vì nộp cả code sinh synthetic + file synthetic gốc, code bị BTC review. Chi tiết DATA_PLAN §PHẦN 2.
+- [x] Luật thi cho dùng ICD-10/RxNorm/UMLS/sách làm KB + tạo data train (IDEAS_2 §1).
+- [x] Kiến trúc: modular pipeline (chốt).
 
 ---
 
 ## Ý tưởng đã thử / đã loại bỏ
 
-> Mỗi mục nên có: mô tả ngắn, ưu điểm, nhược điểm, kết quả (score nếu có), lý do bỏ — để tránh thử lại hướng đã biết không hiệu quả.
-
-_(chưa có — sẽ điền khi 1 hướng bị dừng/thay thế sau experiment thực tế)_
+### Dense retrieval off-the-shelf cho candidate (exp_0002) — ❌ LOẠI BỎ
+- Hybrid dense (`paraphrase-multilingual-MiniLM` / `e5-base`) + lexical cho ICD → candidates **tụt 0.213→0.100**.
+- Nguyên nhân: embedder general chưa canh chỉnh y khoa (`hen suyễn`→"tai trong"); e5 xếp đúng top nhưng margin ~0.04 so mã rác. Hạ ngưỡng lexical cũng tệ hơn.
+- **Bài học → đã đưa vào [IDEAS_2.md](IDEAS_2.md)**: phải dùng **SapBERT-style domain-adapted embedder**, không dùng general embedder. Ngưỡng lexical ICD=78 là tốt, giữ.

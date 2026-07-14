@@ -1,0 +1,324 @@
+[
+  {
+    "text": "béo phì",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E65", "E66", "E66.0"],
+    "assertions": ["isHistorical"],
+    "position": [48, 55]
+  },
+  {
+    "text": "đái tháo đường được kiểm soát bằng chế độ ăn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [62, 106]
+  },
+  {
+    "text": "ngừng thở khi ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [113, 130]
+  },
+  {
+    "text": "suy tim, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [154, 177]
+  },
+  {
+    "text": "Dị ứng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["D69.0", "H10.1", "J30"],
+    "assertions": ["isHistorical"],
+    "position": [182, 188]
+  },
+  {
+    "text": "Dị ứng furosemide",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [190, 207]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [256, 263]
+  },
+  {
+    "text": "khó thở khi xem TV lúc 11:00 sáng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [362, 395]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [441, 448]
+  },
+  {
+    "text": "khó nằm vào ban đêm để ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [455, 481]
+  },
+  {
+    "text": "thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [485, 488]
+  },
+  {
+    "text": "căng cứng vai trái",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [495, 513]
+  },
+  {
+    "text": "ngắt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F98.6"],
+    "assertions": ["isHistorical"],
+    "position": [515, 519]
+  },
+  {
+    "text": "quãng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F98.6"],
+    "assertions": ["isHistorical"],
+    "position": [520, 525]
+  },
+  {
+    "text": "xảy ra vài lần mỗi ngày",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [527, 550]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [582, 584]
+  },
+  {
+    "text": "đờm trắng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [588, 597]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [613, 616]
+  },
+  {
+    "text": "phù chi dưới",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [623, 635]
+  },
+  {
+    "text": "(ổn định)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [636, 645]
+  },
+  {
+    "text": "căng cứng vai trái",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [685, 703]
+  },
+  {
+    "text": "căng cứng vai trái)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [737, 756]
+  },
+  {
+    "text": "lần",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["P00", "Z35.4", "Z35.5"],
+    "assertions": ["isHistorical"],
+    "position": [784, 787]
+  },
+  {
+    "text": "ngày",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["J18.2", "O48", "O96"],
+    "assertions": ["isHistorical"],
+    "position": [792, 796]
+  },
+  {
+    "text": "căng cứng vai trái)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [798, 817]
+  },
+  {
+    "text": "khó nằm vào ban đêm để ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [847, 873]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [877, 884]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [886, 888]
+  },
+  {
+    "text": "có đờm trắng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [889, 901]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [912, 915]
+  },
+  {
+    "text": "phù chi dưới",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [917, 929]
+  },
+  {
+    "text": "bỏ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [972, 974]
+  },
+  {
+    "text": "lỡ 3 ngày dùng một số thuốc",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [975, 1002]
+  },
+  {
+    "text": "quên",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1006, 1010]
+  },
+  {
+    "text": "đổ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1011, 1013]
+  },
+  {
+    "text": "thuốc vào hộp (tuần qua)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [1014, 1038]
+  },
+  {
+    "text": "thiếu oxy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1083, 1092]
+  },
+  {
+    "text": "độ bão hòa oxy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1097, 1111]
+  },
+  {
+    "text": "86 khi",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1115, 1121]
+  },
+  {
+    "text": "thở khí trời",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1122, 1134]
+  },
+  {
+    "text": "mask không hồi phục (NRB)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [1171, 1196]
+  },
+  {
+    "text": "thiếu oxy với độ bão hòa oxy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1279, 1307]
+  },
+  {
+    "text": "86 khi",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1311, 1317]
+  },
+  {
+    "text": "thở khí trời",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1318, 1330]
+  },
+  {
+    "text": "bumetanide 2mg iv",
+    "type": "THUỐC",
+    "candidates": ["315502"],
+    "assertions": [],
+    "position": [1401, 1418]
+  },
+  {
+    "text": "vancomycin 1 gram",
+    "type": "THUỐC",
+    "candidates": ["328783"],
+    "assertions": [],
+    "position": [1434, 1451]
+  },
+  {
+    "text": "levofloxacin 750mg iv",
+    "type": "THUỐC",
+    "candidates": ["330371"],
+    "assertions": [],
+    "position": [1467, 1488]
+  },
+  {
+    "text": "aspirin 325mg",
+    "type": "THUỐC",
+    "candidates": ["317300"],
+    "assertions": [],
+    "position": [1504, 1517]
+  },
+  {
+    "text": "albuterolipratropium nebulizer",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [1533, 1563]
+  },
+  {
+    "text": "methylprednisolone 125mg iv",
+    "type": "THUỐC",
+    "candidates": ["1743702"],
+    "assertions": [],
+    "position": [1579, 1606]
+  },
+  {
+    "text": "lợi tiểu 600cc",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [1613, 1627]
+  }
+]

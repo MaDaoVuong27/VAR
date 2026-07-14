@@ -1,0 +1,607 @@
+[
+  {
+    "text": "Graves",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [53, 59]
+  },
+  {
+    "text": "tăng lipid máu, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E78.5"],
+    "assertions": ["isHistorical"],
+    "position": [66, 96]
+  },
+  {
+    "text": "yếu sức nửa người",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [150, 167]
+  },
+  {
+    "text": "bên phải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z89.0"],
+    "assertions": [],
+    "position": [168, 176]
+  },
+  {
+    "text": "trạng tri giác giảm sút",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [188, 211]
+  },
+  {
+    "text": "nhìn song",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [218, 227]
+  },
+  {
+    "text": "thị",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A82.1", "A95.1", "C72.3"],
+    "assertions": [],
+    "position": [228, 231]
+  },
+  {
+    "text": "11:00 sáng",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [292, 302]
+  },
+  {
+    "text": "Khởi phát cấp tính hay từ từ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F01.0", "R52.0"],
+    "assertions": [],
+    "position": [309, 337]
+  },
+  {
+    "text": "nằm sải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [432, 439]
+  },
+  {
+    "text": "Than phiền về không thể",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z00", "Z01", "Z71.1"],
+    "assertions": ["isNegated"],
+    "position": [456, 479]
+  },
+  {
+    "text": "tự",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [480, 482]
+  },
+  {
+    "text": "đứng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I95.1"],
+    "assertions": ["isNegated"],
+    "position": [483, 487]
+  },
+  {
+    "text": "dậy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [488, 491]
+  },
+  {
+    "text": "yếu sức chân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [495, 507]
+  },
+  {
+    "text": "phải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["C83", "C83.8", "C83.9"],
+    "assertions": ["isNegated"],
+    "position": [508, 512]
+  },
+  {
+    "text": "ngã xuống sàn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [543, 556]
+  },
+  {
+    "text": "ngã",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [583, 586]
+  },
+  {
+    "text": "thể",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [600, 603]
+  },
+  {
+    "text": "chịu lực ở chân phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [604, 624]
+  },
+  {
+    "text": "khuỵu chân khi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [635, 649]
+  },
+  {
+    "text": "giúp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [655, 659]
+  },
+  {
+    "text": "đứng dậy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [663, 671]
+  },
+  {
+    "text": "sọ não",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["D33.3", "G97.2", "S06.10"],
+    "assertions": [],
+    "position": [700, 706]
+  },
+  {
+    "text": "âm tính",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [715, 722]
+  },
+  {
+    "text": "Đội",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M40.01", "M40.11", "M40.21"],
+    "assertions": [],
+    "position": [730, 733]
+  },
+  {
+    "text": "ngũ y tế",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [734, 742]
+  },
+  {
+    "text": "chọc dò dịch não tủy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["G97.0", "G96.0"],
+    "assertions": [],
+    "position": [753, 773]
+  },
+  {
+    "text": "Bị một cơn nhịp tim chậm nặng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [781, 810]
+  },
+  {
+    "text": "hạ huyết",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [814, 822]
+  },
+  {
+    "text": "áp ngay sau khi study",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [823, 844]
+  },
+  {
+    "text": "Cơn bệnh tự khỏi sau khi dùng intravenous fluids",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [852, 900]
+  },
+  {
+    "text": "Chụp lại chụp ct sọ não",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [908, 931]
+  },
+  {
+    "text": "tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A06.0", "A06.1", "A08.1"],
+    "assertions": ["isNegated"],
+    "position": [944, 948]
+  },
+  {
+    "text": "Code tai biến mạch máu não",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z82.3"],
+    "assertions": [],
+    "position": [1017, 1043]
+  },
+  {
+    "text": "tỉnh chậm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1059, 1068]
+  },
+  {
+    "text": "phản xạ kém",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1069, 1080]
+  },
+  {
+    "text": "tỉnh táo",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1096, 1104]
+  },
+  {
+    "text": "tỉnh táo",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1109, 1117]
+  },
+  {
+    "text": "tỉnh khi gọi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1121, 1133]
+  },
+  {
+    "text": "Phủ nhận các bệnh nền lớn tiền sử bệnh hoặc triệu chứng nào khác ngoại trừ nhiễm trùng nhiễm trùng răng miệng gần đây cần dùng kháng sinh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["U83", "B88", "U83.7"],
+    "assertions": ["isHistorical"],
+    "position": [1141, 1278]
+  },
+  {
+    "text": "sử bị tai biến mạch máu não hoặc co giật",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z82.3"],
+    "assertions": ["isHistorical"],
+    "position": [1300, 1340]
+  },
+  {
+    "text": "yếu sức nửa người bên phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1378, 1404]
+  },
+  {
+    "text": "tri giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1422, 1430]
+  },
+  {
+    "text": "giảm sút",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1431, 1439]
+  },
+  {
+    "text": "nhìn song thị",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1446, 1459]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1466, 1473]
+  },
+  {
+    "text": "yếu chân phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1513, 1526]
+  },
+  {
+    "text": "Lan tỏa",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1632, 1639]
+  },
+  {
+    "text": "Không ghi rõ",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1641, 1653]
+  },
+  {
+    "text": "bớt",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1725, 1728]
+  },
+  {
+    "text": "Không",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1730, 1735]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1772, 1779]
+  },
+  {
+    "text": "Than phiền về yếu sức chân phải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [1861, 1892]
+  },
+  {
+    "text": "chụp ct sọ não kết",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [1913, 1931]
+  },
+  {
+    "text": "âm tính",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1936, 1943]
+  },
+  {
+    "text": "chọc dò dịch não tủy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["G97.0", "G96.0"],
+    "assertions": ["isHistorical"],
+    "position": [1961, 1981]
+  },
+  {
+    "text": "Bị nhịp tim chậm nặng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [1989, 2010]
+  },
+  {
+    "text": "hạ huyết áp, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I95.9"],
+    "assertions": ["isHistorical"],
+    "position": [2014, 2041]
+  },
+  {
+    "text": "Cơn bệnh tự khỏi sau khi dùng intravenous fluids",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [2049, 2097]
+  },
+  {
+    "text": "Chụp lại chụp ct sọ não",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [2105, 2128]
+  },
+  {
+    "text": "tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A06.0", "A06.1", "A08.1"],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [2141, 2145]
+  },
+  {
+    "text": "Đã dùng kháng sinh cho nhiễm trùng nhiễm trùng răng miệng gần đây",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["U83.7", "R57.2", "P39.4"],
+    "assertions": ["isHistorical"],
+    "position": [2153, 2218]
+  },
+  {
+    "text": "Nằm sải trên sàn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [2266, 2282]
+  },
+  {
+    "text": "thể",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [2296, 2299]
+  },
+  {
+    "text": "tự",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [2300, 2302]
+  },
+  {
+    "text": "đứng dậy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [2303, 2311]
+  },
+  {
+    "text": "yếu sức chân phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [2315, 2332]
+  },
+  {
+    "text": "thể",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [2346, 2349]
+  },
+  {
+    "text": "chịu lực ở chân phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [2350, 2370]
+  },
+  {
+    "text": "khuỵu chân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [2381, 2391]
+  },
+  {
+    "text": "tỉnh chậm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [2399, 2408]
+  },
+  {
+    "text": "phản xạ kém",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [2410, 2421]
+  },
+  {
+    "text": "yếu nửa người",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2479, 2492]
+  },
+  {
+    "text": "bên phải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z89.0"],
+    "assertions": [],
+    "position": [2493, 2501]
+  },
+  {
+    "text": "suy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2508, 2511]
+  },
+  {
+    "text": "giảm tri giác",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["H90", "H90.3", "H90.4"],
+    "assertions": [],
+    "position": [2512, 2525]
+  },
+  {
+    "text": "nhìn song",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2532, 2541]
+  },
+  {
+    "text": "thị",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A82.1", "A95.1", "C72.3"],
+    "assertions": [],
+    "position": [2542, 2545]
+  },
+  {
+    "text": "nhịp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2552, 2556]
+  },
+  {
+    "text": "tim chậm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2557, 2565]
+  },
+  {
+    "text": "hạ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2572, 2574]
+  },
+  {
+    "text": "huyết áp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2575, 2583]
+  },
+  {
+    "text": "đặc hiệu",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [2591, 2599]
+  },
+  {
+    "text": "nhấc chân phải khỏi mặt giường",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [2612, 2642]
+  },
+  {
+    "text": "chân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2649, 2653]
+  },
+  {
+    "text": "liên",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2659, 2663]
+  },
+  {
+    "text": "khuỵ xuống",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2668, 2678]
+  },
+  {
+    "text": "tỉnh chậm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2685, 2694]
+  },
+  {
+    "text": "phản xạ kém",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2696, 2707]
+  },
+  {
+    "text": "chụp ct sọ não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2762, 2776]
+  },
+  {
+    "text": "âm tính",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [2778, 2785]
+  },
+  {
+    "text": "Chụp lại chụp ct sọ não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2792, 2815]
+  },
+  {
+    "text": "âm tính",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [2817, 2824]
+  },
+  {
+    "text": "chụp ct sọ não",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [2862, 2876]
+  },
+  {
+    "text": "chọc dò dịch não tủy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["G97.0", "G96.0"],
+    "assertions": [],
+    "position": [2883, 2903]
+  },
+  {
+    "text": "Truyền dịch tĩnh mạch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I87.1", "Y65.1"],
+    "assertions": [],
+    "position": [2910, 2931]
+  }
+]

@@ -2,19 +2,13 @@
   {
     "text": "vết thương thấu bụng giữa bên phải",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      37,
-      71
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [37, 71]
   },
   {
     "text": "vết thương thấu bụng giữa bên phải",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      95,
-      129
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [95, 129]
   }
 ]

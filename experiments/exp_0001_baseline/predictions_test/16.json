@@ -2,327 +2,186 @@
   {
     "text": "Ung thư biểu mô tuyến đại tràng",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      39,
-      70
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "D01.0",
-      "D01.1",
-      "D01.2"
-    ]
+    "candidates": ["D01.0", "D01.1", "D01.2"],
+    "assertions": ["isHistorical"],
+    "position": [39, 70]
   },
   {
     "text": "bệnh phổi tắc nghẽn mạn tính, không xác định",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      73,
-      117
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "J44.9"
-    ]
+    "candidates": ["J44.9"],
+    "assertions": ["isHistorical"],
+    "position": [73, 117]
   },
   {
     "text": "Đái tháo đường",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      120,
-      134
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "E10",
-      "E10.0",
-      "E10.1"
-    ]
+    "candidates": ["E10", "E10.0", "E10.1"],
+    "assertions": ["isHistorical"],
+    "position": [120, 134]
   },
   {
     "text": "xơ gan do rượu",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      137,
-      151
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "K70.3"
-    ]
+    "candidates": ["K70.3"],
+    "assertions": ["isHistorical"],
+    "position": [137, 151]
   },
   {
     "text": "tụt huyết áp không rõ nguyên nhân và mệt mỏi",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      390,
-      434
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [390, 434]
   },
   {
     "text": "hạ huyết áp",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      991,
-      1002
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [991, 1002]
   },
   {
     "text": "không đặc hiệu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1004,
-      1018
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1004, 1018]
   },
   {
     "text": "mệt mỏi",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1021,
-      1028
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1021, 1028]
   },
   {
     "text": "mệt mỏi",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1031,
-      1038
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1031, 1038]
   },
   {
     "text": "khó khăn khi ra khỏi giường",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1041,
-      1068
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1041, 1068]
   },
   {
     "text": "đau bụng gián đoạn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1071,
-      1089
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1071, 1089]
   },
   {
     "text": "khó thở khi gắng sức",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1092,
-      1112
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1092, 1112]
   },
   {
     "text": "ho mạn tính có đờm vàng loãng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1115,
-      1144
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1115, 1144]
   },
   {
     "text": "chán ăn trong vài tháng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1147,
-      1170
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1147, 1170]
   },
   {
     "text": "đi tiêu không liên quan đến đau bụng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1194,
-      1230
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [1194, 1230]
   },
   {
     "text": "buồn nôn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1232,
-      1240
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [1232, 1240]
   },
   {
     "text": "nôn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1242,
-      1245
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [1242, 1245]
   },
   {
     "text": "tiêu chảy",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1247,
-      1256
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [1247, 1256]
   },
   {
     "text": "hoặc táo bón",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1258,
-      1270
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [1258, 1270]
   },
   {
     "text": "Bệnh nhân đang có đi tiêu mỗi ngày",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1274,
-      1308
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1274, 1308]
   },
   {
     "text": "Không có sốt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1312,
-      1324
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [1312, 1324]
   },
   {
     "text": "đau ngực",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1326,
-      1334
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [1326, 1334]
   },
   {
     "text": "chóng mặt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1336,
-      1345
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [1336, 1345]
   },
   {
     "text": "đánh trống ngực",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1347,
-      1362
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [1347, 1362]
   },
   {
     "text": "Không có đau bụng hoặc dịch từ vết mổ",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1366,
-      1403
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [1366, 1403]
   },
   {
     "text": "Không có đỏ da",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1407,
-      1421
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [1407, 1421]
   },
   {
     "text": "hoặc bục chỉ khâu bụng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1423,
-      1445
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [1423, 1445]
   },
   {
     "text": "26.3",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1947,
-      1951
-    ]
+    "position": [1947, 1951]
   },
   {
     "text": "Viêm phổi bệnh viện",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      2231,
-      2250
-    ],
+    "candidates": ["A48.2", "B01.2†", "B05.2†"],
     "assertions": [],
-    "candidates": [
-      "A48.2",
-      "B01.2†",
-      "B05.2†"
-    ]
+    "position": [2231, 2250]
   },
   {
     "text": "Rung nhĩ kèm nhịp nhanh trên thất",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      2253,
-      2286
-    ],
+    "candidates": ["I47.1", "I47.2"],
     "assertions": [],
-    "candidates": [
-      "I47.1",
-      "I47.2"
-    ]
+    "position": [2253, 2286]
   }
 ]

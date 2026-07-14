@@ -1,0 +1,29 @@
+[
+  {
+    "text": "khó thở khi gắng sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [59, 79]
+  },
+  {
+    "text": "Khó thở khi gắng sức",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R06.0"],
+    "assertions": [],
+    "position": [190, 210]
+  },
+  {
+    "text": "Chụp động mạch vành cho thấy không có bệnh động mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I77.2", "O92.3", "G40"],
+    "assertions": ["isNegated"],
+    "position": [289, 346]
+  },
+  {
+    "text": "Dùng lợi tiểu, có cải thiện cải thiện triệu chứng tốt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [359, 412]
+  }
+]

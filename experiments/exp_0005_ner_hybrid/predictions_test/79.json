@@ -1,0 +1,29 @@
+[
+  {
+    "text": "Bệnh lý mãn tính: bàn chân vẹo bẩm sinh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["G71.2", "P37.0"],
+    "assertions": ["isHistorical"],
+    "position": [21, 60]
+  },
+  {
+    "text": "liên tục từ mặt trong của bàn chân trái",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M21.4"],
+    "assertions": [],
+    "position": [228, 267]
+  },
+  {
+    "text": "chảy dịch",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [294, 303]
+  },
+  {
+    "text": "liên tục từ mặt trong của bàn chân trái",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M21.4"],
+    "assertions": [],
+    "position": [304, 343]
+  }
+]

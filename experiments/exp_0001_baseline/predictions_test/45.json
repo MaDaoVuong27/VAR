@@ -2,42 +2,21 @@
   {
     "text": "đái tháo đường",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      48,
-      62
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "E10",
-      "E10.0",
-      "E10.1"
-    ]
+    "candidates": ["E10", "E10.0", "E10.1"],
+    "assertions": ["isHistorical"],
+    "position": [48, 62]
   },
   {
     "text": "tăng huyết áp",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      69,
-      82
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "I10",
-      "I11",
-      "I11.0"
-    ]
+    "candidates": ["I10", "I11", "I11.0"],
+    "assertions": ["isHistorical"],
+    "position": [69, 82]
   },
   {
     "text": "Thủ thuật điện chọn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      292,
-      311
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [292, 311]
   }
 ]

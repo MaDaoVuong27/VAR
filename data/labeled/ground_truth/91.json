@@ -1,0 +1,76 @@
+[
+  {
+    "text": "Viêm nội tâm mạc",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I33.0"],
+    "assertions": ["isHistorical"],
+    "position": [48, 64]
+  },
+  {
+    "text": "rung nhĩ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I48"],
+    "assertions": ["isHistorical"],
+    "position": [102, 110]
+  },
+  {
+    "text": "coumadin 3.0 mg /ngày",
+    "type": "THUỐC",
+    "candidates": ["11289"],
+    "assertions": ["isHistorical"],
+    "position": [401, 422]
+  },
+  {
+    "text": "chảy máu mũi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [529, 541]
+  },
+  {
+    "text": "Không chảy máu mũi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [746, 764]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [774, 782]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [792, 799]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [809, 817]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [828, 836]
+  },
+  {
+    "text": "INR",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1075, 1078]
+  },
+  {
+    "text": "1.7",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1100, 1103]
+  },
+  {
+    "text": "heparin",
+    "type": "THUỐC",
+    "candidates": ["5224"],
+    "assertions": [],
+    "position": [1130, 1137]
+  }
+]

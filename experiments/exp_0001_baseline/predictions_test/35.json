@@ -2,356 +2,200 @@
   {
     "text": "Bệnh bạch cầu dòng tủy mãn tính đang dùng gleevec",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      57,
-      106
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "C92",
-      "C92.0",
-      "C92.7"
-    ]
+    "candidates": ["C92", "C92.0", "C92.7"],
+    "assertions": ["isHistorical"],
+    "position": [57, 106]
   },
   {
     "text": "Tăng huyết áp",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      113,
-      126
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "I10",
-      "I11",
-      "I11.0"
-    ]
+    "candidates": ["I10", "I11", "I11.0"],
+    "assertions": ["isHistorical"],
+    "position": [113, 126]
   },
   {
     "text": "tăng lipid máu, không đặc hiệu",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      133,
-      163
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "E78.5"
-    ]
+    "candidates": ["E78.5"],
+    "assertions": ["isHistorical"],
+    "position": [133, 163]
   },
   {
     "text": "Đái tháo đường típ 2",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      170,
-      190
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "E11",
-      "O24.1",
-      "E10"
-    ]
+    "candidates": ["E11", "O24.1", "E10"],
+    "assertions": ["isHistorical"],
+    "position": [170, 190]
   },
   {
     "text": "hẹp ống sống",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      197,
-      209
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "M48.0"
-    ]
+    "candidates": ["M48.0"],
+    "assertions": ["isHistorical"],
+    "position": [197, 209]
   },
   {
     "text": "Giả gout",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      216,
-      224
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "M10"
-    ]
+    "candidates": ["M10"],
+    "assertions": ["isHistorical"],
+    "position": [216, 224]
   },
   {
     "text": "bệnh thận mạn, không đặc hiệu Giai đoạn 4",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      231,
-      272
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "N18.4",
-      "Q61"
-    ]
+    "candidates": ["N18.4", "Q61"],
+    "assertions": ["isHistorical"],
+    "position": [231, 272]
   },
   {
     "text": "tăng sản tuyến tiền liệt",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      279,
-      303
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "N42.3",
-      "N42.0",
-      "N42.2"
-    ]
+    "candidates": ["N42.3", "N42.0", "N42.2"],
+    "assertions": ["isHistorical"],
+    "position": [279, 303]
   },
   {
     "text": "Nhiều lần ngã gần đây Ngã",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      310,
-      335
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": []
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [310, 335]
   },
   {
     "text": "ảo giác",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      342,
-      349
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "F06.0",
-      "F16",
-      "R44.1"
-    ]
+    "candidates": ["F06.0", "F16", "R44.1"],
+    "assertions": ["isHistorical"],
+    "position": [342, 349]
   },
   {
     "text": "gleevec",
     "type": "THUỐC",
-    "position": [
-      381,
-      388
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "282386"
-    ]
+    "candidates": ["282386"],
+    "assertions": ["isHistorical"],
+    "position": [381, 388]
   },
   {
     "text": "Toàn trạng suy kiệt  kể từ khi xuất viện",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      476,
-      516
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [476, 516]
   },
   {
     "text": "ảo giác dai dẳng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      523,
-      539
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [523, 539]
   },
   {
     "text": "Lú lẫn ngày càng nặng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      546,
-      567
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [546, 567]
   },
   {
     "text": "toàn trạng suy kiệt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      797,
-      816
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [797, 816]
   },
   {
     "text": "ảo giác",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      823,
-      830
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [823, 830]
   },
   {
     "text": "Lú lẫn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      837,
-      843
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [837, 843]
   },
   {
     "text": "Ăn uống kém",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      850,
-      861
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [850, 861]
   },
   {
     "text": "ăn vào dễ nôn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      863,
-      876
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [863, 876]
   },
   {
     "text": "Nôn không ra máu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      884,
-      900
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [884, 900]
   },
   {
     "text": "không ra dịch mật",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      902,
-      919
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [902, 919]
   },
   {
     "text": "Được hướng dẫn ngừng gleevec",
     "type": "THUỐC",
-    "position": [
-      1026,
-      1054
-    ],
+    "candidates": [],
     "assertions": [],
-    "candidates": []
+    "position": [1026, 1054]
   },
   {
     "text": "bạch cầu",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1290,
-      1298
-    ]
+    "position": [1290, 1298]
   },
   {
     "text": "39.2",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1307,
-      1311
-    ]
+    "position": [1307, 1311]
   },
   {
     "text": "creatinin",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1318,
-      1327
-    ]
+    "position": [1318, 1327]
   },
   {
     "text": "3.0",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1331,
-      1334
-    ]
+    "position": [1331, 1334]
   },
   {
     "text": "troponin",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1341,
-      1349
-    ]
+    "position": [1341, 1349]
   },
   {
     "text": "0.10",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1353,
-      1357
-    ]
+    "position": [1353, 1357]
   },
   {
     "text": "inr",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1364,
-      1367
-    ]
+    "position": [1364, 1367]
   },
   {
     "text": "1.4",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1371,
-      1374
-    ]
+    "position": [1371, 1374]
   },
   {
     "text": "men gan",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1386,
-      1393
-    ]
+    "position": [1386, 1393]
   },
   {
     "text": "176",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1406,
-      1409
-    ]
+    "position": [1406, 1409]
   },
   {
     "text": "tổng phân tích",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1430,
-      1444
-    ]
+    "position": [1430, 1444]
   }
 ]

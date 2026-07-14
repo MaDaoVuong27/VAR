@@ -1,0 +1,49 @@
+[
+  {
+    "text": "Khởi phát chuyển dạBệnh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [17, 40]
+  },
+  {
+    "text": "Thai 41 tuần",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["O36.4", "O47.0", "O47.1"],
+    "assertions": [],
+    "position": [45, 57]
+  },
+  {
+    "text": "phát chuyển dạ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F95.1", "F95.2", "O47"],
+    "assertions": [],
+    "position": [77, 91]
+  },
+  {
+    "text": "cơn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [101, 104]
+  },
+  {
+    "text": "co tử cung",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [105, 115]
+  },
+  {
+    "text": "thai máy tốt (FM +), \nchưa  ra huyết âm đạo (VB -),",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isNegated"],
+    "position": [118, 169]
+  },
+  {
+    "text": "vỡ ối/rỉ ối (LOF -).",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isNegated"],
+    "position": [175, 195]
+  }
+]

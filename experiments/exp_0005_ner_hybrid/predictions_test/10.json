@@ -1,0 +1,67 @@
+[
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [113, 115]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [126, 134]
+  },
+  {
+    "text": "quặn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [135, 139]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [142, 151]
+  },
+  {
+    "text": "đi ngoài ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [162, 177]
+  },
+  {
+    "text": "tăng cân nhiều",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [186, 200]
+  },
+  {
+    "text": "cea (kháng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [247, 257]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [402, 409]
+  },
+  {
+    "text": "có thể có một tổn thương t2 tốt nhất",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M75", "S26", "S36.2"],
+    "assertions": [],
+    "position": [452, 488]
+  },
+  {
+    "text": "khối u trực tràng với hình ảnh của một u ác trực tràng đáng kể",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K60.4", "C20"],
+    "assertions": [],
+    "position": [625, 687]
+  },
+  {
+    "text": "sinh thiết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [690, 700]
+  }
+]

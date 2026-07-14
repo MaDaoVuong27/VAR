@@ -2,34 +2,18 @@
   {
     "text": "nam giới khỏe mạnh, không có bệnh lý khác",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      48,
-      89
-    ],
-    "assertions": [
-      "isHistorical",
-      "isNegated"
-    ],
-    "candidates": [
-      "G72",
-      "A54.8",
-      "K76"
-    ]
+    "candidates": ["G72", "A54.8", "K76"],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [48, 89]
   },
   {
     "text": "ct",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      447,
-      449
-    ]
+    "position": [447, 449]
   },
   {
     "text": "3",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      474,
-      475
-    ]
+    "position": [474, 475]
   }
 ]

@@ -70,8 +70,15 @@ final_score = 0.3 * text_score + 0.3 * assertions_score + 0.4 * candidates_score
 
 ## Ràng buộc dữ liệu / vòng loại
 
-- Không được hard-code output theo input đề cho — top ~15 đội phải nộp source code + data + model weights + README để BTC chạy lại trên private test.
-- Được phép tự tạo thêm dữ liệu (ngoài lời giải chính) để huấn luyện mô hình.
+- Nộp nhiều lần được, **điểm cao nhất được tính**.
+- ⚠️ **LIÊM CHÍNH — NGHIÊM CẤM (coi là gian lận, sẽ bị loại)**:
+  1. **Hard-code output** theo input đề cho (nhét sẵn kết quả cho từng file test).
+  2. Dùng **LLM mạnh / API ngoài** (Claude, Codex, GPT, Gemini...) để **suy luận/sinh ra kết quả output** — dù trực tiếp hay gián tiếp.
+  3. **Người thật tự làm ra kết quả** (gán nhãn tay tập test) rồi nộp.
+  - → Bản chất: **output phải do CODE tự động sinh ra**, chạy **offline**, **tái tạo được** (BTC re-run source trên private test — nếu output không tái tạo từ code = lộ gian lận).
+- **Được phép**: self-host model (tổng ≤9B, xem "Ràng buộc tài nguyên") chạy **trong pipeline tự động, offline**; tự tạo thêm dữ liệu để **huấn luyện** (không phải để chép nhãn tập test); dùng LLM ngoài để **viết code** giải pháp (khác với dùng nó sinh ra output).
+- Top ~15 đội phải nộp source code + data + model weights + README để BTC chạy lại trên private test.
+- **Nộp cả pipeline sinh synthetic + file synthetic gốc**: nộp toàn bộ code (kể cả code sinh synthetic data) **và** file synthetic data gốc đã dùng để train + model weights. Khi BTC re-run, code sinh synthetic (có ngẫu nhiên/seed/LLM sampling) **không tái tạo y hệt** bản gốc — nên bản gốc phải được nộp kèm; code chỉ để BTC **tham khảo cách làm**. → Hệ quả: **khâu sinh synthetic cũng phải tuân luật** (self-host ≤9B, không API ngoài), vì code bị BTC review. Chi tiết: [DATA_PLAN.md](DATA_PLAN.md) §PHẦN 2.
 
 ## Nguồn tri thức cần có sẵn (chưa được BTC cung cấp trực tiếp)
 

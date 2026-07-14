@@ -1,0 +1,51 @@
+[
+  {
+    "text": "phẫu thuật tạo đáy vị (fundoplication)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Y83.3"],
+    "assertions": ["isHistorical"],
+    "position": [62, 100]
+  },
+  {
+    "text": "Trào ngược dạ dày thực quản ngày càng tăng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K21"],
+    "assertions": [],
+    "position": [149, 191]
+  },
+  {
+    "text": "ảnh hưởng đến sinh hoạt hằng ngày",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z72"],
+    "assertions": ["isHistorical"],
+    "position": [411, 444]
+  },
+  {
+    "text": "Kêt quả không cho thấy thoát vị hoành cách đây một năm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Y62.4"],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [615, 669]
+  },
+  {
+    "text": "có một thoát vị cạnh thực quản khá lớn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K22.5"],
+    "assertions": [],
+    "position": [687, 725]
+  },
+  {
+    "text": "Thoát vị này dường như bao gồm đáy vị và một phần của lớp băng cuốn lên lồng ngực",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K40.1"],
+    "assertions": [],
+    "position": [733, 814]
+  },
+  {
+    "text": "Vị trí nối thực quản - dạ dày",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K27"],
+    "assertions": [],
+    "position": [822, 851]
+  }
+]

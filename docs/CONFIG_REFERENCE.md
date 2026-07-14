@@ -10,9 +10,20 @@ Ràng buộc: nếu dùng LLM/agent, **TỔNG tham số mọi model local ≤ 9B
 
 | Module | Model | Params | Nguồn | Vai trò | File |
 |---|---|---|---|---|---|
-| _(baseline Tier 0)_ | **KHÔNG có model ML** | 0 | — | Rule/dictionary + fuzzy string, chạy CPU offline | `src/` |
+| _(baseline Tier 0)_ | KHÔNG có model ML | 0 | — | Rule/dictionary + fuzzy string | `src/extraction`, `src/normalization/kb.py` |
+| **NER (Tier 1, exp_0003)** | `xlm-roberta-base` fine-tune | ~278M | HF (fine-tune trên synthetic) | Token-classification BIO 5 type, thay rule extraction | `src/extraction/ner_extractor.py`, `models/ner_xlmr_v2/` |
 
-→ Baseline hiện tại tiêu tốn **0 / 9B** ngân sách tham số. Model ML sẽ thêm ở Tier 1+.
+- Ngân sách hiện dùng lúc inference: **~278M / 9B** (chỉ NER; candidate vẫn fuzzy, assertion vẫn rule). Còn dư lớn cho SapBERT + reranker + (tùy) LLM.
+- Train NER: `scripts/train_ner.py` trên `data/synthetic/` (sinh bởi `src/synthetic/`). ⚠️ **`HF_HUB_DISABLE_XET=1`** khi tải model (backend Xet trả 401).
+
+## Tham số NER (`src/extraction/ner_extractor.py`)
+
+| Tham số | Giá trị | Ghi chú |
+|---|---|---|
+| base model | xlm-roberta-base | đa ngôn ngữ (code-switch VN-EN) |
+| maxlen / stride | 256 / 48 | sliding window cho văn bản dài |
+| min_conf | 0.95 | ngưỡng lọc span (cao để giảm over-predict) |
+| post-process | snap biên từ + giải chồng lấn greedy theo conf + lọc stopword/rác | chống mảnh vụn |
 
 ## Retrieval / Knowledge base settings (`src/normalization/kb.py`)
 

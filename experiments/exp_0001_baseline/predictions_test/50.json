@@ -2,129 +2,82 @@
   {
     "text": "hen suyễn",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      113,
-      122
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": []
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [113, 122]
   },
   {
     "text": "albuterol nebs q4h tại nhà",
     "type": "THUỐC",
-    "position": [
-      159,
-      185
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": []
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [159, 185]
   },
   {
     "text": "z-pack",
     "type": "THUỐC",
-    "position": [
-      192,
-      198
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "746839"
-    ]
+    "candidates": ["746839"],
+    "assertions": ["isHistorical"],
+    "position": [192, 198]
   },
   {
     "text": "khó thở và tiếng rít",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      246,
-      266
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [246, 266]
   },
   {
     "text": "ho nhẹ",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      350,
-      356
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [350, 356]
   },
   {
     "text": "tiếng rít vào ban đêm",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      419,
-      440
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [419, 440]
   },
   {
     "text": "Khó thở",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1251,
-      1258
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1251, 1258]
   },
   {
     "text": "Khò khè",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1260,
-      1267
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1260, 1267]
   },
   {
     "text": "Tiếng rít về đêm",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1269,
-      1285
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1269, 1285]
   },
   {
     "text": "Đau vùng xoang",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1287,
-      1301
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1287, 1301]
   },
   {
     "text": "Ho nhẹ",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1303,
-      1309
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1303, 1309]
   },
   {
     "text": "Đau đầu dữ dội",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1311,
-      1325
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1311, 1325]
   },
   {
     "text": "Đau hạ vị",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1327,
-      1336
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1327, 1336]
   }
 ]

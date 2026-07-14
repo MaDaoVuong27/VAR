@@ -1,0 +1,44 @@
+[
+  {
+    "text": "nghi ngờ xơ gan do rượu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K70.3", "K70.4", "K70"],
+    "assertions": ["isHistorical"],
+    "position": [52, 75]
+  },
+  {
+    "text": "Có tiền sử sử dụng rượu bia",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z72.1", "Z81.1"],
+    "assertions": ["isHistorical"],
+    "position": [110, 137]
+  },
+  {
+    "text": "hội chứng não gan",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F07.1", "F07.2", "G21.3"],
+    "assertions": [],
+    "position": [191, 208]
+  },
+  {
+    "text": "viện  với hội chứng não gan",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K76.7", "F84.2", "G93.7"],
+    "assertions": [],
+    "position": [260, 287]
+  },
+  {
+    "text": "trạng hội chứng não gan tiến triển, ý thức suy giảm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K76.7", "F84.2", "G93.7"],
+    "assertions": [],
+    "position": [332, 383]
+  },
+  {
+    "text": "w tiến triển hội chứng não gan",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N01", "N01.0", "N01.1"],
+    "assertions": [],
+    "position": [419, 449]
+  }
+]

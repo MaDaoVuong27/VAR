@@ -1,0 +1,191 @@
+[
+  {
+    "text": "hen suyễn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [54, 63]
+  },
+  {
+    "text": "rối",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [70, 73]
+  },
+  {
+    "text": "âu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [82, 84]
+  },
+  {
+    "text": "Táo bón mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K59.0"],
+    "assertions": ["isHistorical"],
+    "position": [127, 143]
+  },
+  {
+    "text": "ngưng thở khi ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [151, 168]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isFamily"],
+    "position": [311, 318]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isFamily"],
+    "position": [320, 322]
+  },
+  {
+    "text": "chảy nước mũi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isFamily"],
+    "position": [326, 339]
+  },
+  {
+    "text": "độ bão hòa oxy (SPO2) từ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [539, 563]
+  },
+  {
+    "text": "88-92 %",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [564, 571]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [734, 741]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [748, 750]
+  },
+  {
+    "text": "chảy nước mũi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [757, 770]
+  },
+  {
+    "text": "nhịp thở nhanh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [777, 791]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [814, 817]
+  },
+  {
+    "text": "bạch cầu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [847, 855]
+  },
+  {
+    "text": "26.7",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [856, 860]
+  },
+  {
+    "text": "bnp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [867, 870]
+  },
+  {
+    "text": "4227",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [871, 875]
+  },
+  {
+    "text": "kali",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [882, 886]
+  },
+  {
+    "text": "3.2",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [887, 890]
+  },
+  {
+    "text": "troponin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [897, 905]
+  },
+  {
+    "text": "0.01",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [906, 910]
+  },
+  {
+    "text": "lactate",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [917, 924]
+  },
+  {
+    "text": "1.8",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [925, 928]
+  },
+  {
+    "text": "tổng phân tích nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [935, 959]
+  },
+  {
+    "text": "dương tính  với",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [971, 986]
+  },
+  {
+    "text": "182bạch",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [987, 994]
+  },
+  {
+    "text": "thấy quá trình bệnh lý tim mạch hoặc hô hấp cấp tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z94.3"],
+    "assertions": ["isNegated"],
+    "position": [1097, 1149]
+  },
+  {
+    "text": "chụp x-quang ngực phù hợp với viêm phổi kẽ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E84.0"],
+    "assertions": [],
+    "position": [1157, 1199]
+  },
+  {
+    "text": "Khí dung phối hợp Albuterol và Ipratropium 1 lần",
+    "type": "THUỐC",
+    "candidates": ["2108259"],
+    "assertions": [],
+    "position": [1236, 1284]
+  },
+  {
+    "text": "Ceftriaxone 1 gram dùng 1 liều",
+    "type": "THUỐC",
+    "candidates": ["1665020"],
+    "assertions": [],
+    "position": [1291, 1321]
+  },
+  {
+    "text": "Uống Tylenol 1 gram, 1 liều duy nhất",
+    "type": "THUỐC",
+    "candidates": ["707327"],
+    "assertions": [],
+    "position": [1328, 1364]
+  }
+]

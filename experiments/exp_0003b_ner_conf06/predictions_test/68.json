@@ -1,0 +1,49 @@
+[
+  {
+    "text": "bệnh lý mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A08.1", "C88.7", "E85.0"],
+    "assertions": ["isHistorical"],
+    "position": [34, 50]
+  },
+  {
+    "text": "bệnh phổi tắc nghẽn mạn tính, không xác định",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["J44.9"],
+    "assertions": ["isHistorical"],
+    "position": [57, 101]
+  },
+  {
+    "text": "tâm thần phân liệt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F20"],
+    "assertions": ["isHistorical"],
+    "position": [108, 126]
+  },
+  {
+    "text": "yếu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [175, 178]
+  },
+  {
+    "text": "yếu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [209, 212]
+  },
+  {
+    "text": "Vị trí",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A06.8", "A19.0", "A19.1"],
+    "assertions": [],
+    "position": [239, 245]
+  },
+  {
+    "text": "đáng chú ý nhất ở ngực",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [247, 269]
+  }
+]

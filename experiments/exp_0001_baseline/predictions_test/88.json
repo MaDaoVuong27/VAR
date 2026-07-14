@@ -2,70 +2,35 @@
   {
     "text": "Viêm gan virus C và B",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      115,
-      136
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "B17.0",
-      "B18.0",
-      "B18.00"
-    ]
+    "candidates": ["B17.0", "B18.0", "B18.00"],
+    "assertions": ["isHistorical"],
+    "position": [115, 136]
   },
   {
     "text": "Tăng áp động mạch phổi mức độ trung bình",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      143,
-      183
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "R46.3",
-      "I77.2",
-      "I28.1"
-    ]
+    "candidates": ["R46.3", "I77.2", "I28.1"],
+    "assertions": ["isHistorical"],
+    "position": [143, 183]
   },
   {
     "text": "U lympho không hodgkin tế bàoB lớn lan toả",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      189,
-      231
-    ],
-    "assertions": [
-      "isHistorical",
-      "isNegated"
-    ],
-    "candidates": [
-      "C81",
-      "C83.3"
-    ]
+    "candidates": ["C81", "C83.3"],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [189, 231]
   },
   {
     "text": "Phù chân trái và hoại tử ngày càng nặng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      453,
-      492
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [453, 492]
   },
   {
     "text": "Theo dõiLoét bàn chân nhiễm trùng",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      930,
-      963
-    ],
+    "candidates": ["R57.2"],
     "assertions": [],
-    "candidates": [
-      "R57.2"
-    ]
+    "position": [930, 963]
   }
 ]

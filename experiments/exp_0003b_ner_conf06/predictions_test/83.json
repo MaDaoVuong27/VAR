@@ -1,0 +1,60 @@
+[
+  {
+    "text": "khó thở khi gắng sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [59, 79]
+  },
+  {
+    "text": "tuyến dưới",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A54.0", "A54.1", "C08.0"],
+    "assertions": ["isHistorical"],
+    "position": [108, 118]
+  },
+  {
+    "text": "Khó thở khi gắng sức",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R06.0"],
+    "assertions": [],
+    "position": [190, 210]
+  },
+  {
+    "text": "siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [247, 258]
+  },
+  {
+    "text": "cho thấy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [259, 267]
+  },
+  {
+    "text": "hở van",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [268, 274]
+  },
+  {
+    "text": "hai lá nặng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [275, 286]
+  },
+  {
+    "text": "Chụp động mạch vành cho thấy không có bệnh động mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I77.2", "O92.3", "G40"],
+    "assertions": ["isNegated"],
+    "position": [289, 346]
+  },
+  {
+    "text": "Dùng lợi tiểu, có cải thiện cải thiện triệu chứng tốt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [359, 412]
+  }
+]

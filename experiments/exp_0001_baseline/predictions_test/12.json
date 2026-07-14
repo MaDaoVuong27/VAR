@@ -2,134 +2,84 @@
   {
     "text": "U Sacoit tổn thương chủ yếu tại tim",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      48,
-      83
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "S26",
-      "M75",
-      "S36.2"
-    ]
+    "candidates": ["S26", "M75", "S36.2"],
+    "assertions": ["isHistorical"],
+    "position": [48, 83]
   },
   {
     "text": "ho x1 ngày",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      230,
-      240
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [230, 240]
   },
   {
     "text": "ho ra máu x3 đêm qua",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      247,
-      267
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [247, 267]
   },
   {
     "text": "Sau đó 2 giờ",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      437,
-      449
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [437, 449]
   },
   {
     "text": "bệnh nhân sốt đến 38.8°C (101.8°F",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      451,
-      484
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [451, 484]
   },
   {
     "text": "Không có thêm ho ra máu kể từ sáng nay",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      492,
-      530
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [492, 530]
   },
   {
     "text": "ho",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      562,
-      564
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [562, 564]
   },
   {
     "text": "mệt mỏi",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      571,
-      578
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [571, 578]
   },
   {
     "text": "ho ra máu cỡ đồng xu x3 đêm qua",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      585,
-      616
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [585, 616]
   },
   {
     "text": "Đờm pha màu hồng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      623,
-      639
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [623, 639]
   },
   {
     "text": "fever (trở thành sốt đến 38.8°C",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      646,
-      677
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [646, 677]
   },
   {
     "text": "Đau bụng  âm ỉ  trong tháng qua",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      685,
-      716
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [685, 716]
   },
   {
     "text": "công thức máu",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1035,
-      1048
-    ]
+    "position": [1035, 1048]
   },
   {
     "text": "11.3",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1068,
-      1072
-    ]
+    "position": [1068, 1072]
   }
 ]

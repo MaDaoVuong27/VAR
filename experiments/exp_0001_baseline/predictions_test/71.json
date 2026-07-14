@@ -2,217 +2,121 @@
   {
     "text": "Tăng huyết áp",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      39,
-      52
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "I10",
-      "I11",
-      "I11.0"
-    ]
+    "candidates": ["I10", "I11", "I11.0"],
+    "assertions": ["isHistorical"],
+    "position": [39, 52]
   },
   {
     "text": "Tăng lipid máu",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      55,
-      69
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "E78",
-      "E78.2",
-      "E78.4"
-    ]
+    "candidates": ["E78", "E78.2", "E78.4"],
+    "assertions": ["isHistorical"],
+    "position": [55, 69]
   },
   {
     "text": "Đái tháo đường típ 2",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      72,
-      92
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "E11",
-      "O24.1",
-      "E10"
-    ]
+    "candidates": ["E11", "O24.1", "E10"],
+    "assertions": ["isHistorical"],
+    "position": [72, 92]
   },
   {
     "text": "bệnh tim mạch do xơ vữa động mạch sau CABG",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      95,
-      137
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "I25.1",
-      "I67.2",
-      "I25.0"
-    ]
+    "candidates": ["I25.1", "I67.2", "I25.0"],
+    "assertions": ["isHistorical"],
+    "position": [95, 137]
   },
   {
     "text": "Tăng huyết áp phổi",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      189,
-      207
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "I27.0",
-      "I27.2",
-      "Z01.3"
-    ]
+    "candidates": ["I27.0", "I27.2", "Z01.3"],
+    "assertions": ["isHistorical"],
+    "position": [189, 207]
   },
   {
     "text": "lasix",
     "type": "THUỐC",
-    "position": [
-      272,
-      277
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "202991"
-    ]
+    "candidates": ["202991"],
+    "assertions": ["isHistorical"],
+    "position": [272, 277]
   },
   {
     "text": "mệt mỏi",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      342,
-      349
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [342, 349]
   },
   {
     "text": "khó thở khi gắng sức nhẹ",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      352,
-      376
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [352, 376]
   },
   {
     "text": "ho khan ho",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      379,
-      389
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [379, 389]
   },
   {
     "text": "sưng phù hai mắt cá chân",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      392,
-      416
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [392, 416]
   },
   {
     "text": "khó thở khi nằm",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      419,
-      434
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [419, 434]
   },
   {
     "text": "phù",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      437,
-      440
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [437, 440]
   },
   {
     "text": "graft SVG bị tắc",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      812,
-      828
-    ],
+    "candidates": [],
     "assertions": [],
-    "candidates": []
+    "position": [812, 828]
   },
   {
     "text": "graft lima ổn định",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      831,
-      849
-    ],
+    "candidates": [],
     "assertions": [],
-    "candidates": []
+    "position": [831, 849]
   },
   {
     "text": "Động mạch vành trái bình thường",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      913,
-      944
-    ],
+    "candidates": ["I77.2"],
     "assertions": [],
-    "candidates": [
-      "I77.2"
-    ]
+    "position": [913, 944]
   },
   {
     "text": "áp lực nạp tăng",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      947,
-      962
-    ],
+    "candidates": ["G93.2", "K76.6"],
     "assertions": [],
-    "candidates": [
-      "G93.2",
-      "K76.6"
-    ]
+    "position": [947, 962]
   },
   {
     "text": "áp lực tâm thu phổi ở",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      965,
-      986
-    ],
+    "candidates": [],
     "assertions": [],
-    "candidates": []
+    "position": [965, 986]
   },
   {
     "text": "áp lực tĩnh mạch bít",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      989,
-      1009
-    ],
+    "candidates": ["K76.6", "I87.1"],
     "assertions": [],
-    "candidates": [
-      "K76.6",
-      "I87.1"
-    ]
+    "position": [989, 1009]
   }
 ]

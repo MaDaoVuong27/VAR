@@ -2,79 +2,36 @@
   {
     "text": "tăng huyết áp",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      57,
-      70
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "I10",
-      "I11",
-      "I11.0"
-    ]
+    "candidates": ["I10", "I11", "I11.0"],
+    "assertions": ["isHistorical"],
+    "position": [57, 70]
   },
   {
     "text": "bệnh gút không đặc hiệu",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      77,
-      100
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "A97.0"
-    ]
+    "candidates": ["A97.0"],
+    "assertions": ["isHistorical"],
+    "position": [77, 100]
   },
   {
     "text": "bệnh thận mạn, không đặc hiệu",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      107,
-      136
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "N05.6",
-      "N07.6",
-      "Q61"
-    ]
+    "candidates": ["N05.6", "N07.6", "Q61"],
+    "assertions": ["isHistorical"],
+    "position": [107, 136]
   },
   {
     "text": "ung thư đại tràng",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      143,
-      160
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "D01.0",
-      "D01.1",
-      "D01.2"
-    ]
+    "candidates": ["D01.0", "D01.1", "D01.2"],
+    "assertions": ["isHistorical"],
+    "position": [143, 160]
   },
   {
     "text": "béo phì",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      167,
-      174
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "E65",
-      "E66",
-      "E66.0"
-    ]
+    "candidates": ["E65", "E66", "E66.0"],
+    "assertions": ["isHistorical"],
+    "position": [167, 174]
   }
 ]

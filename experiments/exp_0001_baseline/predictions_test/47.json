@@ -2,10 +2,7 @@
   {
     "text": "Đến hôm nay để đặt stent thành vách vĩnh viễn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      331,
-      376
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [331, 376]
   }
 ]

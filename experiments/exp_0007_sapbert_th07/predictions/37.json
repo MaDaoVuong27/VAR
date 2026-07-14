@@ -1,0 +1,249 @@
+[
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R73"],
+    "assertions": ["isHistorical"],
+    "position": [39, 52]
+  },
+  {
+    "text": "Đái tháo đường, có biến chứng bệnh lý thần kinh ngoại biên",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E10.5"],
+    "assertions": ["isHistorical"],
+    "position": [54, 112]
+  },
+  {
+    "text": "Suy tim không do thiếu máu cơ tim (theo chẩn đoán trước đây).",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I11.9"],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [114, 175]
+  },
+  {
+    "text": "Bệnh thận mạn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N18"],
+    "assertions": ["isHistorical"],
+    "position": [176, 194]
+  },
+  {
+    "text": "Torsemide",
+    "type": "THUỐC",
+    "candidates": ["38413"],
+    "assertions": ["isHistorical"],
+    "position": [224, 233]
+  },
+  {
+    "text": "Insulin glargine",
+    "type": "THUỐC",
+    "candidates": ["274783"],
+    "assertions": ["isHistorical"],
+    "position": [274, 290]
+  },
+  {
+    "text": "Isosorbide",
+    "type": "THUỐC",
+    "candidates": ["6057"],
+    "assertions": ["isHistorical"],
+    "position": [349, 359]
+  },
+  {
+    "text": "Rosuvastatin (Crestor):",
+    "type": "THUỐC",
+    "candidates": ["301542"],
+    "assertions": ["isHistorical"],
+    "position": [405, 428]
+  },
+  {
+    "text": "Carvedilol",
+    "type": "THUỐC",
+    "candidates": ["20352"],
+    "assertions": ["isHistorical"],
+    "position": [473, 483]
+  },
+  {
+    "text": "kali máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [595, 603]
+  },
+  {
+    "text": "Creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [607, 617]
+  },
+  {
+    "text": "Torsemide/ ngày ,",
+    "type": "THUỐC",
+    "candidates": ["1162753"],
+    "assertions": [],
+    "position": [741, 758]
+  },
+  {
+    "text": "dụng",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [800, 804]
+  },
+  {
+    "text": "torsemide lâu dài",
+    "type": "THUỐC",
+    "candidates": ["38413"],
+    "assertions": [],
+    "position": [805, 822]
+  },
+  {
+    "text": "kiểm tra đường huyết thường xuyên tại nhà",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isNegated"],
+    "position": [841, 882]
+  },
+  {
+    "text": "glucose",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [911, 918]
+  },
+  {
+    "text": "thấp",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [922, 926]
+  },
+  {
+    "text": "glargine",
+    "type": "THUỐC",
+    "candidates": ["274783"],
+    "assertions": [],
+    "position": [943, 951]
+  },
+  {
+    "text": "Báo cáo bị ngã gần đây",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [954, 976]
+  },
+  {
+    "text": "Dùng xe đẩy hàng làm dụng cụ hỗ trợ đi lại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [979, 1021]
+  },
+  {
+    "text": "thuốc (isosorbide, crestor, carvedilol)",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [1033, 1072]
+  },
+  {
+    "text": "kali",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1205, 1209]
+  },
+  {
+    "text": "mẫu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1217, 1220]
+  },
+  {
+    "text": "kali",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1356, 1360]
+  },
+  {
+    "text": "mẫu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1366, 1369]
+  },
+  {
+    "text": "ure (bun)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1399, 1408]
+  },
+  {
+    "text": "83",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1409, 1411]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1414, 1424]
+  },
+  {
+    "text": "hemoglobin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1431, 1441]
+  },
+  {
+    "text": "hba1c",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1448, 1453]
+  },
+  {
+    "text": "bnp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1460, 1463]
+  },
+  {
+    "text": "21,000",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1464, 1470]
+  },
+  {
+    "text": "tổng phân tích nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1473, 1497]
+  },
+  {
+    "text": "bình thường",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1498, 1509]
+  },
+  {
+    "text": "cúm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1512, 1515]
+  },
+  {
+    "text": "âm tính",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1516, 1523]
+  },
+  {
+    "text": "chụp x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1552, 1569]
+  },
+  {
+    "text": "Tăng gánh nhẹ tuần hoàn phổi, tràn dịch màng phổi hai bên nhẹ,",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K40.1"],
+    "assertions": [],
+    "position": [1571, 1633]
+  },
+  {
+    "text": "to",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1638, 1640]
+  },
+  {
+    "text": "Được dùng insulin và dextrose cho tăng kali máu",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [1670, 1717]
+  },
+  {
+    "text": "iv lasix 40 mg once",
+    "type": "THUỐC",
+    "candidates": ["2725546"],
+    "assertions": [],
+    "position": [1720, 1739]
+  }
+]

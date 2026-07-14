@@ -2,192 +2,121 @@
   {
     "text": "bệnh động mạch vành sau can thiệp bắc cầu nối",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      48,
-      93
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "I77.2",
-      "G40"
-    ]
+    "candidates": ["I77.2", "G40"],
+    "assertions": ["isHistorical"],
+    "position": [48, 93]
   },
   {
     "text": "đau ngực trái dữ dội lan xuống cánh tay trái",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      640,
-      684
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [640, 684]
   },
   {
     "text": "đau ngực trái dữ dội lan xuống cánh tay trái",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1032,
-      1076
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1032, 1076]
   },
   {
     "text": "vã mồ hôi",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1083,
-      1092
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1083, 1092]
   },
   {
     "text": "khó thở",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1099,
-      1106
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1099, 1106]
   },
   {
     "text": "Đến bệnh viện tuyến cơ sở",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1112,
-      1137
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1112, 1137]
   },
   {
     "text": "Được dùng aspirin",
     "type": "THUỐC",
-    "position": [
-      1216,
-      1233
-    ],
+    "candidates": [],
     "assertions": [],
-    "candidates": []
+    "position": [1216, 1233]
   },
   {
     "text": "Ngậm dưới lưỡi 4 liều nitroglycerin",
     "type": "THUỐC",
-    "position": [
-      1234,
-      1269
-    ],
+    "candidates": [],
     "assertions": [],
-    "candidates": []
+    "position": [1234, 1269]
   },
   {
     "text": "Thuốc nitroglycerin dạng bôi/dán lên da",
     "type": "THUỐC",
-    "position": [
-      1277,
-      1316
-    ],
+    "candidates": [],
     "assertions": [],
-    "candidates": []
+    "position": [1277, 1316]
   },
   {
     "text": "ativan",
     "type": "THUỐC",
-    "position": [
-      1342,
-      1348
-    ],
+    "candidates": ["202479"],
     "assertions": [],
-    "candidates": [
-      "202479"
-    ]
+    "position": [1342, 1348]
   },
   {
     "text": "lovenox lúc 0100",
     "type": "THUỐC",
-    "position": [
-      1368,
-      1384
-    ],
+    "candidates": ["225036"],
     "assertions": [],
-    "candidates": [
-      "225036"
-    ]
+    "position": [1368, 1384]
   },
   {
     "text": "Sau dùng thuốc đau ngực hết",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1385,
-      1412
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1385, 1412]
   },
   {
     "text": "sóng ST trên điện tim cải thiện không chênh",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1414,
-      1457
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [1414, 1457]
   },
   {
     "text": "Lúc vào viện bệnh viện",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1523,
-      1545
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1523, 1545]
   },
   {
     "text": "troponin",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1603,
-      1611
-    ]
+    "position": [1603, 1611]
   },
   {
     "text": "0.10",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1615,
-      1619
-    ]
+    "position": [1615, 1619]
   },
   {
     "text": "điện tâm đồ",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1657,
-      1668
-    ]
+    "position": [1657, 1668]
   },
   {
     "text": "91",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1707,
-      1709
-    ]
+    "position": [1707, 1709]
   },
   {
     "text": "điện tâm đồ",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1725,
-      1736
-    ]
+    "position": [1725, 1736]
   },
   {
     "text": "4",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1785,
-      1786
-    ]
+    "position": [1785, 1786]
   }
 ]

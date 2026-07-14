@@ -1,0 +1,12 @@
+{
+  "exp": "exp_0005_ner_hybrid",
+  "desc": "NER + hybrid candidate (fuzzy truoc, SapBERT lap)",
+  "ner": "models/ner_xlmr_v2",
+  "dev_scores": {
+    "text_score": 0.2071,
+    "assertions_score": 0.621,
+    "candidates_score": 0.1163,
+    "final_score": 0.295
+  },
+  "n_dev": 15
+}

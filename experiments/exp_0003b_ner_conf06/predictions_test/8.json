@@ -1,0 +1,141 @@
+[
+  {
+    "text": "kết quả",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N00.8", "N00.9", "N01.8"],
+    "assertions": [],
+    "position": [76, 83]
+  },
+  {
+    "text": "chọc hút bất thường của nốt tuyến giáp thùy trái",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R09.3", "E06"],
+    "assertions": [],
+    "position": [84, 132]
+  },
+  {
+    "text": "nốt tuyến giáp thùy trái kích",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E06"],
+    "assertions": ["isHistorical"],
+    "position": [190, 219]
+  },
+  {
+    "text": "thước",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [220, 225]
+  },
+  {
+    "text": "khoảng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A79.0", "F40.0"],
+    "assertions": ["isHistorical"],
+    "position": [226, 232]
+  },
+  {
+    "text": "1 cm",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [233, 237]
+  },
+  {
+    "text": "chọc hút bằng kim nhỏ  đối với tổn thương này",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M75", "S26", "S36.2"],
+    "assertions": [],
+    "position": [278, 323]
+  },
+  {
+    "text": "tế bào học từ dịch chọc",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [345, 368]
+  },
+  {
+    "text": "hút",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [369, 372]
+  },
+  {
+    "text": "bất thường",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [382, 392]
+  },
+  {
+    "text": "chèn ép vùng cổ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [548, 563]
+  },
+  {
+    "text": "khó nuốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [568, 576]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [578, 585]
+  },
+  {
+    "text": "khàn tiếng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [591, 601]
+  },
+  {
+    "text": "chọc hút bất thường của nốt tuyến giáp trái",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R09.3", "E06"],
+    "assertions": ["isNegated"],
+    "position": [659, 702]
+  },
+  {
+    "text": "Kết",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A74.0†", "B30", "B30.0†"],
+    "assertions": [],
+    "position": [751, 754]
+  },
+  {
+    "text": "quả",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [755, 758]
+  },
+  {
+    "text": "tế bào học từ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [759, 772]
+  },
+  {
+    "text": "dịch chọc hút nốt tuyến giáp trái ghi nhận bất",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E06"],
+    "assertions": [],
+    "position": [773, 819]
+  },
+  {
+    "text": "thường",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [820, 826]
+  },
+  {
+    "text": "Chọc hút bằng kim nhỏ  nốt tuyến giáp trái",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E06"],
+    "assertions": [],
+    "position": [852, 894]
+  },
+  {
+    "text": "Nốt tuyến giáp thùy trái kích thước khoảng 1",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E06"],
+    "assertions": [],
+    "position": [916, 960]
+  },
+  {
+    "text": "cm",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [961, 963]
+  }
+]

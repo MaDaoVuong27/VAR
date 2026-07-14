@@ -2,29 +2,18 @@
   {
     "text": "coumadin 3.0 mg /ngày",
     "type": "THUỐC",
-    "position": [
-      401,
-      422
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": []
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [401, 422]
   },
   {
     "text": "INR",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1075,
-      1078
-    ]
+    "position": [1075, 1078]
   },
   {
     "text": "1.7",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1100,
-      1103
-    ]
+    "position": [1100, 1103]
   }
 ]

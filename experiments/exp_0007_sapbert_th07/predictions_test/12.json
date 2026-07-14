@@ -1,0 +1,161 @@
+[
+  {
+    "text": "U Sacoit tổn thương chủ yếu tại tim",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [48, 83]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [133, 135]
+  },
+  {
+    "text": "ho ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [156, 165]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [230, 232]
+  },
+  {
+    "text": "ho ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [247, 256]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [321, 323]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [327, 334]
+  },
+  {
+    "text": "Tối qua tiến triển thành 3 cơn ho",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [341, 374]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [461, 464]
+  },
+  {
+    "text": "8°C (",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [472, 477]
+  },
+  {
+    "text": "8°F)",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [481, 485]
+  },
+  {
+    "text": "ho ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [506, 515]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [562, 564]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [571, 578]
+  },
+  {
+    "text": "ho ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [585, 594]
+  },
+  {
+    "text": "Đờm pha màu hồng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["H31.4"],
+    "assertions": [],
+    "position": [623, 639]
+  },
+  {
+    "text": "(trở thành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [652, 662]
+  },
+  {
+    "text": ".8°C",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [673, 677]
+  },
+  {
+    "text": "Đau bụng  âm ỉ  trong tháng qua",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R10.0"],
+    "assertions": [],
+    "position": [685, 716]
+  },
+  {
+    "text": "levofloxacin",
+    "type": "THUỐC",
+    "candidates": ["82122"],
+    "assertions": [],
+    "position": [876, 888]
+  },
+  {
+    "text": "viêm phế quản do viêm phổi mắc phải cộng đồng ở bệnh nhân phức tạp,  cùng tylenol",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["J41.8"],
+    "assertions": [],
+    "position": [901, 982]
+  },
+  {
+    "text": "công thức máu (cbc)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1035, 1054]
+  },
+  {
+    "text": "chụp x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1105, 1122]
+  },
+  {
+    "text": "viêm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1139, 1143]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1154, 1157]
+  },
+  {
+    "text": "Lấy mẫu cấy máu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Y84.7"],
+    "assertions": [],
+    "position": [1195, 1210]
+  }
+]

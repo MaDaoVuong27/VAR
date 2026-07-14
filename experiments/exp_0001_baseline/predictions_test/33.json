@@ -2,108 +2,58 @@
   {
     "text": "béo phì",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      48,
-      55
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "E65",
-      "E66",
-      "E66.0"
-    ]
+    "candidates": ["E65", "E66", "E66.0"],
+    "assertions": ["isHistorical"],
+    "position": [48, 55]
   },
   {
     "text": "đái tháo đường được kiểm soát bằng chế độ ăn",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      62,
-      106
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": []
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [62, 106]
   },
   {
     "text": "ngừng thở khi ngủ",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      113,
-      130
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "P28.3",
-      "G47.3"
-    ]
+    "candidates": ["P28.3", "G47.3"],
+    "assertions": ["isHistorical"],
+    "position": [113, 130]
   },
   {
     "text": "khó thở",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      256,
-      263
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [256, 263]
   },
   {
     "text": "khó thở",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      441,
-      448
-    ],
-    "assertions": [
-      "isHistorical"
-    ]
+    "assertions": ["isHistorical"],
+    "position": [441, 448]
   },
   {
     "text": "khó nằm vào ban đêm để ngủ vì thở",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      455,
-      488
-    ],
-    "assertions": [
-      "isHistorical"
-    ]
+    "assertions": ["isHistorical"],
+    "position": [455, 488]
   },
   {
     "text": "căng cứng vai trái (ngắt quãng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      495,
-      525
-    ],
-    "assertions": [
-      "isHistorical"
-    ]
+    "assertions": ["isHistorical"],
+    "position": [495, 525]
   },
   {
     "text": "xảy ra vài lần mỗi ngày",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      527,
-      550
-    ],
-    "assertions": [
-      "isHistorical"
-    ]
+    "assertions": ["isHistorical"],
+    "position": [527, 550]
   },
   {
     "text": "kéo dài 5 phút",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      552,
-      566
-    ],
-    "assertions": [
-      "isHistorical"
-    ]
+    "assertions": ["isHistorical"],
+    "position": [552, 566]
   }
 ]

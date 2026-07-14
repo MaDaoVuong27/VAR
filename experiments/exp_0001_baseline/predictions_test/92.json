@@ -2,44 +2,26 @@
   {
     "text": "Nhiễm trùng đường tiết niệu kháng thuốc",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      45,
-      84
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "O86.2",
-      "P39.3",
-      "R57.2"
-    ]
+    "candidates": ["O86.2", "P39.3", "R57.2"],
+    "assertions": ["isHistorical"],
+    "position": [45, 84]
   },
   {
     "text": "theo dõi đại tràng giãn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      129,
-      152
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [129, 152]
   },
   {
     "text": "Bạch cầu",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      472,
-      480
-    ]
+    "position": [472, 480]
   },
   {
     "text": "Các kết quả  khác: Theo dõi đại tràng giãn",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      570,
-      612
-    ],
+    "candidates": [],
     "assertions": [],
-    "candidates": []
+    "position": [570, 612]
   }
 ]

@@ -2,208 +2,124 @@
   {
     "text": "metoprolol 25mg po bid",
     "type": "THUỐC",
-    "position": [
-      53,
-      75
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "331561"
-    ]
+    "candidates": ["331561"],
+    "assertions": ["isHistorical"],
+    "position": [53, 75]
   },
   {
     "text": "doxycycline cho viêm tuyến mồ hôi",
     "type": "THUỐC",
-    "position": [
-      82,
-      115
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": []
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [82, 115]
   },
   {
     "text": "atenolol",
     "type": "THUỐC",
-    "position": [
-      122,
-      130
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "1202"
-    ]
+    "candidates": ["1202"],
+    "assertions": ["isHistorical"],
+    "position": [122, 130]
   },
   {
     "text": "đánh trống ngực",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      666,
-      681
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [666, 681]
   },
   {
     "text": "Khó thở nhẹ khó thở",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      688,
-      707
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [688, 707]
   },
   {
     "text": "Tăng đánh trống ngực (khởi phát lúc 17 giờ",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      782,
-      824
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [782, 824]
   },
   {
     "text": "khó thở (khởi phát lúc 17 giờ",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      832,
-      861
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [832, 861]
   },
   {
     "text": "liên quan đến đánh trống ngực",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1135,
-      1164
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1135, 1164]
   },
   {
     "text": "liên quan đến khó thở (khởi phát lúc 17 giờ",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1166,
-      1209
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1166, 1209]
   },
   {
     "text": "khởi phát lúc 17 giờ",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1253,
-      1273
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1253, 1273]
   },
   {
     "text": "kéo dài 20 giây",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1275,
-      1290
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1275, 1290]
   },
   {
     "text": "không có khó chịu vùng ngực khi đến tầng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1292,
-      1332
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [1292, 1332]
   },
   {
     "text": "khởi phát lúc 17 giờ",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1379,
-      1399
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1379, 1399]
   },
   {
     "text": "kéo dài 20 giây",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1401,
-      1416
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1401, 1416]
   },
   {
     "text": "Không  buồn nôn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1454,
-      1469
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [1454, 1469]
   },
   {
     "text": "hay nôn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1471,
-      1478
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [1471, 1478]
   },
   {
     "text": "đổ mồ hôi",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1480,
-      1489
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [1480, 1489]
   },
   {
     "text": "Không liên quan đến gắng sức hoặc tư thế",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1496,
-      1536
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [1496, 1536]
   },
   {
     "text": "nước tiểu",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      2628,
-      2637
-    ]
+    "position": [2628, 2637]
   },
   {
     "text": "điện tâm đồ là không ghi nhận gì bất thường",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      2771,
-      2814
-    ],
-    "assertions": [
-      "isNegated"
-    ],
-    "candidates": [
-      "R09.3"
-    ]
+    "candidates": ["R09.3"],
+    "assertions": ["isNegated"],
+    "position": [2771, 2814]
   }
 ]

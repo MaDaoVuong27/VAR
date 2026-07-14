@@ -2,128 +2,84 @@
   {
     "text": "mệt mỏi",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      387,
-      394
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [387, 394]
   },
   {
     "text": "mất trí nhớ chi tiết",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      396,
-      416
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [396, 416]
   },
   {
     "text": "Khám hiện tại thấy",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      587,
-      605
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [587, 605]
   },
   {
     "text": "Bệnh nhân tỉnhi",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      606,
-      621
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [606, 621]
   },
   {
     "text": "Mệt mỏi nhiều",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      628,
-      641
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [628, 641]
   },
   {
     "text": "Ăn không ngon miệng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      648,
-      667
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [648, 667]
   },
   {
     "text": "Ngứa da toàn thân nhiều",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      674,
-      697
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [674, 697]
   },
   {
     "text": "mất trí nhớ chi tiết",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      704,
-      724
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [704, 724]
   },
   {
     "text": "khó thở khi gắng sức",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      731,
-      751
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [731, 751]
   },
   {
     "text": "buồn nôn và nôn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      759,
-      774
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [759, 774]
   },
   {
     "text": "Cận lâm sàng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      776,
-      788
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [776, 788]
   },
   {
     "text": "Ure",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      885,
-      888
-    ]
+    "position": [885, 888]
   },
   {
     "text": "69",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      897,
-      899
-    ]
+    "position": [897, 899]
   },
   {
     "text": "Điều trị bắt đầu chạy thận nhân tạo (HD",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      1210,
-      1249
-    ],
+    "candidates": [],
     "assertions": [],
-    "candidates": []
+    "position": [1210, 1249]
   }
 ]

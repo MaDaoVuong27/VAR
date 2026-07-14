@@ -2,46 +2,28 @@
   {
     "text": "sốt cao",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      407,
-      414
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [407, 414]
   },
   {
     "text": "Điều trị",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      1537,
-      1545
-    ],
+    "candidates": ["E03.2", "F70.1", "F71.1"],
     "assertions": [],
-    "candidates": [
-      "E03.2",
-      "F70.1",
-      "F71.1"
-    ]
+    "position": [1537, 1545]
   },
   {
     "text": "Truyền dịch : 4000 ml NS 0.9 %",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      1550,
-      1580
-    ],
+    "candidates": ["Y65.1"],
     "assertions": [],
-    "candidates": [
-      "Y65.1"
-    ]
+    "position": [1550, 1580]
   },
   {
     "text": "Kháng sinh Cefepim và Vancomycin truyền tĩnh mạch",
     "type": "THUỐC",
-    "position": [
-      1583,
-      1632
-    ],
+    "candidates": [],
     "assertions": [],
-    "candidates": []
+    "position": [1583, 1632]
   }
 ]

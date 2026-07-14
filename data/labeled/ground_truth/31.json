@@ -1,0 +1,26 @@
+[
+  {
+    "text": "cơn co tử cung",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [101, 115]
+  },
+  {
+    "text": "ra huyết âm đạo",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [146, 161]
+  },
+  {
+    "text": "vỡ ối",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [175, 180]
+  },
+  {
+    "text": "rỉ ối",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [181, 186]
+  }
+]

@@ -1,0 +1,129 @@
+[
+  {
+    "text": "vàng da",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [118, 125]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [132, 135]
+  },
+  {
+    "text": "ngứa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [138, 142]
+  },
+  {
+    "text": "âm tính",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [239, 246]
+  },
+  {
+    "text": "giãn đường dẫn mật trong gan ở ống mật chủ 15 mm tại mức tuyến tụy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N60.4", "K83.3", "K83.0"],
+    "assertions": [],
+    "position": [311, 377]
+  },
+  {
+    "text": "ercp (nội soi mật tụy ngược dòng) bởi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [380, 417]
+  },
+  {
+    "text": "ở nhúm tá tràng lớn với gợi ý về một khối khối u lân cận",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["D13.2", "K31.5"],
+    "assertions": [],
+    "position": [457, 513]
+  },
+  {
+    "text": "7 mm",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [550, 554]
+  },
+  {
+    "text": "ở một phần ba dưới của ống mật chủ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [555, 589]
+  },
+  {
+    "text": "ung thư biểu mô tuyến, biệt hóa vừa phải đến kém",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [653, 701]
+  },
+  {
+    "text": "các đặc điểm mô học phù hợp với một khối u có nguồn gốc từ đường mật tụy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K83.3", "K83.5", "K83.0"],
+    "assertions": [],
+    "position": [704, 776]
+  },
+  {
+    "text": "ung thư biểu mô tuyến, biệt hóa",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [935, 966]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1013, 1020]
+  },
+  {
+    "text": "15",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1073, 1075]
+  },
+  {
+    "text": "mm tại mức tuyến tụy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1076, 1096]
+  },
+  {
+    "text": "ở nhúm tá tràng lớn với gợi ý về một khối khối u lân cận",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["D13.2", "K31.5"],
+    "assertions": [],
+    "position": [1165, 1221]
+  },
+  {
+    "text": "7 mm",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1258, 1262]
+  },
+  {
+    "text": "ở một phần ba dưới của ống mật chủ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1263, 1297]
+  },
+  {
+    "text": "u ác của đầu tuỵ mới được chẩn đoán",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["C62.0"],
+    "assertions": [],
+    "position": [1387, 1422]
+  },
+  {
+    "text": "các đặc điểm mô học phù hợp với một khối u có nguồn gốc từ đường mật tụy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K83.3", "K83.5", "K83.0"],
+    "assertions": [],
+    "position": [1425, 1497]
+  }
+]

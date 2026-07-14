@@ -1,0 +1,90 @@
+[
+  {
+    "text": "Đái tháo đường típ 1 có biến chứng viêm thần kinh ngoại biên",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E10", "E10.4†", "E11.4†"],
+    "assertions": ["isHistorical"],
+    "position": [48, 108]
+  },
+  {
+    "text": "Viêm gan virus C và B",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["B17.0", "B18.0", "B18.00"],
+    "assertions": ["isHistorical"],
+    "position": [115, 136]
+  },
+  {
+    "text": "Tăng áp động mạch phổi mức độ trung bình",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R46.3", "I77.2", "I28.1"],
+    "assertions": ["isHistorical"],
+    "position": [143, 183]
+  },
+  {
+    "text": "U lympho không hodgkin tế bàoB lớn lan toả)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["C81", "C83.3"],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [189, 232]
+  },
+  {
+    "text": "Phẫu thuật thay toàn bộ khớp háng phải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["S73.0"],
+    "assertions": ["isHistorical"],
+    "position": [270, 308]
+  },
+  {
+    "text": "Dùngmethadonekéo dài",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [356, 376]
+  },
+  {
+    "text": "lasixđã",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [383, 390]
+  },
+  {
+    "text": "Phù chân trái và hoại tử ngày càng nặng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [453, 492]
+  },
+  {
+    "text": "đi tiểu nhiều lần",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [624, 641]
+  },
+  {
+    "text": "phù chân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [699, 707]
+  },
+  {
+    "text": "phù chân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [718, 726]
+  },
+  {
+    "text": "Phù 2 chân nặng, Loét 2 bàn chân, chảy dịch vàng và có hoại tử đen kích thước 2*4 cm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["H92.1"],
+    "assertions": [],
+    "position": [834, 918]
+  },
+  {
+    "text": "dõiLoét bàn chân nhiễm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [935, 957]
+  }
+]

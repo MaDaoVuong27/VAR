@@ -1,0 +1,89 @@
+[
+  {
+    "text": "cắt bỏ ống dẫn mật chủ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [67, 89]
+  },
+  {
+    "text": "cắt bỏ phân đoạn bên trái gan",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [96, 125]
+  },
+  {
+    "text": "Đã phẫu thuật nối ống gan - hỗng tràng vì nghi ngờ ung thư đường mật không thể cắt bỏ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [132, 217]
+  },
+  {
+    "text": "Đã can thiệp chụp đường mật, đặt 3 stent đường mật lưu dài hạn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [224, 286]
+  },
+  {
+    "text": "run rẩy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [401, 408]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [413, 416]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [426, 429]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [493, 496]
+  },
+  {
+    "text": "và các ổ dịch trong ổ bụng được cho là áp xe",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [497, 541]
+  },
+  {
+    "text": "Điều trị bằng kháng sinh tĩnh mạch trong thời gian nằm viện",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [548, 607]
+  },
+  {
+    "text": "Ra viện với đơn Augmentin đường uống trong 10 ngày",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [614, 664]
+  },
+  {
+    "text": "Tình trạng ổn định ở nhà cho đến đêm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [672, 708]
+  },
+  {
+    "text": "(chụp cộng hưởng từ mật tụy)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [803, 831]
+  }
+]

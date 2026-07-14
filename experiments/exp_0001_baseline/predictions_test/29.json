@@ -2,50 +2,31 @@
   {
     "text": "tiểu tiện không tự chủ và sa âm đạo",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      70,
-      105
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [70, 105]
   },
   {
     "text": "tiểu tiện không tự chủ",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      177,
-      199
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [177, 199]
   },
   {
     "text": "sa âm đạo",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      202,
-      211
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [202, 211]
   },
   {
     "text": "bàng quang căng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      214,
-      229
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [214, 229]
   },
   {
     "text": "cảm giác bí tiếu liên tục",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      233,
-      258
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [233, 258]
   }
 ]

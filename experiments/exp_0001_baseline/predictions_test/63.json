@@ -2,73 +2,47 @@
   {
     "text": "thường dùng colace",
     "type": "THUỐC",
-    "position": [
-      163,
-      181
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": []
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [163, 181]
   },
   {
     "text": "đau bụng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      230,
-      238
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [230, 238]
   },
   {
     "text": "đau bụng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      743,
-      751
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [743, 751]
   },
   {
     "text": "táo bón",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      758,
-      765
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [758, 765]
   },
   {
     "text": "buồn nôn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      772,
-      780
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [772, 780]
   },
   {
     "text": "hồng cầu",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1376,
-      1384
-    ]
+    "position": [1376, 1384]
   },
   {
     "text": "27.2",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1392,
-      1396
-    ]
+    "position": [1392, 1396]
   },
   {
     "text": "bun",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1403,
-      1406
-    ]
+    "position": [1403, 1406]
   }
 ]

@@ -1,0 +1,76 @@
+[
+  {
+    "text": "bệnh động mạch vành, bệnh lý thần kinh ngoại biên",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["G40", "M54.1", "G90.0"],
+    "assertions": ["isHistorical"],
+    "position": [34, 83]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [160, 167]
+  },
+  {
+    "text": "khó thở tăng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [199, 211]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [248, 255]
+  },
+  {
+    "text": "Khó thở tăng khi vận động gắng sức",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R06.0", "R46.3"],
+    "assertions": [],
+    "position": [258, 292]
+  },
+  {
+    "text": "Đi lại khó khăn, cần dùng gậy hỗ trợ đi lại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z74.0"],
+    "assertions": [],
+    "position": [295, 338]
+  },
+  {
+    "text": "Đau hai bàn chân do bệnh lý thần kinh ngoại biên",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M54.1", "M14.6*", "G54.5"],
+    "assertions": [],
+    "position": [341, 389]
+  },
+  {
+    "text": "Đo sức bền cơ tim bằng đồng vị phóng xạ kết quả có dị tật cố định vùng trước vách và vách dưới với  giảm chức năng tâm thu thất trái nghiêm trọng kèm theo rối loạn chức năng thất trái",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R07.2", "H83.2", "I50.1"],
+    "assertions": [],
+    "position": [434, 617]
+  },
+  {
+    "text": "Chụp động mạch vành cho thấy bệnh ba thân động mạch vành nghiêm trọng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I77.2", "G40"],
+    "assertions": [],
+    "position": [621, 690]
+  },
+  {
+    "text": "Chụp động mạch vành can thiệp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I77.2", "Z95.5"],
+    "assertions": [],
+    "position": [721, 750]
+  },
+  {
+    "text": "Can thiệp mạch vành qua da và đặt stent phủ thuốc (DES) vào đoạn giữa của động mạch liên thất trước (LAD)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I77.2", "Q24.5"],
+    "assertions": [],
+    "position": [753, 858]
+  }
+]

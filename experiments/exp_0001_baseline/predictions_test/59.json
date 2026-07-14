@@ -2,67 +2,44 @@
   {
     "text": "não úng thuỷ khác từ thời kỳ sơ sinh",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      388,
-      424
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": []
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [388, 424]
   },
   {
     "text": "đau đầu kéo dài kèm theo mờ mắt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      703,
-      734
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [703, 734]
   },
   {
     "text": "đau đầu kéo dài",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1411,
-      1426
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1411, 1426]
   },
   {
     "text": "nhìn mờ ở cả hai mắt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1433,
-      1453
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1433, 1453]
   },
   {
     "text": "bên trái nặng hơn bên phải",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1455,
-      1481
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1455, 1481]
   },
   {
     "text": "cơn  đau đầu nhiều hơn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1489,
-      1511
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1489, 1511]
   },
   {
     "text": "bên trái nặng hơn bên phải",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1581,
-      1607
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1581, 1607]
   }
 ]

@@ -20,8 +20,13 @@ from .normalization import KnowledgeBase
 from .schema import TYPE_CHAN_DOAN, TYPE_THUOC, Concept
 
 
-def predict_file(raw: str, kb: KnowledgeBase, icd_k: int = 3, rxn_k: int = 1) -> List[Concept]:
-    mentions = extract_concepts(raw, kb)
+def predict_file(raw: str, kb: KnowledgeBase, matcher=None, ner=None,
+                 icd_k: int = 3, rxn_k: int = 1) -> List[Concept]:
+    # extraction: NER model nếu có (ner), else rule (kb cho drug_vocab)
+    # candidate: matcher (KB lexical hoặc Hybrid), mặc định = kb
+    if matcher is None:
+        matcher = kb
+    mentions = ner.extract(raw) if ner is not None else extract_concepts(raw, kb)
     assign_assertions(raw, mentions)
 
     # dedup theo (type, start, end)
@@ -34,9 +39,9 @@ def predict_file(raw: str, kb: KnowledgeBase, icd_k: int = 3, rxn_k: int = 1) ->
         seen.add(key)
         candidates: List[str] = []
         if m.type == TYPE_CHAN_DOAN:
-            candidates = kb.match_icd(m.text, k=icd_k)
+            candidates = matcher.match_icd(m.text, k=icd_k)
         elif m.type == TYPE_THUOC:
-            candidates = kb.match_rxnorm(m.text, k=rxn_k)
+            candidates = matcher.match_rxnorm(m.text, k=rxn_k)
         concepts.append(
             Concept(
                 text=m.text,
@@ -49,7 +54,7 @@ def predict_file(raw: str, kb: KnowledgeBase, icd_k: int = 3, rxn_k: int = 1) ->
     return concepts
 
 
-def run_dir(input_dir, output_dir, kb: KnowledgeBase = None) -> None:
+def run_dir(input_dir, output_dir, kb: KnowledgeBase = None, matcher=None, ner=None) -> None:
     input_dir = Path(input_dir)
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -58,7 +63,7 @@ def run_dir(input_dir, output_dir, kb: KnowledgeBase = None) -> None:
     files = sorted(input_dir.glob("*.txt"), key=lambda p: (len(p.stem), p.stem))
     for p in files:
         raw = read_input(p)
-        concepts = predict_file(raw, kb)
+        concepts = predict_file(raw, kb, matcher=matcher, ner=ner)
         write_output(concepts, output_dir / f"{p.stem}.json")
     print(f"Wrote {len(files)} predictions to {output_dir}")
 

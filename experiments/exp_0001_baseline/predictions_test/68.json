@@ -2,38 +2,21 @@
   {
     "text": "bệnh phổi tắc nghẽn mạn tính, không xác định",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      57,
-      101
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "J44.9"
-    ]
+    "candidates": ["J44.9"],
+    "assertions": ["isHistorical"],
+    "position": [57, 101]
   },
   {
     "text": "tâm thần phân liệt",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      108,
-      126
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "F20"
-    ]
+    "candidates": ["F20"],
+    "assertions": ["isHistorical"],
+    "position": [108, 126]
   },
   {
     "text": "yếu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      175,
-      178
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [175, 178]
   }
 ]

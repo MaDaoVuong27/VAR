@@ -1,0 +1,193 @@
+[
+  {
+    "text": "đái tháo đường được kiểm soát bằng chế độ ăn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E12"],
+    "assertions": ["isHistorical"],
+    "position": [62, 106]
+  },
+  {
+    "text": "Dị ứng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["D69.0", "H10.1", "J30"],
+    "assertions": ["isHistorical"],
+    "position": [182, 188]
+  },
+  {
+    "text": "Dị ứng furosemide",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["L50.0"],
+    "assertions": ["isHistorical"],
+    "position": [190, 207]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [256, 263]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [441, 448]
+  },
+  {
+    "text": "khó nằm vào ban đêm để ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [455, 481]
+  },
+  {
+    "text": "thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [485, 488]
+  },
+  {
+    "text": "căng cứng vai trái",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [495, 513]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [582, 584]
+  },
+  {
+    "text": "đờm trắng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [588, 597]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [613, 616]
+  },
+  {
+    "text": "phù chi dưới",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [623, 635]
+  },
+  {
+    "text": "(ổn định)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z32.1"],
+    "assertions": ["isHistorical"],
+    "position": [636, 645]
+  },
+  {
+    "text": "căng cứng vai trái)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M62.61"],
+    "assertions": ["isHistorical"],
+    "position": [737, 756]
+  },
+  {
+    "text": "khó nằm vào ban đêm để ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [847, 873]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [877, 884]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [886, 888]
+  },
+  {
+    "text": "có đờm trắng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [889, 901]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [912, 915]
+  },
+  {
+    "text": "phù chi dưới",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [917, 929]
+  },
+  {
+    "text": "bỏ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [972, 974]
+  },
+  {
+    "text": "quên",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1006, 1010]
+  },
+  {
+    "text": "độ bão hòa oxy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1097, 1111]
+  },
+  {
+    "text": "bumetanide 2mg iv",
+    "type": "THUỐC",
+    "candidates": ["315502"],
+    "assertions": [],
+    "position": [1401, 1418]
+  },
+  {
+    "text": "vancomycin 1 gram",
+    "type": "THUỐC",
+    "candidates": ["328783"],
+    "assertions": [],
+    "position": [1434, 1451]
+  },
+  {
+    "text": "levofloxacin 750mg iv",
+    "type": "THUỐC",
+    "candidates": ["330371"],
+    "assertions": [],
+    "position": [1467, 1488]
+  },
+  {
+    "text": "aspirin 325mg",
+    "type": "THUỐC",
+    "candidates": ["317300"],
+    "assertions": [],
+    "position": [1504, 1517]
+  },
+  {
+    "text": "albuterolipratropium nebulizer",
+    "type": "THUỐC",
+    "candidates": ["218646"],
+    "assertions": [],
+    "position": [1533, 1563]
+  },
+  {
+    "text": "methylprednisolone 125mg iv",
+    "type": "THUỐC",
+    "candidates": ["1743702"],
+    "assertions": [],
+    "position": [1579, 1606]
+  },
+  {
+    "text": "lợi tiểu 600cc",
+    "type": "THUỐC",
+    "candidates": ["333518"],
+    "assertions": [],
+    "position": [1613, 1627]
+  }
+]

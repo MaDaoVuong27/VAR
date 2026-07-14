@@ -1,0 +1,220 @@
+[
+  {
+    "text": "Suy thận mạn giai đoạn V do đái tháo đường và tăng huyết áp\n    -",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I12", "N25.1", "I13"],
+    "assertions": ["isHistorical"],
+    "position": [48, 113]
+  },
+  {
+    "text": "u ác của tuyến tiền liệt điều trị bằng xạ trị cấy hạt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N42.0", "N42.2", "C61"],
+    "assertions": ["isHistorical"],
+    "position": [114, 167]
+  },
+  {
+    "text": "Phẫu thuật cắt bỏ u dây thần kinh số VIII",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [210, 251]
+  },
+  {
+    "text": "Đặt shunt động tĩnh mạch (AVF) ở tay phải (RUE AVF)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I77.2", "I87.1"],
+    "assertions": ["isHistorical"],
+    "position": [259, 310]
+  },
+  {
+    "text": "Sinh thiết tuyến tiền liệt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N42.0", "N42.2", "D40.0"],
+    "assertions": ["isHistorical"],
+    "position": [317, 343]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [387, 394]
+  },
+  {
+    "text": "mất trí nhớ chi tiết",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [396, 416]
+  },
+  {
+    "text": "khó chịu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [439, 447]
+  },
+  {
+    "text": "mệt mỏi nhiều",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [448, 461]
+  },
+  {
+    "text": "ăn không",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [463, 471]
+  },
+  {
+    "text": "ngứa da toàn thân nhiều",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [484, 507]
+  },
+  {
+    "text": "mất trí nhớ chi tiết",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [512, 532]
+  },
+  {
+    "text": "khó thở khi gắng sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [534, 554]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [568, 576]
+  },
+  {
+    "text": "nôn .",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [581, 586]
+  },
+  {
+    "text": "tỉnhi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [616, 621]
+  },
+  {
+    "text": "Mệt mỏi nhiều",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [628, 641]
+  },
+  {
+    "text": "Ăn không",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [648, 656]
+  },
+  {
+    "text": "mất trí nhớ chi tiết",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [704, 724]
+  },
+  {
+    "text": "khó thở khi gắng sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [731, 751]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [759, 767]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [771, 774]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [823, 833]
+  },
+  {
+    "text": "tăng",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [834, 838]
+  },
+  {
+    "text": "5.2 lên",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [842, 849]
+  },
+  {
+    "text": "6.3 mg/dl",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [850, 859]
+  },
+  {
+    "text": "460",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [861, 864]
+  },
+  {
+    "text": "557 umol/l)",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [867, 878]
+  },
+  {
+    "text": "Ure",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [885, 888]
+  },
+  {
+    "text": "91 mg/dl",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [904, 912]
+  },
+  {
+    "text": "24.6",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [915, 919]
+  },
+  {
+    "text": "32.5 mmol/l)",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [921, 933]
+  },
+  {
+    "text": "photpho",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [953, 960]
+  },
+  {
+    "text": "8.4",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [961, 964]
+  },
+  {
+    "text": "hoàn thành quá trình đánh giá trước ghép thận nhưng tạm hoãn ghép thận do chẩn đoán u ác của tuyến tiền liệtAnh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [997, 1108]
+  },
+  {
+    "text": "một vài người hiến tiềm năng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1115, 1143]
+  },
+  {
+    "text": "Điều trị bắt đầu chạy thận nhân tạo (HD)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1210, 1250]
+  }
+]

@@ -2,10 +2,7 @@
   {
     "text": "đau vùng hạ sườn phải",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      156,
-      177
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [156, 177]
   }
 ]

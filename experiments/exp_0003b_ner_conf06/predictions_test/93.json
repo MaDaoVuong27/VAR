@@ -1,0 +1,60 @@
+[
+  {
+    "text": "Ung thư vú di căn, tràn dịch màng phổi trái tái phát",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["J93", "J94.2", "M25.4"],
+    "assertions": ["isHistorical"],
+    "position": [25, 77]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [116, 123]
+  },
+  {
+    "text": "Lâm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E02", "R75", "Z00"],
+    "assertions": [],
+    "position": [146, 149]
+  },
+  {
+    "text": "tràn dịch màng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [156, 170]
+  },
+  {
+    "text": "ngoài tim",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["C45.2", "I01.0", "I09.2"],
+    "assertions": [],
+    "position": [171, 180]
+  },
+  {
+    "text": "mức độ trung bình",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [181, 198]
+  },
+  {
+    "text": "ung thư di căn theo đường bạch huyết ở hai phổi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [227, 274]
+  },
+  {
+    "text": "dẫn lưu dịch màng tim",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [304, 325]
+  },
+  {
+    "text": "Không thực hiện gây dính màng phổi bằng talc",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R09.1"],
+    "assertions": ["isNegated"],
+    "position": [328, 372]
+  }
+]

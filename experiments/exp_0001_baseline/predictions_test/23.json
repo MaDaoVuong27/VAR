@@ -2,78 +2,43 @@
   {
     "text": "Đau đầu vùng thái dương phải",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      2008,
-      2036
-    ],
-    "assertions": [
-      "isHistorical"
-    ]
+    "assertions": ["isHistorical"],
+    "position": [2008, 2036]
   },
   {
     "text": "đỉnh đầu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      2038,
-      2046
-    ],
-    "assertions": [
-      "isHistorical"
-    ]
+    "assertions": ["isHistorical"],
+    "position": [2038, 2046]
   },
   {
     "text": "đôi khi lan ra sau mắt phải",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      2048,
-      2075
-    ],
-    "assertions": [
-      "isHistorical"
-    ]
+    "assertions": ["isHistorical"],
+    "position": [2048, 2075]
   },
   {
     "text": "Tê bì vùng trán phải",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      2077,
-      2097
-    ],
-    "assertions": [
-      "isHistorical"
-    ]
+    "assertions": ["isHistorical"],
+    "position": [2077, 2097]
   },
   {
     "text": "da đầu phải và nửa mặt phải",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      2099,
-      2126
-    ],
-    "assertions": [
-      "isHistorical"
-    ]
+    "assertions": ["isHistorical"],
+    "position": [2099, 2126]
   },
   {
     "text": "Cơn rối loạn ý thức thoáng qua.Mất định hướng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      2128,
-      2173
-    ],
-    "assertions": [
-      "isHistorical"
-    ]
+    "assertions": ["isHistorical"],
+    "position": [2128, 2173]
   },
   {
     "text": "Mất thăng bằng.Gần ngất",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      2175,
-      2198
-    ],
-    "assertions": [
-      "isHistorical"
-    ]
+    "assertions": ["isHistorical"],
+    "position": [2175, 2198]
   }
 ]

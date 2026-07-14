@@ -1,6 +1,7 @@
 {
-  "status": "PENDING_GOLD",
-  "note": "Baseline pipeline chạy end-to-end, sinh submission hợp lệ. CHƯA có điểm final vì data/labeled/ground_truth/ còn rỗng (nhãn dev chưa được người xác minh). Chấm bằng: python scripts/run_eval.py --pred experiments/exp_0001_baseline/predictions, sau khi có gold.",
+  "status": "SCORED_ON_GOLD_V1",
+  "gold": "data/labeled/ground_truth (v1 assistant-annotated, 13/15 file; 54 & 97 chưa annotate). Candidate codes best-effort, cần người verify.",
+  "note": "text_score dùng proxy soft-F1 (không phải WER literal — xem docstring src/eval/metric.py). final là proxy nội bộ để so sánh tier, có thể lệch scorer BTC.",
   "eval_harness_validated": "src/eval chấm ví dụ trong đề (predict=gold) = final_score 1.0 (tests/test_metric.py)",
   "output_stats": {
     "test_files": 100,
@@ -14,10 +15,20 @@
     },
     "runtime_100_files_sec": 32
   },
-  "scores": {
-    "text_score": null,
-    "assertions_score": null,
-    "candidates_score": null,
-    "final_score": null
+  "scores_gold_v1_13file": {
+    "text_score": 0.3782,
+    "assertions_score": 0.6216,
+    "candidates_score": 0.2132,
+    "final_score": 0.3852,
+    "n_files": 13
+  },
+  "scores_OFFICIAL_BTC_100file": {
+    "submitted": "2026-07-12",
+    "text_score": 0.1918,
+    "assertions_score": 0.2245,
+    "candidates_score": 0.0963,
+    "final_score": 0.1634,
+    "raw_metrics": {"WER": 80.8248, "J_assertion": 22.4507, "J_candidates": 9.6267, "num_scored": 100},
+    "note": "Điểm THẬT từ hệ thống BTC (thang 100 -> quy về 0-1). Thấp hơn nhiều so với gold v1 (13 file dev tự chọn thiên về file có cấu trúc bullet). Nguyên nhân: 4/100 file predict rỗng (6,8,25,93) + 21/100 file <=2 concept do extractor mù văn xuôi. => NER recall là nút thắt gốc."
   }
 }

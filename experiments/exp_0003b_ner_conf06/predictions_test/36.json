@@ -1,0 +1,438 @@
+[
+  {
+    "text": "Bệnh thận đa nang (tiền sử",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Q61", "N28.1", "Q61.8"],
+    "assertions": ["isHistorical"],
+    "position": [41, 67]
+  },
+  {
+    "text": "Bệnh thận đa nang)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Q61", "Q61.1", "Q61.2"],
+    "assertions": ["isHistorical"],
+    "position": [68, 86]
+  },
+  {
+    "text": "phẫu thuật tái tạo niệu quản trái",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N20.1"],
+    "assertions": ["isHistorical"],
+    "position": [127, 160]
+  },
+  {
+    "text": "azathioprine",
+    "type": "THUỐC",
+    "candidates": ["1256"],
+    "assertions": ["isHistorical"],
+    "position": [208, 220]
+  },
+  {
+    "text": "prograf (dose decreased from 5mg bid to 1mg bid)",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [233, 281]
+  },
+  {
+    "text": "cellcept (",
+    "type": "THUỐC",
+    "candidates": ["152633"],
+    "assertions": ["isHistorical"],
+    "position": [294, 304]
+  },
+  {
+    "text": "bệnh nhân đang dùng cellcept",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [304, 332]
+  },
+  {
+    "text": "Suy thận ngày càng nặng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [386, 409]
+  },
+  {
+    "text": "Muộn (creatinine  tăng cao)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [451, 478]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [514, 524]
+  },
+  {
+    "text": "ổn",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [525, 527]
+  },
+  {
+    "text": "định ở mức",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["T22.4", "T23.0", "H54.9"],
+    "assertions": [],
+    "position": [528, 538]
+  },
+  {
+    "text": "1.4-1.6",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [539, 546]
+  },
+  {
+    "text": "sau khi ghép",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [547, 559]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [573, 583]
+  },
+  {
+    "text": "tăng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["B27", "B27.0", "B27.1"],
+    "assertions": [],
+    "position": [592, 596]
+  },
+  {
+    "text": "muộn",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [597, 601]
+  },
+  {
+    "text": "Tình trạng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["D69", "D69.8", "D69.9"],
+    "assertions": [],
+    "position": [615, 625]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [626, 635]
+  },
+  {
+    "text": "đáng kể khi dùng cellcept",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [636, 661]
+  },
+  {
+    "text": "uống kém",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [665, 673]
+  },
+  {
+    "text": "Tăng creatinine ban đầu được cho là do nguyên nhân prerenal, ít nhất một phần",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [687, 764]
+  },
+  {
+    "text": "Giai đoạn giữa (pcr là dương tính với virus bk).",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [778, 826]
+  },
+  {
+    "text": "creatinin tăng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [839, 853]
+  },
+  {
+    "text": "do bệnh lý BK",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A08.1", "A50.3", "B22.0"],
+    "assertions": [],
+    "position": [866, 879]
+  },
+  {
+    "text": "prograf dose",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [893, 905]
+  },
+  {
+    "text": "decreased",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [906, 915]
+  },
+  {
+    "text": "from 5mg bid to 1mg bid",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [916, 939]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [953, 963]
+  },
+  {
+    "text": "tăng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["B27", "B27.0", "B27.1"],
+    "assertions": [],
+    "position": [973, 977]
+  },
+  {
+    "text": "Lo ngại về đào thải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [991, 1010]
+  },
+  {
+    "text": "siêu âm thận",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1024, 1036]
+  },
+  {
+    "text": "chỉ số kháng trở",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1046, 1062]
+  },
+  {
+    "text": "bình thường",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1063, 1074]
+  },
+  {
+    "text": "sinh thiết ghép thận",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1088, 1108]
+  },
+  {
+    "text": "không",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1109, 1114]
+  },
+  {
+    "text": "kháng thể hữu hình",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1138, 1156]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1179, 1189]
+  },
+  {
+    "text": "5.1 hôm nay",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1193, 1204]
+  },
+  {
+    "text": "5.8 hôm nay",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1223, 1234]
+  },
+  {
+    "text": "Suy thận ngày càng nặng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1271, 1294]
+  },
+  {
+    "text": "Tình trạng tiêu chảy đáng kể khi dùng cellcept và uống kém",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1347, 1405]
+  },
+  {
+    "text": "pcr",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1419, 1422]
+  },
+  {
+    "text": "dương tính với",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1423, 1437]
+  },
+  {
+    "text": "vào giữa",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1447, 1455]
+  },
+  {
+    "text": "prograf dose",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1469, 1481]
+  },
+  {
+    "text": "decreased",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1482, 1491]
+  },
+  {
+    "text": "siêu âm thận",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1529, 1541]
+  },
+  {
+    "text": "chỉ số",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1551, 1557]
+  },
+  {
+    "text": "kháng trở",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1558, 1567]
+  },
+  {
+    "text": "bình thường",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1568, 1579]
+  },
+  {
+    "text": "sinh thiết ghép thận",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1593, 1613]
+  },
+  {
+    "text": "thể hữu hình cấp tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R52.0"],
+    "assertions": ["isNegated"],
+    "position": [1649, 1670]
+  },
+  {
+    "text": "nghiệm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1688, 1694]
+  },
+  {
+    "text": "kiểm tra ngoại trú",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1700, 1718]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1736, 1746]
+  },
+  {
+    "text": "5.1",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1747, 1750]
+  },
+  {
+    "text": "5.8.",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1754, 1758]
+  },
+  {
+    "text": "thêm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [1826, 1830]
+  },
+  {
+    "text": "sinh thiết thận lại vào buổi sáng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [1834, 1867]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1936, 1946]
+  },
+  {
+    "text": "5.1",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1947, 1950]
+  },
+  {
+    "text": "5.8",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1965, 1968]
+  },
+  {
+    "text": "pcr",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1981, 1984]
+  },
+  {
+    "text": "dương tính với",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1985, 1999]
+  },
+  {
+    "text": "virus bk",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2000, 2008]
+  },
+  {
+    "text": "siêu âm thận cho thấy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2045, 2066]
+  },
+  {
+    "text": "chỉ số kháng trở",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2067, 2083]
+  },
+  {
+    "text": "bình thường",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [2084, 2095]
+  },
+  {
+    "text": "Sinh thiết thận (vào chính ngày hôm đó)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [2139, 2178]
+  },
+  {
+    "text": "Sinh thiết thận lại vào buổi sáng (dự kiến)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [2191, 2234]
+  },
+  {
+    "text": "Bệnh lý thận do BK",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["B52.0", "N14", "N14.0"],
+    "assertions": [],
+    "position": [2282, 2300]
+  },
+  {
+    "text": "Lo ngại về đào thải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [2313, 2332]
+  },
+  {
+    "text": "Không có bằng chứng đào thải kháng thể hữu hình cấp tính (trong sinh thiết)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["U83.7", "O92.3", "R52.0"],
+    "assertions": ["isNegated"],
+    "position": [2345, 2420]
+  }
+]

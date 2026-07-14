@@ -1,0 +1,140 @@
+[
+  {
+    "text": "nội soi mật tuỵ ngược dòng (ERCP) ,đặt stent ống tuỵ gần",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K43.4"],
+    "assertions": ["isHistorical"],
+    "position": [53, 109]
+  },
+  {
+    "text": "phẫu thuật cắt bỏ khối u thần kinh nội tiết ở thân tụy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Y83.5"],
+    "assertions": ["isHistorical"],
+    "position": [112, 166]
+  },
+  {
+    "text": "octreotide",
+    "type": "THUỐC",
+    "candidates": ["7617"],
+    "assertions": ["isHistorical"],
+    "position": [206, 216]
+  },
+  {
+    "text": "Tuột sonde dẫn lưu ổ bụng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K28"],
+    "assertions": [],
+    "position": [346, 371]
+  },
+  {
+    "text": "bóc tách u nội tiết từ thân tuỵ gây biến chứng rò ống tuỵ mật",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K43.4"],
+    "assertions": [],
+    "position": [423, 484]
+  },
+  {
+    "text": "Sử dụng ống dẫn lưu tại chỗ dò (  do ERCP không thể qua được chỗ gián đoạn ống dẫn, đặt stent vào ống dẫn tụy gần, không làm giảm đáng kể lượng dịch rò) ,",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Y61.7"],
+    "assertions": ["isNegated"],
+    "position": [486, 640]
+  },
+  {
+    "text": "nhiễm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A20"],
+    "assertions": ["isNegated"],
+    "position": [665, 670]
+  },
+  {
+    "text": "Clostridioides difficile, và nhiễm trùng vết mổổ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A04.7"],
+    "assertions": ["isNegated"],
+    "position": [671, 719]
+  },
+  {
+    "text": "flagyl",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["T59.2"],
+    "assertions": ["isNegated"],
+    "position": [742, 748]
+  },
+  {
+    "text": "tuột ống sonde dẫn lưu ổ bụng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M99.22"],
+    "assertions": ["isNegated"],
+    "position": [853, 882]
+  },
+  {
+    "text": "chân sonde dẫn lưu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M25.46"],
+    "assertions": ["isNegated"],
+    "position": [911, 929]
+  },
+  {
+    "text": "sưng nề",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [930, 937]
+  },
+  {
+    "text": "đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [939, 941]
+  },
+  {
+    "text": "mũi chỉ khâu da cố định ống dẫn bị tuột ra",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["S02.21"],
+    "assertions": ["isNegated"],
+    "position": [964, 1006]
+  },
+  {
+    "text": "2,54 cm",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1038, 1045]
+  },
+  {
+    "text": "Tại chân sonde dẫn lưu ổ bụng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K11.1"],
+    "assertions": [],
+    "position": [1141, 1170]
+  },
+  {
+    "text": "sưng nề",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1171, 1178]
+  },
+  {
+    "text": "Nhịn ăn uống đường miệng, nuôi dưỡng đường tĩnh mạch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z43.4"],
+    "assertions": [],
+    "position": [1216, 1268]
+  },
+  {
+    "text": "Catheter PICC được chuyển sang tay trái",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M20.4"],
+    "assertions": [],
+    "position": [1270, 1309]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1327, 1334]
+  },
+  {
+    "text": "không phát hiện",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1337, 1352]
+  }
+]

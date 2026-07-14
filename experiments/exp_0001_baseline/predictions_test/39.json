@@ -2,73 +2,47 @@
   {
     "text": "đau bụng dữ dội",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      37,
-      52
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [37, 52]
   },
   {
     "text": "đau bụng dữ dội",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      118,
-      133
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [118, 133]
   },
   {
     "text": "chướng bụng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      136,
-      147
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [136, 147]
   },
   {
     "text": "ớn lạnh",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      150,
-      157
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [150, 157]
   },
   {
     "text": "mất ăn ngon",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      160,
-      171
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [160, 171]
   },
   {
     "text": "Không có buồn nôn hoặc nôn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      338,
-      364
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [338, 364]
   },
   {
     "text": "công thức máu",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      454,
-      467
-    ]
+    "position": [454, 467]
   },
   {
     "text": "32",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      471,
-      473
-    ]
+    "position": [471, 473]
   }
 ]

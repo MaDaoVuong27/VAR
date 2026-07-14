@@ -1,0 +1,54 @@
+[
+  {
+    "text": "Đái tháo đường type II",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E11"],
+    "assertions": ["isHistorical"],
+    "position": [57, 79]
+  },
+  {
+    "text": "bệnh động mạch vành sau phẫu thuật bắc cầu nối động mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I77.2", "G40"],
+    "assertions": ["isHistorical"],
+    "position": [86, 147]
+  },
+  {
+    "text": "bệnh phổi tắc nghẽn mạn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["J44", "J44.0", "J44.1"],
+    "assertions": ["isHistorical"],
+    "position": [199, 227]
+  },
+  {
+    "text": "Ngưng thở khi ngủ do tắc nghẽn đang dùng BiPAP",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["G47.3"],
+    "assertions": ["isHistorical"],
+    "position": [234, 280]
+  },
+  {
+    "text": "Ung thư biểu mô tế bào vảy xâm nhập của dương vậtbiệt hóa kém, sau cắt bao quy đầu với",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["C22.0", "N48.1"],
+    "assertions": ["isHistorical"],
+    "position": [287, 373]
+  },
+  {
+    "text": "bờ diện cắt",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [374, 385]
+  },
+  {
+    "text": "dương tính",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [386, 396]
+  },
+  {
+    "text": "phẫu thuật bắc cầu nối động mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I77.2"],
+    "assertions": ["isHistorical"],
+    "position": [440, 477]
+  }
+]

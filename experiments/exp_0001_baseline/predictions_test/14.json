@@ -2,57 +2,37 @@
   {
     "text": "đau ngực tráikèm theo  khó thở",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      69,
-      99
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [69, 99]
   },
   {
     "text": "đau ngực trái",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      123,
-      136
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [123, 136]
   },
   {
     "text": "khó thở",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      139,
-      146
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [139, 146]
   },
   {
     "text": "chóng mặt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      149,
-      158
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [149, 158]
   },
   {
     "text": "không liên quan đến gắng sức",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      208,
-      236
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [208, 236]
   },
   {
     "text": "đến rồi đi",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      367,
-      377
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [367, 377]
   }
 ]

@@ -2,184 +2,107 @@
   {
     "text": "Tiểu đường loại 1 đái tháo đường",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      54,
-      86
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "E10"
-    ]
+    "candidates": ["E10"],
+    "assertions": ["isHistorical"],
+    "position": [54, 86]
   },
   {
     "text": "tăng huyết áp",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      93,
-      106
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "I10",
-      "I11",
-      "I11.0"
-    ]
+    "candidates": ["I10", "I11", "I11.0"],
+    "assertions": ["isHistorical"],
+    "position": [93, 106]
   },
   {
     "text": "tăng lipid máu, không đặc hiệu",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      113,
-      143
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "E78.5"
-    ]
+    "candidates": ["E78.5"],
+    "assertions": ["isHistorical"],
+    "position": [113, 143]
   },
   {
     "text": "béo phì",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      150,
-      157
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "E65",
-      "E66",
-      "E66.0"
-    ]
+    "candidates": ["E65", "E66", "E66.0"],
+    "assertions": ["isHistorical"],
+    "position": [150, 157]
   },
   {
     "text": "đau bàn chân phải",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      307,
-      324
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [307, 324]
   },
   {
     "text": "đau bàn chân phải",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      360,
-      377
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [360, 377]
   },
   {
     "text": "mất thăng bằng khi đi lại",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      384,
-      409
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [384, 409]
   },
   {
     "text": "hct",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      808,
-      811
-    ]
+    "position": [808, 811]
   },
   {
     "text": "8.126",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      825,
-      830
-    ]
+    "position": [825, 830]
   },
   {
     "text": "tiểu cầu",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      839,
-      847
-    ]
+    "position": [839, 847]
   },
   {
     "text": "478",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      860,
-      863
-    ]
+    "position": [860, 863]
   },
   {
     "text": "3",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      873,
-      874
-    ]
+    "position": [873, 874]
   },
   {
     "text": "13",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      914,
-      916
-    ]
+    "position": [914, 916]
   },
   {
     "text": "bun",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      923,
-      926
-    ]
+    "position": [923, 926]
   },
   {
     "text": "glucose",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      961,
-      968
-    ]
+    "position": [961, 968]
   },
   {
     "text": "316",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      983,
-      986
-    ]
+    "position": [983, 986]
   },
   {
     "text": "1.3",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1015,
-      1018
-    ]
+    "position": [1015, 1018]
   },
   {
     "text": "tổng phân tích",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      1050,
-      1064
-    ]
+    "position": [1050, 1064]
   },
   {
     "text": "12",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      1077,
-      1079
-    ]
+    "position": [1077, 1079]
   }
 ]

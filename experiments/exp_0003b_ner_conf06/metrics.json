@@ -1,0 +1,12 @@
+{
+  "exp": "exp_0003b_ner_conf06",
+  "desc": "NER v2 min_conf=0.6 (recall cao hon) - A/B voi 0.95",
+  "ner": "models/ner_xlmr_v2",
+  "dev_scores": {
+    "text_score": 0.1447,
+    "assertions_score": 0.6316,
+    "candidates_score": 0.4155,
+    "final_score": 0.3991
+  },
+  "n_dev": 15
+}

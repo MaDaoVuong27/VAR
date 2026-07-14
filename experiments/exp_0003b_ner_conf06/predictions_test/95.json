@@ -1,0 +1,136 @@
+[
+  {
+    "text": "đau bụng sau khi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [51, 67]
+  },
+  {
+    "text": "uống sữa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [68, 76]
+  },
+  {
+    "text": "sử  hin tại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [87, 98]
+  },
+  {
+    "text": "đau âm ỉ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [120, 128]
+  },
+  {
+    "text": "vùng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A54.2", "A56.1", "A60"],
+    "assertions": ["isHistorical"],
+    "position": [129, 133]
+  },
+  {
+    "text": "quanh rốn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [134, 143]
+  },
+  {
+    "text": "đau bụng âm ỉ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [207, 220]
+  },
+  {
+    "text": "quanh rốn sau khí uống sữa",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [221, 247]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [266, 269]
+  },
+  {
+    "text": "Da niêm mạc hồng nhạt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [323, 344]
+  },
+  {
+    "text": "Không xuất huyết dưới da",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I60.7", "I60.9", "I62.0"],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [345, 369]
+  },
+  {
+    "text": "đau âm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [376, 382]
+  },
+  {
+    "text": "ỉ vùng quanh rốn, hạ sườn trái từng cơni",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [383, 423]
+  },
+  {
+    "text": "buồn nôn nhẹ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [430, 442]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [450, 453]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [466, 469]
+  },
+  {
+    "text": "ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [478, 485]
+  },
+  {
+    "text": "Đại tiện bình thường, không có nhầy máu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["O92.3", "R15"],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [492, 531]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [544, 552]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [565, 572]
+  },
+  {
+    "text": "Khám bụng mềm, không chướng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [573, 600]
+  }
+]

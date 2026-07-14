@@ -1,0 +1,155 @@
+[
+  {
+    "text": "lý mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [30, 41]
+  },
+  {
+    "text": "ung thư vú",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["D05", "D05.1", "D05.7"],
+    "assertions": ["isHistorical"],
+    "position": [47, 57]
+  },
+  {
+    "text": "ung thư phổi gây",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["D02.2", "B21.0", "B21.1"],
+    "assertions": ["isHistorical"],
+    "position": [64, 80]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [81, 83]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [84, 91]
+  },
+  {
+    "text": "kéo dài tại nhà",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [92, 107]
+  },
+  {
+    "text": "thở oxy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [133, 140]
+  },
+  {
+    "text": "3L/p",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [141, 145]
+  },
+  {
+    "text": "suy nhược toàn thân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [197, 216]
+  },
+  {
+    "text": "khó thở  gần đây ,",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [260, 278]
+  },
+  {
+    "text": "liên",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A40", "A40.0", "A40.1"],
+    "assertions": [],
+    "position": [279, 283]
+  },
+  {
+    "text": "tục",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [284, 287]
+  },
+  {
+    "text": "kể",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["D23.1", "F70.1", "F71.1"],
+    "assertions": [],
+    "position": [289, 291]
+  },
+  {
+    "text": "cả lúc nghỉ ngơi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [292, 308]
+  },
+  {
+    "text": "hồi hộp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [319, 326]
+  },
+  {
+    "text": "đánh trống ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [328, 343]
+  },
+  {
+    "text": "suy nhược toàn thân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [380, 399]
+  },
+  {
+    "text": "khó thở liên tục",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [406, 422]
+  },
+  {
+    "text": "khi nằm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [432, 439]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [446, 448]
+  },
+  {
+    "text": "hồi hộp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [455, 462]
+  },
+  {
+    "text": "đánh trống ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [464, 479]
+  },
+  {
+    "text": "chỉ số bão hòa oxy (đo độ bão hòa oxy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [498, 535]
+  },
+  {
+    "text": "dưới 90 %",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [536, 545]
+  },
+  {
+    "text": "Siêu âm tim: chèn ép tim",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [562, 586]
+  }
+]

@@ -2,149 +2,79 @@
   {
     "text": "Tăng huyết áp",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      48,
-      61
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "I10",
-      "I11",
-      "I11.0"
-    ]
+    "candidates": ["I10", "I11", "I11.0"],
+    "assertions": ["isHistorical"],
+    "position": [48, 61]
   },
   {
     "text": "bệnh thận mạn, không đặc hiệu",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      68,
-      97
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "N05.6",
-      "N07.6",
-      "Q61"
-    ]
+    "candidates": ["N05.6", "N07.6", "Q61"],
+    "assertions": ["isHistorical"],
+    "position": [68, 97]
   },
   {
     "text": "rung nhĩ kịch phát",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      172,
-      190
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "I48.0"
-    ]
+    "candidates": ["I48.0"],
+    "assertions": ["isHistorical"],
+    "position": [172, 190]
   },
   {
     "text": "tăng sản tuyến tiền liệt",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      197,
-      221
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "N42.3",
-      "N42.0",
-      "N42.2"
-    ]
+    "candidates": ["N42.3", "N42.0", "N42.2"],
+    "assertions": ["isHistorical"],
+    "position": [197, 221]
   },
   {
     "text": "metoprolol",
     "type": "THUỐC",
-    "position": [
-      354,
-      364
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "6918"
-    ]
+    "candidates": ["6918"],
+    "assertions": ["isHistorical"],
+    "position": [354, 364]
   },
   {
     "text": "desmopressin",
     "type": "THUỐC",
-    "position": [
-      405,
-      417
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "3251"
-    ]
+    "candidates": ["3251"],
+    "assertions": ["isHistorical"],
+    "position": [405, 417]
   },
   {
     "text": "ngã với gãy cổ xương đùi di lệch",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      643,
-      675
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [643, 675]
   },
   {
     "text": "thay đổi tư thế",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1087,
-      1102
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1087, 1102]
   },
   {
     "text": "chụp x-quang ngực: mức nước-khí",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      2023,
-      2054
-    ],
+    "candidates": [],
     "assertions": [],
-    "candidates": []
+    "position": [2023, 2054]
   },
   {
     "text": "siêu âm",
     "type": "TÊN_XÉT_NGHIỆM",
-    "position": [
-      2335,
-      2342
-    ]
+    "position": [2335, 2342]
   },
   {
     "text": "30",
     "type": "KẾT_QUẢ_XÉT_NGHIỆM",
-    "position": [
-      2394,
-      2396
-    ]
+    "position": [2394, 2396]
   },
   {
     "text": "tiểu đêm nhiều  do  tăng sản tuyến tiền liệt",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      2963,
-      3007
-    ],
+    "candidates": ["N42.3", "N42.0", "N42.2"],
     "assertions": [],
-    "candidates": [
-      "N42.3",
-      "N42.0",
-      "N42.2"
-    ]
+    "position": [2963, 3007]
   }
 ]

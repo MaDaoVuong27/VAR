@@ -1,0 +1,302 @@
+[
+  {
+    "text": "bệnh trào ngược dạ dày- thực quản không có viêm thực quản",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K20", "K21.9", "K21"],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [40, 97]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [135, 138]
+  },
+  {
+    "text": "không",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [282, 287]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [302, 305]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [307, 314]
+  },
+  {
+    "text": "đau cơ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [316, 322]
+  },
+  {
+    "text": "102.9°F",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [341, 348]
+  },
+  {
+    "text": "đau cổ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [394, 400]
+  },
+  {
+    "text": "vai",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [404, 407]
+  },
+  {
+    "text": "đỡ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [581, 583]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [585, 588]
+  },
+  {
+    "text": "đau cổ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [592, 598]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [622, 625]
+  },
+  {
+    "text": "đau cơ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [628, 634]
+  },
+  {
+    "text": "đau cổ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [637, 643]
+  },
+  {
+    "text": "đau vai phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [646, 658]
+  },
+  {
+    "text": "sưng quanh khớp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [661, 676]
+  },
+  {
+    "text": "ức đòn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [677, 683]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [686, 693]
+  },
+  {
+    "text": "ho khan",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [696, 703]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [706, 713]
+  },
+  {
+    "text": "sợ ánh sáng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [716, 727]
+  },
+  {
+    "text": "áp xe/viêm khớp nhiễm trùng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R57.2"],
+    "assertions": [],
+    "position": [923, 950]
+  },
+  {
+    "text": "Dẫn lưu dịch\n- x-quang đề nghị mri",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [953, 987]
+  },
+  {
+    "text": "kháng sinh tĩnh mạch và mri",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [1041, 1068]
+  },
+  {
+    "text": "Vết rạch nhỏ trên ngực phải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1119, 1146]
+  },
+  {
+    "text": "đau khi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1175, 1182]
+  },
+  {
+    "text": "Không có dấu hiệu viêm mô tế bào hoặc nhiễm trùng ở các bộ phận khác trên cơ thể",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["L03", "M60", "M60.8"],
+    "assertions": ["isNegated"],
+    "position": [1203, 1283]
+  },
+  {
+    "text": "Phổi rõ tiếng khi nghe",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1286, 1308]
+  },
+  {
+    "text": "Tim nhịp đều, không có tiếng tim bệnh lý",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I42", "O92.3"],
+    "assertions": ["isNegated"],
+    "position": [1311, 1351]
+  },
+  {
+    "text": "bạch cầu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1377, 1385]
+  },
+  {
+    "text": "13.9",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1386, 1390]
+  },
+  {
+    "text": "lymphocyte",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1412, 1422]
+  },
+  {
+    "text": "bình thường",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1425, 1436]
+  },
+  {
+    "text": "chem",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1437, 1441]
+  },
+  {
+    "text": "ck",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1446, 1448]
+  },
+  {
+    "text": "58",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1449, 1451]
+  },
+  {
+    "text": "alt",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1454, 1457]
+  },
+  {
+    "text": "92",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1458, 1460]
+  },
+  {
+    "text": "hiv vl",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1463, 1469]
+  },
+  {
+    "text": "soi tươi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1481, 1489]
+  },
+  {
+    "text": "ký sinh trùng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1490, 1503]
+  },
+  {
+    "text": "âm tính",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1504, 1511]
+  },
+  {
+    "text": "siêu âm vùng cổ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1541, 1556]
+  },
+  {
+    "text": "giới hạn",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1599, 1607]
+  },
+  {
+    "text": "không rõ",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1614, 1622]
+  },
+  {
+    "text": "Cấu trúc tổn thương giảm âm, có hồi âm lợn cợn (vẩn đục) bên trong",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M75", "S26", "S36.2"],
+    "assertions": [],
+    "position": [1624, 1690]
+  },
+  {
+    "text": "0.7 cm",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1724, 1730]
+  },
+  {
+    "text": "ngang",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["C18.4", "D12.3", "G37.3"],
+    "assertions": [],
+    "position": [1744, 1749]
+  },
+  {
+    "text": "Ổ dịch có xu hướng lan lên trên và ăn sâu xuống phía dưới xương đòn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["S42.0"],
+    "assertions": [],
+    "position": [1751, 1818]
+  },
+  {
+    "text": "Dẫn lưu dịch mủ/dịch chứa",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1958, 1983]
+  }
+]

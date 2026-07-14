@@ -1,0 +1,12 @@
+{
+  "exp": "exp_0007_sapbert_th07",
+  "desc": "NER + SapBERT abstain th=0.7 + tach span xuong dong",
+  "ner": "models/ner_xlmr_v2",
+  "dev_scores": {
+    "text_score": 0.2043,
+    "assertions_score": 0.6341,
+    "candidates_score": 0.4574,
+    "final_score": 0.4345
+  },
+  "n_dev": 15
+}

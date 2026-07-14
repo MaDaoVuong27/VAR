@@ -1,0 +1,229 @@
+[
+  {
+    "text": "tự",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [29, 31]
+  },
+  {
+    "text": "tửdo quá liều klonopinclonidine",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [32, 63]
+  },
+  {
+    "text": "điều trị đặt nội khí quản tại khoa",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [64, 98]
+  },
+  {
+    "text": "Hồi sức tích cực",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [99, 115]
+  },
+  {
+    "text": "Mẹ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["O33.4", "O35.3", "O98"],
+    "assertions": ["isHistorical", "isFamily"],
+    "position": [120, 122]
+  },
+  {
+    "text": "tử vong",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["O95", "O96", "O96.0"],
+    "assertions": ["isHistorical", "isFamily"],
+    "position": [126, 133]
+  },
+  {
+    "text": "Rối loạn cảm xúc",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F06.6", "F31", "F31.0"],
+    "assertions": ["isHistorical"],
+    "position": [195, 211]
+  },
+  {
+    "text": "Rối loạn lưỡng cực",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F31", "F31.8", "F31.0"],
+    "assertions": ["isHistorical"],
+    "position": [219, 237]
+  },
+  {
+    "text": "rối loạn lo âu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F06.4", "F40", "F40.8"],
+    "assertions": ["isHistorical"],
+    "position": [244, 258]
+  },
+  {
+    "text": "đơn (tên không được chỉ định)",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [324, 353]
+  },
+  {
+    "text": "klonopinclonidine (được kê đơn)",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [360, 391]
+  },
+  {
+    "text": "clonidine (mua trên đường phố)",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [398, 428]
+  },
+  {
+    "text": "suboxone (bắt đầu 3 tuần trước), không dùng đều 5-6 ngày",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [435, 491]
+  },
+  {
+    "text": "Lạm dụng chất kích thích, chất gây nghiện opioid",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F55"],
+    "assertions": ["isHistorical"],
+    "position": [567, 615]
+  },
+  {
+    "text": "tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [667, 672]
+  },
+  {
+    "text": "tự bắn vào đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [683, 697]
+  },
+  {
+    "text": "trầm cảm ngày càng nặng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [726, 749]
+  },
+  {
+    "text": "giai đoạn giống hưng cảm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F30", "F30.8", "F31.0"],
+    "assertions": [],
+    "position": [775, 799]
+  },
+  {
+    "text": "bằng tăng hoạt động và giảm nhu cầu ngủ 3-4 ngày",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R46.3"],
+    "assertions": [],
+    "position": [811, 859]
+  },
+  {
+    "text": "trong vài tuần nay",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [861, 879]
+  },
+  {
+    "text": "tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [893, 898]
+  },
+  {
+    "text": "dùng đều đặn x5-6 ngày",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": ["isNegated"],
+    "position": [920, 942]
+  },
+  {
+    "text": "suboxone 3 tuần trước",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": ["isNegated"],
+    "position": [957, 978]
+  },
+  {
+    "text": "rẻ",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": ["isNegated"],
+    "position": [982, 984]
+  },
+  {
+    "text": "suboxone",
+    "type": "THUỐC",
+    "candidates": ["352990"],
+    "assertions": ["isNegated"],
+    "position": [1000, 1008]
+  },
+  {
+    "text": "ý nghĩ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1057, 1063]
+  },
+  {
+    "text": "tự tử",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1064, 1069]
+  },
+  {
+    "text": "nghĩ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1074, 1078]
+  },
+  {
+    "text": "tự bắn vào đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1079, 1093]
+  },
+  {
+    "text": "lo âu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1100, 1105]
+  },
+  {
+    "text": "hoảng sợ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1106, 1114]
+  },
+  {
+    "text": "hoang tưởng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1121, 1132]
+  },
+  {
+    "text": "chiếm khí oxy của người khác",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1142, 1170]
+  },
+  {
+    "text": "sóc tâm thần",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F06", "F06.2", "F06.8"],
+    "assertions": [],
+    "position": [1207, 1219]
+  }
+]

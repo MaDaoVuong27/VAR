@@ -1,0 +1,159 @@
+[
+  {
+    "text": "đau bụng dữ dội",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [37, 52]
+  },
+  {
+    "text": "vài ngày",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [86, 94]
+  },
+  {
+    "text": "đau bụng dữ dội",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [118, 133]
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [136, 147]
+  },
+  {
+    "text": "ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [150, 157]
+  },
+  {
+    "text": "mất ăn ngon",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [160, 171]
+  },
+  {
+    "text": "Vị trí",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A06.8", "A19.0", "A19.1"],
+    "assertions": [],
+    "position": [195, 201]
+  },
+  {
+    "text": "thượng vị và góc phần tư trên bên phải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [203, 241]
+  },
+  {
+    "text": "Mức",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E66.2", "F70.0", "F71.0"],
+    "assertions": [],
+    "position": [244, 247]
+  },
+  {
+    "text": "độ nghiêm trọng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["D82", "D82.8", "Y91.2"],
+    "assertions": [],
+    "position": [248, 263]
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [302, 313]
+  },
+  {
+    "text": "ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [315, 322]
+  },
+  {
+    "text": "mất ăn ngon",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [324, 335]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [347, 355]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [361, 364]
+  },
+  {
+    "text": "Dấu hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A97.0", "A97.1", "N64.5"],
+    "assertions": [],
+    "position": [392, 400]
+  },
+  {
+    "text": "sàng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["C31.1", "E02", "J01.2"],
+    "assertions": [],
+    "position": [405, 409]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [412, 415]
+  },
+  {
+    "text": "nhịp tim nhanh",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [418, 432]
+  },
+  {
+    "text": "công thức máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [454, 467]
+  },
+  {
+    "text": "32",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [471, 473]
+  },
+  {
+    "text": "thận cấp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [480, 488]
+  },
+  {
+    "text": "bất thường",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [491, 501]
+  },
+  {
+    "text": "điện giải",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [502, 511]
+  },
+  {
+    "text": "chụp cắt lớp vi tính cho thấy viêm túi mật thủng cấp tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K81", "K81.0", "K82.2"],
+    "assertions": [],
+    "position": [548, 605]
+  },
+  {
+    "text": "Đặt ống dẫn lưu phúc mạc qua da cho túi mật",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K82.3"],
+    "assertions": [],
+    "position": [627, 670]
+  }
+]

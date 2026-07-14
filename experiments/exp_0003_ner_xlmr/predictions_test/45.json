@@ -1,0 +1,65 @@
+[
+  {
+    "text": "đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E10", "E10.0", "E10.1"],
+    "assertions": ["isHistorical"],
+    "position": [209, 223]
+  },
+  {
+    "text": "Thủ thuật điện chọn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [292, 311]
+  },
+  {
+    "text": "triệu chứng liên quan đến tai biến mạch máu não từ vùng này",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I69"],
+    "assertions": [],
+    "position": [338, 397]
+  },
+  {
+    "text": "Trong quá trình chụp mạch máu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Y60.1", "Y61.1", "Y62.1"],
+    "assertions": [],
+    "position": [529, 558]
+  },
+  {
+    "text": "trạng hẹp khoảng 65% của động mạch cảnh chung trái gần gốc",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I77.1", "I77.2"],
+    "assertions": [],
+    "position": [574, 632]
+  },
+  {
+    "text": "chứng xơ vữa mảng loét",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [642, 664]
+  },
+  {
+    "text": "bằng phẫu thuật nội mạch hóa động mạch cảnh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I77.2"],
+    "assertions": [],
+    "position": [771, 814]
+  },
+  {
+    "text": "trạng hẹp khoảng 65% của động mạch cảnh chung trái gần gốc",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I77.1", "I77.2"],
+    "assertions": [],
+    "position": [903, 961]
+  },
+  {
+    "text": "chứng xơ vữa mảng loét",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [971, 993]
+  }
+]

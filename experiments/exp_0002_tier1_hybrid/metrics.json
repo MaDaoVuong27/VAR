@@ -1,0 +1,8 @@
+{
+  "status": "WORSE_THAN_BASELINE",
+  "gold": "data/labeled/ground_truth (v1, 13 file) — cùng gold với exp_0001",
+  "approach": "Tier 1 hybrid candidate: dense embedding (paraphrase-multilingual-MiniLM-L12, ~118M) + lexical, cho ICD; RxNorm giữ lexical",
+  "scores": {"text_score": 0.3782, "assertions_score": 0.6216, "candidates_score": 0.1005, "final_score": 0.3401, "n_files": 13},
+  "baseline_ref": {"candidates_score": 0.2132, "final_score": 0.3852},
+  "ket_luan": "Dense embedder general QUÁ YẾU cho y khoa VN: trả mã sai độ tương đồng cao (hen suyễn->H83.1 tai trong; viêm phổi->P23 sơ sinh) đè lên lexical -> candidates tụt 0.213->0.100. e5-base xếp đúng lên top nhưng margin ~0.04 so với mã rác -> vẫn không đáng tin. Hạ ngưỡng lexical (78->60) cũng làm tệ hơn. => cần retrieval domain-adapted (fine-tune embedder hoặc cross-encoder reranker), không dùng dense off-the-shelf."
+}

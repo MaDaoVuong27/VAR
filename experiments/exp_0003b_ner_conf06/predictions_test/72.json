@@ -1,0 +1,286 @@
+[
+  {
+    "text": "vàng da",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [118, 125]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [132, 135]
+  },
+  {
+    "text": "ngứa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [138, 142]
+  },
+  {
+    "text": "tăngtăng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [177, 185]
+  },
+  {
+    "text": "chức năng gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [201, 214]
+  },
+  {
+    "text": "bilirubin khi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [218, 231]
+  },
+  {
+    "text": "âm tính",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [239, 246]
+  },
+  {
+    "text": "nghiệm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A16.1", "N98.2", "R73.0"],
+    "assertions": ["isNegated"],
+    "position": [263, 269]
+  },
+  {
+    "text": "huyết thanh",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [270, 281]
+  },
+  {
+    "text": "của cô ấy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isNegated"],
+    "position": [282, 291]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [294, 301]
+  },
+  {
+    "text": "giãn đường dẫn mật trong gan ở ống mật chủ 15 mm tại mức tuyến tụy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N60.4", "K83.3", "K83.0"],
+    "assertions": [],
+    "position": [311, 377]
+  },
+  {
+    "text": "ercp (nội soi mật tụy ngược dòng) bởi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [380, 417]
+  },
+  {
+    "text": "một khối phình to 2",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [434, 453]
+  },
+  {
+    "text": "cm",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [454, 456]
+  },
+  {
+    "text": "ở nhúm tá tràng lớn với gợi ý về một khối khối u lân cận",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["D13.2", "K31.5"],
+    "assertions": [],
+    "position": [457, 513]
+  },
+  {
+    "text": "một chỗ hẹp đơn lẻ được thấy, dài",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [516, 549]
+  },
+  {
+    "text": "7 mm",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [550, 554]
+  },
+  {
+    "text": "ở một phần ba dưới của ống mật chủ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [555, 589]
+  },
+  {
+    "text": "lấy mẫu tế bào bằng chổi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [592, 616]
+  },
+  {
+    "text": "phiên hình",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [620, 630]
+  },
+  {
+    "text": "sinh thiết",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["T83", "T83.4", "T83.6"],
+    "assertions": [],
+    "position": [633, 643]
+  },
+  {
+    "text": "ung thư biểu mô tuyến, biệt hóa vừa phải đến kém",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [653, 701]
+  },
+  {
+    "text": "các đặc điểm mô học phù hợp với một khối u có nguồn gốc từ đường mật tụy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K83.3", "K83.5", "K83.0"],
+    "assertions": [],
+    "position": [704, 776]
+  },
+  {
+    "text": "năng gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [851, 859]
+  },
+  {
+    "text": "bilirubin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [862, 871]
+  },
+  {
+    "text": "tế bào bằng chổi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [882, 898]
+  },
+  {
+    "text": "hình",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A81", "A81.8", "A81.9"],
+    "assertions": [],
+    "position": [908, 912]
+  },
+  {
+    "text": "sinh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A00.0", "A00.1", "A18.1†"],
+    "assertions": [],
+    "position": [915, 919]
+  },
+  {
+    "text": "ung thư biểu mô tuyến, biệt hóa",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [935, 966]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1013, 1020]
+  },
+  {
+    "text": "giãn đường dẫn mật trong gan ở ống mật chủ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K83.3", "K83.0"],
+    "assertions": [],
+    "position": [1030, 1072]
+  },
+  {
+    "text": "15",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1073, 1075]
+  },
+  {
+    "text": "mm tại mức tuyến tụy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1076, 1096]
+  },
+  {
+    "text": "ercp (nội soi mật tụy ngược dòng) cho thấy một khối phình to",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1099, 1159]
+  },
+  {
+    "text": "2 cm",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1160, 1164]
+  },
+  {
+    "text": "ở nhúm tá tràng lớn với gợi ý về một khối khối u lân cận",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["D13.2", "K31.5"],
+    "assertions": [],
+    "position": [1165, 1221]
+  },
+  {
+    "text": "một chỗ hẹp đơn lẻ được thấy, dài",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1224, 1257]
+  },
+  {
+    "text": "7 mm",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1258, 1262]
+  },
+  {
+    "text": "ở một phần ba dưới của ống mật chủ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1263, 1297]
+  },
+  {
+    "text": "ERCP",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1327, 1331]
+  },
+  {
+    "text": "Bác sĩ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1336, 1342]
+  },
+  {
+    "text": "Sinh thiết",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["T83", "T83.4", "T83.6"],
+    "assertions": [],
+    "position": [1345, 1355]
+  },
+  {
+    "text": "u ác của đầu tuỵ mới được chẩn đoán",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1387, 1422]
+  },
+  {
+    "text": "các đặc điểm mô học phù hợp với một khối u có nguồn gốc từ đường mật tụy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K83.3", "K83.5", "K83.0"],
+    "assertions": [],
+    "position": [1425, 1497]
+  }
+]

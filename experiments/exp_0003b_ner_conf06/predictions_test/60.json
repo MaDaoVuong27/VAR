@@ -1,0 +1,105 @@
+[
+  {
+    "text": "phẫu thuật tạo đáy vị (fundoplication)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [62, 100]
+  },
+  {
+    "text": "Trào ngược dạ dày thực quản ngày càng tăng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K21", "K20", "K21.0"],
+    "assertions": [],
+    "position": [149, 191]
+  },
+  {
+    "text": "trào",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [254, 258]
+  },
+  {
+    "text": "ngược mức độ nhẹ, có thời điểm thuyên giảm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [259, 301]
+  },
+  {
+    "text": "xuyên",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["H05.5", "I21.0", "I21.1"],
+    "assertions": ["isHistorical"],
+    "position": [378, 383]
+  },
+  {
+    "text": "tăng dần về mức độ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [391, 409]
+  },
+  {
+    "text": "ảnh hưởng đến sinh hoạt hằng ngày",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [411, 444]
+  },
+  {
+    "text": "trào",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [540, 544]
+  },
+  {
+    "text": "ngược",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K21", "K21.0", "K21.9"],
+    "assertions": [],
+    "position": [545, 550]
+  },
+  {
+    "text": "Kêt quả không cho thấy thoát vị hoành cách đây một năm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K44", "K40", "K41"],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [615, 669]
+  },
+  {
+    "text": "Phát",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A51.3", "A51.4", "A68"],
+    "assertions": [],
+    "position": [677, 681]
+  },
+  {
+    "text": "có một thoát vị cạnh thực quản khá lớn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Q31.3", "K40", "K41"],
+    "assertions": [],
+    "position": [687, 725]
+  },
+  {
+    "text": "Thoát vị này dường như bao gồm đáy vị và một phần của lớp băng cuốn lên lồng ngực",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K40", "K41", "K42"],
+    "assertions": [],
+    "position": [733, 814]
+  },
+  {
+    "text": "Vị trí nối thực quản - dạ dày",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K20", "K22.1"],
+    "assertions": [],
+    "position": [822, 851]
+  },
+  {
+    "text": "vẻ bình thường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["D81.2", "G91.2", "Q95"],
+    "assertions": [],
+    "position": [863, 877]
+  }
+]

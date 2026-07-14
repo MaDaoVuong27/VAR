@@ -1,0 +1,323 @@
+[
+  {
+    "text": "đợt cấp hen suyễn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [76, 93]
+  },
+  {
+    "text": "suyễn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [117, 122]
+  },
+  {
+    "text": "albuterol nebs q4h tại nhà",
+    "type": "THUỐC",
+    "candidates": ["315288"],
+    "assertions": ["isHistorical"],
+    "position": [159, 185]
+  },
+  {
+    "text": "z-pack",
+    "type": "THUỐC",
+    "candidates": ["746839"],
+    "assertions": ["isHistorical"],
+    "position": [192, 198]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [246, 253]
+  },
+  {
+    "text": "tiếng rít",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [257, 266]
+  },
+  {
+    "text": "đau khi ấn xoang",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [332, 348]
+  },
+  {
+    "text": "ho nhẹ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [350, 356]
+  },
+  {
+    "text": "tiếng rít",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [375, 384]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [388, 395]
+  },
+  {
+    "text": "nặng hơn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [404, 412]
+  },
+  {
+    "text": "tiếng rít vào ban đêm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [419, 440]
+  },
+  {
+    "text": "đau khi ấn xoang",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [482, 498]
+  },
+  {
+    "text": "ho nhẹ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [500, 506]
+  },
+  {
+    "text": "tiếng rít",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [513, 522]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [526, 533]
+  },
+  {
+    "text": "tiếng rít vào ban đêm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [559, 580]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [673, 680]
+  },
+  {
+    "text": "khò khè",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [682, 689]
+  },
+  {
+    "text": "triệu chứng đường hô hấp trên",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [697, 726]
+  },
+  {
+    "text": "prednisone giảm liều và",
+    "type": "THUỐC",
+    "candidates": ["1161706"],
+    "assertions": ["isHistorical"],
+    "position": [747, 770]
+  },
+  {
+    "text": "amoxicillin",
+    "type": "THUỐC",
+    "candidates": ["723"],
+    "assertions": ["isHistorical"],
+    "position": [771, 782]
+  },
+  {
+    "text": "nạp amoxicillin",
+    "type": "THUỐC",
+    "candidates": ["723"],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [816, 831]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [845, 854]
+  },
+  {
+    "text": "azithromycin",
+    "type": "THUỐC",
+    "candidates": ["18631"],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [884, 896]
+  },
+  {
+    "text": "prednisone 40 mg/ngày trong 3 ngày",
+    "type": "THUỐC",
+    "candidates": ["451143"],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [915, 949]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [1051, 1058]
+  },
+  {
+    "text": "đau đầu dữ dội",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [1143, 1157]
+  },
+  {
+    "text": "khò khè nhiều",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [1159, 1172]
+  },
+  {
+    "text": "nghe",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [1174, 1178]
+  },
+  {
+    "text": "tiếng rít về đêm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [1179, 1195]
+  },
+  {
+    "text": "mất ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [1197, 1204]
+  },
+  {
+    "text": "đau vùng hạ vị",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [1208, 1222]
+  },
+  {
+    "text": "Khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1251, 1258]
+  },
+  {
+    "text": "Khò khè",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1260, 1267]
+  },
+  {
+    "text": "Đau vùng xoang",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M79.7"],
+    "assertions": [],
+    "position": [1287, 1301]
+  },
+  {
+    "text": "Đau đầu dữ dội",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R51"],
+    "assertions": [],
+    "position": [1311, 1325]
+  },
+  {
+    "text": "Đau hạ vị",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M25.50", "M25.58", "M25.59"],
+    "assertions": [],
+    "position": [1327, 1336]
+  },
+  {
+    "text": "prednisone giảm liều",
+    "type": "THUỐC",
+    "candidates": ["1161706"],
+    "assertions": [],
+    "position": [1444, 1464]
+  },
+  {
+    "text": "azithromycin",
+    "type": "THUỐC",
+    "candidates": ["18631"],
+    "assertions": [],
+    "position": [1539, 1551]
+  },
+  {
+    "text": "prednisone 40 mg/ngày trong 3 ngày",
+    "type": "THUỐC",
+    "candidates": ["451143"],
+    "assertions": ["isHistorical"],
+    "position": [1561, 1595]
+  },
+  {
+    "text": "Đau đầu dữ dội",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R51"],
+    "assertions": [],
+    "position": [1673, 1687]
+  },
+  {
+    "text": "Khò khè nhiều, đặc biệt về đêm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1688, 1718]
+  },
+  {
+    "text": "Đau hạ vị",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M25.50", "M25.58", "M25.59"],
+    "assertions": [],
+    "position": [1729, 1738]
+  },
+  {
+    "text": "thấy bằng chứng của viêm phổi hoặc các đám mờ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R09.1"],
+    "assertions": ["isNegated"],
+    "position": [1827, 1872]
+  },
+  {
+    "text": "combivent nebs x3 every 20 minutes",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [1910, 1944]
+  },
+  {
+    "text": "iv magnesium",
+    "type": "THUỐC",
+    "candidates": ["6574"],
+    "assertions": [],
+    "position": [1951, 1963]
+  },
+  {
+    "text": "30 mg of prednisone (total of 60 mg bổ sung hôm nay)",
+    "type": "THUỐC",
+    "candidates": ["451143"],
+    "assertions": [],
+    "position": [1970, 2022]
+  },
+  {
+    "text": "lưu lượng đỉnh thở ra đo được từ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2029, 2061]
+  },
+  {
+    "text": "240 đến",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [2062, 2069]
+  }
+]

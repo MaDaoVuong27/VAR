@@ -2,216 +2,125 @@
   {
     "text": "bệnh Graves",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      48,
-      59
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": []
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [48, 59]
   },
   {
     "text": "tăng lipid máu, không đặc hiệu",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      66,
-      96
-    ],
-    "assertions": [
-      "isHistorical"
-    ],
-    "candidates": [
-      "E78.5"
-    ]
+    "candidates": ["E78.5"],
+    "assertions": ["isHistorical"],
+    "position": [66, 96]
   },
   {
     "text": "yếu sức nửa người bên phải",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      150,
-      176
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [150, 176]
   },
   {
     "text": "không thể chịu lực ở chân phải",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      594,
-      624
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [594, 624]
   },
   {
     "text": "liên tục khuỵu chân khi được giúp đỡ đứng dậy",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      626,
-      671
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [626, 671]
   },
   {
     "text": "Cơn bệnh tự khỏi sau khi dùng intravenous fluids",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      852,
-      900
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [852, 900]
   },
   {
     "text": "Chụp lại chụp ct sọ não",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      908,
-      931
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [908, 931]
   },
   {
     "text": "kết quả âm tính",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      933,
-      948
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [933, 948]
   },
   {
     "text": "Chuyển đến bệnh viện để tiếp tục điều trị",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      956,
-      997
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [956, 997]
   },
   {
     "text": "Được gọi là Code tai biến mạch máu não",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1005,
-      1043
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1005, 1043]
   },
   {
     "text": "Ban đầu tỉnh chậm phản xạ kém",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1051,
-      1080
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1051, 1080]
   },
   {
     "text": "yếu sức nửa người bên phải",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1378,
-      1404
-    ],
-    "assertions": [
-      "isHistorical"
-    ]
+    "assertions": ["isHistorical"],
+    "position": [1378, 1404]
   },
   {
     "text": "Tiến hành chọc dò dịch não tủy",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1951,
-      1981
-    ],
-    "assertions": [
-      "isHistorical"
-    ]
+    "assertions": ["isHistorical"],
+    "position": [1951, 1981]
   },
   {
     "text": "Bị nhịp tim chậm nặng và hạ huyết áp",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1989,
-      2025
-    ],
-    "assertions": [
-      "isHistorical"
-    ]
+    "assertions": ["isHistorical"],
+    "position": [1989, 2025]
   },
   {
     "text": "không đặc hiệu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      2027,
-      2041
-    ],
-    "assertions": [
-      "isHistorical"
-    ]
+    "assertions": ["isHistorical"],
+    "position": [2027, 2041]
   },
   {
     "text": "Cơn bệnh tự khỏi sau khi dùng intravenous fluids",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      2049,
-      2097
-    ],
-    "assertions": [
-      "isHistorical"
-    ]
+    "assertions": ["isHistorical"],
+    "position": [2049, 2097]
   },
   {
     "text": "Chụp lại chụp ct sọ não",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      2105,
-      2128
-    ],
-    "assertions": [
-      "isHistorical"
-    ]
+    "assertions": ["isHistorical"],
+    "position": [2105, 2128]
   },
   {
     "text": "kết quả âm tính",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      2130,
-      2145
-    ],
-    "assertions": [
-      "isHistorical",
-      "isNegated"
-    ]
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [2130, 2145]
   },
   {
     "text": "chụp ct sọ não: âm tính",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      2762,
-      2785
-    ],
-    "assertions": [
-      "isNegated"
-    ],
-    "candidates": []
+    "candidates": [],
+    "assertions": ["isNegated"],
+    "position": [2762, 2785]
   },
   {
     "text": "Chụp lại chụp ct sọ não: âm tính",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      2792,
-      2824
-    ],
-    "assertions": [
-      "isNegated"
-    ],
-    "candidates": []
+    "candidates": [],
+    "assertions": ["isNegated"],
+    "position": [2792, 2824]
   }
 ]

@@ -2,49 +2,34 @@
   {
     "text": "mệt mỏi",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      322,
-      329
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [322, 329]
   },
   {
     "text": "thiếu máu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      336,
-      345
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [336, 345]
   },
   {
     "text": "phân có guaiac dương tính",
     "type": "THUỐC",
-    "position": [
-      352,
-      377
-    ],
+    "candidates": [],
     "assertions": [],
-    "candidates": []
+    "position": [352, 377]
   },
   {
     "text": "khối ở chỗ uốn gan",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      824,
-      842
-    ],
+    "candidates": [],
     "assertions": [],
-    "candidates": []
+    "position": [824, 842]
   },
   {
     "text": "ung thư biểu mô tuyến trên sinh thiết",
     "type": "CHẨN_ĐOÁN",
-    "position": [
-      849,
-      886
-    ],
+    "candidates": [],
     "assertions": [],
-    "candidates": []
+    "position": [849, 886]
   }
 ]

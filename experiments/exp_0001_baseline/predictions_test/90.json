@@ -2,19 +2,13 @@
   {
     "text": "giọng khàn",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      100,
-      110
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [100, 110]
   },
   {
     "text": "tổn thương dây thanh quản thật sự",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      113,
-      146
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [113, 146]
   }
 ]

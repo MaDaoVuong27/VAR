@@ -1,0 +1,391 @@
+[
+  {
+    "text": "cắt bỏ ống dẫn mật chung, cắt bỏ một phần thùy gan bên trái và nối mật tụy bằng ống dẫn hồi tràng (RNY hepaticojejunostomy)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [86, 209]
+  },
+  {
+    "text": "ung thư biểu mô tế bào mật không thể cắt bỏ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["C22.0"],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [238, 281]
+  },
+  {
+    "text": "Đến hôm nay để đặt stent thành vách vĩnh viễn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [331, 376]
+  },
+  {
+    "text": "ăn uống",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [526, 533]
+  },
+  {
+    "text": "cân nặng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [547, 555]
+  },
+  {
+    "text": "hoạt động hàng ngày bình thường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [617, 648]
+  },
+  {
+    "text": "có ống dẫn mật xuyên gan tại chỗ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [671, 703]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [733, 741]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [743, 746]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [748, 751]
+  },
+  {
+    "text": "ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [753, 760]
+  },
+  {
+    "text": "dịch rò rỉ quanh ống thông",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [767, 793]
+  },
+  {
+    "text": "cholangiogram",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [814, 827]
+  },
+  {
+    "text": "tắc nghẽn kéo dài gần chỗ nối mật tụy, ảnh hưởng đến ống dẫn trước và sau bên phải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K83.1", "K82.0"],
+    "assertions": [],
+    "position": [853, 935]
+  },
+  {
+    "text": "Cả hai ống",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [943, 953]
+  },
+  {
+    "text": "tăng kích cỡ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [971, 983]
+  },
+  {
+    "text": "từ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A52", "A52.7", "A52.8"],
+    "assertions": [],
+    "position": [984, 986]
+  },
+  {
+    "text": "8.5fr",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [987, 992]
+  },
+  {
+    "text": "lên",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["C18.2", "D12.2", "F44.3"],
+    "assertions": [],
+    "position": [993, 996]
+  },
+  {
+    "text": "10.2 fr",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [997, 1004]
+  },
+  {
+    "text": "chải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1122, 1126]
+  },
+  {
+    "text": "tế bào bất thường, đáng ngại cho ung thư biểu mô tuyến",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["C22.0"],
+    "assertions": [],
+    "position": [1136, 1190]
+  },
+  {
+    "text": "stent thành vách vĩnh viễn",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [1294, 1320]
+  },
+  {
+    "text": "3 ống dẫn mật ngoài-trong tại chỗ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1381, 1414]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1503, 1511]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1513, 1516]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1518, 1526]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1533, 1540]
+  },
+  {
+    "text": "đau khi sờ nắn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1575, 1589]
+  },
+  {
+    "text": "xung quanh vị trí đặt ống dẫn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1590, 1619]
+  },
+  {
+    "text": "biệt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F38.8", "F45.1", "G40.5"],
+    "assertions": [],
+    "position": [1625, 1629]
+  },
+  {
+    "text": "hít thở sâu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1637, 1648]
+  },
+  {
+    "text": "ăn uống",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1786, 1793]
+  },
+  {
+    "text": "cân nặng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1807, 1815]
+  },
+  {
+    "text": "lại các hoạt động hàng ngày bình thường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1834, 1873]
+  },
+  {
+    "text": "Có ống dẫn mật xuyên gan tại chỗ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1881, 1913]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1930, 1938]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1940, 1943]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1945, 1948]
+  },
+  {
+    "text": "ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1950, 1957]
+  },
+  {
+    "text": "dịch",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1964, 1968]
+  },
+  {
+    "text": "rò",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["G96.0", "G97.0", "H83.1"],
+    "assertions": [],
+    "position": [1969, 1971]
+  },
+  {
+    "text": "rỉ quanh ống thông",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1972, 1990]
+  },
+  {
+    "text": "cholangiogram",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [2011, 2024]
+  },
+  {
+    "text": "tắc nghẽn kéo dài gần chỗ nối mật tụy, ảnh hưởng đến ống dẫn trước và sau bên phải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K83.1", "K82.0"],
+    "assertions": [],
+    "position": [2050, 2132]
+  },
+  {
+    "text": "Ống dẫn mật",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2140, 2151]
+  },
+  {
+    "text": "kích cỡ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2162, 2169]
+  },
+  {
+    "text": "từ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A52", "A52.7", "A52.8"],
+    "assertions": [],
+    "position": [2170, 2172]
+  },
+  {
+    "text": "8.5fr",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [2173, 2178]
+  },
+  {
+    "text": "lên",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["C18.2", "D12.2", "F44.3"],
+    "assertions": [],
+    "position": [2179, 2182]
+  },
+  {
+    "text": "10.2 fr",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [2183, 2190]
+  },
+  {
+    "text": "sinh thiết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2228, 2238]
+  },
+  {
+    "text": "các tế bào bất thường, đáng lo ngại cho ung thư biểu mô tuyến",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["C22.0"],
+    "assertions": [],
+    "position": [2322, 2383]
+  },
+  {
+    "text": "stent thành vách vĩnh viễn",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [2487, 2513]
+  },
+  {
+    "text": "đau khi sờ nắn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2566, 2580]
+  },
+  {
+    "text": "xung quanh vị trí đặt ống dẫn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [2581, 2610]
+  },
+  {
+    "text": "đặc biệt là khi hít",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [2612, 2631]
+  },
+  {
+    "text": "thườngtế bào bất thường, đáng ngại cho ung thư biểu mô tuyến",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["C22.0"],
+    "assertions": [],
+    "position": [2712, 2772]
+  },
+  {
+    "text": "cholangiogram",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [2805, 2818]
+  },
+  {
+    "text": "tắc nghẽn kéo dài gần chỗ nối mật tụy, ảnh hưởng đến ống dẫn trước và sau bên phải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K83.1", "K82.0"],
+    "assertions": [],
+    "position": [2844, 2926]
+  },
+  {
+    "text": "3 stent thành vách vĩnh viễn",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [2956, 2984]
+  }
+]

@@ -2,181 +2,109 @@
   {
     "text": "Khối sa âm đạo gây khó chịu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      53,
-      80
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [53, 80]
   },
   {
     "text": "được bác sĩ giới thiệu khám chuyên khoa",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      82,
-      121
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [82, 121]
   },
   {
     "text": "Tiểu dắt .Tiểu không tự chủ",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      666,
-      693
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [666, 693]
   },
   {
     "text": "xuất hiện từng đợt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      695,
-      713
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [695, 713]
   },
   {
     "text": "Táo bón.Khô âm đạo",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      715,
-      733
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [715, 733]
   },
   {
     "text": "Đau khi giao hợp",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      735,
-      751
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [735, 751]
   },
   {
     "text": "Ra huyết âm đạo lượng ít",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      753,
-      777
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [753, 777]
   },
   {
     "text": "từng đợt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      779,
-      787
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [779, 787]
   },
   {
     "text": "Vòng pessary bị rơi ra",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      934,
-      956
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [934, 956]
   },
   {
     "text": "Không tái khám để đánh giá thêm",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      960,
-      991
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [960, 991]
   },
   {
     "text": "thường là vào cuối ngày hoặc sau khi đứng lâu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1053,
-      1098
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1053, 1098]
   },
   {
     "text": "Không sử dụng băng vệ tinh",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1102,
-      1128
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [1102, 1128]
   },
   {
     "text": "không đau khi đi tiểu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1132,
-      1153
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [1132, 1153]
   },
   {
     "text": "Phủ nhận tiểu máu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1157,
-      1174
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1157, 1174]
   },
   {
     "text": "không nhiễm khuẩn đường tiết niệu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1178,
-      1211
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [1178, 1211]
   },
   {
     "text": "vị trí không xác định",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1213,
-      1234
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [1213, 1234]
   },
   {
     "text": "không sỏi thận",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1238,
-      1252
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [1238, 1252]
   },
   {
     "text": "không viêm bể thận",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1255,
-      1273
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [1255, 1273]
   }
 ]

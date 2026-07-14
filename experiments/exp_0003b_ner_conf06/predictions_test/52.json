@@ -1,0 +1,153 @@
+[
+  {
+    "text": "cắt bỏ ống dẫn mật chủ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [67, 89]
+  },
+  {
+    "text": "cắt bỏ phân đoạn bên trái gan",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [96, 125]
+  },
+  {
+    "text": "Đã phẫu thuật nối ống gan - hỗng tràng vì nghi ngờ ung thư đường mật không thể cắt bỏ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K83.3", "K83.0"],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [132, 217]
+  },
+  {
+    "text": "Đã can thiệp chụp đường mật, đặt 3 stent đường mật lưu dài hạn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K83.3", "K83.0"],
+    "assertions": ["isHistorical"],
+    "position": [224, 286]
+  },
+  {
+    "text": "run rẩy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [401, 408]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [413, 416]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [426, 429]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [493, 496]
+  },
+  {
+    "text": "và các ổ dịch trong ổ bụng được cho là áp xe",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["O00.0"],
+    "assertions": [],
+    "position": [497, 541]
+  },
+  {
+    "text": "Điều trị bằng kháng sinh tĩnh mạch trong thời gian nằm viện",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["U83.7", "I87.1", "U83"],
+    "assertions": [],
+    "position": [548, 607]
+  },
+  {
+    "text": "Ra viện với đơn Augmentin đường uống trong 10 ngày",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [614, 664]
+  },
+  {
+    "text": "Tình trạng ổn định ở nhà cho đến đêm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z98.1"],
+    "assertions": ["isHistorical"],
+    "position": [672, 708]
+  },
+  {
+    "text": "mrcp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [798, 802]
+  },
+  {
+    "text": "(chụp cộng hưởng từ mật tụy)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [803, 831]
+  },
+  {
+    "text": "nhiều",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [841, 846]
+  },
+  {
+    "text": "nang tụy nhỏ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K86.2", "K86.3", "Q45.2"],
+    "assertions": [],
+    "position": [847, 859]
+  },
+  {
+    "text": "ba",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [866, 868]
+  },
+  {
+    "text": "stent mật kim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [869, 882]
+  },
+  {
+    "text": "loại đã được đặt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [883, 899]
+  },
+  {
+    "text": "ổ dịch sau phẫu thuật giảm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M80.3", "M80.30", "M80.31"],
+    "assertions": [],
+    "position": [910, 936]
+  },
+  {
+    "text": "so với lần",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [948, 958]
+  },
+  {
+    "text": "chẩn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R03", "R03.0", "R90"],
+    "assertions": [],
+    "position": [964, 968]
+  },
+  {
+    "text": "hình ảnh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["H52.3", "P02.2", "R90"],
+    "assertions": [],
+    "position": [974, 982]
+  }
+]

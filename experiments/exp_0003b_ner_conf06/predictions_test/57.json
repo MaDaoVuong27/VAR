@@ -1,0 +1,42 @@
+[
+  {
+    "text": "bệnh rễ thần kinh tuỷ sống ở ngón tay cái",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M54.1", "M49.4*", "A17†"],
+    "assertions": [],
+    "position": [74, 115]
+  },
+  {
+    "text": "vài năm",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [153, 160]
+  },
+  {
+    "text": "bệnh rễ thần kinh tuỷ sống ở ngón tay cái",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M54.1", "M49.4*", "A17†"],
+    "assertions": [],
+    "position": [187, 228]
+  },
+  {
+    "text": "chụp cộng hưởng từ (mri) cột sống cổ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M41"],
+    "assertions": [],
+    "position": [279, 315]
+  },
+  {
+    "text": "hẹp ống sống C4-5, C5-6, C6-7",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M48.0"],
+    "assertions": [],
+    "position": [325, 354]
+  },
+  {
+    "text": "hẹp lỗ liên hợp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M99.7", "M99.70", "M99.71"],
+    "assertions": [],
+    "position": [358, 373]
+  }
+]

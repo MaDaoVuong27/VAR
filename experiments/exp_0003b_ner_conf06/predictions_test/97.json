@@ -1,0 +1,235 @@
+[
+  {
+    "text": "viêm tủy xương và bàng quang thần kinh có biến chứng liệt hai chi dưới",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M86", "N30", "H70.2"],
+    "assertions": ["isHistorical"],
+    "position": [52, 122]
+  },
+  {
+    "text": "biến",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [166, 170]
+  },
+  {
+    "text": "đổi ý thức",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [171, 181]
+  },
+  {
+    "text": "hạ thân nhiệt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [191, 204]
+  },
+  {
+    "text": "hạ huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [208, 219]
+  },
+  {
+    "text": "đổi ý thức",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [383, 393]
+  },
+  {
+    "text": "hạ thân nhiệt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [395, 408]
+  },
+  {
+    "text": "hạ huyết",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [410, 418]
+  },
+  {
+    "text": "áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A06.4†", "A06.5†", "A06.6†"],
+    "assertions": ["isHistorical"],
+    "position": [419, 421]
+  },
+  {
+    "text": "huyết áp tâm thu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [426, 442]
+  },
+  {
+    "text": "90",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [446, 448]
+  },
+  {
+    "text": "biến",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [484, 488]
+  },
+  {
+    "text": "đổi ý thức",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [489, 499]
+  },
+  {
+    "text": "hạ thân nhiệt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [506, 519]
+  },
+  {
+    "text": "hạ huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [526, 537]
+  },
+  {
+    "text": "đau toàn thân ít",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [544, 560]
+  },
+  {
+    "text": "đau ngực ít",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [567, 578]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [586, 594]
+  },
+  {
+    "text": "hạ huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [646, 657]
+  },
+  {
+    "text": "hạ thân nhiệt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [664, 677]
+  },
+  {
+    "text": "lắc đầu có",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [684, 694]
+  },
+  {
+    "text": "kali",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [730, 734]
+  },
+  {
+    "text": "6.6 mmol/l",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [738, 748]
+  },
+  {
+    "text": "creatinin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [755, 764]
+  },
+  {
+    "text": "1.9 mmol/l",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [768, 778]
+  },
+  {
+    "text": "tiểu cầu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [785, 793]
+  },
+  {
+    "text": "81 G/L",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [797, 803]
+  },
+  {
+    "text": "bạch cầu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [810, 818]
+  },
+  {
+    "text": "10.9 G/L",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [822, 830]
+  },
+  {
+    "text": "tổng phân tích nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [837, 861]
+  },
+  {
+    "text": "nhiễm trùng đường tiết niệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["O23", "O23.3", "O23.4"],
+    "assertions": [],
+    "position": [862, 889]
+  },
+  {
+    "text": "chụp x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [947, 964]
+  },
+  {
+    "text": "hình ảnh tổn thương viêm cấp tính so với chụp x-quang ngực trước đó",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K85", "S29.7", "J02"],
+    "assertions": ["isNegated"],
+    "position": [983, 1050]
+  },
+  {
+    "text": "Đặt sonde bàng quang",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N81.1", "N21.0", "N30"],
+    "assertions": [],
+    "position": [1088, 1108]
+  },
+  {
+    "text": "Gửi xét nghiệm máu và cấy nước tiểu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1115, 1150]
+  },
+  {
+    "text": "thủ thuậ khác",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1159, 1172]
+  },
+  {
+    "text": "điện",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1179, 1183]
+  },
+  {
+    "text": "tâm đồ cho thấy nhịp chậm xoang",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1184, 1215]
+  },
+  {
+    "text": "huyết lúc đóiđường huyết thấp)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1225, 1255]
+  }
+]

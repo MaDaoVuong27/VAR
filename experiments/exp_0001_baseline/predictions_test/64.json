@@ -2,72 +2,43 @@
   {
     "text": "táo bón trở nên tồi tệ hơn gần đây",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      878,
-      912
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [878, 912]
   },
   {
     "text": "đổ mồ hôi qua đêm",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      919,
-      936
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [919, 936]
   },
   {
     "text": "Không ghi nhận sốt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      943,
-      961
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [943, 961]
   },
   {
     "text": "Không chóng mặt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      968,
-      983
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [968, 983]
   },
   {
     "text": "Không hoa mắt",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      990,
-      1003
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [990, 1003]
   },
   {
     "text": "đi tiêu bình thường",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1010,
-      1029
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [1010, 1029]
   },
   {
     "text": "không ra máu",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      1031,
-      1043
-    ],
-    "assertions": [
-      "isNegated"
-    ]
+    "assertions": ["isNegated"],
+    "position": [1031, 1043]
   }
 ]

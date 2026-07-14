@@ -1,0 +1,117 @@
+[
+  {
+    "text": "Bệnh lý mãn tính: tiền sử lâu dài của tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I67.4", "Z01.3", "I11"],
+    "assertions": ["isHistorical"],
+    "position": [21, 72]
+  },
+  {
+    "text": "BK-pop đến",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [124, 134]
+  },
+  {
+    "text": "BPG",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [138, 141]
+  },
+  {
+    "text": "khó khăn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [200, 208]
+  },
+  {
+    "text": "với hạ huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I95.0", "I95.1", "I95.2"],
+    "assertions": [],
+    "position": [209, 224]
+  },
+  {
+    "text": "không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A97.0", "R29.8", "R39.8"],
+    "assertions": [],
+    "position": [226, 240]
+  },
+  {
+    "text": "khó kiểm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [247, 255]
+  },
+  {
+    "text": "huyết áp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [261, 269]
+  },
+  {
+    "text": "đáng kể",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [270, 277]
+  },
+  {
+    "text": "đi khập khiễng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [284, 298]
+  },
+  {
+    "text": "quãng",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [304, 309]
+  },
+  {
+    "text": "chụp cắt lớp vi tính (ct)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [343, 368]
+  },
+  {
+    "text": "thực hiện",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["T81.6", "Y65.3", "Y65.5"],
+    "assertions": ["isHistorical"],
+    "position": [374, 383]
+  },
+  {
+    "text": "tắc hẹp 80% động mạch thận trái L",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I77.1", "I77.2"],
+    "assertions": ["isHistorical"],
+    "position": [393, 426]
+  },
+  {
+    "text": "chụp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [487, 491]
+  },
+  {
+    "text": "cắt lớp vi tính (ct)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [492, 512]
+  },
+  {
+    "text": "tắc hẹp 80% động mạch thận trái L",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I77.1", "I77.2"],
+    "assertions": [],
+    "position": [522, 555]
+  },
+  {
+    "text": "stent",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [611, 616]
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "text": "béo phì",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [52, 59]
+  },
+  {
+    "text": "sau cân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [119, 126]
+  },
+  {
+    "text": "phẫu thuật",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["H59.0", "H95.0", "H95.1"],
+    "assertions": [],
+    "position": [131, 141]
+  },
+  {
+    "text": "cố gắng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [194, 201]
+  },
+  {
+    "text": "giảm cân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [202, 210]
+  },
+  {
+    "text": "tăng cân trở lại",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [214, 230]
+  },
+  {
+    "text": "mức giảm cân tối đa",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [289, 308]
+  },
+  {
+    "text": "60 pound",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [309, 317]
+  },
+  {
+    "text": "tăng cân trở lại",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [335, 351]
+  }
+]

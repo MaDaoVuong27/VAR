@@ -2,10 +2,7 @@
   {
     "text": "Tuột sonde dẫn lưu ổ bụng",
     "type": "TRIỆU_CHỨNG",
-    "position": [
-      346,
-      371
-    ],
-    "assertions": []
+    "assertions": [],
+    "position": [346, 371]
   }
 ]

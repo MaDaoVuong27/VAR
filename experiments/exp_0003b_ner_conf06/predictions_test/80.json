@@ -1,0 +1,77 @@
+[
+  {
+    "text": "lý",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A08.1", "A50.3", "A81.2"],
+    "assertions": ["isHistorical"],
+    "position": [35, 37]
+  },
+  {
+    "text": "tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A06.0", "A06.1", "A08.1"],
+    "assertions": ["isHistorical"],
+    "position": [42, 46]
+  },
+  {
+    "text": "nam giới khỏe mạnh, không có bệnh lý khác",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["G72", "A54.8", "K76"],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [48, 89]
+  },
+  {
+    "text": "chấn thương gãy xương sườn trái sau tai nạn trượt ván giao thông",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["S22.3", "S22.2", "S32.5"],
+    "assertions": [],
+    "position": [134, 198]
+  },
+  {
+    "text": "thực hiện động tác nhảy skateboard",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [209, 243]
+  },
+  {
+    "text": "ngã",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [254, 257]
+  },
+  {
+    "text": "đập ngực xuống đường",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [258, 278]
+  },
+  {
+    "text": "chấn thương gãy xương sườn trái",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["S22.3", "S22.2", "S32.5"],
+    "assertions": [],
+    "position": [304, 335]
+  },
+  {
+    "text": "chụp cắt lớp vi tính (ct) cột sống cổ không thấy tổn thương",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["S19.7", "M75", "S26"],
+    "assertions": ["isNegated"],
+    "position": [359, 418]
+  },
+  {
+    "text": "chụp cắt lớp vi tính (ct) lồng ngực",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [425, 460]
+  },
+  {
+    "text": "Hình ảnh gãy 3 xương sườn 9, 10 và 11, xương sườn thứ 10 bị gãy vụn gây đụng dập một vùng nhu mô phổi nhỏ tại vị trí gãy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["S22.3", "S22.2", "S32.5"],
+    "assertions": [],
+    "position": [461, 581]
+  }
+]

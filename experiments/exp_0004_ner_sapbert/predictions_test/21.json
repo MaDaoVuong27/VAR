@@ -1,0 +1,44 @@
+[
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R73"],
+    "assertions": ["isHistorical"],
+    "position": [48, 61]
+  },
+  {
+    "text": "suy tim, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I50.9"],
+    "assertions": ["isHistorical"],
+    "position": [68, 91]
+  },
+  {
+    "text": "bệnh thận mạn, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N18.9"],
+    "assertions": ["isHistorical"],
+    "position": [98, 127]
+  },
+  {
+    "text": "Đã đặt 02 stent graft động mạch chủ ngực trong phẫu thuật điều trị phình động mạch chủ ngực – bụng giai đoạn 1 (không rõ thời điểm).",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z42.1"],
+    "assertions": ["isHistorical"],
+    "position": [164, 296]
+  },
+  {
+    "text": "Sử dụng sử dụng thuốc lá nhiều năm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z81.2"],
+    "assertions": ["isHistorical"],
+    "position": [331, 365]
+  },
+  {
+    "text": "hiện giai đoạn 2 của phẫu thuật sửa van tĩnh mạch chủ ngực bụng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["O24.1"],
+    "assertions": [],
+    "position": [430, 493]
+  }
+]

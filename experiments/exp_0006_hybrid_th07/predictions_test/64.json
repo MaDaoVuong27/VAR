@@ -1,0 +1,224 @@
+[
+  {
+    "text": "ciproflagyl",
+    "type": "THUỐC",
+    "candidates": ["151516"],
+    "assertions": ["isHistorical"],
+    "position": [161, 172]
+  },
+  {
+    "text": "Bệnh lý mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A08.1", "C88.7", "E85.0"],
+    "assertions": ["isHistorical"],
+    "position": [393, 409]
+  },
+  {
+    "text": "Tiền sử đã biết của bệnh túi thừa của cả ruột non và đại tràng, không thủng hay áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K38.2", "K57", "K57.5"],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [416, 498]
+  },
+  {
+    "text": "xe",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [499, 501]
+  },
+  {
+    "text": "táo bón",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [508, 515]
+  },
+  {
+    "text": "percocet (để kiểm soát",
+    "type": "THUỐC",
+    "candidates": ["42844"],
+    "assertions": ["isHistorical"],
+    "position": [582, 604]
+  },
+  {
+    "text": "đau vùng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [662, 670]
+  },
+  {
+    "text": "hạ vị bên phải và hạ vị bên trái",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [671, 703]
+  },
+  {
+    "text": "đau bụng ở vùng bụng dưới",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [741, 766]
+  },
+  {
+    "text": "đau vùng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [830, 838]
+  },
+  {
+    "text": "hạ vị bên phải và hạ vị bên trái",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [839, 871]
+  },
+  {
+    "text": "táo bón",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [878, 885]
+  },
+  {
+    "text": "tồi tệ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [894, 900]
+  },
+  {
+    "text": "đổ mồ hôi qua đêm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [919, 936]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [958, 961]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [974, 983]
+  },
+  {
+    "text": "hoa mắt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [996, 1003]
+  },
+  {
+    "text": "đi tiêu bình thường",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1010, 1029]
+  },
+  {
+    "text": "ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1037, 1043]
+  },
+  {
+    "text": "vùng bụng dưới (đau RLQLLQ)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1083, 1110]
+  },
+  {
+    "text": "Tồi tệ hơn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1138, 1148]
+  },
+  {
+    "text": "đổ mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1206, 1215]
+  },
+  {
+    "text": "ciproflagyl trong",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [1262, 1279]
+  },
+  {
+    "text": "trung bình bằng percocet",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1384, 1408]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1430, 1433]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1446, 1455]
+  },
+  {
+    "text": "hoa mắt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1468, 1475]
+  },
+  {
+    "text": "đi tiêu bình thường",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1482, 1501]
+  },
+  {
+    "text": "ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1509, 1515]
+  },
+  {
+    "text": "Dấu hiệu lâm sàng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1548, 1565]
+  },
+  {
+    "text": "đổ mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1572, 1581]
+  },
+  {
+    "text": "qua đêm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F51.3"],
+    "assertions": [],
+    "position": [1582, 1589]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1611, 1614]
+  },
+  {
+    "text": "chụp chụp cắt lớp vi tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1657, 1682]
+  },
+  {
+    "text": "viêm túi mật không biến chứng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K81", "K82.3", "K80.2"],
+    "assertions": ["isNegated"],
+    "position": [1718, 1747]
+  }
+]

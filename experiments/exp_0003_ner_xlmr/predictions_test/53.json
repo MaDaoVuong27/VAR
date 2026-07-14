@@ -1,0 +1,140 @@
+[
+  {
+    "text": "Bệnh lý mãn tính\n    - bệnh tim mạch do xơ vữa động mạch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I25.1", "I67.2", "I42"],
+    "assertions": ["isHistorical"],
+    "position": [108, 164]
+  },
+  {
+    "text": "blốc nhĩ thất, hoàn toàn sau khi đặt máy tạo nhịp (PPM)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I44.2"],
+    "assertions": ["isHistorical"],
+    "position": [171, 226]
+  },
+  {
+    "text": "bệnh thận mạn, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N05.6", "N07.6", "Q61"],
+    "assertions": ["isHistorical"],
+    "position": [233, 262]
+  },
+  {
+    "text": "Suy giảm nhận thức nhẹ suy giảm nhận thức",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [269, 310]
+  },
+  {
+    "text": "sau khi đặt máy tạo nhịp (status post PPM)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [347, 389]
+  },
+  {
+    "text": "Cảm giác thắt chặt ngực",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [451, 474]
+  },
+  {
+    "text": "Khởi phát cấp tính hay từ từ: Cấp tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R52.0"],
+    "assertions": ["isHistorical"],
+    "position": [552, 590]
+  },
+  {
+    "text": "Cảm giác thắt chặt ngực dưới xương ức nghiêm trọng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["S22.2"],
+    "assertions": ["isHistorical"],
+    "position": [622, 672]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [679, 686]
+  },
+  {
+    "text": "Sau xương ức",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["H95", "H95.8", "H95.9"],
+    "assertions": ["isHistorical"],
+    "position": [726, 738]
+  },
+  {
+    "text": "Nghiêm trọng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["D82", "D82.8", "Y91.2"],
+    "assertions": ["isHistorical"],
+    "position": [766, 778]
+  },
+  {
+    "text": "Yếu tố làm nặng thêm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [850, 870]
+  },
+  {
+    "text": "Xảy ra khi nghỉ ngơi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [872, 892]
+  },
+  {
+    "text": "Yếu tố làm giảm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["D80.1"],
+    "assertions": ["isHistorical"],
+    "position": [899, 914]
+  },
+  {
+    "text": "Tự khỏi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [916, 923]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [952, 959]
+  },
+  {
+    "text": "Chuyển đến vì lo ngại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [1026, 1047]
+  },
+  {
+    "text": "Cơn đau thắt ngực không ổn định cần can thiệp mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I20", "I20.0", "I20.9"],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [1048, 1103]
+  },
+  {
+    "text": "Lo ngại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1166, 1173]
+  },
+  {
+    "text": "Cơn đau thắt ngực không ổn định cần can thiệp mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I20", "I20.0", "I20.9"],
+    "assertions": ["isNegated"],
+    "position": [1174, 1229]
+  }
+]
