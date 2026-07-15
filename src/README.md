@@ -1,15 +1,23 @@
 # src — code chính
 
-Code chạy được của bài toán (khác với `references/` là code tham khảo, và `experiments/` là kết quả từng lần chạy).
+Code chạy được của bài toán (khác `references/` = code tham khảo, `experiments/` = kết quả từng lần chạy).
 
-## Module dự kiến
+## Module
 
-- `extraction/` — phát hiện khái niệm y tế trong text + phân loại `type` (5 nhãn).
-- `normalization/` — ánh xạ `CHẨN_ĐOÁN` → ICD-10, `THUỐC` → RxNorm, dùng dữ liệu trong `knowledge_base/`.
-- `assertion/` — xác định `isNegated` / `isFamily` / `isHistorical` cho `CHẨN_ĐOÁN`/`THUỐC`/`TRIỆU_CHỨNG`.
-- `eval/` — implement đúng công thức chấm điểm trong `docs/TASK_SPEC.md` để tự đánh giá offline trước khi nộp.
-- `pipeline.py` (sẽ thêm) — ghép các module trên thành 1 luồng: input `.txt` → output `.json` đúng format nộp bài.
+| Path | Vai trò |
+|---|---|
+| `pipeline.py` | Ghép các khối: input `.txt` → concepts → output `.json`. `run_dir()` chạy cả thư mục; `predict_file()` cho 1 file. |
+| `schema.py` | Định nghĩa `Concept` + hằng số 5 type. |
+| `common/` | `io_utils.py` (đọc/ghi JSON, gold), `text_norm.py` (normalize cho matching — **giữ nguyên offset raw**). |
+| `extraction/` | `extractor.py` (rule/heuristic — baseline Tier 0); `ner_extractor.py` + `ner_common.py` (NER XLM-R — Tier 1, **đang dùng**). |
+| `normalization/` | `kb.py` (fuzzy ICD/RxNorm — baseline); `sapbert.py` (entity linking SapBERT — Tier 1, bản nộp); `dense.py` (dense off-the-shelf — exp_0002, đã loại). |
+| `assertion/` | `rules.py` — gán `isNegated`/`isFamily`/`isHistorical` bằng rule (section + cue). |
+| `eval/` | `metric.py` — công thức chấm (`text`/`assertions`/`candidates`/`final`) để tự đánh giá offline. |
+| `synthetic/` | Sinh training data: `catalog.py` (danh mục entity từ KB), `lexicons.py` (lexicon triệu chứng/xét nghiệm/kết quả), `generate.py` (template + slot-fill → `data/synthetic/*.jsonl`). |
 
-Mọi model/tham số dùng trong các module này cần được cập nhật vào [`../docs/CONFIG_REFERENCE.md`](../docs/CONFIG_REFERENCE.md).
+## Chạy
 
-_(hiện tại mới chỉ là khung thư mục, chưa có code)_
+- Baseline trực tiếp: `python -m src.pipeline --input data/raw/input --output <out_dir>`.
+- Đầy đủ (NER + SapBERT) + eval + đóng gói: `scripts/run_pipeline_exp.py` (xem [`../scripts/README.md`](../scripts/README.md)).
+
+Mọi model/tham số dùng trong các module này phải được cập nhật vào [`../docs/CONFIG_REFERENCE.md`](../docs/CONFIG_REFERENCE.md).

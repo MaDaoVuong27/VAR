@@ -1,0 +1,41 @@
+id: exp_0007_sapbert_th07
+mo_ta: "NER XLM-R v2 (min_conf 0.95) + SapBERT-only abstain th=0.7 (thay fuzzy) + tách span xuống dòng — bản đề xuất nộp"
+ngay: 2026-07-14
+
+# Tổng params inference ≈ 556M < 9B (NER + SapBERT; assertion là rule).
+models:
+  ner: models/ner_xlmr_v2          # xlm-roberta-base fine-tune (~278M) — weight gitignore, xem SOURCE.md
+  candidate: cambridgeltl/SapBERT-UMLS-2020AB-all-lang-from-XLMR   # ~278M
+  tong_params: ~556M
+
+pipeline:
+  extraction: NER token-classification (src/extraction/ner_extractor.py)
+  ner_min_conf: 0.95
+  ner_maxlen: 256
+  ner_stride: 48
+  span_split_newline: true         # _split_newlines: tách span vượt dòng -> mỗi dòng 1 khái niệm
+  assertion: rule (src/assertion/rules.py)
+  candidate: SapBERT-only, abstain (src/normalization/sapbert.py)
+  sapbert_threshold: 0.7           # sim < th -> trả rỗng (abstain) thay vì gán mã sai
+  sapbert_top_k: 1
+
+# Lệnh tái tạo (cần models/ner_xlmr_v2/model.safetensors + cache SapBERT tự build lần đầu):
+command: >
+  python scripts/run_pipeline_exp.py --exp exp_0007_sapbert_th07
+  --ner models/ner_xlmr_v2 --min-conf 0.95 --sapbert --sap-th 0.7
+
+inputs:
+  dev: data/labeled/input          # 15 file
+  test: data/raw/input             # 100 file (submission)
+
+outputs:
+  dev_predictions: predictions/
+  test_predictions: predictions_test/
+  submission: output.zip
+
+# Điểm dev chấm trên gold v1 INCOMPLETE -> chỉ so sánh tương đối, không phải điểm thật BTC.
+dev_scores:
+  text_score: 0.2043
+  assertions_score: 0.6341
+  candidates_score: 0.4574
+  final_score: 0.4345

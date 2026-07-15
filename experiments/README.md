@@ -26,4 +26,17 @@ Thêm 1 dòng vào bảng tổng hợp ở [`../docs/EXPERIMENTS_LOG.md`](../doc
 
 ## Danh sách hiện tại
 
-_(chưa có experiment nào)_
+Chi tiết + điểm (dev & thật BTC): [`../docs/EXPERIMENTS_LOG.md`](../docs/EXPERIMENTS_LOG.md).
+
+| Folder | Mô tả ngắn |
+|---|---|
+| `exp_0001_baseline/` | Tier 0: rule/dict NER + assertion rule + fuzzy candidate (0 model). |
+| `exp_0002_tier1_hybrid/` | dense MiniLM + lexical cho ICD candidate — ❌ loại (embedder general yếu). |
+| `exp_0003_ner_xlmr/` | Tier 1: NER XLM-R v2 (min_conf 0.95) + rule assertion + fuzzy. **best thật BTC (22.18)**. |
+| `exp_0003b_ner_conf06/` | A/B min_conf=0.6 — ❌ tệ hơn → chốt 0.95. |
+| `exp_0004_ner_sapbert/` | NER + SapBERT candidate (k=1). |
+| `exp_0005_ner_hybrid/` | NER + hybrid (fuzzy trước, SapBERT lấp). |
+| `exp_0006_hybrid_th07/` | NER + hybrid, SapBERT abstain th=0.7. |
+| `exp_0007_sapbert_th07/` | NER + SapBERT-only abstain th=0.7 (thay fuzzy) + tách span xuống dòng — **bản đề xuất nộp**. |
+
+> ⚠️ Quy ước `config.yaml` chưa được tuân thủ đều: hiện chỉ `exp_0001` và `exp_0007` có `config.yaml`; các exp khác ghi cấu hình trong `metrics.json` (`exp`/`desc`/`ner`) + lệnh `scripts/run_pipeline_exp.py`. Experiment mới nên kèm `config.yaml`.

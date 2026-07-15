@@ -6,4 +6,9 @@ Gợi ý đặt tên: `YYYYMMDD_mô-tả-ngắn.ipynb` (vd: `20260710_eda_input_
 
 Nếu 1 kỹ thuật trong notebook chứng minh hiệu quả và được đưa vào pipeline chính thức, ghi lại trong `docs/IDEAS.md`.
 
-_(chưa có notebook nào)_
+## Hiện có
+
+- `eda_features.py` — script tag feature 100 file test (độ dài, section, code-switch, cue phủ định, token dính liền...). Chạy: `python notebooks/eda_features.py`.
+- `eda_outputs/feature_matrix.csv` — cờ + số đo từng file; `eda_outputs/eda_report.md` — phân bố + bảng chọn 15 file dev.
+
+Kết quả EDA đã tổng hợp vào [`../docs/EDA_FINDINGS.md`](../docs/EDA_FINDINGS.md).

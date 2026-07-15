@@ -23,7 +23,7 @@ Nguồn tri thức tĩnh dùng để ánh xạ (`candidates`) cho `CHẨN_ĐOÁN
 - [x] Tải RxNorm Full Release — xong, giải nén tại `rxnorm/raw/rrf/`.
 - [x] Lọc `rxnorm/raw/rrf/RXNCONSO.RRF` (`SAB=RXNORM`, mọi TTY) → `rxnorm/processed/rxnorm_terms.csv` (362,409 dòng). Script: `scripts/build_rxnorm_processed.py`.
 - [x] Parse `icd10/raw/06-byt-kem.pdf` (29 cột, dùng `pdfplumber`) → `icd10/processed/icd10_vn.csv` (15,844 dòng, đã validate: STT liên tục, không trùng mã, encoding đúng). Script: `scripts/build_icd10_vn.py`.
-- [ ] Quyết định chiến lược retrieval (lexical/BM25, dense embedding, hybrid) — ghi vào `docs/CONFIG_REFERENCE.md` khi chốt.
+- [x] Quyết định chiến lược retrieval — chốt: **fuzzy KB** (baseline) + **SapBERT** entity linking (Tier 1, bản nộp). Dense off-the-shelf (exp_0002) đã loại. Chi tiết: `docs/CONFIG_REFERENCE.md`, `docs/IDEAS_2.md`.
 
 ## Cấu trúc thư mục
 

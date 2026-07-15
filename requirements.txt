@@ -1,7 +1,27 @@
-# Baseline (Tier 0) — pure CPU, offline, không model ML nào (thoả ràng buộc 9B tổng)
+# Dependencies. Cài: pip install -r requirements.txt  (Python 3.10+)
+# Ràng buộc đề bài: mọi model self-host, TỔNG params ≤ 9B, chạy offline lúc inference.
+# torch/transformers chỉ tải weight từ HF Hub 1 lần lúc setup (xem README "Cài đặt & tái tạo").
+
+# --- Baseline Tier 0 (rule/fuzzy, không model ML) ---
 rapidfuzz>=3.0      # fuzzy string matching cho candidate mapping
 unidecode>=1.3      # bỏ dấu để so khớp diacritic-insensitive
 pyyaml>=6.0         # đọc config experiment
+numpy>=1.24         # embedding / xử lý số (dùng khắp src)
 
-# ETL knowledge base (đã dùng ở scripts/)
-pdfplumber>=0.11    # parse PDF ICD-10 Bộ Y tế
+# --- ETL knowledge base (scripts/build_*.py) ---
+pdfplumber>=0.11    # parse PDF ICD-10 Bộ Y tế -> icd10_vn.csv
+
+# --- NER Tier 1 + candidate SapBERT (exp_0003..0007, gồm bản đề xuất nộp) ---
+# transformers>=4.41: TrainingArguments dùng tên mới `eval_strategy` (scripts/train_ner.py).
+torch>=2.0             # backend NER + SapBERT (CPU hoặc CUDA — xem README setup)
+transformers>=4.41     # XLM-R token-classification (NER) + SapBERT encoder
+faiss-cpu>=1.7         # index cosine cho SapBERT entity linking (đổi faiss-gpu nếu có CUDA)
+
+# --- Chỉ cần khi TRAIN lại NER (scripts/train_ner.py) ---
+datasets>=2.14         # dựng dataset token-classification
+evaluate>=0.4          # wrapper metric lúc train
+seqeval>=1.2           # F1/precision/recall theo span (evaluate.load("seqeval"))
+
+# --- Tùy chọn: dense retrieval off-the-shelf (exp_0002, ĐÃ LOẠI — xem docs/IDEAS.md) ---
+# Không cần cho bản nộp; chỉ bỏ comment nếu chạy lại src/normalization/dense.py:
+# sentence-transformers>=2.2
