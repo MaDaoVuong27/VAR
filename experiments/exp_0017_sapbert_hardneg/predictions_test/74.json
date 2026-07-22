@@ -1,0 +1,149 @@
+[
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [104, 111]
+  },
+  {
+    "text": "cipro",
+    "type": "THUỐC",
+    "candidates": ["203563"],
+    "assertions": ["isHistorical"],
+    "position": [165, 170]
+  },
+  {
+    "text": "bactrim",
+    "type": "THUỐC",
+    "candidates": ["151399"],
+    "assertions": ["isHistorical"],
+    "position": [177, 184]
+  },
+  {
+    "text": "Kháng sinh cho nhiễm khuẩn đường tiết niệu, vị trí không xác định",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N39.0"],
+    "assertions": ["isHistorical"],
+    "position": [191, 256]
+  },
+  {
+    "text": "đau bụng dưới",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [360, 373]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [563, 571]
+  },
+  {
+    "text": "iv morphineiv morphine and",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [634, 660]
+  },
+  {
+    "text": "toradol",
+    "type": "THUỐC",
+    "candidates": ["57309"],
+    "assertions": ["isHistorical"],
+    "position": [661, 668]
+  },
+  {
+    "text": "đau bụng dưới",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [700, 713]
+  },
+  {
+    "text": "ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [720, 727]
+  },
+  {
+    "text": "khó chịu khi đi tiểu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [734, 754]
+  },
+  {
+    "text": "cipro",
+    "type": "THUỐC",
+    "candidates": ["203563"],
+    "assertions": ["isHistorical"],
+    "position": [1012, 1017]
+  },
+  {
+    "text": "bactrim",
+    "type": "THUỐC",
+    "candidates": ["151399"],
+    "assertions": ["isHistorical"],
+    "position": [1021, 1028]
+  },
+  {
+    "text": "ớn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1187, 1189]
+  },
+  {
+    "text": "tiểu gấp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [1305, 1313]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1372, 1380]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1382, 1389]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1396, 1404]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1406, 1409]
+  },
+  {
+    "text": "công thức máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1527, 1540]
+  },
+  {
+    "text": "12",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1550, 1552]
+  },
+  {
+    "text": "chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1597, 1617]
+  },
+  {
+    "text": "ct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1619, 1621]
+  },
+  {
+    "text": "Lo ngại về áp xe",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["H40.0"],
+    "assertions": [],
+    "position": [1757, 1773]
+  }
+]

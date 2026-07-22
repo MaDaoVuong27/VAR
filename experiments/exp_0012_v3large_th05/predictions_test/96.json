@@ -1,0 +1,237 @@
+[
+  {
+    "text": "viêm tủy xương mãn tính và bàng quang thần kinh gây biến chứng liệt hai chi dưới và loét tì đè giai đoạn IV mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M05.30†"],
+    "assertions": ["isHistorical"],
+    "position": [18, 134]
+  },
+  {
+    "text": "đặt lưu sonde tiểu    gây nhiễm khuẩn đường tiết niệu tái phát",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N02.4"],
+    "assertions": ["isHistorical"],
+    "position": [137, 199]
+  },
+  {
+    "text": "dụngvancozosyn",
+    "type": "THUỐC",
+    "candidates": ["49276"],
+    "assertions": ["isHistorical"],
+    "position": [232, 246]
+  },
+  {
+    "text": "Truyền nhiễm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Y65.1"],
+    "assertions": ["isHistorical"],
+    "position": [298, 310]
+  },
+  {
+    "text": "bactrim",
+    "type": "THUỐC",
+    "candidates": ["151399"],
+    "assertions": ["isHistorical"],
+    "position": [321, 328]
+  },
+  {
+    "text": "nhiễm khuẩn đường tiết niệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N39.0"],
+    "assertions": ["isHistorical"],
+    "position": [341, 368]
+  },
+  {
+    "text": "sốt cao",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [407, 414]
+  },
+  {
+    "text": "hạ huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [466, 477]
+  },
+  {
+    "text": "nhiễm trùng huyết điều trị bằng kháng sinh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["D76.2"],
+    "assertions": [],
+    "position": [497, 539]
+  },
+  {
+    "text": "viêm tuỷ xương",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M86"],
+    "assertions": [],
+    "position": [575, 589]
+  },
+  {
+    "text": "zosyn 8 ngày",
+    "type": "THUỐC",
+    "candidates": ["74170"],
+    "assertions": [],
+    "position": [604, 616]
+  },
+  {
+    "text": "Hồi sức tích cực",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z54"],
+    "assertions": [],
+    "position": [688, 704]
+  },
+  {
+    "text": "sốt cao",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [822, 829]
+  },
+  {
+    "text": "7 độ C",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [833, 839]
+  },
+  {
+    "text": "Cảm giác khát nước",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R63.1"],
+    "assertions": [],
+    "position": [896, 914]
+  },
+  {
+    "text": "Da khô, nếp véo da mất chậm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["L85.3"],
+    "assertions": [],
+    "position": [915, 942]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [962, 969]
+  },
+  {
+    "text": "Đau bụng, đau hông từng cơn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R10.0"],
+    "assertions": [],
+    "position": [970, 997]
+  },
+  {
+    "text": "Hạ huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I95"],
+    "assertions": [],
+    "position": [999, 1010]
+  },
+  {
+    "text": "Mạch nhanh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I47"],
+    "assertions": [],
+    "position": [1011, 1021]
+  },
+  {
+    "text": "Tim nhịp nhanh đều",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R00.0"],
+    "assertions": [],
+    "position": [1023, 1041]
+  },
+  {
+    "text": "Phổi thông khí đều",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["J93"],
+    "assertions": [],
+    "position": [1042, 1060]
+  },
+  {
+    "text": "lactate",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1111, 1118]
+  },
+  {
+    "text": "1-->0.8",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1121, 1128]
+  },
+  {
+    "text": "Cấy nước tiểu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R39.0"],
+    "assertions": [],
+    "position": [1131, 1144]
+  },
+  {
+    "text": "nhiễm khuẩn đường tiết niệu có các vi khuẩn hỗn hợp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A40"],
+    "assertions": [],
+    "position": [1147, 1198]
+  },
+  {
+    "text": "cấy máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1201, 1208]
+  },
+  {
+    "text": "âm tính",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1210, 1217]
+  },
+  {
+    "text": "chỉ số marker viêm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1219, 1237]
+  },
+  {
+    "text": "MRI",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1294, 1297]
+  },
+  {
+    "text": "Xquang ngực thẳng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1348, 1365]
+  },
+  {
+    "text": "svo2",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1402, 1406]
+  },
+  {
+    "text": "82",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1410, 1412]
+  },
+  {
+    "text": "Đặt ống thông tĩnh mạch trung tâm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["H72.0"],
+    "assertions": [],
+    "position": [1413, 1446]
+  },
+  {
+    "text": "nhiễm trùng huyết đường vào tiết niệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N39.0"],
+    "assertions": [],
+    "position": [1472, 1509]
+  },
+  {
+    "text": "viêm tủy xương mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["H70.1"],
+    "assertions": [],
+    "position": [1511, 1534]
+  },
+  {
+    "text": "Kháng sinh Cefepim và Vancomycin truyền tĩnh mạch",
+    "type": "THUỐC",
+    "candidates": ["1008222"],
+    "assertions": [],
+    "position": [1583, 1632]
+  }
+]

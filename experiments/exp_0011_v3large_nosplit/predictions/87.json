@@ -1,0 +1,103 @@
+[
+  {
+    "text": "Nhiều lần có ý định tự tử trước đây do chia tay bạn trai cũ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [21, 80]
+  },
+  {
+    "text": "Bệnh lý mãn tính\n    - trầm cảm và  rối loạn lo âu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F41.2"],
+    "assertions": ["isHistorical"],
+    "position": [85, 135]
+  },
+  {
+    "text": "tổn thương chi dưới do tự tử không thành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["T93"],
+    "assertions": ["isNegated"],
+    "position": [179, 219]
+  },
+  {
+    "text": "chia tay bạn trai cũ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Y07.2"],
+    "assertions": [],
+    "position": [271, 291]
+  },
+  {
+    "text": "trêu chọc",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [303, 312]
+  },
+  {
+    "text": "buồn chán",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [314, 323]
+  },
+  {
+    "text": "uống nhiều rượu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [325, 340]
+  },
+  {
+    "text": "hút cần sa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [341, 351]
+  },
+  {
+    "text": "nhảy từ trên cầu xuống",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [384, 406]
+  },
+  {
+    "text": "tự tử",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R96.0"],
+    "assertions": ["isNegated"],
+    "position": [602, 607]
+  },
+  {
+    "text": "nhiễm trùng chi dưới bên phải do Enterococcus kháng vancomycin",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [795, 857]
+  },
+  {
+    "text": "phẫu thuật cắt cụt chân trái trên gối và chân phải dưới gối",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [877, 936]
+  },
+  {
+    "text": "kháng sinh tĩnh mạch",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [943, 963]
+  },
+  {
+    "text": "lắp chân giả",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["O47"],
+    "assertions": [],
+    "position": [988, 1000]
+  },
+  {
+    "text": "cho tương lai ( nói rằng uộc sống không dừng lại vì một chấn thương từ bên ngoài)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isNegated"],
+    "position": [1034, 1115]
+  }
+]

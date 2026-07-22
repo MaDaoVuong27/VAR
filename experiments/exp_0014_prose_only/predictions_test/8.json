@@ -1,0 +1,25 @@
+[
+  {
+    "text": "chọc hút bằng kim nhỏ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [278, 299]
+  },
+  {
+    "text": "khó nuốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [568, 576]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [578, 585]
+  },
+  {
+    "text": "khàn tiếng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [591, 601]
+  }
+]

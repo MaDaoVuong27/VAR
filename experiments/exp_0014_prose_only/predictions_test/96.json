@@ -1,0 +1,38 @@
+[
+  {
+    "text": "bactrim",
+    "type": "THUỐC",
+    "candidates": ["151399"],
+    "assertions": ["isHistorical"],
+    "position": [321, 328]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [407, 410]
+  },
+  {
+    "text": "zosyn",
+    "type": "THUỐC",
+    "candidates": ["74170"],
+    "assertions": [],
+    "position": [604, 609]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [822, 825]
+  },
+  {
+    "text": "svo2",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1402, 1406]
+  },
+  {
+    "text": "cvp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1452, 1455]
+  }
+]

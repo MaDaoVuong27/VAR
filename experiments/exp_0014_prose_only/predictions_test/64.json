@@ -1,0 +1,112 @@
+[
+  {
+    "text": "ciproflagyl",
+    "type": "THUỐC",
+    "candidates": ["151516"],
+    "assertions": ["isHistorical"],
+    "position": [161, 172]
+  },
+  {
+    "text": "percocet",
+    "type": "THUỐC",
+    "candidates": ["42844"],
+    "assertions": ["isHistorical"],
+    "position": [273, 281]
+  },
+  {
+    "text": "chụp chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [298, 323]
+  },
+  {
+    "text": "táo bón",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [508, 515]
+  },
+  {
+    "text": "percocet",
+    "type": "THUỐC",
+    "candidates": ["42844"],
+    "assertions": ["isHistorical"],
+    "position": [582, 590]
+  },
+  {
+    "text": "táo bón",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [878, 885]
+  },
+  {
+    "text": "đổ mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [919, 928]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [958, 961]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [974, 983]
+  },
+  {
+    "text": "hoa mắt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [996, 1003]
+  },
+  {
+    "text": "đổ mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1206, 1215]
+  },
+  {
+    "text": "ciproflagyl",
+    "type": "THUỐC",
+    "candidates": ["151516"],
+    "assertions": [],
+    "position": [1262, 1273]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1430, 1433]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1446, 1455]
+  },
+  {
+    "text": "hoa mắt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1468, 1475]
+  },
+  {
+    "text": "đổ mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1572, 1581]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1611, 1614]
+  },
+  {
+    "text": "chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1662, 1682]
+  }
+]

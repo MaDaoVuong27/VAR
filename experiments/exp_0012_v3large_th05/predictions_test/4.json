@@ -1,0 +1,262 @@
+[
+  {
+    "text": "NSAID để điều trị đau đầu gối (đã ngừng)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["G43.0"],
+    "assertions": ["isHistorical"],
+    "position": [59, 99]
+  },
+  {
+    "text": "omeprazole",
+    "type": "THUỐC",
+    "candidates": ["7646"],
+    "assertions": ["isHistorical"],
+    "position": [106, 116]
+  },
+  {
+    "text": "đau vùng hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [315, 336]
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [342, 353]
+  },
+  {
+    "text": "buồn nôn thoáng qua",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [357, 376]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [404, 407]
+  },
+  {
+    "text": "ói",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [408, 410]
+  },
+  {
+    "text": "đau lưng kéo dài từ lâu, khu trú vùng cạnh cột sống bên trái đoạn giữa lưng, đôi khi lan ra phía trước bụng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M54.87"],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [442, 549]
+  },
+  {
+    "text": "Đau bụng chủ yếu khu trú vùng hạ sườn phải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R10.1"],
+    "assertions": ["isHistorical"],
+    "position": [551, 593]
+  },
+  {
+    "text": "ăn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [615, 617]
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [632, 643]
+  },
+  {
+    "text": "buồn nôn thoáng qua",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [676, 695]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [703, 706]
+  },
+  {
+    "text": "đau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [743, 751]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [871, 879]
+  },
+  {
+    "text": "đau bụng vùng hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [979, 1005]
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1012, 1023]
+  },
+  {
+    "text": "buồn nôn thoáng qua",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1031, 1050]
+  },
+  {
+    "text": "Nôn mửa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1057, 1064]
+  },
+  {
+    "text": "đau lưng âm ỉ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1085, 1098]
+  },
+  {
+    "text": "đau bụng hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1138, 1159]
+  },
+  {
+    "text": "đau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1161, 1169]
+  },
+  {
+    "text": "(khu trú vùng cạnh cột sống bên trái đoạn giữa lưng, đôi khi lan ra phía trước bụng.)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M48.27"],
+    "assertions": ["isHistorical"],
+    "position": [1170, 1255]
+  },
+  {
+    "text": "bữa ăn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1294, 1300]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1302, 1310]
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1312, 1323]
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1358, 1369]
+  },
+  {
+    "text": "buồn nôn thoáng qua",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1372, 1391]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1393, 1396]
+  },
+  {
+    "text": "đau lưng kéo dài",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1398, 1414]
+  },
+  {
+    "text": "nội soi thực quản - dạ dày - tá tràng ngoại trú",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Y84.5"],
+    "assertions": ["isHistorical"],
+    "position": [1467, 1514]
+  },
+  {
+    "text": "omeprazole",
+    "type": "THUỐC",
+    "candidates": ["7646"],
+    "assertions": ["isHistorical"],
+    "position": [1596, 1606]
+  },
+  {
+    "text": "Chụp cộng hưởng từ mật tụy  ghi nhận sỏi đoạn cuối ống mật chủ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Q92.4"],
+    "assertions": ["isHistorical"],
+    "position": [1608, 1670]
+  },
+  {
+    "text": "Xét nghiệm chức năng gan",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R94.5"],
+    "assertions": ["isHistorical"],
+    "position": [1672, 1696]
+  },
+  {
+    "text": "men gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1706, 1713]
+  },
+  {
+    "text": "Nội soi thực quản - dạ dày - tá tràng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Y84.5"],
+    "assertions": [],
+    "position": [1901, 1938]
+  },
+  {
+    "text": "Cộng hưởng từ mật tụy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["T75.0"],
+    "assertions": [],
+    "position": [1953, 1974]
+  },
+  {
+    "text": "sỏi đoạn cuối ống mật chủ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K74.4"],
+    "assertions": [],
+    "position": [1977, 2002]
+  },
+  {
+    "text": "Nội soi mật tụy ngược dòng (ERCP).",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["T85.0"],
+    "assertions": [],
+    "position": [2032, 2066]
+  },
+  {
+    "text": "ERCP, lấy thành công 02 viên sỏi tại đoạn cuối ống mật chủ (CBD).",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Q92.4"],
+    "assertions": [],
+    "position": [2083, 2148]
+  },
+  {
+    "text": "sỏi ống dẫn mật chung đoạn cuối",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K80.3"],
+    "assertions": [],
+    "position": [2214, 2245]
+  }
+]

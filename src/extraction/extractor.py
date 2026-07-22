@@ -43,7 +43,11 @@ _LAB_KW = re.compile(
 # header -> (top_section, sub_context)
 _HEADERS = [
     (re.compile(r"tiền sử bệnh hiện tại|bệnh sử hiện tại|lịch sử bệnh hiện tại|quá trình bệnh", re.I), ("present", None)),
-    (re.compile(r"tiền sử|tiền căn", re.I), ("history", None)),
+    # (?!\s*\d): loại "tiền sử 2 ngày đau bụng..." (diễn biến triệu chứng hiện tại, không
+    # phải section header) khỏi bị coi là header "Tiền sử bệnh" -- đo được trên dev (file 70):
+    # câu văn xuôi trong section "present" chứa "Tiền sử 2 ngày đau bụng..." làm _section_map
+    # đặt lại top="history" cho MỌI dòng sau đó, lây isHistorical sai sang 5 triệu chứng hiện tại.
+    (re.compile(r"(?:tiền sử|tiền căn)(?!\s*\d)", re.I), ("history", None)),
     (re.compile(r"đánh giá tại bệnh viện|khám tại bệnh viện|tại bệnh viện", re.I), ("hospital", None)),
     (re.compile(r"thuốc (trước|đã điều trị|điều trị)|thuốc trước khi|danh sách thuốc", re.I), (None, "drug")),
     (re.compile(r"bệnh (lý )?(mạn|mãn) tính|bệnh mạn|bệnh kèm|chẩn đoán", re.I), (None, "diagnosis")),

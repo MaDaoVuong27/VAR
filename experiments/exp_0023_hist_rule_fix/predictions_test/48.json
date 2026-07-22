@@ -1,0 +1,159 @@
+[
+  {
+    "text": "va đập đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [304, 314]
+  },
+  {
+    "text": "chụp ct não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [328, 339]
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [386, 394]
+  },
+  {
+    "text": "ngất",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [434, 438]
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [466, 474]
+  },
+  {
+    "text": "vụng về",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [639, 646]
+  },
+  {
+    "text": "yếu sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [691, 698]
+  },
+  {
+    "text": "lơ lửng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [813, 820]
+  },
+  {
+    "text": "kéo lê",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1206, 1212]
+  },
+  {
+    "text": "yếu sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1343, 1350]
+  },
+  {
+    "text": "khó khăn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1357, 1365]
+  },
+  {
+    "text": "Khó kéo khóa quần",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1387, 1404]
+  },
+  {
+    "text": "khó khăn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1452, 1460]
+  },
+  {
+    "text": "kéo lê",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1487, 1493]
+  },
+  {
+    "text": "lơ lửng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1524, 1531]
+  },
+  {
+    "text": "khó khăn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1589, 1597]
+  },
+  {
+    "text": "vụng về",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2056, 2063]
+  },
+  {
+    "text": "khó khăn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2083, 2091]
+  },
+  {
+    "text": "đập đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [2357, 2364]
+  },
+  {
+    "text": "chụp ct não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2378, 2389]
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2436, 2444]
+  },
+  {
+    "text": "ngất",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2484, 2488]
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2508, 2516]
+  },
+  {
+    "text": "khó khăn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2569, 2577]
+  },
+  {
+    "text": "Phát",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [2703, 2707]
+  },
+  {
+    "text": "xuất huyết dưới màng cứng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["S06.5"],
+    "assertions": [],
+    "position": [2713, 2738]
+  }
+]

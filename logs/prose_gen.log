@@ -1,0 +1,83 @@
+[llm_prose] tên bệnh dùng cho prose: 3372/22461 (đã lọc danh pháp ICD trang trọng + tên tiếng Anh)
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]/home/lenam/miniconda3/envs/rag/lib/python3.10/site-packages/bitsandbytes/backends/cuda/ops.py:213: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:04,  1.49s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.69s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:05<00:01,  1.74s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:06<00:00,  1.55s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:06<00:00,  1.60s/it]
+  8/3000 | giữ 8 | bỏ 0
+  48/3000 | giữ 47 | bỏ 1
+  88/3000 | giữ 86 | bỏ 2
+  128/3000 | giữ 124 | bỏ 4
+  168/3000 | giữ 162 | bỏ 6
+  208/3000 | giữ 201 | bỏ 7
+  248/3000 | giữ 237 | bỏ 11
+  288/3000 | giữ 274 | bỏ 14
+  328/3000 | giữ 311 | bỏ 17
+  368/3000 | giữ 349 | bỏ 19
+  408/3000 | giữ 388 | bỏ 20
+  448/3000 | giữ 425 | bỏ 23
+  488/3000 | giữ 462 | bỏ 26
+  528/3000 | giữ 501 | bỏ 27
+  568/3000 | giữ 540 | bỏ 28
+  608/3000 | giữ 580 | bỏ 28
+  648/3000 | giữ 618 | bỏ 30
+  688/3000 | giữ 657 | bỏ 31
+  728/3000 | giữ 695 | bỏ 33
+  768/3000 | giữ 733 | bỏ 35
+  808/3000 | giữ 772 | bỏ 36
+  848/3000 | giữ 807 | bỏ 41
+  888/3000 | giữ 844 | bỏ 44
+  928/3000 | giữ 883 | bỏ 45
+  968/3000 | giữ 921 | bỏ 47
+  1008/3000 | giữ 959 | bỏ 49
+  1048/3000 | giữ 997 | bỏ 51
+  1088/3000 | giữ 1034 | bỏ 54
+  1128/3000 | giữ 1072 | bỏ 56
+  1168/3000 | giữ 1110 | bỏ 58
+  1208/3000 | giữ 1148 | bỏ 60
+  1248/3000 | giữ 1187 | bỏ 61
+  1288/3000 | giữ 1225 | bỏ 63
+  1328/3000 | giữ 1264 | bỏ 64
+  1368/3000 | giữ 1303 | bỏ 65
+  1408/3000 | giữ 1341 | bỏ 67
+  1448/3000 | giữ 1379 | bỏ 69
+  1488/3000 | giữ 1417 | bỏ 71
+  1528/3000 | giữ 1453 | bỏ 75
+  1568/3000 | giữ 1491 | bỏ 77
+  1608/3000 | giữ 1531 | bỏ 77
+  1648/3000 | giữ 1570 | bỏ 78
+  1688/3000 | giữ 1609 | bỏ 79
+  1728/3000 | giữ 1645 | bỏ 83
+  1768/3000 | giữ 1678 | bỏ 90
+  1808/3000 | giữ 1714 | bỏ 94
+  1848/3000 | giữ 1750 | bỏ 98
+  1888/3000 | giữ 1790 | bỏ 98
+  1928/3000 | giữ 1826 | bỏ 102
+  1968/3000 | giữ 1863 | bỏ 105
+  2008/3000 | giữ 1901 | bỏ 107
+  2048/3000 | giữ 1939 | bỏ 109
+  2088/3000 | giữ 1975 | bỏ 113
+  2128/3000 | giữ 2011 | bỏ 117
+  2168/3000 | giữ 2048 | bỏ 120
+  2208/3000 | giữ 2086 | bỏ 122
+  2248/3000 | giữ 2126 | bỏ 122
+  2288/3000 | giữ 2163 | bỏ 125
+  2328/3000 | giữ 2200 | bỏ 128
+  2368/3000 | giữ 2240 | bỏ 128
+  2408/3000 | giữ 2278 | bỏ 130
+  2448/3000 | giữ 2314 | bỏ 134
+  2488/3000 | giữ 2352 | bỏ 136
+  2528/3000 | giữ 2388 | bỏ 140
+  2568/3000 | giữ 2424 | bỏ 144
+  2608/3000 | giữ 2460 | bỏ 148
+  2648/3000 | giữ 2498 | bỏ 150
+  2688/3000 | giữ 2535 | bỏ 153
+  2728/3000 | giữ 2574 | bỏ 154
+  2768/3000 | giữ 2614 | bỏ 154
+  2808/3000 | giữ 2652 | bỏ 156
+  2848/3000 | giữ 2688 | bỏ 160
+  2888/3000 | giữ 2726 | bỏ 162
+  2928/3000 | giữ 2764 | bỏ 164
+  2968/3000 | giữ 2801 | bỏ 167
+
+Xong: giữ 2830, bỏ 170 (6% — LLM không giữ nguyên văn cụm từ) -> /data/MADAOVUONG/BAI_LAB/VAR/data/synthetic/prose.jsonl
+Quét bù 1032 entity LLM tự thêm (nếu bỏ mặc, train sẽ dạy chúng là 'O').
+README khi nộp: model=Qwen/Qwen2.5-7B-Instruct (self-host ≤9B, offline), seed=7. LLM sampling KHÔNG tái tạo bit-exact -> NỘP KÈM file jsonl gốc này.

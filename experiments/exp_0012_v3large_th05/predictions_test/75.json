@@ -1,0 +1,220 @@
+[
+  {
+    "text": "bệnh động mạch vành sau can thiệp bắc cầu nối",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M02.0"],
+    "assertions": ["isHistorical"],
+    "position": [48, 93]
+  },
+  {
+    "text": "Nhiều lần chụp mạch và can thiệp tim mạch do đau ngực",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I20.1"],
+    "assertions": ["isHistorical"],
+    "position": [100, 153]
+  },
+  {
+    "text": "Bắc cầu nối chủ vành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z95.1"],
+    "assertions": ["isHistorical"],
+    "position": [195, 215]
+  },
+  {
+    "text": "Can thiệp mạch vành qua da và đặt stent phủ thuốc (DES) ở động mạch liên thất trước (LAD).",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M47.04†"],
+    "assertions": ["isHistorical"],
+    "position": [222, 312]
+  },
+  {
+    "text": "Can thiệp mạch vành qua da (POBA) vào động mạch chéo gốc",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I70.00"],
+    "assertions": ["isHistorical"],
+    "position": [319, 375]
+  },
+  {
+    "text": "Can thiệp mạch vành qua da và đặt 2 stent phủ thuốc có chồng lấp nhau ở đoạn giữa động mạch vành phải (RCA)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E11.5"],
+    "assertions": ["isHistorical"],
+    "position": [382, 489]
+  },
+  {
+    "text": "Nong bóng động mạch vành qua da (PTCA) tại nhánh sau bên (posterolateral branch) của động mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["G59.0*"],
+    "assertions": ["isHistorical"],
+    "position": [496, 595]
+  },
+  {
+    "text": "đau ngực trái dữ dội",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [640, 660]
+  },
+  {
+    "text": "đau trước khi đi ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [720, 740]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [755, 758]
+  },
+  {
+    "text": "nitroglycerin dưới lưỡi 1 liều",
+    "type": "THUỐC",
+    "candidates": ["316370"],
+    "assertions": [],
+    "position": [786, 816]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [885, 892]
+  },
+  {
+    "text": "3 viên nitroglycerin",
+    "type": "THUỐC",
+    "candidates": ["316377"],
+    "assertions": [],
+    "position": [902, 922]
+  },
+  {
+    "text": "giảm đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [935, 943]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [945, 953]
+  },
+  {
+    "text": "đau ngực trái dữ dội",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1032, 1052]
+  },
+  {
+    "text": "vã mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1083, 1092]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1099, 1106]
+  },
+  {
+    "text": "Phát hiện điện tim sóng ST chênh xuống ở các chuyển đạo v4 đến v6",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Q93.3"],
+    "assertions": [],
+    "position": [1144, 1209]
+  },
+  {
+    "text": "aspirin",
+    "type": "THUỐC",
+    "candidates": ["1191"],
+    "assertions": [],
+    "position": [1226, 1233]
+  },
+  {
+    "text": "Ngậm dưới lưỡi 4 liều nitroglycerin",
+    "type": "THUỐC",
+    "candidates": ["316365"],
+    "assertions": [],
+    "position": [1234, 1269]
+  },
+  {
+    "text": "Thuốc nitroglycerin dạng bôi/dán lên da (mỡ nitroglycerin)",
+    "type": "THUỐC",
+    "candidates": ["1159830"],
+    "assertions": [],
+    "position": [1277, 1335]
+  },
+  {
+    "text": "ativan ( Lorazepam)",
+    "type": "THUỐC",
+    "candidates": ["6470"],
+    "assertions": [],
+    "position": [1342, 1361]
+  },
+  {
+    "text": "lovenox lúc 0100",
+    "type": "THUỐC",
+    "candidates": ["225036"],
+    "assertions": [],
+    "position": [1368, 1384]
+  },
+  {
+    "text": "đau ngực hết",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1400, 1412]
+  },
+  {
+    "text": "điện tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1427, 1435]
+  },
+  {
+    "text": "vã mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1569, 1578]
+  },
+  {
+    "text": "troponin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1603, 1611]
+  },
+  {
+    "text": "10",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1617, 1619]
+  },
+  {
+    "text": "điện tâm đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1657, 1668]
+  },
+  {
+    "text": "nhịp xoangnhịp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1678, 1692]
+  },
+  {
+    "text": "tần số",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1700, 1706]
+  },
+  {
+    "text": "91 lần/phút",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1707, 1718]
+  },
+  {
+    "text": "điện tâm đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1725, 1736]
+  },
+  {
+    "text": "Sóng ST chênh xuống  ở các chuyển đạo v4 đến v6chênh nhiều so với EKG ở  trước đó",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1746, 1827]
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "text": "CGhi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [21, 25]
+  },
+  {
+    "text": "đau vùng xương",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [73, 87]
+  },
+  {
+    "text": "Tái khám vì đau đầu gối phải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [190, 218]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [495, 498]
+  },
+  {
+    "text": "động",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [541, 545]
+  },
+  {
+    "text": "đau đầu gối phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [609, 625]
+  },
+  {
+    "text": "leo cầu thang",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [867, 880]
+  },
+  {
+    "text": "gập sâu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [884, 891]
+  },
+  {
+    "text": "x-quang",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1043, 1050]
+  },
+  {
+    "text": "đổi thoái hóa nghiêm trọng của khớp bánh chè đùi phải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1088, 1141]
+  },
+  {
+    "text": "chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1148, 1168]
+  },
+  {
+    "text": "góc",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1203, 1206]
+  },
+  {
+    "text": "tăng lên",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1207, 1215]
+  }
+]

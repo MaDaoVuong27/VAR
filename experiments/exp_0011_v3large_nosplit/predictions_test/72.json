@@ -1,0 +1,156 @@
+[
+  {
+    "text": "vàng da",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [118, 125]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [132, 135]
+  },
+  {
+    "text": "ngứa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [138, 142]
+  },
+  {
+    "text": "bilirubin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [218, 227]
+  },
+  {
+    "text": "huyết thanh",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [270, 281]
+  },
+  {
+    "text": "siêu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [294, 298]
+  },
+  {
+    "text": "giãn đường dẫn mật trong gan ở ống mật chủ 15 mm tại mức tuyến tụy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [311, 377]
+  },
+  {
+    "text": "ercp (nội soi mật tụy ngược dòng) bởi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [380, 417]
+  },
+  {
+    "text": "một khối phình to 2 cm ở nhúm tá tràng lớn với gợi ý về một khối khối u lân cận",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [434, 513]
+  },
+  {
+    "text": "chỗ hẹp đơn lẻ được thấy, dài 7 mm ở một phần ba dưới của ống mật chủ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [520, 589]
+  },
+  {
+    "text": "phiên hình",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [620, 630]
+  },
+  {
+    "text": "sinh",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [633, 637]
+  },
+  {
+    "text": "ung thư biểu mô tuyến, biệt hóa vừa phải đến kém",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [653, 701]
+  },
+  {
+    "text": "tụy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [773, 776]
+  },
+  {
+    "text": "chức năng gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [846, 859]
+  },
+  {
+    "text": "bilirubin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [862, 871]
+  },
+  {
+    "text": "sinh thiết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [915, 925]
+  },
+  {
+    "text": "ung",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [935, 938]
+  },
+  {
+    "text": "thư biểu mô tuyến, biệt hóa",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [939, 966]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1013, 1020]
+  },
+  {
+    "text": "giãn đường dẫn mật trong gan ở ống mật chủ 15 mm tại mức tuyến tụy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1030, 1096]
+  },
+  {
+    "text": "một khối phình to 2 cm ở nhúm tá tràng lớn với gợi ý về một khối khối u lân cận",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1142, 1221]
+  },
+  {
+    "text": "một chỗ hẹp đơn lẻ được thấy, dài 7 mm ở một phần ba dưới của ống mật chủ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1224, 1297]
+  },
+  {
+    "text": "u ác của đầu tuỵ mới được chẩn đoán",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["C62.0"],
+    "assertions": [],
+    "position": [1387, 1422]
+  },
+  {
+    "text": "mô học phù hợp với một khối u có nguồn gốc từ đường mật tụy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1438, 1497]
+  }
+]

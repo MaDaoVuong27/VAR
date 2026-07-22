@@ -1,0 +1,336 @@
+[
+  {
+    "text": "acetaminophen 500mg, taking 10 pills at a",
+    "type": "THUỐC",
+    "candidates": ["315266"],
+    "assertions": ["isHistorical"],
+    "position": [171, 212]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [376, 384]
+  },
+  {
+    "text": "càng nặng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [390, 399]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [449, 457]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [491, 499]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [542, 550]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [590, 598]
+  },
+  {
+    "text": "men gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [647, 654]
+  },
+  {
+    "text": "tổng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [687, 691]
+  },
+  {
+    "text": "bilirubin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [692, 701]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [775, 783]
+  },
+  {
+    "text": "đau bụng liên tục",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [801, 818]
+  },
+  {
+    "text": "mệt mỏi toàn thân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [821, 838]
+  },
+  {
+    "text": "yếu sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [841, 848]
+  },
+  {
+    "text": "khó thở khi gắng sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [851, 871]
+  },
+  {
+    "text": "ngứa toàn thân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [874, 888]
+  },
+  {
+    "text": "tiểu ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [899, 910]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [917, 920]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [1016, 1024]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [1036, 1039]
+  },
+  {
+    "text": "thay đổi thói quen đại tiện",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R19.4"],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [1051, 1078]
+  },
+  {
+    "text": "acetaminophen 500mg",
+    "type": "THUỐC",
+    "candidates": ["315266"],
+    "assertions": ["isHistorical"],
+    "position": [1183, 1202]
+  },
+  {
+    "text": "men gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1317, 1324]
+  },
+  {
+    "text": "bilirubin máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1334, 1347]
+  },
+  {
+    "text": "ast",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1349, 1352]
+  },
+  {
+    "text": "421",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1353, 1356]
+  },
+  {
+    "text": "alt",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1358, 1361]
+  },
+  {
+    "text": "336",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1362, 1365]
+  },
+  {
+    "text": "alp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1367, 1370]
+  },
+  {
+    "text": "185",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1371, 1374]
+  },
+  {
+    "text": "bilirubin toàn phần",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1376, 1395]
+  },
+  {
+    "text": "âm tính",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1402, 1409]
+  },
+  {
+    "text": "siêu âm bụng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1410, 1422]
+  },
+  {
+    "text": "doppler",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1426, 1433]
+  },
+  {
+    "text": "âm tính",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1436, 1443]
+  },
+  {
+    "text": "chụp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1444, 1448]
+  },
+  {
+    "text": "hida",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1449, 1453]
+  },
+  {
+    "text": "ercp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1551, 1555]
+  },
+  {
+    "text": "ercp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1558, 1562]
+  },
+  {
+    "text": "bilirubin máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1744, 1757]
+  },
+  {
+    "text": "men gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1766, 1773]
+  },
+  {
+    "text": "ast",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1830, 1833]
+  },
+  {
+    "text": "421",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1834, 1837]
+  },
+  {
+    "text": "alt",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1840, 1843]
+  },
+  {
+    "text": "336",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1844, 1847]
+  },
+  {
+    "text": "alp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1850, 1853]
+  },
+  {
+    "text": "185",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1854, 1857]
+  },
+  {
+    "text": "bilirubin toàn phần",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1860, 1879]
+  },
+  {
+    "text": "total bili",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1886, 1896]
+  },
+  {
+    "text": "âm tính",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1963, 1970]
+  },
+  {
+    "text": "ferritin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1973, 1981]
+  },
+  {
+    "text": "bình thường",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1985, 1996]
+  },
+  {
+    "text": "ceruloplasmin",
+    "type": "THUỐC",
+    "candidates": ["29998"],
+    "assertions": [],
+    "position": [1999, 2012]
+  },
+  {
+    "text": "âm tính",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [2130, 2137]
+  },
+  {
+    "text": "âm tính",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [2138, 2145]
+  },
+  {
+    "text": "âm tính",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [2148, 2155]
+  },
+  {
+    "text": "chụp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2156, 2160]
+  },
+  {
+    "text": "hida",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2161, 2165]
+  },
+  {
+    "text": "ercp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2168, 2172]
+  },
+  {
+    "text": "ercp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2291, 2295]
+  },
+  {
+    "text": "men gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2332, 2339]
+  },
+  {
+    "text": "bilirubin máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2347, 2360]
+  }
+]

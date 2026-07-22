@@ -1,0 +1,98 @@
+[
+  {
+    "text": "chụp ct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [328, 335]
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [386, 394]
+  },
+  {
+    "text": "ngất",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [434, 438]
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [466, 474]
+  },
+  {
+    "text": "yếu sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [691, 698]
+  },
+  {
+    "text": "khó khăn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [886, 894]
+  },
+  {
+    "text": "yếu sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1343, 1350]
+  },
+  {
+    "text": "Khó kéo khóa quần",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1387, 1404]
+  },
+  {
+    "text": "khó khăn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2016, 2024]
+  },
+  {
+    "text": "vụng về",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2056, 2063]
+  },
+  {
+    "text": "đập đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [2357, 2364]
+  },
+  {
+    "text": "chụp ct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2378, 2385]
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2436, 2444]
+  },
+  {
+    "text": "ngất",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2484, 2488]
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2508, 2516]
+  },
+  {
+    "text": "xuất huyết dưới màng cứng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["S06.51"],
+    "assertions": [],
+    "position": [2713, 2738]
+  }
+]

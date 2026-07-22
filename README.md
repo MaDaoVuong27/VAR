@@ -34,7 +34,7 @@ scripts/            # chạy experiment, đóng gói submission, ETL knowledge b
 ## Cài đặt & tái tạo trên máy mới (đọc kỹ nếu vừa clone)
 
 1. **Môi trường** (Python 3.10+): `pip install -r requirements.txt`. `torch` mặc định bản CPU — nếu có GPU cài bản CUDA (và đổi `faiss-cpu`→`faiss-gpu`) để chạy nhanh hơn.
-2. **Có sẵn sau khi clone** (đủ để chạy pipeline + train lại): `data/raw/input/` (100 file test), `data/labeled/` (15 file gold), `data/synthetic/{train,val}.jsonl`, `knowledge_base/*/processed/*.csv`.
+2. **Có sẵn sau khi clone** (đủ để chạy pipeline + train lại): `data/raw_new/input/` (100 file test hiện hành — BTC nâng cấp đề 2026-07-16, nội dung y hệt `data/raw/` cũ; `data/raw/` giữ lại để đối chiếu), `data/labeled/` (15 file gold), `data/synthetic/{train,val}.jsonl`, `knowledge_base/*/processed/*.csv`.
 3. **KHÔNG có sẵn — phải bổ sung tay** (bị gitignore):
    - **NER weights** `models/ner_xlmr_v2/model.safetensors` — copy tay từ máy đã train, hoặc train lại (xem [`models/ner_xlmr_v2/SOURCE.md`](models/ner_xlmr_v2/SOURCE.md)). **Bắt buộc** để chạy bản đề xuất.
    - **Cache SapBERT** `models/embeddings/*.npz` — `src/normalization/sapbert.py` **tự build lại** lần chạy đầu (tải SapBERT từ HF + encode KB; cần mạng lần đầu, chậm nếu CPU). Copy tay để tiết kiệm thời gian.

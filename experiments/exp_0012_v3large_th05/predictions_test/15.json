@@ -1,0 +1,16 @@
+[
+  {
+    "text": "Truyền dịch yếu tố IX đậm đặc",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["D67"],
+    "assertions": [],
+    "position": [144, 173]
+  },
+  {
+    "text": "Điều trị chống đông",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["J94.0"],
+    "assertions": [],
+    "position": [262, 281]
+  }
+]

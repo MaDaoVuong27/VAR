@@ -1,0 +1,30 @@
+[
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R73"],
+    "assertions": ["isHistorical"],
+    "position": [48, 61]
+  },
+  {
+    "text": "suy tim, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I50.9"],
+    "assertions": ["isHistorical"],
+    "position": [68, 91]
+  },
+  {
+    "text": "bệnh thận mạn, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N18.9"],
+    "assertions": ["isHistorical"],
+    "position": [98, 127]
+  },
+  {
+    "text": "Sử dụng sử dụng thuốc lá nhiều năm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z72.0"],
+    "assertions": ["isHistorical"],
+    "position": [331, 365]
+  }
+]

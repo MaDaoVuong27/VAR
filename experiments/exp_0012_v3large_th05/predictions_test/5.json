@@ -1,0 +1,215 @@
+[
+  {
+    "text": "bệnh tim mạch do xơ vữa động mạch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I25.1"],
+    "assertions": ["isHistorical"],
+    "position": [57, 90]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R73"],
+    "assertions": ["isHistorical"],
+    "position": [97, 110]
+  },
+  {
+    "text": "tăng lipid máu, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E78.5"],
+    "assertions": ["isHistorical"],
+    "position": [117, 147]
+  },
+  {
+    "text": "bệnh trào ngược dạ dày- thực quản không có viêm thực quản",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K21.9"],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [154, 211]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [260, 268]
+  },
+  {
+    "text": "đau bụng vùng thượng vị",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [387, 410]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [417, 425]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [466, 469]
+  },
+  {
+    "text": "ớn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [471, 473]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [480, 483]
+  },
+  {
+    "text": "táo bón",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [485, 492]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [494, 496]
+  },
+  {
+    "text": "tiểu khó",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [498, 506]
+  },
+  {
+    "text": "Tăng lên 101.8 trước thủ thuật",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["U19.9"],
+    "assertions": [],
+    "position": [610, 640]
+  },
+  {
+    "text": "hạ huyết áp, không đặc hiệu trong khi thủ thuật",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I95.9"],
+    "assertions": [],
+    "position": [647, 694]
+  },
+  {
+    "text": "số huyết áp tâm thu trên đường A-line (khi đến MICU)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["C75.5"],
+    "assertions": [],
+    "position": [705, 757]
+  },
+  {
+    "text": "viêm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [787, 791]
+  },
+  {
+    "text": "319",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [845, 848]
+  },
+  {
+    "text": "alt",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [855, 858]
+  },
+  {
+    "text": "690",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [889, 892]
+  },
+  {
+    "text": "phosphatase",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [899, 910]
+  },
+  {
+    "text": "983",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [924, 927]
+  },
+  {
+    "text": "bilirubin toàn phần (",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [934, 955]
+  },
+  {
+    "text": "bạch cầu (",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [975, 985]
+  },
+  {
+    "text": "Siêu âm gan mật",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K76.3"],
+    "assertions": [],
+    "position": [1046, 1061]
+  },
+  {
+    "text": "đường mật",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K83.2"],
+    "assertions": [],
+    "position": [1088, 1097]
+  },
+  {
+    "text": "Nội soi mật tụy ngược dòng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M24.7"],
+    "assertions": [],
+    "position": [1188, 1214]
+  },
+  {
+    "text": "Đặt stent đường mật để dẫn lưu và giải áp đường mật",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z46.5"],
+    "assertions": [],
+    "position": [1216, 1267]
+  },
+  {
+    "text": "Đặt nội khí quản nhằm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Y65.3"],
+    "assertions": [],
+    "position": [1269, 1290]
+  },
+  {
+    "text": "Đặt catheter động mạch (",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Y84.0"],
+    "assertions": [],
+    "position": [1292, 1316]
+  },
+  {
+    "text": "Đặt đường truyền tĩnh mạch ngoại vi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I87.1"],
+    "assertions": [],
+    "position": [1317, 1352]
+  },
+  {
+    "text": "levophed",
+    "type": "THUỐC",
+    "candidates": ["227559"],
+    "assertions": [],
+    "position": [1360, 1368]
+  },
+  {
+    "text": "propofol để an thần",
+    "type": "THUỐC",
+    "candidates": ["8782"],
+    "assertions": [],
+    "position": [1375, 1394]
+  },
+  {
+    "text": "phentolamine",
+    "type": "THUỐC",
+    "candidates": ["8153"],
+    "assertions": [],
+    "position": [1408, 1420]
+  }
+]

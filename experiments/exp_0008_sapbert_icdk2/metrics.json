@@ -1,0 +1,12 @@
+{
+  "exp": "exp_0008_sapbert_icdk2",
+  "desc": "exp_0007 + ICD k=2 — dò convention gold BTC (đề cho 2 mã: K21.0+K21.9)",
+  "ner": "models/ner_xlmr_v2",
+  "dev_scores": {
+    "text_score": 0.2043,
+    "assertions_score": 0.6341,
+    "candidates_score": 0.4264,
+    "final_score": 0.4221
+  },
+  "n_dev": 15
+}

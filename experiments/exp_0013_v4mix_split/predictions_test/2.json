@@ -1,0 +1,23 @@
+[
+  {
+    "text": "nghi ngờ xơ gan do rượu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K70.3"],
+    "assertions": ["isHistorical"],
+    "position": [52, 75]
+  },
+  {
+    "text": "Có tiền sử sử dụng rượu bia",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z81.1"],
+    "assertions": ["isHistorical"],
+    "position": [110, 137]
+  },
+  {
+    "text": "hội chứng não gan",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["D81.4"],
+    "assertions": [],
+    "position": [191, 208]
+  }
+]

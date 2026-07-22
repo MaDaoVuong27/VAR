@@ -1,0 +1,12 @@
+{
+  "exp": "exp_0019_dense_rerank",
+  "desc": "GỘP: NER dense (12k template+2830 prose) + rerank off-the-shelf — kết hợp exp_0015 và exp_0018",
+  "ner": "models/ner_xlmr_v6_dense",
+  "dev_scores": {
+    "text_score": 0.2577,
+    "assertions_score": 0.6598,
+    "candidates_score": 0.3545,
+    "final_score": 0.4171
+  },
+  "n_dev": 15
+}

@@ -1,0 +1,21 @@
+[
+  {
+    "text": "bệnh rễ thần kinh tuỷ sống ở ngón tay cái",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["G56"],
+    "assertions": [],
+    "position": [74, 115]
+  },
+  {
+    "text": "bệnh rễ thần kinh tuỷ sống ở ngón tay cái",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["G56"],
+    "assertions": [],
+    "position": [187, 228]
+  },
+  {
+    "text": "chụp cộng hưởng từ (mri) cột sống cổ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [279, 315]
+  }
+]

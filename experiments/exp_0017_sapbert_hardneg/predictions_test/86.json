@@ -1,0 +1,59 @@
+[
+  {
+    "text": "bệnh động mạch vành, bệnh lý thần kinh ngoại biên",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F01.2"],
+    "assertions": ["isHistorical"],
+    "position": [34, 83]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [160, 167]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [199, 206]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [248, 255]
+  },
+  {
+    "text": "Khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [258, 265]
+  },
+  {
+    "text": "Đau hai bàn chân",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M77.4"],
+    "assertions": [],
+    "position": [341, 357]
+  },
+  {
+    "text": "Chụp động mạch vành",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [621, 640]
+  },
+  {
+    "text": "bệnh ba thân động mạch vành nghiêm trọng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A06.0"],
+    "assertions": [],
+    "position": [650, 690]
+  },
+  {
+    "text": "Can thiệp mạch vành qua da",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["W45"],
+    "assertions": [],
+    "position": [753, 779]
+  }
+]

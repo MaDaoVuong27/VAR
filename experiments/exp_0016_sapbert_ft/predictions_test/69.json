@@ -1,0 +1,94 @@
+[
+  {
+    "text": "Cắt bỏ thận trái do ung thư biểu mô tế bào thận",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [67, 114]
+  },
+  {
+    "text": "Cắt tuyến giáp với Dr",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [121, 142]
+  },
+  {
+    "text": "do ung thư biểu mô tuyến giật nhú",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [144, 177]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [238, 245]
+  },
+  {
+    "text": "thiếu máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [247, 256]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [322, 329]
+  },
+  {
+    "text": "thiếu máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [336, 345]
+  },
+  {
+    "text": "guaiac",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [360, 366]
+  },
+  {
+    "text": "Nội soi đại tràng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [421, 438]
+  },
+  {
+    "text": "sinh thiết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [491, 501]
+  },
+  {
+    "text": "dương tính",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [502, 512]
+  },
+  {
+    "text": "chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [639, 659]
+  },
+  {
+    "text": "nội soi đại tràng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [749, 766]
+  },
+  {
+    "text": "sinh thiết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [773, 783]
+  },
+  {
+    "text": "sinh thiết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [876, 886]
+  },
+  {
+    "text": "ung thư biểu mô tuyến giật nhú",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [953, 983]
+  }
+]

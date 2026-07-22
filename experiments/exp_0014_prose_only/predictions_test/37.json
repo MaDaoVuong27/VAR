@@ -1,0 +1,49 @@
+[
+  {
+    "text": "Carvedilol",
+    "type": "THUỐC",
+    "candidates": ["20352"],
+    "assertions": ["isHistorical"],
+    "position": [473, 483]
+  },
+  {
+    "text": "Creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [607, 617]
+  },
+  {
+    "text": "đường huyết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [850, 861]
+  },
+  {
+    "text": "glucose",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [911, 918]
+  },
+  {
+    "text": "hemoglobin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1431, 1441]
+  },
+  {
+    "text": "hba1c",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1448, 1453]
+  },
+  {
+    "text": "bnp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1460, 1463]
+  },
+  {
+    "text": "tổng phân tích nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1473, 1497]
+  },
+  {
+    "text": "chụp x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1552, 1569]
+  }
+]

@@ -1,0 +1,224 @@
+[
+  {
+    "text": "Bệnh túi thừa ở cả ruột non và đại tràng, chưa có biến chứng thủng hoặc áp xe",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K57.5"],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [53, 130]
+  },
+  {
+    "text": "colace",
+    "type": "THUỐC",
+    "candidates": ["82000"],
+    "assertions": ["isHistorical"],
+    "position": [175, 181]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [230, 238]
+  },
+  {
+    "text": "đau hố chậu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [295, 306]
+  },
+  {
+    "text": "táo bón",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [355, 362]
+  },
+  {
+    "text": "đi đại tiện",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [429, 440]
+  },
+  {
+    "text": "lần liên tục",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [445, 457]
+  },
+  {
+    "text": "phân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [459, 463]
+  },
+  {
+    "text": "đau hố chậu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [535, 546]
+  },
+  {
+    "text": "tylenol",
+    "type": "THUỐC",
+    "candidates": ["202433"],
+    "assertions": [],
+    "position": [618, 625]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [630, 633]
+  },
+  {
+    "text": "tylenol",
+    "type": "THUỐC",
+    "candidates": ["202433"],
+    "assertions": [],
+    "position": [655, 662]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [695, 698]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [743, 751]
+  },
+  {
+    "text": "táo bón",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [758, 765]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [772, 780]
+  },
+  {
+    "text": "đau hố chậu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [820, 831]
+  },
+  {
+    "text": "tylenol",
+    "type": "THUỐC",
+    "candidates": ["202433"],
+    "assertions": [],
+    "position": [896, 903]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [933, 941]
+  },
+  {
+    "text": "quả mận khô",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [992, 1003]
+  },
+  {
+    "text": "tylenol",
+    "type": "THUỐC",
+    "candidates": ["202433"],
+    "assertions": [],
+    "position": [1018, 1025]
+  },
+  {
+    "text": "tylenol",
+    "type": "THUỐC",
+    "candidates": ["202433"],
+    "assertions": [],
+    "position": [1080, 1087]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1137, 1140]
+  },
+  {
+    "text": "T97",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1253, 1256]
+  },
+  {
+    "text": "nhịp tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1260, 1268]
+  },
+  {
+    "text": "84",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1269, 1271]
+  },
+  {
+    "text": "huyết áp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1273, 1281]
+  },
+  {
+    "text": "15670",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1282, 1287]
+  },
+  {
+    "text": "nhịp thở",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1289, 1297]
+  },
+  {
+    "text": "20",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1298, 1300]
+  },
+  {
+    "text": "độ bão hòa oxy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1302, 1316]
+  },
+  {
+    "text": "99",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1317, 1319]
+  },
+  {
+    "text": "thiếu máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1366, 1375]
+  },
+  {
+    "text": "hồng cầu nhỏ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1376, 1388]
+  },
+  {
+    "text": "bụng, chậu, không thuốc cản quang cho thấy một lượng nhỏ dịch và mỡ bao quanh một quai ruột kết sigma, gợi ý",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isNegated"],
+    "position": [1458, 1566]
+  },
+  {
+    "text": "viêm túi mật cấp tính không biến chứng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K81.0"],
+    "assertions": ["isNegated"],
+    "position": [1567, 1605]
+  },
+  {
+    "text": "viêm túi mật cấp tính không biến chứng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K81.0"],
+    "assertions": ["isNegated"],
+    "position": [1638, 1676]
+  }
+]

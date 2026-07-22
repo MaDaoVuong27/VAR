@@ -1,0 +1,145 @@
+[
+  {
+    "text": "Giai đoạn IV",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K64.3"],
+    "assertions": ["isHistorical"],
+    "position": [66, 78]
+  },
+  {
+    "text": "Ung thư phổi không tế bào nhỏ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["C38.4"],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [79, 108]
+  },
+  {
+    "text": "Di căn não vùng trán phải dã phẫu thuật lấy u",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["J95.2"],
+    "assertions": ["isHistorical"],
+    "position": [115, 160]
+  },
+  {
+    "text": "Tắc mạch huyết khối tĩnh mạch chủ dưới (IVC) và tĩnh mạch chủ trên (SVC) phải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I74.3"],
+    "assertions": ["isHistorical"],
+    "position": [167, 244]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R73"],
+    "assertions": ["isHistorical"],
+    "position": [251, 264]
+  },
+  {
+    "text": "Sa van hai lá",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I34.1"],
+    "assertions": ["isHistorical"],
+    "position": [271, 284]
+  },
+  {
+    "text": "vicodin (uống không thấy giảm",
+    "type": "THUỐC",
+    "candidates": ["128793"],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [382, 411]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [412, 415]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [552, 555]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [595, 598]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [650, 653]
+  },
+  {
+    "text": "bẹn trái",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I50.1"],
+    "assertions": [],
+    "position": [760, 768]
+  },
+  {
+    "text": "Lan tỏa: đôi khi lan ra bên hông trái, xuống đầu gối trái",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K41.1"],
+    "assertions": [],
+    "position": [775, 832]
+  },
+  {
+    "text": "đau dữ dội",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [837, 847]
+  },
+  {
+    "text": "đi lại",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [876, 882]
+  },
+  {
+    "text": "tê",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [982, 984]
+  },
+  {
+    "text": "cảm giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [986, 994]
+  },
+  {
+    "text": "châm chích",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [995, 1005]
+  },
+  {
+    "text": "yếu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1007, 1010]
+  },
+  {
+    "text": "cảm giác nặng ở chân trái",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1016, 1041]
+  },
+  {
+    "text": "Uống vicodin",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z72.1"],
+    "assertions": ["isHistorical"],
+    "position": [1076, 1088]
+  },
+  {
+    "text": "Bầm máu vùng bẹn trái (được",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["J94.2"],
+    "assertions": [],
+    "position": [1160, 1187]
+  }
+]

@@ -52,6 +52,23 @@ def _has_negation(raw: str, m) -> bool:
     return bool(_NEG_CUE.search(cleaned))
 
 
+# cửa sổ cục bộ quanh span cho cue tiền sử (KHÔNG quét cả dòng — dòng văn xuôi không
+# xuống dòng có thể dài >150 ký tự, cue ở đầu dòng lây sai sang concept không liên quan
+# ở cuối dòng, đo được trên dev file 50: cue "trước nhập viện" cách concept 159 ký tự).
+_HIST_WINDOW_BEFORE = 100  # cue thường đứng TRƯỚC ("tiền sử X", "đã từng bị X")
+_HIST_WINDOW_AFTER = 40    # đôi khi đứng SAU ("X (theo chẩn đoán trước đây)")
+
+
+def _has_historical_cue(raw: str, m) -> bool:
+    _, ls = _line_around(raw, m.start, m.end)
+    le = raw.find("\n", m.end)
+    if le == -1:
+        le = len(raw)
+    win_start = max(ls, m.start - _HIST_WINDOW_BEFORE)
+    win_end = min(le, m.end + _HIST_WINDOW_AFTER)
+    return bool(_HIST_CUE.search(raw[win_start:win_end]))
+
+
 def assign_assertions(raw: str, mentions: List) -> None:
     """Gán m.assertions tại chỗ cho các mention type có assertion."""
     for m in mentions:
@@ -61,8 +78,8 @@ def assign_assertions(raw: str, mentions: List) -> None:
         asserts = []
         line, _ = _line_around(raw, m.start, m.end)
 
-        # isHistorical: theo section history hoặc cue tiền sử trong dòng
-        if getattr(m, "section_top", None) == "history" or _HIST_CUE.search(line):
+        # isHistorical: theo section history hoặc cue tiền sử trong CỬA SỔ CỤC BỘ quanh span
+        if getattr(m, "section_top", None) == "history" or _has_historical_cue(raw, m):
             asserts.append(ASSERT_HISTORICAL)
 
         # isNegated

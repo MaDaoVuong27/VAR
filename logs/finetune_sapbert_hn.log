@@ -1,0 +1,46 @@
+[pairs] ICD song ngữ: 18240 | RxNorm synonym: 30000 | tổng: 48240
+[hard-neg] mining 3 hard negative/anchor bằng SapBERT gốc...
+[hard-neg] xong. Ví dụ: anchor 'Áp xe quanh chóp răng không có' -> hard negs ['Áp xe quanh chóp răn', 'Áp xe phổi không kèm', 'U nang lông không áp']
+[train] 48240 cặp, bs=24, 2.0 epoch = 4020 steps, hard_k=3, dev=cuda
+  step 100/4020 | loss 0.8982 | batch-acc 0.500
+  step 200/4020 | loss 0.6829 | batch-acc 0.667
+  step 300/4020 | loss 0.6475 | batch-acc 0.708
+  step 400/4020 | loss 0.7835 | batch-acc 0.542
+  step 500/4020 | loss 0.5480 | batch-acc 0.625
+  step 600/4020 | loss 0.6301 | batch-acc 0.750
+  step 700/4020 | loss 0.4116 | batch-acc 0.833
+  step 800/4020 | loss 0.4976 | batch-acc 0.792
+  step 900/4020 | loss 0.4357 | batch-acc 0.833
+  step 1000/4020 | loss 0.3875 | batch-acc 0.833
+  step 1100/4020 | loss 0.4501 | batch-acc 0.833
+  step 1200/4020 | loss 0.4046 | batch-acc 0.833
+  step 1300/4020 | loss 0.3363 | batch-acc 0.875
+  step 1400/4020 | loss 0.5757 | batch-acc 0.792
+  step 1500/4020 | loss 0.5481 | batch-acc 0.833
+  step 1600/4020 | loss 0.2702 | batch-acc 0.958
+  step 1700/4020 | loss 0.2279 | batch-acc 0.958
+  step 1800/4020 | loss 0.4341 | batch-acc 0.875
+  step 1900/4020 | loss 0.3001 | batch-acc 0.875
+  step 2000/4020 | loss 0.3980 | batch-acc 0.875
+  step 2100/4020 | loss 0.2806 | batch-acc 0.917
+  step 2200/4020 | loss 0.1673 | batch-acc 0.958
+  step 2300/4020 | loss 0.2844 | batch-acc 0.917
+  step 2400/4020 | loss 0.4563 | batch-acc 0.750
+  step 2500/4020 | loss 0.3042 | batch-acc 0.833
+  step 2600/4020 | loss 0.2931 | batch-acc 0.917
+  step 2700/4020 | loss 0.2861 | batch-acc 0.875
+  step 2800/4020 | loss 0.4147 | batch-acc 0.792
+  step 2900/4020 | loss 0.1693 | batch-acc 0.958
+  step 3000/4020 | loss 0.1687 | batch-acc 0.917
+  step 3100/4020 | loss 0.2224 | batch-acc 0.917
+  step 3200/4020 | loss 0.6179 | batch-acc 0.833
+  step 3300/4020 | loss 0.4149 | batch-acc 0.792
+  step 3400/4020 | loss 0.2318 | batch-acc 0.958
+  step 3500/4020 | loss 0.2822 | batch-acc 0.875
+  step 3600/4020 | loss 0.4062 | batch-acc 0.875
+  step 3700/4020 | loss 0.2863 | batch-acc 0.833
+  step 3800/4020 | loss 0.4060 | batch-acc 0.875
+  step 3900/4020 | loss 0.3891 | batch-acc 0.875
+  step 4000/4020 | loss 0.8047 | batch-acc 0.667
+[done] SapBERT fine-tuned -> /data/MADAOVUONG/BAI_LAB/VAR/models/sapbert_ft_hn
+Nhớ: rebuild FAISS index với model này (cache npz mới) trước khi eval.

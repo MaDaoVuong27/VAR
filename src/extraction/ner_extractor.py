@@ -103,12 +103,17 @@ def _top_at(section_spans, offset: int) -> Optional[str]:
 
 class NERExtractor:
     def __init__(self, model_dir="models/ner_xlmr", maxlen: int = 256, stride: int = 48,
-                 batch_size: int = 16, min_conf: float = 0.6):
+                 batch_size: int = 16, min_conf: float = 0.6, split_newlines: bool = True):
         self.model_dir = str(_ROOT / model_dir) if not Path(model_dir).is_absolute() else model_dir
         self.maxlen = maxlen
         self.stride = stride
         self.batch_size = batch_size
         self.min_conf = min_conf  # bỏ span độ tin thấp (chống mảnh vụn/rác)
+        # split_newlines=False tái lập exp_0003 (chạy TRƯỚC khi _split_newlines ra đời).
+        # Bằng chứng BTC: text/assert KHÔNG phụ thuộc matcher candidate, nên chênh lệch
+        # exp_0003(28.63/31.03) vs exp_0007(27.77/30.14) chỉ có thể do _split_newlines
+        # -> nó làm TỤT cả text lẫn assert (~0.9 mỗi cái).
+        self.split_newlines = split_newlines
         self._tok = None
         self._model = None
         self._device = None
@@ -159,7 +164,9 @@ class NERExtractor:
             if sp["conf"] < self.min_conf:
                 continue
             # tách span vượt dòng -> mỗi dòng 1 khái niệm cùng type
-            for s0, e0 in _split_newlines(raw, sp["position"][0], sp["position"][1]):
+            pieces = (_split_newlines(raw, sp["position"][0], sp["position"][1])
+                      if self.split_newlines else [tuple(sp["position"])])
+            for s0, e0 in pieces:
                 s, e = _snap_word(raw, s0, e0)
                 if e <= s:
                     continue

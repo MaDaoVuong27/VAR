@@ -1,0 +1,43 @@
+[
+  {
+    "text": "đại tiện ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [99, 114]
+  },
+  {
+    "text": "đại tiện ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [196, 211]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [232, 241]
+  },
+  {
+    "text": "qua đường hậu môn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [273, 290]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [334, 343]
+  },
+  {
+    "text": "inr",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [418, 421]
+  },
+  {
+    "text": "inr",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [606, 609]
+  }
+]

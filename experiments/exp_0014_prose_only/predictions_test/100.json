@@ -1,0 +1,56 @@
+[
+  {
+    "text": "ác của đại tràng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["C17.0"],
+    "assertions": ["isHistorical"],
+    "position": [125, 141]
+  },
+  {
+    "text": "cường cận giáp nguyên phát",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E21.0"],
+    "assertions": ["isHistorical"],
+    "position": [148, 174]
+  },
+  {
+    "text": "canxi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [446, 451]
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [504, 512]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [673, 681]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [683, 690]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [692, 701]
+  },
+  {
+    "text": "MRI",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [769, 772]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [895, 903]
+  }
+]

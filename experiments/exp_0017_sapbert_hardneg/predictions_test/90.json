@@ -1,0 +1,21 @@
+[
+  {
+    "text": "khàn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [43, 47]
+  },
+  {
+    "text": "khàn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [106, 110]
+  },
+  {
+    "text": "tổn thương dây thanh quản thật sự",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["S04.6"],
+    "assertions": [],
+    "position": [113, 146]
+  }
+]

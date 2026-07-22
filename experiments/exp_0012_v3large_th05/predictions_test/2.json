@@ -1,0 +1,28 @@
+[
+  {
+    "text": "nghi ngờ xơ gan do rượu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K70.3"],
+    "assertions": ["isHistorical"],
+    "position": [52, 75]
+  },
+  {
+    "text": "hội chứng não gan tiến triển",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F07.2"],
+    "assertions": [],
+    "position": [338, 366]
+  },
+  {
+    "text": "ý thức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [368, 374]
+  },
+  {
+    "text": "suy giảm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [375, 383]
+  }
+]

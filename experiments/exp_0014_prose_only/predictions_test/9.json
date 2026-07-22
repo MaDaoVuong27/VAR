@@ -1,0 +1,25 @@
+[
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [165, 173]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [312, 319]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [749, 756]
+  },
+  {
+    "text": "giãn bể thận",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N13.6"],
+    "assertions": ["isNegated"],
+    "position": [1057, 1069]
+  }
+]

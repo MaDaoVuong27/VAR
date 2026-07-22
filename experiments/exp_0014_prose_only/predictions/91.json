@@ -1,0 +1,66 @@
+[
+  {
+    "text": "coumadin",
+    "type": "THUỐC",
+    "candidates": ["202421"],
+    "assertions": ["isHistorical"],
+    "position": [401, 409]
+  },
+  {
+    "text": "INR",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [462, 465]
+  },
+  {
+    "text": "chảy máu mũi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [529, 541]
+  },
+  {
+    "text": "INR",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [672, 675]
+  },
+  {
+    "text": "chảy máu mũi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [752, 764]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [774, 782]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [792, 799]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [809, 817]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [828, 836]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [844, 847]
+  },
+  {
+    "text": "INR",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1075, 1078]
+  }
+]

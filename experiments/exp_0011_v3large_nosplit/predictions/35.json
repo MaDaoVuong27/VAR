@@ -1,0 +1,264 @@
+[
+  {
+    "text": "Bệnh bạch cầu dòng tủy mãn tính đang dùng gleevec",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["D47.1"],
+    "assertions": ["isHistorical"],
+    "position": [57, 106]
+  },
+  {
+    "text": "Tăng huyết áp\n    - tăng lipid máu, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E78.5"],
+    "assertions": ["isHistorical"],
+    "position": [113, 163]
+  },
+  {
+    "text": "Đái tháo đường típ 2\n    - hẹp ống sống",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E11"],
+    "assertions": ["isHistorical"],
+    "position": [170, 209]
+  },
+  {
+    "text": "Giả gout\n    - bệnh thận mạn, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M10.39"],
+    "assertions": ["isHistorical"],
+    "position": [216, 260]
+  },
+  {
+    "text": "Giai đoạn 4\n    - tăng sản tuyến tiền liệt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E32.0"],
+    "assertions": ["isHistorical"],
+    "position": [261, 303]
+  },
+  {
+    "text": "Nhiều lần ngã gần đây",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [310, 331]
+  },
+  {
+    "text": "Ngã",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [332, 335]
+  },
+  {
+    "text": "Toàn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [476, 480]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [523, 530]
+  },
+  {
+    "text": "Lú lẫn ngày càng nặng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [546, 567]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [661, 668]
+  },
+  {
+    "text": "Lú",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [693, 695]
+  },
+  {
+    "text": "ngày càng nặng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [700, 714]
+  },
+  {
+    "text": "yếu cơ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [739, 745]
+  },
+  {
+    "text": "ngã",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [754, 757]
+  },
+  {
+    "text": "suy kiệt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [808, 816]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [823, 830]
+  },
+  {
+    "text": "Lú",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [837, 839]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [873, 876]
+  },
+  {
+    "text": "Nôn không ra máu, không ra dịch mật",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K92.0"],
+    "assertions": ["isNegated"],
+    "position": [884, 919]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1000, 1007]
+  },
+  {
+    "text": "trượt ngã xuống sàn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1127, 1146]
+  },
+  {
+    "text": "uống kém",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1166, 1174]
+  },
+  {
+    "text": "ăn vào",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1176, 1182]
+  },
+  {
+    "text": "Nôn không ra máu, không ra dịch mật",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K92.0"],
+    "assertions": ["isNegated"],
+    "position": [1197, 1232]
+  },
+  {
+    "text": "bạch cầu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1290, 1298]
+  },
+  {
+    "text": "39.2",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1307, 1311]
+  },
+  {
+    "text": "creatinin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1318, 1327]
+  },
+  {
+    "text": "3.0",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1331, 1334]
+  },
+  {
+    "text": "troponin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1341, 1349]
+  },
+  {
+    "text": "0.10",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1353, 1357]
+  },
+  {
+    "text": "inr",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1364, 1367]
+  },
+  {
+    "text": "1.4",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1371, 1374]
+  },
+  {
+    "text": "Tăng men gan",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1381, 1393]
+  },
+  {
+    "text": "alt",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1399, 1402]
+  },
+  {
+    "text": "176",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1406, 1409]
+  },
+  {
+    "text": "ast",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1413, 1416]
+  },
+  {
+    "text": "287",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1420, 1423]
+  },
+  {
+    "text": "chụp x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1519, 1536]
+  },
+  {
+    "text": "bình thường",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1540, 1551]
+  },
+  {
+    "text": "huyết học",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1607, 1616]
+  },
+  {
+    "text": "bướu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1623, 1627]
+  },
+  {
+    "text": "đây là biến đổi cấp tính và có khả năng đại diện cho cml trong bối cảnh ngừng gleevec",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isNegated"],
+    "position": [1640, 1725]
+  }
+]

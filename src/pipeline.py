@@ -4,7 +4,7 @@ Luồng 1 file: đọc raw -> extract (NER heuristic) -> gán assertion (rule) -
 candidates (KB fuzzy ICD/RxNorm) -> Concept -> JSON.
 
 CLI:
-    python -m src.pipeline --input data/raw/input --output <out_dir>
+    python -m src.pipeline --input data/raw_new/input --output <out_dir>
     python -m src.pipeline --input data/labeled/input --output <out_dir>
 """
 from __future__ import annotations
@@ -21,13 +21,17 @@ from .schema import TYPE_CHAN_DOAN, TYPE_THUOC, Concept
 
 
 def predict_file(raw: str, kb: KnowledgeBase, matcher=None, ner=None,
-                 icd_k: int = 3, rxn_k: int = 1) -> List[Concept]:
+                 icd_k: int = 3, rxn_k: int = 1, assertion_clf=None) -> List[Concept]:
     # extraction: NER model nếu có (ner), else rule (kb cho drug_vocab)
     # candidate: matcher (KB lexical hoặc Hybrid), mặc định = kb
+    # assertion: classifier nếu có (assertion_clf), else rule
     if matcher is None:
         matcher = kb
     mentions = ner.extract(raw) if ner is not None else extract_concepts(raw, kb)
-    assign_assertions(raw, mentions)
+    if assertion_clf is not None:
+        assertion_clf.assign(raw, mentions)
+    else:
+        assign_assertions(raw, mentions)
 
     # dedup theo (type, start, end)
     seen = set()
@@ -54,7 +58,8 @@ def predict_file(raw: str, kb: KnowledgeBase, matcher=None, ner=None,
     return concepts
 
 
-def run_dir(input_dir, output_dir, kb: KnowledgeBase = None, matcher=None, ner=None) -> None:
+def run_dir(input_dir, output_dir, kb: KnowledgeBase = None, matcher=None, ner=None,
+            assertion_clf=None) -> None:
     input_dir = Path(input_dir)
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -63,7 +68,7 @@ def run_dir(input_dir, output_dir, kb: KnowledgeBase = None, matcher=None, ner=N
     files = sorted(input_dir.glob("*.txt"), key=lambda p: (len(p.stem), p.stem))
     for p in files:
         raw = read_input(p)
-        concepts = predict_file(raw, kb, matcher=matcher, ner=ner)
+        concepts = predict_file(raw, kb, matcher=matcher, ner=ner, assertion_clf=assertion_clf)
         write_output(concepts, output_dir / f"{p.stem}.json")
     print(f"Wrote {len(files)} predictions to {output_dir}")
 

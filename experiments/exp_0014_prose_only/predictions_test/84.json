@@ -1,0 +1,71 @@
+[
+  {
+    "text": "Táo bón",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [127, 134]
+  },
+  {
+    "text": "ngưng thở khi ngủ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["G47.3"],
+    "assertions": ["isHistorical"],
+    "position": [151, 168]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isFamily"],
+    "position": [311, 318]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isFamily"],
+    "position": [320, 322]
+  },
+  {
+    "text": "chảy nước mũi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isFamily"],
+    "position": [326, 339]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [734, 741]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [748, 750]
+  },
+  {
+    "text": "chảy nước mũi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [757, 770]
+  },
+  {
+    "text": "bạch cầu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [847, 855]
+  },
+  {
+    "text": "bnp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [867, 870]
+  },
+  {
+    "text": "tổng phân tích nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [935, 959]
+  },
+  {
+    "text": "chụp x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1157, 1174]
+  }
+]

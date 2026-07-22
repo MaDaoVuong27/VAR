@@ -1,0 +1,189 @@
+[
+  {
+    "text": "bệnh Graves",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A22.0"],
+    "assertions": ["isHistorical"],
+    "position": [48, 59]
+  },
+  {
+    "text": "tăng lipid máu, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E78.5"],
+    "assertions": ["isHistorical"],
+    "position": [66, 96]
+  },
+  {
+    "text": "yếu sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [150, 157]
+  },
+  {
+    "text": "nhìn song thị",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["H53.2"],
+    "assertions": [],
+    "position": [218, 231]
+  },
+  {
+    "text": "yếu sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [495, 502]
+  },
+  {
+    "text": "chụp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [692, 696]
+  },
+  {
+    "text": "ct sọ não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [697, 706]
+  },
+  {
+    "text": "hạ huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [814, 825]
+  },
+  {
+    "text": "chụp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [917, 921]
+  },
+  {
+    "text": "ct sọ não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [922, 931]
+  },
+  {
+    "text": "Code tai biến mạch máu não",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I63.4"],
+    "assertions": [],
+    "position": [1017, 1043]
+  },
+  {
+    "text": "co giật",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1333, 1340]
+  },
+  {
+    "text": "yếu sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1378, 1385]
+  },
+  {
+    "text": "nhìn song thị",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["H53.2"],
+    "assertions": ["isHistorical"],
+    "position": [1446, 1459]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1466, 1473]
+  },
+  {
+    "text": "yếu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1513, 1516]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1772, 1779]
+  },
+  {
+    "text": "yếu sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1875, 1882]
+  },
+  {
+    "text": "chụp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1913, 1917]
+  },
+  {
+    "text": "ct sọ não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1918, 1927]
+  },
+  {
+    "text": "chụp ct sọ não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2114, 2128]
+  },
+  {
+    "text": "Nằm sải trên sàn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [2266, 2282]
+  },
+  {
+    "text": "yếu sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [2315, 2322]
+  },
+  {
+    "text": "yếu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2479, 2482]
+  },
+  {
+    "text": "hạ huyết áp, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I95.9"],
+    "assertions": [],
+    "position": [2572, 2599]
+  },
+  {
+    "text": "chụp ct sọ não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2762, 2776]
+  },
+  {
+    "text": "âm tính",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [2778, 2785]
+  },
+  {
+    "text": "chụp ct sọ não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2801, 2815]
+  },
+  {
+    "text": "âm tính",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [2817, 2824]
+  },
+  {
+    "text": "chụp ct sọ não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2862, 2876]
+  },
+  {
+    "text": "chọc",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2883, 2887]
+  },
+  {
+    "text": "Truyền dịch tĩnh mạch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I87.1"],
+    "assertions": [],
+    "position": [2910, 2931]
+  }
+]

@@ -1,0 +1,145 @@
+[
+  {
+    "text": "Bệnh phổi kẽ do sử dụng corticoid liều cao kéo dài",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [44, 94]
+  },
+  {
+    "text": "Thở oxy tại nhà",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [102, 117]
+  },
+  {
+    "text": "Hội chứng kháng enzym tổng hợp protein.",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [124, 163]
+  },
+  {
+    "text": "béo phì",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E66"],
+    "assertions": ["isHistorical"],
+    "position": [170, 177]
+  },
+  {
+    "text": "Tăng huyết áp nguyên phát",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I15"],
+    "assertions": ["isHistorical"],
+    "position": [184, 209]
+  },
+  {
+    "text": "bactrim",
+    "type": "THUỐC",
+    "candidates": ["151399"],
+    "assertions": ["isHistorical"],
+    "position": [382, 389]
+  },
+  {
+    "text": "doxycycline",
+    "type": "THUỐC",
+    "candidates": ["3640"],
+    "assertions": ["isHistorical"],
+    "position": [430, 441]
+  },
+  {
+    "text": "Suy giảm miễn dịch do sử dụng corticoid kéo dài",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [478, 525]
+  },
+  {
+    "text": "tổn thương đơn độc",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [839, 857]
+  },
+  {
+    "text": "cotrimoxazol",
+    "type": "THUỐC",
+    "candidates": ["21660"],
+    "assertions": [],
+    "position": [921, 933]
+  },
+  {
+    "text": "doxycyclin",
+    "type": "THUỐC",
+    "candidates": ["3640"],
+    "assertions": [],
+    "position": [953, 963]
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1008, 1014]
+  },
+  {
+    "text": "Tình trạng tổn thương dạng bóng nước ngày càng nặng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1421, 1472]
+  },
+  {
+    "text": "đau đớn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1666, 1673]
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1763, 1769]
+  },
+  {
+    "text": "bactrim",
+    "type": "THUỐC",
+    "candidates": ["151399"],
+    "assertions": [],
+    "position": [1887, 1894]
+  },
+  {
+    "text": "doxycycline",
+    "type": "THUỐC",
+    "candidates": ["3640"],
+    "assertions": [],
+    "position": [1898, 1909]
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1986, 1992]
+  },
+  {
+    "text": "doxycyclinebactrim",
+    "type": "THUỐC",
+    "candidates": ["3640"],
+    "assertions": [],
+    "position": [2235, 2253]
+  },
+  {
+    "text": "Nhiễm virus Herpes simplex (HSV)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["B00"],
+    "assertions": [],
+    "position": [2488, 2520]
+  },
+  {
+    "text": "Bệnh thủy đậu/Zona (do Varicella Zoster Virus)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["B02"],
+    "assertions": [],
+    "position": [2526, 2572]
+  }
+]

@@ -27,14 +27,24 @@ _MODEL = "cambridgeltl/SapBERT-UMLS-2020AB-all-lang-from-XLMR"
 class _Encoder:
     _tok = None
     _model = None
+    _name = _MODEL     # model đang dùng (đổi được sang checkpoint fine-tuned)
+    _tag = ""          # hậu tố cache (rỗng = SapBERT gốc; "ft" = fine-tuned) — tránh đè index
+
+    @classmethod
+    def configure(cls, model_name: str, tag: str):
+        """Trỏ encoder sang model khác (vd SapBERT fine-tuned) + đặt tag cache riêng.
+        Reset model đã nạp để lần get() sau tải checkpoint mới."""
+        cls._name = model_name
+        cls._tag = tag
+        cls._tok = cls._model = None
 
     @classmethod
     def get(cls):
         if cls._model is None:
             import torch
             from transformers import AutoTokenizer, AutoModel
-            cls._tok = AutoTokenizer.from_pretrained(_MODEL)
-            cls._model = AutoModel.from_pretrained(_MODEL).eval()
+            cls._tok = AutoTokenizer.from_pretrained(cls._name)
+            cls._model = AutoModel.from_pretrained(cls._name).eval()
             cls._dev = "cuda" if torch.cuda.is_available() else "cpu"
             cls._model.to(cls._dev)
         return cls._tok, cls._model, cls._dev
@@ -68,7 +78,8 @@ class SapBertIndex:
 
     def build(self, force=False) -> "SapBertIndex":
         _CACHE.mkdir(parents=True, exist_ok=True)
-        cache = _CACHE / f"sapbert_{self.name}.npz"
+        tag = f"_{_Encoder._tag}" if _Encoder._tag else ""
+        cache = _CACHE / f"sapbert_{self.name}{tag}.npz"
         if cache.exists() and not force:
             d = np.load(cache, allow_pickle=True)
             self.emb = d["emb"]; self.codes = list(d["codes"])
@@ -130,7 +141,13 @@ class _RxnIndex(SapBertIndex):
 class SapBertMatcher:
     """Duck-typed cho pipeline: match_icd / match_rxnorm (thay fuzzy KB)."""
 
-    def __init__(self, icd_threshold=0.5, rxn_threshold=0.5, icd_k=1, rxn_k=1):
+    def __init__(self, icd_threshold=0.5, rxn_threshold=0.5, icd_k=1, rxn_k=1,
+                 model_dir=None, cache_tag=None):
+        # model_dir != None -> dùng SapBERT fine-tuned; cache tag tự suy từ tên thư mục
+        # (mỗi checkpoint 1 index riêng, không đè nhau và không đè gốc)
+        if model_dir is not None:
+            tag = cache_tag or Path(model_dir).name
+            _Encoder.configure(str(model_dir), tag)
         self.icd = _ICDIndex()
         self.rxn = _RxnIndex()
         self.icd_th = icd_threshold

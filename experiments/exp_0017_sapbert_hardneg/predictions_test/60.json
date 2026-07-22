@@ -1,0 +1,16 @@
+[
+  {
+    "text": "Trào ngược dạ dày thực quản",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K21"],
+    "assertions": [],
+    "position": [149, 176]
+  },
+  {
+    "text": "thoát vị hoành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K60.3"],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [638, 652]
+  }
+]

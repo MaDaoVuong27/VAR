@@ -1,0 +1,12 @@
+{
+  "exp": "exp_0017_sapbert_hardneg",
+  "desc": "NER v4-mix (cố định) + SapBERT fine-tune HARD-NEGATIVE (th0.7)",
+  "ner": "models/ner_xlmr_v4_mix",
+  "dev_scores": {
+    "text_score": 0.2463,
+    "assertions_score": 0.6607,
+    "candidates_score": 0.2581,
+    "final_score": 0.3753
+  },
+  "n_dev": 15
+}

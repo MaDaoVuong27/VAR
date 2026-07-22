@@ -1,0 +1,218 @@
+[
+  {
+    "text": "Bệnh bạch cầu dòng tủy mãn tính đang dùng gleevec",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["D47.1", "C92.0"],
+    "assertions": ["isHistorical"],
+    "position": [57, 106]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R73", "I15"],
+    "assertions": ["isHistorical"],
+    "position": [113, 126]
+  },
+  {
+    "text": "tăng lipid máu, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E78.5", "E78.4"],
+    "assertions": ["isHistorical"],
+    "position": [133, 163]
+  },
+  {
+    "text": "Đái tháo đường típ 2",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E11", "E11.9"],
+    "assertions": ["isHistorical"],
+    "position": [170, 190]
+  },
+  {
+    "text": "hẹp ống sống",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M48.0", "M48.09"],
+    "assertions": ["isHistorical"],
+    "position": [197, 209]
+  },
+  {
+    "text": "Giả gout",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M10.9", "M10.0"],
+    "assertions": ["isHistorical"],
+    "position": [216, 224]
+  },
+  {
+    "text": "bệnh thận mạn, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N18.9", "N18"],
+    "assertions": ["isHistorical"],
+    "position": [231, 260]
+  },
+  {
+    "text": "Giai đoạn 4",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [261, 272]
+  },
+  {
+    "text": "tăng sản tuyến tiền liệt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N40", "N42.2"],
+    "assertions": ["isHistorical"],
+    "position": [279, 303]
+  },
+  {
+    "text": "Nhiều lần ngã gần đây",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [310, 331]
+  },
+  {
+    "text": "Toàn trạng suy kiệt  kể từ khi xuất viện",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [476, 516]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [661, 668]
+  },
+  {
+    "text": "Lú lẫn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [693, 699]
+  },
+  {
+    "text": "yếu cơ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [739, 745]
+  },
+  {
+    "text": "ngã hôm nay",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [754, 765]
+  },
+  {
+    "text": "toàn trạng suy kiệt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F41.1"],
+    "assertions": [],
+    "position": [797, 816]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [823, 830]
+  },
+  {
+    "text": "Lú lẫn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [837, 843]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [873, 876]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1000, 1007]
+  },
+  {
+    "text": "Toàn trạng suy kiệt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F41.1"],
+    "assertions": [],
+    "position": [1101, 1120]
+  },
+  {
+    "text": "Ăn uống kém",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["X53", "F50"],
+    "assertions": [],
+    "position": [1163, 1174]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1186, 1189]
+  },
+  {
+    "text": "bạch cầu tăng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1290, 1303]
+  },
+  {
+    "text": "creatinin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1318, 1327]
+  },
+  {
+    "text": "troponin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1341, 1349]
+  },
+  {
+    "text": "10",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1355, 1357]
+  },
+  {
+    "text": "inr",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1364, 1367]
+  },
+  {
+    "text": "176",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1406, 1409]
+  },
+  {
+    "text": "ast",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1413, 1416]
+  },
+  {
+    "text": "287",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1420, 1423]
+  },
+  {
+    "text": "tổng phân tích nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1430, 1454]
+  },
+  {
+    "text": "chụp x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1519, 1536]
+  },
+  {
+    "text": "bình thường",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1540, 1551]
+  },
+  {
+    "text": "biến đổi cấp tính và có khả năng đại diện cho cml",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isNegated"],
+    "position": [1647, 1696]
+  }
+]

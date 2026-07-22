@@ -1,0 +1,216 @@
+[
+  {
+    "text": "Bệnh thận đa nang (tiền sử",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Q61"],
+    "assertions": ["isHistorical"],
+    "position": [41, 67]
+  },
+  {
+    "text": "Bệnh thận đa nang)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Q61"],
+    "assertions": ["isHistorical"],
+    "position": [68, 86]
+  },
+  {
+    "text": "phẫu thuật tái tạo niệu quản trái",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [127, 160]
+  },
+  {
+    "text": "azathioprine",
+    "type": "THUỐC",
+    "candidates": ["1256"],
+    "assertions": ["isHistorical"],
+    "position": [208, 220]
+  },
+  {
+    "text": "prograf (dose decreased from 5mg bid to 1mg bid)",
+    "type": "THUỐC",
+    "candidates": ["1180664"],
+    "assertions": ["isHistorical"],
+    "position": [233, 281]
+  },
+  {
+    "text": "cellcept",
+    "type": "THUỐC",
+    "candidates": ["152633"],
+    "assertions": ["isHistorical"],
+    "position": [294, 302]
+  },
+  {
+    "text": "cellcept",
+    "type": "THUỐC",
+    "candidates": ["152633"],
+    "assertions": ["isHistorical"],
+    "position": [324, 332]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [457, 467]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [514, 524]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [573, 583]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [626, 635]
+  },
+  {
+    "text": "cellcept",
+    "type": "THUỐC",
+    "candidates": ["152633"],
+    "assertions": [],
+    "position": [653, 661]
+  },
+  {
+    "text": "uống kém",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [665, 673]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [692, 702]
+  },
+  {
+    "text": "pcr",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [794, 797]
+  },
+  {
+    "text": "creatinin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [839, 848]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [953, 963]
+  },
+  {
+    "text": "Lo ngại về đào thải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [991, 1010]
+  },
+  {
+    "text": "siêu âm thận",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1024, 1036]
+  },
+  {
+    "text": "sinh thiết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1088, 1098]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1179, 1189]
+  },
+  {
+    "text": "cellcept",
+    "type": "THUỐC",
+    "candidates": ["152633"],
+    "assertions": [],
+    "position": [1385, 1393]
+  },
+  {
+    "text": "uống kém",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1397, 1405]
+  },
+  {
+    "text": "pcr",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1419, 1422]
+  },
+  {
+    "text": "siêu âm thận",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1529, 1541]
+  },
+  {
+    "text": "sinh thiết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1593, 1603]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1736, 1746]
+  },
+  {
+    "text": "sinh thiết thận",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1834, 1849]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1936, 1946]
+  },
+  {
+    "text": "pcr",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1981, 1984]
+  },
+  {
+    "text": "siêu âm thận",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2045, 2057]
+  },
+  {
+    "text": "Sinh thiết thận",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2139, 2154]
+  },
+  {
+    "text": "Sinh thiết thận",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2191, 2206]
+  },
+  {
+    "text": "Bệnh lý thận do BK",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N15.0"],
+    "assertions": [],
+    "position": [2282, 2300]
+  },
+  {
+    "text": "Lo ngại về đào thải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [2313, 2332]
+  },
+  {
+    "text": "đào thải kháng thể hữu hình cấp tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isNegated"],
+    "position": [2365, 2401]
+  },
+  {
+    "text": "sinh thiết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2409, 2419]
+  }
+]

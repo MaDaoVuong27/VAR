@@ -1,0 +1,235 @@
+[
+  {
+    "text": "rung nhĩ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F98.5"],
+    "assertions": ["isHistorical"],
+    "position": [39, 47]
+  },
+  {
+    "text": "tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R73"],
+    "assertions": ["isHistorical"],
+    "position": [50, 63]
+  },
+  {
+    "text": "suy tim, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I50.9"],
+    "assertions": ["isHistorical"],
+    "position": [66, 89]
+  },
+  {
+    "text": "Tăng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [139, 143]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [154, 157]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [169, 177]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [252, 259]
+  },
+  {
+    "text": "yếu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [263, 266]
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [292, 300]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [317, 320]
+  },
+  {
+    "text": "chán ăn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [364, 371]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [391, 394]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [465, 472]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [490, 498]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [501, 508]
+  },
+  {
+    "text": "weak",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [512, 516]
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [553, 561]
+  },
+  {
+    "text": "giảm khả năng quan hệ tình dục với bạn tình",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [564, 607]
+  },
+  {
+    "text": "chán ăn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [633, 640]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [643, 646]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [690, 698]
+  },
+  {
+    "text": "nhói",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [761, 765]
+  },
+  {
+    "text": "tê bì",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [814, 819]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [844, 847]
+  },
+  {
+    "text": "shortness of breath",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [981, 1000]
+  },
+  {
+    "text": "yếu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1034, 1037]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1071, 1074]
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1208, 1216]
+  },
+  {
+    "text": "đánh trống ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1335, 1350]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1352, 1361]
+  },
+  {
+    "text": "ntg",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1693, 1696]
+  },
+  {
+    "text": "asa",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1704, 1707]
+  },
+  {
+    "text": "dilaudid",
+    "type": "THUỐC",
+    "candidates": ["224913"],
+    "assertions": [],
+    "position": [1760, 1768]
+  },
+  {
+    "text": "po metoprolol",
+    "type": "THUỐC",
+    "candidates": ["6918"],
+    "assertions": [],
+    "position": [1780, 1793]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1862, 1869]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1886, 1894]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1913, 1920]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1937, 1945]
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "text": "cắt bỏ ống dẫn mật chủ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [67, 89]
+  },
+  {
+    "text": "Đã phẫu thuật nối ống gan - hỗng tràng vì nghi ngờ ung thư đường mật không thể cắt bỏ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [132, 217]
+  },
+  {
+    "text": "can thiệp chụp đường mật, đặt 3 stent đường mật lưu dài hạn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [227, 286]
+  },
+  {
+    "text": "run rẩy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [401, 408]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [413, 416]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [426, 429]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [493, 496]
+  },
+  {
+    "text": "mrcp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [798, 802]
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "exp": "exp_0010_v3large_split",
+  "desc": "NER XLM-R-large trên synthetic v3 + SapBERT th0.7 (split on)",
+  "ner": "models/ner_xlmr_v3_large",
+  "dev_scores": {
+    "text_score": 0.2176,
+    "assertions_score": 0.6659,
+    "candidates_score": 0.4902,
+    "final_score": 0.4611
+  },
+  "n_dev": 15
+}

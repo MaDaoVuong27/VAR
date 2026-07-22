@@ -1,0 +1,160 @@
+[
+  {
+    "text": "hen suyễn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["J45"],
+    "assertions": [],
+    "position": [54, 63]
+  },
+  {
+    "text": "rối loạn lo âu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F41.1"],
+    "assertions": [],
+    "position": [70, 84]
+  },
+  {
+    "text": "tăng huyết áp (tăng huyết áp)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I15.8"],
+    "assertions": ["isHistorical"],
+    "position": [91, 120]
+  },
+  {
+    "text": "Táo bón mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K59.0"],
+    "assertions": ["isHistorical"],
+    "position": [127, 143]
+  },
+  {
+    "text": "ngưng thở khi ngủ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["G47.3"],
+    "assertions": [],
+    "position": [151, 168]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [311, 318]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [320, 322]
+  },
+  {
+    "text": "chảy nước mũi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [326, 339]
+  },
+  {
+    "text": "SPO2)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [555, 560]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [734, 741]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [748, 750]
+  },
+  {
+    "text": "chảy nước mũi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [757, 770]
+  },
+  {
+    "text": "Thiếu oxy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [798, 807]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [814, 817]
+  },
+  {
+    "text": "bạch cầu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [847, 855]
+  },
+  {
+    "text": "bnp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [867, 870]
+  },
+  {
+    "text": "4227",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [871, 875]
+  },
+  {
+    "text": "kali",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [882, 886]
+  },
+  {
+    "text": "troponin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [897, 905]
+  },
+  {
+    "text": "01",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [908, 910]
+  },
+  {
+    "text": "lactate",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [917, 924]
+  },
+  {
+    "text": "tổng phân tích nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [935, 959]
+  },
+  {
+    "text": "dương tính",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [971, 981]
+  },
+  {
+    "text": "182bạch",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [987, 994]
+  },
+  {
+    "text": "chụp x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1157, 1174]
+  },
+  {
+    "text": "Albuterol",
+    "type": "THUỐC",
+    "candidates": ["435"],
+    "assertions": ["isHistorical"],
+    "position": [1254, 1263]
+  },
+  {
+    "text": "Ipratropium",
+    "type": "THUỐC",
+    "candidates": ["7213"],
+    "assertions": ["isHistorical"],
+    "position": [1267, 1278]
+  }
+]

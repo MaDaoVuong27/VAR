@@ -1,0 +1,392 @@
+[
+  {
+    "text": "Tái phát buồn nôn và tiêu chảy cách đây vài năm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N02.9"],
+    "assertions": ["isHistorical"],
+    "position": [64, 111]
+  },
+  {
+    "text": "Nôn ra máu 2 tuần sau tập viêm dạ dày ruột do virus",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["O98.4"],
+    "assertions": ["isHistorical"],
+    "position": [118, 169]
+  },
+  {
+    "text": "Nôn ra máu trong 2 ngày qua",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K92.0"],
+    "assertions": ["isHistorical"],
+    "position": [176, 203]
+  },
+  {
+    "text": "Nội soi (cách đây vài năm, phát hiện loét tá tràng)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z93.3"],
+    "assertions": ["isHistorical"],
+    "position": [353, 404]
+  },
+  {
+    "text": "Nội soi (cho thấy nhiều loét tá tràng và hồi tràng)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z93.3"],
+    "assertions": ["isHistorical"],
+    "position": [411, 462]
+  },
+  {
+    "text": "Viêm thực quản độ C, loét thực quản dưới 6 mm có điểm sắc tố, nhiều loét nông sạch đáy ở tá tràng và hồi tràng sớm)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M49.28*"],
+    "assertions": ["isHistorical"],
+    "position": [478, 593]
+  },
+  {
+    "text": "omeprazole (vừa ngừng để làm test hơi thở h",
+    "type": "THUỐC",
+    "candidates": ["7646"],
+    "assertions": ["isHistorical"],
+    "position": [625, 668]
+  },
+  {
+    "text": "pylori)",
+    "type": "THUỐC",
+    "candidates": ["705862"],
+    "assertions": ["isHistorical"],
+    "position": [670, 677]
+  },
+  {
+    "text": "Nôn ra máu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K92.0"],
+    "assertions": [],
+    "position": [726, 736]
+  },
+  {
+    "text": "Triệu chứng cách đây vài năm (buồn nôn và tiêu chảy)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R11"],
+    "assertions": ["isHistorical"],
+    "position": [779, 831]
+  },
+  {
+    "text": "Tập viêm dạ dày ruột do virus (trong năm nay)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["B08.4"],
+    "assertions": [],
+    "position": [838, 883]
+  },
+  {
+    "text": "Tiếp tục khó khăn khi ăn uống qua đường miệng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R63.3"],
+    "assertions": [],
+    "position": [890, 935]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [937, 945]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [949, 958]
+  },
+  {
+    "text": "(2 tuần sau tập viêm dạ dày ruột do virus)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A87.0†"],
+    "assertions": [],
+    "position": [959, 1001]
+  },
+  {
+    "text": "Nôn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["D41.0"],
+    "assertions": [],
+    "position": [1008, 1011]
+  },
+  {
+    "text": "máu (2 tuần sau tập viêm dạ dày ruột do virus)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["B30.3†"],
+    "assertions": [],
+    "position": [1015, 1061]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1115, 1123]
+  },
+  {
+    "text": "nôn ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1127, 1137]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1244, 1252]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1256, 1265]
+  },
+  {
+    "text": "hội chứng ruột kích thích",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K58"],
+    "assertions": ["isHistorical"],
+    "position": [1277, 1302]
+  },
+  {
+    "text": "viêm dạ dày ruột do virus",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A08.3"],
+    "assertions": ["isNegated"],
+    "position": [1406, 1431]
+  },
+  {
+    "text": "viêm dạ dày ruột do virus",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A08.3"],
+    "assertions": [],
+    "position": [1460, 1485]
+  },
+  {
+    "text": "khó khăn khi ăn uống qua đường miệng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1496, 1532]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1534, 1542]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1544, 1553]
+  },
+  {
+    "text": "nôn ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1555, 1565]
+  },
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1567, 1574]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1776, 1784]
+  },
+  {
+    "text": "nôn ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1788, 1798]
+  },
+  {
+    "text": "nôn ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1846, 1856]
+  },
+  {
+    "text": "Nôn ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1894, 1904]
+  },
+  {
+    "text": "Ăn uống kém",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1911, 1922]
+  },
+  {
+    "text": "nausea",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1930, 1936]
+  },
+  {
+    "text": "diarrhea",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1943, 1951]
+  },
+  {
+    "text": "abdominal pain",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1958, 1972]
+  },
+  {
+    "text": "Chẩn đoán viêm dạ dày ruột do virus (trong năm nay)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z24.6"],
+    "assertions": [],
+    "position": [2015, 2066]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2120, 2128]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2132, 2141]
+  },
+  {
+    "text": "(2 tuần sau tập viêm dạ dày ruột do virus)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A87.0†"],
+    "assertions": [],
+    "position": [2142, 2184]
+  },
+  {
+    "text": "nôn ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2204, 2214]
+  },
+  {
+    "text": "(2 tuần sau tập viêm dạ dày ruột do virus)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A87.0†"],
+    "assertions": [],
+    "position": [2215, 2257]
+  },
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2264, 2271]
+  },
+  {
+    "text": "tuần sau tập viêm dạ dày ruột do virus)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["B08.4"],
+    "assertions": [],
+    "position": [2317, 2356]
+  },
+  {
+    "text": "phân tìm cryptosporidium (2 tuần sau tập viêm dạ dày ruột do virus)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A07.2"],
+    "assertions": [],
+    "position": [2385, 2452]
+  },
+  {
+    "text": "Ngừng sử dụng omeprazole để làm test hơi thở h",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [2459, 2505]
+  },
+  {
+    "text": "pylori (gần đây)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["C16.4"],
+    "assertions": [],
+    "position": [2507, 2523]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2541, 2549]
+  },
+  {
+    "text": "nôn ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2553, 2563]
+  },
+  {
+    "text": "trở nên tồi tệ hơn (khi ngừng omeprazole)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["G41.0"],
+    "assertions": [],
+    "position": [2564, 2605]
+  },
+  {
+    "text": "nôn ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [2656, 2666]
+  },
+  {
+    "text": "dương tính",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [2744, 2754]
+  },
+  {
+    "text": "hơi thở h",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R06.7"],
+    "assertions": [],
+    "position": [2845, 2854]
+  },
+  {
+    "text": "pylori (lý do ngừng omeprazole)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["O42"],
+    "assertions": [],
+    "position": [2856, 2887]
+  },
+  {
+    "text": "soi (cho thấy nhiều loét tá tràng và hồi tràng)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K26.2"],
+    "assertions": [],
+    "position": [2962, 3009]
+  },
+  {
+    "text": "nông sạch đáy ở tá tràng và hồi tràng sớm)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["D12.3"],
+    "assertions": [],
+    "position": [3098, 3140]
+  },
+  {
+    "text": "Viêm thực quản độ C ở thực quản dưới",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K23.0*"],
+    "assertions": [],
+    "position": [3180, 3216]
+  },
+  {
+    "text": "Loét loét thực quản 6 mm có điểm sắc tố",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["J38.2"],
+    "assertions": [],
+    "position": [3223, 3262]
+  },
+  {
+    "text": "Nhiều loét sạch đáy loét ở tá tràng kéo dài từ hành tá tràng đến hồi tràng sớm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K26.2"],
+    "assertions": [],
+    "position": [3269, 3347]
+  }
+]

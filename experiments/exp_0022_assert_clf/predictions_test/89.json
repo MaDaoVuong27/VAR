@@ -1,0 +1,52 @@
+[
+  {
+    "text": "nội soi mật",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [53, 64]
+  },
+  {
+    "text": "ERCP",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [81, 85]
+  },
+  {
+    "text": "octreotide",
+    "type": "THUỐC",
+    "candidates": ["7617"],
+    "assertions": ["isHistorical"],
+    "position": [206, 216]
+  },
+  {
+    "text": "flagyl",
+    "type": "THUỐC",
+    "candidates": ["202866"],
+    "assertions": ["isHistorical"],
+    "position": [223, 229]
+  },
+  {
+    "text": "Tuột sonde dẫn lưu ổ bụng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [346, 371]
+  },
+  {
+    "text": "flagyl",
+    "type": "THUỐC",
+    "candidates": ["202866"],
+    "assertions": [],
+    "position": [742, 748]
+  },
+  {
+    "text": "Nhịn ăn uống đường miệng, nuôi dưỡng đường tĩnh mạch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [1216, 1268]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1327, 1334]
+  }
+]

@@ -59,47 +59,66 @@ def _drug_mention(cat, rng):
     return " ".join(parts), dr.candidates
 
 
-def _maybe_glue(rng) -> str:
-    """Trả ' ' hoặc '' (glue) để mô phỏng nhiễu dính chữ, hoặc '\\n'."""
-    r = rng.random()
-    if r < 0.08:
-        return ""       # dính liền
-    return " "
+class _Noise:
+    """Tham số nhiễu/mật độ của MỘT document (rút ngẫu nhiên mỗi doc).
+
+    Vì ta KHÔNG biết mật độ entity thật của test (dev gold thiếu nhãn → chỉ cho cận dưới
+    1/150 ký tự; ví dụ gốc của đề cho 1/28 nhưng đó là danh sách thuốc = đậm đặc nhất),
+    ta cho mật độ BIẾN THIÊN theo doc để model thấy cả dải, thay vì cược vào 1 giá trị.
+    """
+
+    def __init__(self, rng):
+        # p_glue: xác suất bỏ dấu cách tại 1 ranh giới -> mô phỏng 'tạiBệnh', 'mltrong'
+        # EDA: 27/100 file test có nhiễu dính chữ -> ~27% doc bật glue, mức nhẹ
+        self.glue = rng.random() < 0.27
+        self.p_glue = rng.uniform(0.03, 0.12) if self.glue else 0.0
+        # mật độ: doc thưa (nhiều filler) <-> doc đậm (ít filler)
+        self.p_filler = rng.uniform(0.25, 0.85)
+        # độ dài mục tiêu, bám phân phối test (min 182, median 1229, max 5702)
+        self.target = min(5702, max(182, int(rng.lognormvariate(7.11, 0.62))))
+
+
+def _sep(rng, noise, default=" ") -> str:
+    """Dấu phân cách giữa 2 mảnh: thường là default, đôi khi dính liền (nhiễu thật)."""
+    if noise.glue and rng.random() < noise.p_glue:
+        return ""
+    return default
 
 
 # ---------- templates (mỗi cái append vào builder) ----------
 
-def t_history_diseases(b, cat, rng):
+def t_history_diseases(b, cat, rng, noise):
     b.lit(rng.choice(["1. Tiền sử bệnh\n", "Tiền sử bệnh nội khoa\n", "Bệnh mạn tính:\n"]))
     for _ in range(rng.randint(1, 4)):
         b.lit(rng.choice(["- ", "    - ", ""]))
         d = cat.disease()
         b.ent(d.text, "CHẨN_ĐOÁN", H, d.candidates)
-        b.lit("\n")
+        b.lit(_sep(rng, noise, "\n"))
 
 
-def t_medications(b, cat, rng):
+def t_medications(b, cat, rng, noise):
     b.lit(rng.choice(["Thuốc trước khi nhập viện\n", "Thuốc đã điều trị\n", "Danh sách thuốc:\n"]))
     for _ in range(rng.randint(1, 4)):
         b.lit(rng.choice(["- ", "    - "]))
         text, cands = _drug_mention(cat, rng)  # span trọn tên+liều+route
         b.ent(text, "THUỐC", H, cands)
-        b.lit("\n")
+        b.lit(_sep(rng, noise, "\n"))
 
 
-def t_symptoms(b, cat, rng):
-    b.lit(rng.choice(["Triệu chứng hiện tại\n", "Lý do nhập viện: ", "Các triệu chứng:\n"]))
+def t_symptoms(b, cat, rng, noise):
+    b.lit(rng.choice(["Triệu chứng hiện tại\n", "Lý do nhập viện:", "Các triệu chứng:\n"]))
+    b.lit(_sep(rng, noise))
     n = rng.randint(2, 5)
     for i in range(n):
         b.lit(rng.choice(["- ", "    - ", ""]))
         neg = rng.random() < 0.25
         if neg:
-            b.lit(rng.choice(LEX.NEG_CUES) + " ")
+            b.lit(rng.choice(LEX.NEG_CUES) + _sep(rng, noise))
         b.ent(cat.symptom(), "TRIỆU_CHỨNG", N if neg else [])
         b.lit(rng.choice([",\n", "\n", ", "]))
 
 
-def t_labs(b, cat, rng):
+def t_labs(b, cat, rng, noise):
     b.lit(rng.choice(["Kết quả xét nghiệm\n", "Cận lâm sàng:\n", "Kết quả xét nghiệm: "]))
     for _ in range(rng.randint(1, 4)):
         b.lit(rng.choice(["- ", "    - ", ""]))
@@ -113,33 +132,33 @@ def t_labs(b, cat, rng):
             b.ent((val + (" " + unit if unit else "")).strip(), "KẾT_QUẢ_XÉT_NGHIỆM")
         else:
             b.ent(rng.choice(LEX.RESULT_PHRASES), "KẾT_QUẢ_XÉT_NGHIỆM")
-        b.lit("\n")
+        b.lit(_sep(rng, noise, "\n"))
 
 
-def t_prose_interleaved(b, cat, rng):
+def t_prose_interleaved(b, cat, rng, noise):
     """Câu văn xuôi trộn nhiều type + assertion — mô phỏng sample 6/8 (baseline chết)."""
-    b.lit("Bệnh nhân ")
+    b.lit("Bệnh nhân" + _sep(rng, noise))
     if rng.random() < 0.7:
-        b.lit(rng.choice(LEX.HIST_CUES) + " ")
+        b.lit(rng.choice(LEX.HIST_CUES) + _sep(rng, noise))
         d = cat.disease()
         b.ent(d.text, "CHẨN_ĐOÁN", H, d.candidates)
         b.lit(", ")
-    b.lit(rng.choice(["hiện ", "hiện tại ", "nhập viện vì "]))
+    b.lit(rng.choice(["hiện", "hiện tại", "nhập viện vì"]) + _sep(rng, noise))
     neg = rng.random() < 0.4
     if neg:
-        b.lit(rng.choice(LEX.NEG_CUES) + " ")
+        b.lit(rng.choice(LEX.NEG_CUES) + _sep(rng, noise))
     b.ent(cat.symptom(), "TRIỆU_CHỨNG", N if neg else [])
     b.lit(rng.choice([" nhưng ", " và ", ", kèm "]))
     b.ent(cat.symptom(), "TRIỆU_CHỨNG")
     if rng.random() < 0.6:
-        b.lit(", được kê ")
+        b.lit(", được kê" + _sep(rng, noise))
         text, cands = _drug_mention(cat, rng)
         b.ent(text, "THUỐC", [], cands)
     b.lit(".\n")
 
 
-def t_family(b, cat, rng):
-    b.lit(rng.choice(LEX.FAMILY_CUES) + " ")
+def t_family(b, cat, rng, noise):
+    b.lit(rng.choice(LEX.FAMILY_CUES) + _sep(rng, noise))
     if rng.random() < 0.5:
         d = cat.disease()
         b.ent(d.text, "CHẨN_ĐOÁN", F, d.candidates)
@@ -168,35 +187,42 @@ FILLER_LINES = [
 ]
 
 
-def t_filler(b, cat, rng):
+# filler dạng HEADER (không bao giờ gắn bullet — bug cũ sinh ra "- 1. Tiền sử bệnh")
+FILLER_HEADERS = {
+    "1. Tiền sử bệnh", "2. Bệnh sử hiện tại", "3. Đánh giá tại bệnh viện",
+    "Thời điểm khởi phát triệu chứng:", "Các sự kiện trước khi nhập viện",
+    "Tình trạng ngay trước khi nhập viện:", "Diễn biến bệnh", "Đặc điểm triệu chứng",
+    "Các yếu tố nguy cơ liên quan", "Tiền sử phẫu thuật / thủ thuật",
+    "Kết quả khám thực thể", "Các phát hiện chẩn đoán khác:", "Điều trị:",
+}
+
+
+def t_filler(b, cat, rng, noise):
     for _ in range(rng.randint(1, 3)):
-        b.lit(rng.choice(["", "- ", "    "]) + rng.choice(FILLER_LINES) + "\n")
+        line = rng.choice(FILLER_LINES)
+        # header đứng riêng 1 dòng, KHÔNG bullet; chỉ câu tường thuật mới có thể có bullet
+        prefix = "" if line in FILLER_HEADERS else rng.choice(["", "- ", "    "])
+        b.lit(prefix + line + "\n")
 
 
 TEMPLATES = [t_history_diseases, t_medications, t_symptoms, t_labs, t_prose_interleaved]
 
 
 def gen_document(cat, rng):
+    """Dựng doc tới khi đạt độ dài mục tiêu (bám phân phối test), mật độ biến thiên theo doc."""
+    noise = _Noise(rng)
     b = Builder()
-    # trộn khối entity + NHIỀU khối filler (O) để cân bằng O:entity như text thật
-    k = rng.randint(2, 4)
-    blocks = [t_prose_interleaved] if rng.random() < 0.5 else []
-    blocks += rng.choices(TEMPLATES, k=k)
+    if rng.random() < 0.5:
+        t_prose_interleaved(b, cat, rng, noise)
+    guard = 0
+    while b.len < noise.target and guard < 60:
+        guard += 1
+        if rng.random() < noise.p_filler:
+            t_filler(b, cat, rng, noise)
+        else:
+            rng.choice(TEMPLATES)(b, cat, rng, noise)
     if rng.random() < 0.08:
-        blocks.append(t_family)
-    # chèn filler xen kẽ: mỗi khối entity kèm ~1 khối filler; thêm vài filler rải
-    seq = []
-    for blk in blocks:
-        if rng.random() < 0.7:
-            seq.append(t_filler)
-        seq.append(blk)
-        if rng.random() < 0.5:
-            seq.append(t_filler)
-    # ~10% doc gần như toàn filler (dạy: nhiều đoạn không có khái niệm)
-    if rng.random() < 0.1:
-        seq = [t_filler, t_filler, rng.choice(blocks), t_filler]
-    for t in seq:
-        t(b, cat, rng)
+        t_family(b, cat, rng, noise)
     return b.build()
 
 

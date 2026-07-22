@@ -1,0 +1,163 @@
+[
+  {
+    "text": "Ung thư vú di căn ER+/HER2−",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [49, 76]
+  },
+  {
+    "text": "weekly taxol",
+    "type": "THUỐC",
+    "candidates": ["196466"],
+    "assertions": ["isHistorical"],
+    "position": [98, 110]
+  },
+  {
+    "text": "fulvestrant",
+    "type": "THUỐC",
+    "candidates": ["282357"],
+    "assertions": ["isHistorical"],
+    "position": [114, 125]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [181, 189]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [295, 303]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [318, 326]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [328, 331]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [413, 421]
+  },
+  {
+    "text": "VAS",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [433, 436]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [451, 459]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [461, 464]
+  },
+  {
+    "text": "Da niêm mạc hồngi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [540, 557]
+  },
+  {
+    "text": "Đau bụng hạ sườn phải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N94.6"],
+    "assertions": [],
+    "position": [559, 580]
+  },
+  {
+    "text": "Buồn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R45.2"],
+    "assertions": [],
+    "position": [582, 586]
+  },
+  {
+    "text": "nôn ra",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [592, 598]
+  },
+  {
+    "text": "dịch dạ dày, không có máu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isNegated"],
+    "position": [610, 635]
+  },
+  {
+    "text": "93 l/p",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [674, 680]
+  },
+  {
+    "text": "3 độ C",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [695, 701]
+  },
+  {
+    "text": "14 l/p",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [712, 718]
+  },
+  {
+    "text": "SPO2",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [720, 724]
+  },
+  {
+    "text": "99 %",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [726, 730]
+  },
+  {
+    "text": "compazine",
+    "type": "THUỐC",
+    "candidates": ["203546"],
+    "assertions": [],
+    "position": [764, 773]
+  },
+  {
+    "text": "alevenhưng",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [777, 787]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [796, 799]
+  },
+  {
+    "text": "morphineoral",
+    "type": "THUỐC",
+    "candidates": ["1156363"],
+    "assertions": [],
+    "position": [812, 824]
+  },
+  {
+    "text": "lorazepam",
+    "type": "THUỐC",
+    "candidates": ["6470"],
+    "assertions": [],
+    "position": [829, 838]
+  }
+]

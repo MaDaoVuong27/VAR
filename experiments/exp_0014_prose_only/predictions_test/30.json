@@ -1,0 +1,40 @@
+[
+  {
+    "text": "Bệnh bạch cầu dòng tủy mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["C92"],
+    "assertions": ["isHistorical"],
+    "position": [57, 88]
+  },
+  {
+    "text": "tăng cholesterol máu đơn thuần",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E78.0"],
+    "assertions": ["isHistorical"],
+    "position": [95, 125]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [363, 370]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [847, 854]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [919, 926]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1453, 1460]
+  }
+]

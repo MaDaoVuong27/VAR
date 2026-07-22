@@ -1,0 +1,14 @@
+[
+  {
+    "text": "cơn co tử cung",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["O62.0"],
+    "assertions": [],
+    "position": [101, 115]
+  },
+  {
+    "text": "LOF",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [188, 191]
+  }
+]

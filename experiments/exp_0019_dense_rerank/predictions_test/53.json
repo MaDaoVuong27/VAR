@@ -1,0 +1,56 @@
+[
+  {
+    "text": "bệnh tim mạch do xơ vữa động mạch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I25.1"],
+    "assertions": ["isHistorical"],
+    "position": [131, 164]
+  },
+  {
+    "text": "blốc nhĩ thất, hoàn toàn sau khi đặt máy tạo nhịp (PPM)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [171, 226]
+  },
+  {
+    "text": "bệnh thận mạn, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N18.9"],
+    "assertions": ["isHistorical"],
+    "position": [233, 262]
+  },
+  {
+    "text": "Suy giảm nhận thức nhẹ suy giảm nhận thức",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F06.7"],
+    "assertions": ["isHistorical"],
+    "position": [269, 310]
+  },
+  {
+    "text": "Cảm giác thắt chặt ngực",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I20"],
+    "assertions": ["isHistorical"],
+    "position": [451, 474]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [679, 686]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [952, 959]
+  },
+  {
+    "text": "Cơn đau thắt ngực không ổn định cần can thiệp mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I20.0"],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [1048, 1103]
+  }
+]

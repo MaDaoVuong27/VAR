@@ -1,0 +1,218 @@
+[
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [43, 45]
+  },
+  {
+    "text": "Bệnh bạch cầu dòng tủy mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["C92"],
+    "assertions": ["isHistorical"],
+    "position": [46, 77]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I11"],
+    "assertions": ["isHistorical"],
+    "position": [80, 93]
+  },
+  {
+    "text": "Đái tháo đường típ 2",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E11"],
+    "assertions": ["isHistorical"],
+    "position": [96, 116]
+  },
+  {
+    "text": "Rung nhĩ kèm đáp ứng thất nhanh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I47.1"],
+    "assertions": ["isHistorical"],
+    "position": [122, 153]
+  },
+  {
+    "text": "bệnh thận mạn, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N18.9"],
+    "assertions": ["isHistorical"],
+    "position": [156, 185]
+  },
+  {
+    "text": "Khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [222, 229]
+  },
+  {
+    "text": "nghẹt ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [343, 353]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [358, 361]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [414, 417]
+  },
+  {
+    "text": "nghẹt ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [435, 445]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [504, 511]
+  },
+  {
+    "text": "gắng sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [534, 542]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [548, 551]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [640, 643]
+  },
+  {
+    "text": "đau vai",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [647, 654]
+  },
+  {
+    "text": "Hồi sức tích cực",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I46.0"],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [794, 810]
+  },
+  {
+    "text": "Siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1116, 1123]
+  },
+  {
+    "text": "khò khè",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1382, 1389]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1393, 1395]
+  },
+  {
+    "text": "furosemide",
+    "type": "THUỐC",
+    "candidates": ["4603"],
+    "assertions": ["isHistorical"],
+    "position": [1502, 1512]
+  },
+  {
+    "text": "Khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1651, 1658]
+  },
+  {
+    "text": "Nghẹt ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1691, 1701]
+  },
+  {
+    "text": "Ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1711, 1713]
+  },
+  {
+    "text": "Khò khè",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1714, 1721]
+  },
+  {
+    "text": "Phù",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1722, 1725]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1775, 1778]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1869, 1871]
+  },
+  {
+    "text": "khò khè",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1875, 1882]
+  },
+  {
+    "text": "nghẹt ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1985, 1995]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [2048, 2055]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [2060, 2068]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [2074, 2076]
+  },
+  {
+    "text": "Nhiễm khuẩn huyết do tụ cầu vàng nhạy cảm methicillin, nghi liên quan catheter",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [2114, 2192]
+  },
+  {
+    "text": "Siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2199, 2206]
+  }
+]

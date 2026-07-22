@@ -1,0 +1,153 @@
+[
+  {
+    "text": "ciproflagyl",
+    "type": "THUỐC",
+    "candidates": ["151516"],
+    "assertions": ["isHistorical"],
+    "position": [161, 172]
+  },
+  {
+    "text": "percocet",
+    "type": "THUỐC",
+    "candidates": ["42844"],
+    "assertions": ["isHistorical"],
+    "position": [273, 281]
+  },
+  {
+    "text": "chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [303, 323]
+  },
+  {
+    "text": "viêm túi mật không biến chứng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K80.2"],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [359, 388]
+  },
+  {
+    "text": "Tiền sử đã biết của bệnh túi thừa của cả ruột non và đại tràng, không thủng hay áp xe",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K57.5"],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [416, 501]
+  },
+  {
+    "text": "táo",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [508, 511]
+  },
+  {
+    "text": "trở nên tồi tệ hơn gần đây",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [516, 542]
+  },
+  {
+    "text": "vị",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [692, 694]
+  },
+  {
+    "text": "táo bón",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [878, 885]
+  },
+  {
+    "text": "đổ mồ hôi qua đêm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [919, 936]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [958, 961]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [974, 983]
+  },
+  {
+    "text": "hoa mắt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [996, 1003]
+  },
+  {
+    "text": "ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1037, 1043]
+  },
+  {
+    "text": "vùng bụng dưới (đau RLQLLQ)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1083, 1110]
+  },
+  {
+    "text": "đổ mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1206, 1215]
+  },
+  {
+    "text": "sử dụng ciproflagyl",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1254, 1273]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1430, 1433]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1446, 1455]
+  },
+  {
+    "text": "hoa mắt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1468, 1475]
+  },
+  {
+    "text": "ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1509, 1515]
+  },
+  {
+    "text": "đổ mồ hôi qua đêm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1572, 1589]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1611, 1614]
+  },
+  {
+    "text": "viêm túi mật không biến chứng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K80.2"],
+    "assertions": ["isNegated"],
+    "position": [1718, 1747]
+  }
+]

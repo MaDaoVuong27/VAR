@@ -1,0 +1,24 @@
+[
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [238, 245]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [322, 329]
+  },
+  {
+    "text": "Nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [421, 428]
+  },
+  {
+    "text": "chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [639, 659]
+  }
+]

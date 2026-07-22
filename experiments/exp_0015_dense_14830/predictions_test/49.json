@@ -1,0 +1,79 @@
+[
+  {
+    "text": "Khối sa âm đạo",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N81.5"],
+    "assertions": [],
+    "position": [53, 67]
+  },
+  {
+    "text": "tiểu buốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [373, 382]
+  },
+  {
+    "text": "buồn tiểu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [439, 448]
+  },
+  {
+    "text": "táo bón",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [497, 504]
+  },
+  {
+    "text": "đau nhiều khi  giao hợp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N94.1"],
+    "assertions": [],
+    "position": [518, 541]
+  },
+  {
+    "text": "Tiểu dắt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [666, 674]
+  },
+  {
+    "text": "Tiểu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [676, 680]
+  },
+  {
+    "text": "Táo bón",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [715, 722]
+  },
+  {
+    "text": "khám  niệu sản khoa",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [841, 860]
+  },
+  {
+    "text": "tiểu máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1166, 1174]
+  },
+  {
+    "text": "nhiễm khuẩn đường tiết niệu, vị trí không xác định",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N39.0"],
+    "assertions": ["isNegated"],
+    "position": [1184, 1234]
+  },
+  {
+    "text": "viêm bể thận",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K29.8"],
+    "assertions": ["isNegated"],
+    "position": [1261, 1273]
+  }
+]

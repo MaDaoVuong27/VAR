@@ -1,0 +1,291 @@
+[
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [48, 50]
+  },
+  {
+    "text": "Rối loạn cảm xúc (trầm cảm) (tiền sử giai đoạn trầm cảm không đặc hiệu)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F32.9", "F25.1"],
+    "assertions": ["isHistorical"],
+    "position": [51, 122]
+  },
+  {
+    "text": "seroquel (ngụ ý",
+    "type": "THUỐC",
+    "candidates": ["83553"],
+    "assertions": ["isHistorical"],
+    "position": [190, 205]
+  },
+  {
+    "text": "lú lẫn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [229, 235]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [237, 246]
+  },
+  {
+    "text": "khó nhìn gần",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [248, 260]
+  },
+  {
+    "text": "có thể liên quan đến thuốc",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [261, 287]
+  },
+  {
+    "text": "Bày tỏ tự tử với nhân viên khi xuất viện",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [393, 433]
+  },
+  {
+    "text": "Lú lẫn từng đợt gần đây",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [477, 500]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [516, 525]
+  },
+  {
+    "text": "khó khăn khi nhìn gần",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [532, 553]
+  },
+  {
+    "text": "rối",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [560, 563]
+  },
+  {
+    "text": "nhìn thấy con cái mình ở góc mắt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [579, 611]
+  },
+  {
+    "text": "ảo",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [618, 620]
+  },
+  {
+    "text": "giác thị giác (ảo giác thị giác)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R44.1", "R20.3"],
+    "assertions": [],
+    "position": [621, 653]
+  },
+  {
+    "text": "Ảo thanh (AH) (ảo giác thính giác)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R44.0", "R44.1"],
+    "assertions": [],
+    "position": [660, 694]
+  },
+  {
+    "text": "thụ động, diễn ra liên tục, tưởng tượng về cái chết mãn tính kể từ khi ly hôn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [733, 810]
+  },
+  {
+    "text": "Lú lẫn: từng đợt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [817, 833]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [840, 849]
+  },
+  {
+    "text": "Khó khăn về thị lực gần",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [856, 879]
+  },
+  {
+    "text": "rối loạn thị giác",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["H53", "R43.2"],
+    "assertions": [],
+    "position": [886, 903]
+  },
+  {
+    "text": "nhìn thấy con cái ở góc mắt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [905, 932]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [939, 946]
+  },
+  {
+    "text": "Ảo thanh (AH):",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R44.0"],
+    "assertions": [],
+    "position": [957, 971]
+  },
+  {
+    "text": "ảo",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [981, 983]
+  },
+  {
+    "text": "ảo",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [996, 998]
+  },
+  {
+    "text": "bệnh lý chất trắng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Q13.5", "A95"],
+    "assertions": [],
+    "position": [1335, 1353]
+  },
+  {
+    "text": "không phát hiện bất thường",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1384, 1410]
+  },
+  {
+    "text": "đánh giá thần kinh để tìm bệnh lý chất trắng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1417, 1461]
+  },
+  {
+    "text": "các băng nhóm oligoclonal đang chờ kết quả",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1468, 1510]
+  },
+  {
+    "text": "Phủ nhận tự tử chủ động, ý định, kế hoạch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [1617, 1658]
+  },
+  {
+    "text": "lên tầng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1675, 1683]
+  },
+  {
+    "text": "chọc dò dịch não tủy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1754, 1774]
+  },
+  {
+    "text": "âm tính",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1778, 1785]
+  },
+  {
+    "text": "chụp ct sọ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1818, 1828]
+  },
+  {
+    "text": "phát hiện bệnh lý chất trắng (được phát hiện tình cờ)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1830, 1883]
+  },
+  {
+    "text": "chọc dò dịch não tủy (Đột sống thắt lưng)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M99.23", "S32.0"],
+    "assertions": [],
+    "position": [1916, 1957]
+  },
+  {
+    "text": "đánh giá thần kinh để tìm bệnh lý chất trắng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1997, 2041]
+  },
+  {
+    "text": "các băng nhóm oligoclonal đang chờ kết quả",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [2048, 2090]
+  },
+  {
+    "text": "Nguyên nhân chưa rõ (đối với phát hiện bệnh lý chất trắng)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R69"],
+    "assertions": ["isNegated"],
+    "position": [2097, 2155]
+  },
+  {
+    "text": "Sẽ không điển hình cho",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [2162, 2184]
+  },
+  {
+    "text": "Bệnh đa xơ cứng theo ý kiến của bác sĩ thần kinh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M54.10", "G62.0"],
+    "assertions": [],
+    "position": [2185, 2233]
+  },
+  {
+    "text": "Ảo giác do rượu (suy nghĩ)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K70.4"],
+    "assertions": [],
+    "position": [2240, 2266]
+  },
+  {
+    "text": "Không được coi là thực sự loạn thần",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F29", "F30.1"],
+    "assertions": ["isNegated"],
+    "position": [2273, 2308]
+  }
+]

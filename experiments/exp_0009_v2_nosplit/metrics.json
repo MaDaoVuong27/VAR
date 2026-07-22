@@ -1,0 +1,12 @@
+{
+  "exp": "exp_0009_v2_nosplit",
+  "desc": "NER v2 + SapBERT th0.7, TẮT split_newlines — suy từ số BTC: kỳ vọng ~24.37",
+  "ner": "models/ner_xlmr_v2",
+  "dev_scores": {
+    "text_score": 0.2071,
+    "assertions_score": 0.621,
+    "candidates_score": 0.4353,
+    "final_score": 0.4226
+  },
+  "n_dev": 15
+}

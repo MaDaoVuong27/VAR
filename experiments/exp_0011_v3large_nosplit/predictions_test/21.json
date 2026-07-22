@@ -1,0 +1,30 @@
+[
+  {
+    "text": "Tăng huyết áp\n    - suy tim, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I11"],
+    "assertions": ["isHistorical"],
+    "position": [48, 91]
+  },
+  {
+    "text": "bệnh thận mạn, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N18.9"],
+    "assertions": ["isHistorical"],
+    "position": [98, 127]
+  },
+  {
+    "text": "Đã đặt 02 stent graft động mạch chủ ngực trong phẫu thuật điều trị phình động mạch chủ ngực – bụng giai đoạn 1 (không rõ thời điểm).",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [164, 296]
+  },
+  {
+    "text": "Sử dụng sử dụng thuốc lá nhiều năm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z81.2"],
+    "assertions": ["isHistorical"],
+    "position": [331, 365]
+  }
+]

@@ -1,0 +1,91 @@
+[
+  {
+    "text": "bệnh tim mạch do xơ vữa động mạch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I25.1"],
+    "assertions": ["isHistorical"],
+    "position": [131, 164]
+  },
+  {
+    "text": "blốc nhĩ thất, hoàn toàn sau khi đặt máy tạo nhịp (PPM)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I44.2"],
+    "assertions": ["isHistorical"],
+    "position": [171, 226]
+  },
+  {
+    "text": "bệnh thận mạn, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N18.9"],
+    "assertions": ["isHistorical"],
+    "position": [233, 262]
+  },
+  {
+    "text": "Suy giảm nhận thức nhẹ suy giảm nhận thức",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F06.7"],
+    "assertions": ["isHistorical"],
+    "position": [269, 310]
+  },
+  {
+    "text": "sau khi đặt máy tạo nhịp (status post PPM)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R30.1"],
+    "assertions": ["isHistorical"],
+    "position": [347, 389]
+  },
+  {
+    "text": "Cảm giác thắt chặt ngực dưới xương ức nghiêm trọng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["S28.0"],
+    "assertions": ["isHistorical"],
+    "position": [622, 672]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [679, 686]
+  },
+  {
+    "text": "Sau xương ức",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M81.0"],
+    "assertions": ["isHistorical"],
+    "position": [726, 738]
+  },
+  {
+    "text": "Yếu tố làm nặng thêm: Xảy ra khi nghỉ ngơi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z75.5"],
+    "assertions": ["isHistorical"],
+    "position": [850, 892]
+  },
+  {
+    "text": "Yếu tố làm giảm: Tự khỏi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N48.4"],
+    "assertions": ["isHistorical"],
+    "position": [899, 923]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [952, 959]
+  },
+  {
+    "text": "Cơn đau thắt ngực không ổn định cần can thiệp mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I20.1"],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [1048, 1103]
+  },
+  {
+    "text": "Cơn đau thắt ngực không ổn định cần can thiệp mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I20.1"],
+    "assertions": ["isNegated"],
+    "position": [1174, 1229]
+  }
+]

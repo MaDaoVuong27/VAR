@@ -1,0 +1,15 @@
+[
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2436, 2444]
+  },
+  {
+    "text": "xuất huyết dưới màng cứng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["S06.4"],
+    "assertions": [],
+    "position": [2713, 2738]
+  }
+]

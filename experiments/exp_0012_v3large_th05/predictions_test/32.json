@@ -1,0 +1,260 @@
+[
+  {
+    "text": "Bệnh bạch cầu dòng tủy mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["C92"],
+    "assertions": ["isHistorical"],
+    "position": [46, 77]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R73"],
+    "assertions": ["isHistorical"],
+    "position": [80, 93]
+  },
+  {
+    "text": "Đái tháo đường típ 2",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E11"],
+    "assertions": ["isHistorical"],
+    "position": [96, 116]
+  },
+  {
+    "text": "Rung nhĩ kèm đáp ứng thất nhanh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I48.0"],
+    "assertions": ["isHistorical"],
+    "position": [122, 153]
+  },
+  {
+    "text": "bệnh thận mạn, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N18.9"],
+    "assertions": ["isHistorical"],
+    "position": [156, 185]
+  },
+  {
+    "text": "nghẹt ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [343, 353]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [358, 361]
+  },
+  {
+    "text": "nhiệt độ cao nhất",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [363, 380]
+  },
+  {
+    "text": "38,3°C",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [388, 394]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [414, 417]
+  },
+  {
+    "text": "nghẹt ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [435, 445]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [504, 511]
+  },
+  {
+    "text": "phù ngoại vi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [548, 560]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [640, 643]
+  },
+  {
+    "text": "đau vai",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [647, 654]
+  },
+  {
+    "text": "suy hô hấp kèm tăng huyết áp, không đáp ứng đáng kể với điều trị lợi tiểu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I12.9"],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [700, 773]
+  },
+  {
+    "text": "Hồi sức tích cực để hỗ trợ thở áp lực dương không xâm nhập (BiPAP).",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M71.0"],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [794, 861]
+  },
+  {
+    "text": "nhiễm khuẩn huyết do tụ cầu vàng nhạy cảm methicillin, nghi liên quan đến đường truyền tĩnh mạch trung tâm ngoại vi (PICC).",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N16.0*"],
+    "assertions": ["isHistorical"],
+    "position": [991, 1114]
+  },
+  {
+    "text": "xạ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1169, 1171]
+  },
+  {
+    "text": "thấy xác suất thấp thuyên tắc phổi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N90.0"],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [1207, 1241]
+  },
+  {
+    "text": "khò khè",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1382, 1389]
+  },
+  {
+    "text": "ho tăng lên",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1393, 1404]
+  },
+  {
+    "text": "khí dung albuterol 2 lần",
+    "type": "THUỐC",
+    "candidates": ["2108226"],
+    "assertions": ["isHistorical"],
+    "position": [1456, 1480]
+  },
+  {
+    "text": "guaifenesin và furosemide 40 mg đường uống",
+    "type": "THUỐC",
+    "candidates": ["315971"],
+    "assertions": ["isHistorical"],
+    "position": [1487, 1529]
+  },
+  {
+    "text": "Khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1651, 1658]
+  },
+  {
+    "text": "gắng sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1681, 1689]
+  },
+  {
+    "text": "Nghẹt ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1691, 1701]
+  },
+  {
+    "text": "dài",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1706, 1709]
+  },
+  {
+    "text": "Ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1711, 1713]
+  },
+  {
+    "text": "Khò khè",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1714, 1721]
+  },
+  {
+    "text": "Phù ngoại vi tăng dần trong",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["H49.4"],
+    "assertions": ["isHistorical"],
+    "position": [1722, 1749]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1775, 1778]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1869, 1871]
+  },
+  {
+    "text": "tâm phục hồi chức năng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z50.0"],
+    "assertions": ["isHistorical"],
+    "position": [1902, 1924]
+  },
+  {
+    "text": "nghẹt ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1985, 1995]
+  },
+  {
+    "text": "hô hấp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [2013, 2019]
+  },
+  {
+    "text": "khó thở rõ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [2048, 2058]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [2060, 2068]
+  },
+  {
+    "text": "ho nhiều",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [2074, 2082]
+  },
+  {
+    "text": "Nhiễm khuẩn huyết do tụ cầu vàng nhạy cảm methicillin, nghi liên quan catheter PICC",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A39.2"],
+    "assertions": ["isHistorical"],
+    "position": [2114, 2197]
+  },
+  {
+    "text": "Xạ hình thông khí – tưới máu phổi cho thấy xác suất thấp thuyên tắc phổi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["J85.2"],
+    "assertions": ["isHistorical"],
+    "position": [2252, 2324]
+  }
+]

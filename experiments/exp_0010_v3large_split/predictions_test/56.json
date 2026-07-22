@@ -1,0 +1,209 @@
+[
+  {
+    "text": "Đái tháo đường (tiền sử",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [31, 54]
+  },
+  {
+    "text": "Đái tháo đường)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E23.2"],
+    "assertions": ["isHistorical"],
+    "position": [55, 70]
+  },
+  {
+    "text": "Tăng huyết áp (tăng huyết áp vô căn (nguyên phát))",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I10"],
+    "assertions": ["isHistorical"],
+    "position": [73, 123]
+  },
+  {
+    "text": "khó chịu vùng ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [294, 312]
+  },
+  {
+    "text": "gián đoạn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [313, 322]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [325, 334]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [337, 344]
+  },
+  {
+    "text": "khó thở)",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [346, 354]
+  },
+  {
+    "text": "đổ mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [357, 366]
+  },
+  {
+    "text": "Không rõ (ngụ ý vùng ngực)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R07.4"],
+    "assertions": ["isHistorical"],
+    "position": [398, 424]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [637, 646]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [648, 655]
+  },
+  {
+    "text": "đổ mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [657, 666]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [796, 799]
+  },
+  {
+    "text": "điện tâm đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [820, 831]
+  },
+  {
+    "text": "bình thường",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [832, 843]
+  },
+  {
+    "text": "Nhiệt độ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [902, 910]
+  },
+  {
+    "text": "7°c",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [914, 917]
+  },
+  {
+    "text": "Huyết áp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [919, 927]
+  },
+  {
+    "text": "139/68 mmhg",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [928, 939]
+  },
+  {
+    "text": "Mạch",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [941, 945]
+  },
+  {
+    "text": "67 lần/phút",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [946, 957]
+  },
+  {
+    "text": "16 lần/phút",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [968, 979]
+  },
+  {
+    "text": "SpO2",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [981, 985]
+  },
+  {
+    "text": "7°c",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1020, 1023]
+  },
+  {
+    "text": "huyết áp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1025, 1033]
+  },
+  {
+    "text": "139/68 mmhg",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1034, 1045]
+  },
+  {
+    "text": "nhịp tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1047, 1055]
+  },
+  {
+    "text": "67 lần/phút",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1056, 1067]
+  },
+  {
+    "text": "nhịp thở",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1069, 1077]
+  },
+  {
+    "text": "16 lần/phút",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1078, 1089]
+  },
+  {
+    "text": "độ bão hòa oxy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1091, 1105]
+  },
+  {
+    "text": "ống nội khí quản (nghiệm pháp gắng sức trên máy chạy bộ)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1154, 1210]
+  },
+  {
+    "text": "Nghiệm pháp gắng sức dương tính với thiếu máu cơ tim cục bộ, biểu hiện",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1240, 1310]
+  },
+  {
+    "text": "ST chênh xuống ở các chuyển đạo thành dưới và thành bên",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1311, 1366]
+  },
+  {
+    "text": "Đoạn ST chênh xuống kiểu xuống dốc xuất hiện trong giai đoạn hồi phục, còn tồn tại sau 1 phút và kéo dài đến sau 5 phút hồi phục",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1369, 1497]
+  }
+]

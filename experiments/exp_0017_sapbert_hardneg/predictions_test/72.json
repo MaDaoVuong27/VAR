@@ -1,0 +1,113 @@
+[
+  {
+    "text": "vàng da",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [118, 125]
+  },
+  {
+    "text": "ngứa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [138, 142]
+  },
+  {
+    "text": "chức năng gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [201, 214]
+  },
+  {
+    "text": "bilirubin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [218, 227]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [294, 301]
+  },
+  {
+    "text": "ercp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [380, 384]
+  },
+  {
+    "text": "nội soi mật",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [386, 397]
+  },
+  {
+    "text": "sinh thiết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [633, 643]
+  },
+  {
+    "text": "ung thư biểu mô tuyến, biệt hóa vừa phải đến kém",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A30.2"],
+    "assertions": [],
+    "position": [653, 701]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [724, 727]
+  },
+  {
+    "text": "chức năng gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [846, 859]
+  },
+  {
+    "text": "bilirubin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [862, 871]
+  },
+  {
+    "text": "sinh thiết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [915, 925]
+  },
+  {
+    "text": "ung thư biểu mô tuyến, biệt hóa vừa phải đến kém",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A30.2"],
+    "assertions": [],
+    "position": [935, 983]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1013, 1020]
+  },
+  {
+    "text": "ercp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1099, 1103]
+  },
+  {
+    "text": "ống",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["C17.2"],
+    "assertions": [],
+    "position": [1286, 1289]
+  },
+  {
+    "text": "ERCP",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1327, 1331]
+  },
+  {
+    "text": "Sinh thiết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1345, 1355]
+  },
+  {
+    "text": "u ác của đầu tuỵ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Q67.3"],
+    "assertions": [],
+    "position": [1387, 1403]
+  }
+]

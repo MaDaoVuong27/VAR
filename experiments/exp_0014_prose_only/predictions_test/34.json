@@ -1,0 +1,64 @@
+[
+  {
+    "text": "Bệnh gan do rượu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K70"],
+    "assertions": ["isHistorical"],
+    "position": [114, 130]
+  },
+  {
+    "text": "ăn uống kém",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [408, 419]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [423, 431]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [519, 527]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [534, 537]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [557, 560]
+  },
+  {
+    "text": "suy nhược",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [616, 625]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [898, 906]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [979, 982]
+  },
+  {
+    "text": "chảy dịch từ lỗ dò",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K82.1"],
+    "assertions": [],
+    "position": [1118, 1136]
+  }
+]

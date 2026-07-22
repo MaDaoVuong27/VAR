@@ -1,0 +1,66 @@
+[
+  {
+    "text": "bệnh gút không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M10.9"],
+    "assertions": ["isHistorical"],
+    "position": [77, 100]
+  },
+  {
+    "text": "bệnh thận mạn, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N18.9"],
+    "assertions": ["isHistorical"],
+    "position": [107, 136]
+  },
+  {
+    "text": "ung thư đại tràng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["D01.0"],
+    "assertions": ["isHistorical"],
+    "position": [143, 160]
+  },
+  {
+    "text": "béo phì",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E66"],
+    "assertions": ["isHistorical"],
+    "position": [167, 174]
+  },
+  {
+    "text": "xơ gan mất bù",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K74.0"],
+    "assertions": ["isHistorical"],
+    "position": [191, 204]
+  },
+  {
+    "text": "tăng áp lực tĩnh mạch cửa",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K76.6"],
+    "assertions": ["isHistorical"],
+    "position": [208, 233]
+  },
+  {
+    "text": "tràn dịch màng phổi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["J93"],
+    "assertions": ["isHistorical"],
+    "position": [248, 267]
+  },
+  {
+    "text": "chọc dò màng phổi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [443, 460]
+  },
+  {
+    "text": "3L4",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [461, 464]
+  },
+  {
+    "text": "7L",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [491, 493]
+  }
+]

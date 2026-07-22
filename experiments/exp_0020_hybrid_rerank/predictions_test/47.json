@@ -1,0 +1,98 @@
+[
+  {
+    "text": "ung thư biểu mô tế bào mật",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["D01.5"],
+    "assertions": ["isHistorical"],
+    "position": [238, 264]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [733, 741]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [743, 746]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [748, 751]
+  },
+  {
+    "text": "ớn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [753, 755]
+  },
+  {
+    "text": "sinh thiết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1042, 1052]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1503, 1511]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1513, 1516]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1518, 1526]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1533, 1540]
+  },
+  {
+    "text": "ống",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1884, 1887]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1930, 1938]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1940, 1943]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1945, 1948]
+  },
+  {
+    "text": "ớn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1950, 1952]
+  },
+  {
+    "text": "sinh thiết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2228, 2238]
+  }
+]

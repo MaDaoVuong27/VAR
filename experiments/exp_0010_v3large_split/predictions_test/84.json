@@ -1,0 +1,204 @@
+[
+  {
+    "text": "tăng huyết áp (tăng huyết áp)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I95"],
+    "assertions": ["isHistorical"],
+    "position": [91, 120]
+  },
+  {
+    "text": "Táo bón mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K59.0"],
+    "assertions": ["isHistorical"],
+    "position": [127, 143]
+  },
+  {
+    "text": "ngưng thở khi ngủ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["G47.3"],
+    "assertions": ["isHistorical"],
+    "position": [151, 168]
+  },
+  {
+    "text": "nhịp thở nhanh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [211, 225]
+  },
+  {
+    "text": "thiếu oxy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [229, 238]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isFamily"],
+    "position": [311, 318]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isFamily"],
+    "position": [320, 322]
+  },
+  {
+    "text": "chảy nước mũi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isFamily"],
+    "position": [326, 339]
+  },
+  {
+    "text": "nhiễm trùng đường hô hấp trên",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["J06.9"],
+    "assertions": ["isHistorical", "isFamily"],
+    "position": [459, 488]
+  },
+  {
+    "text": "độ bão hòa oxy (SPO2)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [539, 560]
+  },
+  {
+    "text": "88-92 %",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [564, 571]
+  },
+  {
+    "text": "nhịp thở nhanh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [592, 606]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [734, 741]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [748, 750]
+  },
+  {
+    "text": "chảy nước mũi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [757, 770]
+  },
+  {
+    "text": "nhịp thở nhanh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [777, 791]
+  },
+  {
+    "text": "oxy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [804, 807]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [814, 817]
+  },
+  {
+    "text": "bạch cầu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [847, 855]
+  },
+  {
+    "text": "bnp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [867, 870]
+  },
+  {
+    "text": "4227",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [871, 875]
+  },
+  {
+    "text": "kali",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [882, 886]
+  },
+  {
+    "text": "troponin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [897, 905]
+  },
+  {
+    "text": "01",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [908, 910]
+  },
+  {
+    "text": "lactate",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [917, 924]
+  },
+  {
+    "text": "tổng phân tích nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [935, 959]
+  },
+  {
+    "text": "dương tính  với",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [971, 986]
+  },
+  {
+    "text": "182bạch",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [987, 994]
+  },
+  {
+    "text": "cầuvài vi khuẩn (vi khuẩn), nitrite",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [995, 1030]
+  },
+  {
+    "text": "bệnh lý tim mạch hoặc hô hấp cấp tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I13"],
+    "assertions": ["isNegated"],
+    "position": [1112, 1149]
+  },
+  {
+    "text": "chụp x-quang ngực phù hợp với viêm phổi kẽ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1157, 1199]
+  },
+  {
+    "text": "Khí dung phối hợp Albuterol và Ipratropium 1 lần",
+    "type": "THUỐC",
+    "candidates": ["2108259"],
+    "assertions": [],
+    "position": [1236, 1284]
+  },
+  {
+    "text": "Ceftriaxone 1 gram dùng 1 liều",
+    "type": "THUỐC",
+    "candidates": ["1665020"],
+    "assertions": [],
+    "position": [1291, 1321]
+  },
+  {
+    "text": "Uống Tylenol 1 gram, 1 liều duy nhất",
+    "type": "THUỐC",
+    "candidates": ["707327"],
+    "assertions": [],
+    "position": [1328, 1364]
+  }
+]

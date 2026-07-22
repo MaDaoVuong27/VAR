@@ -1,0 +1,153 @@
+[
+  {
+    "text": "chịu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [76, 80]
+  },
+  {
+    "text": "giác có khối lồi trong âm đạo",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N76.5"],
+    "assertions": [],
+    "position": [147, 176]
+  },
+  {
+    "text": "căng tức vùng âm đạo",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [286, 306]
+  },
+  {
+    "text": "sờ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [308, 310]
+  },
+  {
+    "text": "tiểu buốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [373, 382]
+  },
+  {
+    "text": "tiểu tiện",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [413, 422]
+  },
+  {
+    "text": "buồn tiểu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [439, 448]
+  },
+  {
+    "text": "táo bón",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [497, 504]
+  },
+  {
+    "text": "khô âm đạo",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [506, 516]
+  },
+  {
+    "text": "đau nhiều khi  giao hợp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [518, 541]
+  },
+  {
+    "text": "ra huyết âm đạo lượng ít",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [553, 577]
+  },
+  {
+    "text": "Cảm giác có khối sa lồi ra âm đạo",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R19.2"],
+    "assertions": [],
+    "position": [601, 634]
+  },
+  {
+    "text": "căng tức vùng âm đạo",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [644, 664]
+  },
+  {
+    "text": "Tiểu dắt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [666, 674]
+  },
+  {
+    "text": "Tiểu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R33"],
+    "assertions": [],
+    "position": [676, 680]
+  },
+  {
+    "text": "không tự chủ, xuất hiện từng đợt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["O84.0"],
+    "assertions": ["isNegated"],
+    "position": [681, 713]
+  },
+  {
+    "text": "Khô âm đạo",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [723, 733]
+  },
+  {
+    "text": "Đau khi giao hợp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [735, 751]
+  },
+  {
+    "text": "vòng pessary",
+    "type": "THUỐC",
+    "candidates": ["224891"],
+    "assertions": [],
+    "position": [890, 902]
+  },
+  {
+    "text": "đẩy khối lồi âm đạo vào bên trong âm đạo",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["O83.0"],
+    "assertions": [],
+    "position": [1011, 1051]
+  },
+  {
+    "text": "lâu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1095, 1098]
+  },
+  {
+    "text": "đau khi đi tiểu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1138, 1153]
+  },
+  {
+    "text": "tiểu máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1166, 1174]
+  },
+  {
+    "text": "nhiễm khuẩn đường tiết niệu, vị trí không xác định",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N39.0"],
+    "assertions": ["isNegated"],
+    "position": [1184, 1234]
+  }
+]

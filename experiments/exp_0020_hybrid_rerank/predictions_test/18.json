@@ -1,0 +1,77 @@
+[
+  {
+    "text": "nữ, nhiều lần",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [49, 62]
+  },
+  {
+    "text": "Thuyên tắc tĩnh mạch sâu chi dưới ở chân trái",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I74.3"],
+    "assertions": ["isHistorical"],
+    "position": [63, 108]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [156, 164]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [182, 185]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [292, 300]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [312, 315]
+  },
+  {
+    "text": "chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [486, 506]
+  },
+  {
+    "text": "máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [512, 515]
+  },
+  {
+    "text": "ctma",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [517, 521]
+  },
+  {
+    "text": "bóc tách động mạch chủ Stanford loại B",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isNegated"],
+    "position": [641, 679]
+  },
+  {
+    "text": "chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [713, 733]
+  },
+  {
+    "text": "máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [739, 742]
+  },
+  {
+    "text": "ctma",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [744, 748]
+  }
+]

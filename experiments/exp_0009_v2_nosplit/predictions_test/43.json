@@ -1,0 +1,153 @@
+[
+  {
+    "text": "cắt cụt nhiều ngón chân phải do nhiễm trùng tụ cầu, vị trí không xác định",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [62, 135]
+  },
+  {
+    "text": "tỉnh giấc",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [200, 209]
+  },
+  {
+    "text": "cảm giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [219, 227]
+  },
+  {
+    "text": "như vòi nước",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [228, 240]
+  },
+  {
+    "text": "như",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [276, 279]
+  },
+  {
+    "text": "hẹp van động mạch chủ nghiêm trọng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I35.0"],
+    "assertions": [],
+    "position": [447, 481]
+  },
+  {
+    "text": "thay van động mạch chủ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I35.1"],
+    "assertions": [],
+    "position": [550, 572]
+  },
+  {
+    "text": "siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [628, 639]
+  },
+  {
+    "text": "thông tim trái",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [777, 791]
+  },
+  {
+    "text": "phẫu thuật tim mạch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [864, 883]
+  },
+  {
+    "text": "tình trạng chung tốt kể từ khi chụp tim trái",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [890, 934]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [977, 984]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [986, 994]
+  },
+  {
+    "text": "khó thở khi nằm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [996, 1011]
+  },
+  {
+    "text": "khó thở khi ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1013, 1028]
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1034, 1042]
+  },
+  {
+    "text": "cảm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1057, 1060]
+  },
+  {
+    "text": "yếu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1101, 1104]
+  },
+  {
+    "text": "siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1191, 1202]
+  },
+  {
+    "text": "siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1253, 1264]
+  },
+  {
+    "text": "gắng sức",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1265, 1273]
+  },
+  {
+    "text": "dobutamine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1274, 1284]
+  },
+  {
+    "text": "van động mạch chủ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1298, 1315]
+  },
+  {
+    "text": "nghiêm trọng",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1316, 1328]
+  },
+  {
+    "text": "LHC",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1464, 1467]
+  },
+  {
+    "text": "không ghi nhận hẹp",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1468, 1486]
+  }
+]

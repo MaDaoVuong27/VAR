@@ -1,0 +1,183 @@
+[
+  {
+    "text": "viêm tủy xương mãn tính và bàng quang thần kinh gây biến chứng liệt hai chi dưới và loét tì đè giai đoạn IV mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [18, 134]
+  },
+  {
+    "text": "đặt lưu sonde tiểu    gây nhiễm khuẩn đường tiết niệu tái phát",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [137, 199]
+  },
+  {
+    "text": "dụngvancozosyn",
+    "type": "THUỐC",
+    "candidates": ["49276"],
+    "assertions": ["isHistorical"],
+    "position": [232, 246]
+  },
+  {
+    "text": "Truyền nhiễm đang dùng bactrim để điều trị nhiễm khuẩn đường tiết niệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [298, 368]
+  },
+  {
+    "text": "sốt cao",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [407, 414]
+  },
+  {
+    "text": "hạ huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [466, 477]
+  },
+  {
+    "text": "viêm tuỷ xương",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M86", "H70.2"],
+    "assertions": [],
+    "position": [575, 589]
+  },
+  {
+    "text": "7 độ C",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [833, 839]
+  },
+  {
+    "text": "Cảm giác khát nước",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [896, 914]
+  },
+  {
+    "text": "Da khô, nếp véo da mất chậm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [915, 942]
+  },
+  {
+    "text": "Không ngực",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R07.4"],
+    "assertions": ["isNegated"],
+    "position": [943, 953]
+  },
+  {
+    "text": "thở",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R06.5", "R09.0"],
+    "assertions": ["isNegated"],
+    "position": [966, 969]
+  },
+  {
+    "text": "Đau bụng, đau hông từng cơn-",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R10.0", "N94.4"],
+    "assertions": [],
+    "position": [970, 998]
+  },
+  {
+    "text": "Hạ huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I95", "I95.9"],
+    "assertions": [],
+    "position": [999, 1010]
+  },
+  {
+    "text": "Tim nhịp nhanh đều",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R00.0", "I47.2"],
+    "assertions": [],
+    "position": [1023, 1041]
+  },
+  {
+    "text": "Phổi thông khí đều",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["J93", "J43"],
+    "assertions": [],
+    "position": [1042, 1060]
+  },
+  {
+    "text": "Còn sonde tiểu, nước tiểu có cặn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1061, 1093]
+  },
+  {
+    "text": "lactate",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1111, 1118]
+  },
+  {
+    "text": "nhiễm khuẩn đường tiết niệu có các vi khuẩn hỗn hợp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1147, 1198]
+  },
+  {
+    "text": "tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isNegated"],
+    "position": [1213, 1217]
+  },
+  {
+    "text": "MRI",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1294, 1297]
+  },
+  {
+    "text": "svo2",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1402, 1406]
+  },
+  {
+    "text": "82",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1410, 1412]
+  },
+  {
+    "text": "đo cvp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1449, 1455]
+  },
+  {
+    "text": "nhiễm trùng huyết đường vào tiết niệu- viêm tủy xương mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M86.0", "A39.3"],
+    "assertions": [],
+    "position": [1472, 1534]
+  },
+  {
+    "text": "Truyền dịch",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1550, 1561]
+  },
+  {
+    "text": "4000 ml",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1564, 1571]
+  },
+  {
+    "text": "NS",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1572, 1574]
+  },
+  {
+    "text": "9 %",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1577, 1580]
+  }
+]

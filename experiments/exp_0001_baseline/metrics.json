@@ -28,7 +28,19 @@
     "assertions_score": 0.2245,
     "candidates_score": 0.0963,
     "final_score": 0.1634,
-    "raw_metrics": {"WER": 80.8248, "J_assertion": 22.4507, "J_candidates": 9.6267, "num_scored": 100},
+    "raw_metrics": {
+      "WER": 80.8248,
+      "J_assertion": 22.4507,
+      "J_candidates": 9.6267,
+      "num_scored": 100
+    },
     "note": "Điểm THẬT từ hệ thống BTC (thang 100 -> quy về 0-1). Thấp hơn nhiều so với gold v1 (13 file dev tự chọn thiên về file có cấu trúc bullet). Nguyên nhân: 4/100 file predict rỗng (6,8,25,93) + 21/100 file <=2 concept do extractor mù văn xuôi. => NER recall là nút thắt gốc."
-  }
+  },
+  "dev_scores": {
+    "text_score": 0.3278,
+    "assertions_score": 0.5554,
+    "candidates_score": 0.2071,
+    "final_score": 0.3478
+  },
+  "n_dev": 15
 }

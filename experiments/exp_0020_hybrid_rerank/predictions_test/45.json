@@ -1,0 +1,9 @@
+[
+  {
+    "text": "đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E10"],
+    "assertions": ["isHistorical"],
+    "position": [48, 62]
+  }
+]

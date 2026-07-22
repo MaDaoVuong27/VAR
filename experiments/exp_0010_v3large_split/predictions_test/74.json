@@ -1,0 +1,234 @@
+[
+  {
+    "text": "sp TLH (tình trạng sau phẫu thuật cắt tử cung bằng nội soi toàn bộ)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [53, 120]
+  },
+  {
+    "text": "cipro",
+    "type": "THUỐC",
+    "candidates": ["203563"],
+    "assertions": ["isHistorical"],
+    "position": [165, 170]
+  },
+  {
+    "text": "bactrim",
+    "type": "THUỐC",
+    "candidates": ["151399"],
+    "assertions": ["isHistorical"],
+    "position": [177, 184]
+  },
+  {
+    "text": "đau bụng dưới",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [360, 373]
+  },
+  {
+    "text": "Triệu chứng trở nên tồi tệ hơn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [443, 473]
+  },
+  {
+    "text": "Đau tiến triển và lan vào sườn trái và LLQ (Tứ phân vị dưới trái)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [480, 545]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [563, 571]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [599, 602]
+  },
+  {
+    "text": "iv morphineiv morphine and toradol",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [634, 668]
+  },
+  {
+    "text": "đau bụng dưới",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [700, 713]
+  },
+  {
+    "text": "ớn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [720, 722]
+  },
+  {
+    "text": "khó chịu khi đi tiểu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [734, 754]
+  },
+  {
+    "text": "khó chịu khi đại tiện",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [761, 782]
+  },
+  {
+    "text": "kháng sinh cho nhiễm khuẩn đường tiết niệu, vị trí không xác định",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [880, 945]
+  },
+  {
+    "text": "bactrim",
+    "type": "THUỐC",
+    "candidates": ["151399"],
+    "assertions": ["isHistorical"],
+    "position": [1021, 1028]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1075, 1078]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1124, 1127]
+  },
+  {
+    "text": "ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1187, 1194]
+  },
+  {
+    "text": "khó chịu khi đi tiểu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1205, 1225]
+  },
+  {
+    "text": "đại tiện",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1229, 1237]
+  },
+  {
+    "text": "máu trong phân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [1253, 1267]
+  },
+  {
+    "text": "đau đớn khi đi tiểu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [1284, 1303]
+  },
+  {
+    "text": "tiểu gấp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [1305, 1313]
+  },
+  {
+    "text": "tiết niệu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [1335, 1344]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1372, 1380]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1382, 1389]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1396, 1404]
+  },
+  {
+    "text": "nôn mửa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1406, 1413]
+  },
+  {
+    "text": "chảy máu âm đạo",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1420, 1435]
+  },
+  {
+    "text": "khí hư bất thường",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1438, 1455]
+  },
+  {
+    "text": "thay đổi cân nặng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1457, 1474]
+  },
+  {
+    "text": "công thức máu (",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1527, 1542]
+  },
+  {
+    "text": "chụp cắt lớp vi tính (ct)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1597, 1622]
+  },
+  {
+    "text": "bụng và chậu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R10"],
+    "assertions": [],
+    "position": [1623, 1635]
+  },
+  {
+    "text": "khoang chứa dịch phức tạp lớn kích thước",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1649, 1689]
+  },
+  {
+    "text": "nằm sâu trong vùng chậu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1699, 1722]
+  },
+  {
+    "text": "Lo ngại về áp xe",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1757, 1773]
+  }
+]

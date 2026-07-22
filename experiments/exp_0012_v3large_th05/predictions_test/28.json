@@ -1,0 +1,207 @@
+[
+  {
+    "text": "vìviêm tụy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["L30.1"],
+    "assertions": ["isHistorical"],
+    "position": [60, 70]
+  },
+  {
+    "text": "phẫu thuật cắt bỏ tuyến tiền liệt (u ác của tuyến tiền liệt)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N42.2"],
+    "assertions": ["isHistorical"],
+    "position": [121, 181]
+  },
+  {
+    "text": "rối loạn cảm xúc lưỡng cực khác",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F31.8"],
+    "assertions": ["isHistorical"],
+    "position": [188, 219]
+  },
+  {
+    "text": "phẫu thuật cắt bỏ tuyến tiền liệt (u ác của tuyến tiền liệt)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N42.2"],
+    "assertions": ["isHistorical"],
+    "position": [256, 316]
+  },
+  {
+    "text": "eliquis (cho rung nhĩ)",
+    "type": "THUỐC",
+    "candidates": ["1364436"],
+    "assertions": ["isHistorical"],
+    "position": [358, 380]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [428, 431]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [435, 443]
+  },
+  {
+    "text": "đau bụng trên",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [496, 509]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [560, 563]
+  },
+  {
+    "text": "đau hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [588, 604]
+  },
+  {
+    "text": "đau bụng trên",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [678, 691]
+  },
+  {
+    "text": "sốt nhẹ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [896, 903]
+  },
+  {
+    "text": "đau hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [924, 940]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1066, 1069]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1076, 1084]
+  },
+  {
+    "text": "đau hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1091, 1107]
+  },
+  {
+    "text": "đau hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1139, 1155]
+  },
+  {
+    "text": "đau hạ sườn phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1191, 1207]
+  },
+  {
+    "text": "Vùng hạ sườn phải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M49.04*"],
+    "assertions": [],
+    "position": [1256, 1273]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1388, 1396]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1398, 1401]
+  },
+  {
+    "text": "ớn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1403, 1405]
+  },
+  {
+    "text": "thay đổi chức năng ruột",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1412, 1435]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1437, 1445]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1447, 1454]
+  },
+  {
+    "text": "(AMA)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["H02.3"],
+    "assertions": [],
+    "position": [1514, 1519]
+  },
+  {
+    "text": "dịch quanh túi mật gợi ý",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K82.1"],
+    "assertions": [],
+    "position": [1669, 1693]
+  },
+  {
+    "text": "lipase",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1768, 1774]
+  },
+  {
+    "text": "tăng lên ở mức",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1778, 1792]
+  },
+  {
+    "text": "623",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1793, 1796]
+  },
+  {
+    "text": "tbr",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1870, 1873]
+  },
+  {
+    "text": "cao tới",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1877, 1884]
+  },
+  {
+    "text": "cải thiện",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1896, 1905]
+  },
+  {
+    "text": "chụp ct bụng chậu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2188, 2205]
+  }
+]

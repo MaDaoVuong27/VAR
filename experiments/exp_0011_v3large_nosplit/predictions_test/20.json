@@ -1,0 +1,269 @@
+[
+  {
+    "text": "Tăng huyết áp\n    - bệnh thận mạn, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I12"],
+    "assertions": ["isHistorical"],
+    "position": [48, 97]
+  },
+  {
+    "text": "bệnh tim mạch do xơ vữa động mạch với",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I25.1"],
+    "assertions": ["isHistorical"],
+    "position": [104, 141]
+  },
+  {
+    "text": "Nhồi máu cơ tim gần đây\n    - rung nhĩ kịch phát",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I21.0"],
+    "assertions": ["isHistorical"],
+    "position": [142, 190]
+  },
+  {
+    "text": "xạ hình tưới máu cơ tim mibi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [289, 317]
+  },
+  {
+    "text": "metoprolol (reduced from 50mg to 25mg daily)",
+    "type": "THUỐC",
+    "candidates": ["331561"],
+    "assertions": ["isHistorical"],
+    "position": [354, 398]
+  },
+  {
+    "text": "desmopressin",
+    "type": "THUỐC",
+    "candidates": ["3251"],
+    "assertions": ["isHistorical"],
+    "position": [405, 417]
+  },
+  {
+    "text": "Cựu chiến binh Thế chiến II",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Y36"],
+    "assertions": ["isHistorical"],
+    "position": [457, 484]
+  },
+  {
+    "text": "Rối loạn dáng đi với nhiều lần ngã",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [491, 525]
+  },
+  {
+    "text": "xuyên luyện tập, đi bộ 20 phút mỗi ngày trên máy chạy bộ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [539, 595]
+  },
+  {
+    "text": "ngã với gãy cổ xương đùi di lệch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["S72.01"],
+    "assertions": [],
+    "position": [643, 675]
+  },
+  {
+    "text": "ngã hôm qua",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [746, 757]
+  },
+  {
+    "text": "Có thể tự đi lại và lái xe sau ngã",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [764, 798]
+  },
+  {
+    "text": "Sáng nay không thể tự ra khỏi giường và tự đi lại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isNegated"],
+    "position": [805, 854]
+  },
+  {
+    "text": "Gọi xe cứu thương",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [861, 878]
+  },
+  {
+    "text": "Phát hiện có gãy cổ xương đùi di lệch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["S72.0"],
+    "assertions": [],
+    "position": [885, 922]
+  },
+  {
+    "text": "Đau",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R52.9"],
+    "assertions": [],
+    "position": [954, 957]
+  },
+  {
+    "text": "hông phải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1040, 1049]
+  },
+  {
+    "text": "cử động",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1078, 1085]
+  },
+  {
+    "text": "ngã do cơ học hôm qua",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1145, 1166]
+  },
+  {
+    "text": "Chấn thương tù ở Chi dưới phải (RLE)\n    - vết thương hở phần khác của chi dưới",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1173, 1252]
+  },
+  {
+    "text": "chấn thương đầu hoặc mất ý thức (mất ý thức)\n    - có thể chịu trọng lượng và lái xe sau ngã",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [1276, 1368]
+  },
+  {
+    "text": "Gọi xe cứu thương",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [1375, 1392]
+  },
+  {
+    "text": "gãy cổ xương đùi di lệch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["S72.0"],
+    "assertions": ["isHistorical"],
+    "position": [1412, 1436]
+  },
+  {
+    "text": "x-quang ngực",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [1472, 1484]
+  },
+  {
+    "text": "Hình ảnh mức nước - hơi vùng ngực",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [1485, 1518]
+  },
+  {
+    "text": "vị hoành nhỏ, thay đổi khí phế thủng, và xẹp phổi hai đáy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [1633, 1690]
+  },
+  {
+    "text": "di chuyển",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [1778, 1787]
+  },
+  {
+    "text": "chụp x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2023, 2040]
+  },
+  {
+    "text": "không thuốc cản quang: tim to, tràn dịch màng tim, tràn dịch màng phổi hai bên, thoát vị hoành nhỏ, thay đổi khí phế thủng, xẹp phổi hai đáy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isNegated"],
+    "position": [2074, 2214]
+  },
+  {
+    "text": "xạ hình tưới máu cơ tim  mibi: khuyết tật toàn bộ, không hồi phục, kích thước vừa phải ở thành dưới gần mấu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isNegated"],
+    "position": [2221, 2328]
+  },
+  {
+    "text": "EF30, mất vận động vùng đỉnh, hở van ba lá vừa-nặng (mod-severe TR) và hở van hai lá/van động mạch chủ nhẹ (mild ARMR)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [2392, 2510]
+  },
+  {
+    "text": "Gãy xương",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M84.0"],
+    "assertions": [],
+    "position": [2517, 2526]
+  },
+  {
+    "text": "siêu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2652, 2656]
+  },
+  {
+    "text": "qua thành ngực (siêu âm tim qua thành ngực)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [2664, 2707]
+  },
+  {
+    "text": "TURP (",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [2761, 2767]
+  },
+  {
+    "text": "Transurethral Resection of the Prostate)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [2767, 2807]
+  },
+  {
+    "text": "Nhồi máu cơ tim vùng vách liên thất, mạn tính và đỉnh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I21.1"],
+    "assertions": [],
+    "position": [2847, 2900]
+  },
+  {
+    "text": "Nhồi máu cơ tim\n    -",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I25.2"],
+    "assertions": [],
+    "position": [2941, 2962]
+  },
+  {
+    "text": "đêm nhiều  do  tăng sản tuyến tiền liệt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N40"],
+    "assertions": [],
+    "position": [2968, 3007]
+  }
+]

@@ -1,0 +1,179 @@
+[
+  {
+    "text": "Suy thận mạn giai đoạn V do đái tháo đường và tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I12"],
+    "assertions": ["isHistorical"],
+    "position": [48, 107]
+  },
+  {
+    "text": "u ác của tuyến tiền liệt điều trị bằng xạ trị cấy hạt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [114, 167]
+  },
+  {
+    "text": "Phẫu thuật cắt bỏ u dây thần kinh số VIII",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [210, 251]
+  },
+  {
+    "text": "Đặt shunt động tĩnh mạch (AVF) ở tay phải (RUE AVF)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [259, 310]
+  },
+  {
+    "text": "Sinh thiết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [317, 327]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [387, 394]
+  },
+  {
+    "text": "mất trí nhớ chi tiết",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [396, 416]
+  },
+  {
+    "text": "khó chịu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [439, 447]
+  },
+  {
+    "text": "ngứa da toàn thân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [484, 501]
+  },
+  {
+    "text": "mất trí nhớ chi tiết",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [512, 532]
+  },
+  {
+    "text": "khó thở khi gắng sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [534, 554]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [568, 576]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [581, 584]
+  },
+  {
+    "text": "Ngứa da toàn thân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [674, 691]
+  },
+  {
+    "text": "mất trí nhớ chi tiết",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [704, 724]
+  },
+  {
+    "text": "khó thở khi gắng sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [731, 751]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [759, 767]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [771, 774]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [823, 833]
+  },
+  {
+    "text": "3 mg/dl",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [852, 859]
+  },
+  {
+    "text": "460",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [861, 864]
+  },
+  {
+    "text": "557",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [867, 870]
+  },
+  {
+    "text": "Ure",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [885, 888]
+  },
+  {
+    "text": "69",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [897, 899]
+  },
+  {
+    "text": "91 mg/dl",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [904, 912]
+  },
+  {
+    "text": "5 mmol",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [924, 930]
+  },
+  {
+    "text": "photpho",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [953, 960]
+  },
+  {
+    "text": "đánh giá trước ghép thận",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1018, 1042]
+  },
+  {
+    "text": "u ác của tuyến tiền liệtAnh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["C61"],
+    "assertions": [],
+    "position": [1081, 1108]
+  },
+  {
+    "text": "chạy thận nhân tạo (HD)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z93"],
+    "assertions": [],
+    "position": [1227, 1250]
+  }
+]

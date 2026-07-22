@@ -1,0 +1,25 @@
+[
+  {
+    "text": "Nhiễm trùng đường tiết niệu kháng thuốc",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [45, 84]
+  },
+  {
+    "text": "bạch cầuNgày",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [248, 260]
+  },
+  {
+    "text": "lơ mơ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [415, 420]
+  },
+  {
+    "text": "Bạch cầu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [472, 480]
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "text": "cắt cụt nhiều ngón chân phải do nhiễm trùng tụ cầu, vị trí không xác định",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [62, 135]
+  },
+  {
+    "text": "tỉnh giấc",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [200, 209]
+  },
+  {
+    "text": "vòi nước",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [232, 240]
+  },
+  {
+    "text": "xịt nước",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [283, 291]
+  },
+  {
+    "text": "siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [426, 437]
+  },
+  {
+    "text": "siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [628, 639]
+  },
+  {
+    "text": "dobutamine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [649, 659]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [977, 984]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [986, 994]
+  },
+  {
+    "text": "khó thở khi nằm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [996, 1011]
+  },
+  {
+    "text": "khó thở khi ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1013, 1028]
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1034, 1042]
+  },
+  {
+    "text": "yếu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1101, 1104]
+  },
+  {
+    "text": "siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1191, 1202]
+  },
+  {
+    "text": "hẹp",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1212, 1215]
+  },
+  {
+    "text": "van động mạch chủ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1216, 1233]
+  },
+  {
+    "text": "nghiêm trọng",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1234, 1246]
+  },
+  {
+    "text": "siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1253, 1264]
+  },
+  {
+    "text": "gắng sức",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1265, 1273]
+  },
+  {
+    "text": "dobutamine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1274, 1284]
+  },
+  {
+    "text": "hẹp",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1294, 1297]
+  },
+  {
+    "text": "van động mạch chủ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1298, 1315]
+  },
+  {
+    "text": "chụp tim mạch",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1362, 1375]
+  },
+  {
+    "text": "LHC",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1382, 1385]
+  },
+  {
+    "text": "LHC",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1464, 1467]
+  }
+]

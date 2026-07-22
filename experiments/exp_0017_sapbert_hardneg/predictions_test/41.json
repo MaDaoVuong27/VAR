@@ -1,0 +1,308 @@
+[
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [73, 81]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [85, 94]
+  },
+  {
+    "text": "Nôn ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [118, 128]
+  },
+  {
+    "text": "Nôn ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [176, 186]
+  },
+  {
+    "text": "hội chứng ruột kích thích",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K58"],
+    "assertions": ["isHistorical"],
+    "position": [226, 251]
+  },
+  {
+    "text": "Nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [353, 360]
+  },
+  {
+    "text": "Nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [411, 418]
+  },
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [469, 476]
+  },
+  {
+    "text": "Viêm thực quản độ C, loét thực quản dưới 6 mm có điểm sắc tố",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [478, 538]
+  },
+  {
+    "text": "omeprazole",
+    "type": "THUỐC",
+    "candidates": ["7646"],
+    "assertions": ["isHistorical"],
+    "position": [625, 635]
+  },
+  {
+    "text": "Nôn ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [726, 736]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [809, 817]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [821, 830]
+  },
+  {
+    "text": "khó khăn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [899, 907]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [937, 945]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [949, 958]
+  },
+  {
+    "text": "Nôn ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1008, 1018]
+  },
+  {
+    "text": "Nôn ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1068, 1078]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1115, 1123]
+  },
+  {
+    "text": "nôn ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1127, 1137]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1244, 1252]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1256, 1265]
+  },
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1332, 1339]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1534, 1542]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1544, 1553]
+  },
+  {
+    "text": "nôn ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1555, 1565]
+  },
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1567, 1574]
+  },
+  {
+    "text": "omeprazole",
+    "type": "THUỐC",
+    "candidates": ["7646"],
+    "assertions": [],
+    "position": [1695, 1705]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1776, 1784]
+  },
+  {
+    "text": "nôn ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1788, 1798]
+  },
+  {
+    "text": "nôn ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1846, 1856]
+  },
+  {
+    "text": "Nôn ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1894, 1904]
+  },
+  {
+    "text": "Ăn uống kém",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1911, 1922]
+  },
+  {
+    "text": "nausea",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1930, 1936]
+  },
+  {
+    "text": "diarrhea",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1943, 1951]
+  },
+  {
+    "text": "abdominal pain",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1958, 1972]
+  },
+  {
+    "text": "viêm dạ dày ruột do virus (trong năm nay)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A08.0"],
+    "assertions": [],
+    "position": [2025, 2066]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2120, 2128]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2132, 2141]
+  },
+  {
+    "text": "nôn ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2204, 2214]
+  },
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2264, 2271]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2541, 2549]
+  },
+  {
+    "text": "nôn ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2553, 2563]
+  },
+  {
+    "text": "nôn ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [2656, 2666]
+  },
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2925, 2932]
+  },
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2958, 2965]
+  },
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [3016, 3023]
+  },
+  {
+    "text": "Viêm thực quản độ C, loét thực quản dưới 6 mm có điểm sắc tố, nhiều loét nông sạch đáy ở",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [3025, 3113]
+  },
+  {
+    "text": "Viêm thực quản độ C ở thực quản dưới",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [3180, 3216]
+  },
+  {
+    "text": "Loét loét thực quản 6 mm có điểm sắc tố",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [3223, 3262]
+  },
+  {
+    "text": "Nhiều loét sạch đáy loét ở tá tràng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M06.30"],
+    "assertions": [],
+    "position": [3269, 3304]
+  }
+]

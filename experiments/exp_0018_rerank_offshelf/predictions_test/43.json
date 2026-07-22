@@ -1,0 +1,110 @@
+[
+  {
+    "text": "cắt cụt nhiều ngón chân phải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [62, 90]
+  },
+  {
+    "text": "nhiễm trùng tụ cầu, vị trí không xác định",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A49.0"],
+    "assertions": ["isHistorical"],
+    "position": [94, 135]
+  },
+  {
+    "text": "tỉnh giấc",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [200, 209]
+  },
+  {
+    "text": "vòi nước",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [232, 240]
+  },
+  {
+    "text": "xịt nước",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [283, 291]
+  },
+  {
+    "text": "siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [426, 437]
+  },
+  {
+    "text": "dobutamine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [649, 659]
+  },
+  {
+    "text": "tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [783, 786]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [977, 984]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [986, 994]
+  },
+  {
+    "text": "khó thở khi nằm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [996, 1011]
+  },
+  {
+    "text": "khó thở khi ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1013, 1028]
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1034, 1042]
+  },
+  {
+    "text": "yếu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1101, 1104]
+  },
+  {
+    "text": "siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1191, 1202]
+  },
+  {
+    "text": "dobutamine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1274, 1284]
+  },
+  {
+    "text": "chụp tim mạch",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1362, 1375]
+  },
+  {
+    "text": "LHC",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1382, 1385]
+  },
+  {
+    "text": "LHC",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1464, 1467]
+  }
+]

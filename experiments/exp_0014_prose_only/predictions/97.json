@@ -1,0 +1,51 @@
+[
+  {
+    "text": "đau toàn thân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [544, 557]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [567, 575]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [586, 594]
+  },
+  {
+    "text": "lắc đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [684, 691]
+  },
+  {
+    "text": "kali",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [730, 734]
+  },
+  {
+    "text": "creatinin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [755, 764]
+  },
+  {
+    "text": "tiểu cầu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [785, 793]
+  },
+  {
+    "text": "bạch cầu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [810, 818]
+  },
+  {
+    "text": "tổng phân tích nước",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [837, 856]
+  }
+]

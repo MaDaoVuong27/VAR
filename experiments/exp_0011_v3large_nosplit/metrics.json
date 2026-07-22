@@ -1,0 +1,12 @@
+{
+  "exp": "exp_0011_v3large_nosplit",
+  "desc": "NER XLM-R-large trên synthetic v3 + SapBERT th0.7 --no-split-newlines",
+  "ner": "models/ner_xlmr_v3_large",
+  "dev_scores": {
+    "text_score": 0.2126,
+    "assertions_score": 0.6477,
+    "candidates_score": 0.4427,
+    "final_score": 0.4352
+  },
+  "n_dev": 15
+}

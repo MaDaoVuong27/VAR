@@ -1,0 +1,16 @@
+[
+  {
+    "text": "Ngưng thở khi ngủ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["G47.3"],
+    "assertions": ["isHistorical"],
+    "position": [234, 251]
+  },
+  {
+    "text": "Ung thư biểu mô tế bào vảy xâm nhập của dương vậtbiệt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["D05.1"],
+    "assertions": ["isHistorical"],
+    "position": [287, 340]
+  }
+]

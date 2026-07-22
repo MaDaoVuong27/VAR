@@ -1,0 +1,14 @@
+[
+  {
+    "text": "trước mổ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["C60.0"],
+    "assertions": [],
+    "position": [287, 295]
+  },
+  {
+    "text": "độ dày",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [305, 311]
+  }
+]

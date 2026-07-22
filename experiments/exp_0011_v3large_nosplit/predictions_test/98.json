@@ -1,0 +1,56 @@
+[
+  {
+    "text": "hẹn hóa trị huy động tế bào gốc",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [101, 132]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [165, 167]
+  },
+  {
+    "text": "đau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [174, 182]
+  },
+  {
+    "text": "phim chụp CT hình ảnh tổn thương tiêu xương lan tỏa phù hợp với đa u tuỷ xương",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [227, 305]
+  },
+  {
+    "text": "Xét nghiệm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z01.7"],
+    "assertions": ["isHistorical"],
+    "position": [312, 322]
+  },
+  {
+    "text": "Định lượng IgA tăng cao trong bệnh đa u tuỷ xương",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [325, 374]
+  },
+  {
+    "text": "các tổn thương ổ tiêu xương lan tỏa",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [434, 469]
+  },
+  {
+    "text": "Đa u tủy xương",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["C90.0"],
+    "assertions": [],
+    "position": [485, 499]
+  }
+]

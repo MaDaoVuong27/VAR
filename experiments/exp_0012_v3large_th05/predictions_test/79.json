@@ -1,0 +1,22 @@
+[
+  {
+    "text": "bàn chân vẹo bẩm sinh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Q84.4"],
+    "assertions": ["isHistorical"],
+    "position": [39, 60]
+  },
+  {
+    "text": "phẫu thuật chân trái nhiều lần trong quá khứ vì bàn chân vẹo bẩm sinh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Q66.7"],
+    "assertions": ["isHistorical"],
+    "position": [105, 174]
+  },
+  {
+    "text": "chảy dịch liên tục từ mặt trong của bàn chân trái",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [218, 267]
+  }
+]

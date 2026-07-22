@@ -1,0 +1,22 @@
+[pairs] ICD song ngữ: 18240 | RxNorm synonym: 40000 | tổng: 58240
+[train] 58240 cặp, bs=64, 2.0 epoch = 1820 steps, dev=cuda
+  step 100/1820 | loss 0.0446 | batch-acc 0.969
+  step 200/1820 | loss 0.0113 | batch-acc 1.000
+  step 300/1820 | loss 0.0061 | batch-acc 1.000
+  step 400/1820 | loss 0.0098 | batch-acc 1.000
+  step 500/1820 | loss 0.0199 | batch-acc 1.000
+  step 600/1820 | loss 0.0121 | batch-acc 1.000
+  step 700/1820 | loss 0.0070 | batch-acc 1.000
+  step 800/1820 | loss 0.0030 | batch-acc 1.000
+  step 900/1820 | loss 0.0124 | batch-acc 1.000
+  step 1000/1820 | loss 0.0046 | batch-acc 1.000
+  step 1100/1820 | loss 0.0187 | batch-acc 1.000
+  step 1200/1820 | loss 0.0027 | batch-acc 1.000
+  step 1300/1820 | loss 0.0072 | batch-acc 1.000
+  step 1400/1820 | loss 0.0103 | batch-acc 1.000
+  step 1500/1820 | loss 0.0031 | batch-acc 1.000
+  step 1600/1820 | loss 0.0013 | batch-acc 1.000
+  step 1700/1820 | loss 0.0025 | batch-acc 1.000
+  step 1800/1820 | loss 0.0746 | batch-acc 0.984
+[done] SapBERT fine-tuned -> /data/MADAOVUONG/BAI_LAB/VAR/models/sapbert_ft
+Nhớ: rebuild FAISS index với model này (cache npz mới) trước khi eval.

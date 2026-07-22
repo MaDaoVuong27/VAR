@@ -1,0 +1,240 @@
+[
+  {
+    "text": "Bệnh thận đa nang (tiền",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Q61"],
+    "assertions": ["isHistorical"],
+    "position": [41, 64]
+  },
+  {
+    "text": "Bệnh thận đa nang)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Q61"],
+    "assertions": ["isHistorical"],
+    "position": [68, 86]
+  },
+  {
+    "text": "phẫu thuật tái tạo niệu quản trái",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["D30.2"],
+    "assertions": ["isHistorical"],
+    "position": [127, 160]
+  },
+  {
+    "text": "azathioprine",
+    "type": "THUỐC",
+    "candidates": ["1256"],
+    "assertions": ["isHistorical"],
+    "position": [208, 220]
+  },
+  {
+    "text": "prograf (dose decreased from 5mg bid to 1mg bid)",
+    "type": "THUỐC",
+    "candidates": ["1180664"],
+    "assertions": ["isHistorical"],
+    "position": [233, 281]
+  },
+  {
+    "text": "Suy thận ngày càng nặng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N17"],
+    "assertions": [],
+    "position": [386, 409]
+  },
+  {
+    "text": "Muộn (creatinine  tăng cao)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E67.1"],
+    "assertions": [],
+    "position": [451, 478]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [514, 524]
+  },
+  {
+    "text": "4-1.6",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [541, 546]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [573, 583]
+  },
+  {
+    "text": "uống kém",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [665, 673]
+  },
+  {
+    "text": "Tăng creatinine ban đầu được cho là do nguyên nhân prerenal, ít nhất một phần",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E67.1"],
+    "assertions": [],
+    "position": [687, 764]
+  },
+  {
+    "text": "Giai đoạn giữa (pcr là dương tính với virus bk).",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Q93.6"],
+    "assertions": [],
+    "position": [778, 826]
+  },
+  {
+    "text": "creatinin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [839, 848]
+  },
+  {
+    "text": "prograf dose decreased from 5mg bid to 1mg bid",
+    "type": "THUỐC",
+    "candidates": ["2052704"],
+    "assertions": [],
+    "position": [893, 939]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [953, 963]
+  },
+  {
+    "text": "Lo ngại về đào thải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F40.0"],
+    "assertions": [],
+    "position": [991, 1010]
+  },
+  {
+    "text": "siêu âm thận",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1024, 1036]
+  },
+  {
+    "text": "chỉ số kháng trở",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1046, 1062]
+  },
+  {
+    "text": "bình thường",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1063, 1074]
+  },
+  {
+    "text": "sinh thiết ghép thận",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1088, 1108]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1179, 1189]
+  },
+  {
+    "text": "Suy thận ngày càng nặng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N17"],
+    "assertions": [],
+    "position": [1271, 1294]
+  },
+  {
+    "text": "uống kém",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1397, 1405]
+  },
+  {
+    "text": "dương tính với virus bk vào giữa",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z20.3"],
+    "assertions": [],
+    "position": [1423, 1455]
+  },
+  {
+    "text": "1mg bid",
+    "type": "THUỐC",
+    "candidates": ["217225"],
+    "assertions": [],
+    "position": [1508, 1515]
+  },
+  {
+    "text": "siêu âm thận",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1529, 1541]
+  },
+  {
+    "text": "bình thường",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1568, 1579]
+  },
+  {
+    "text": "sinh thiết ghép thận",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1593, 1613]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1736, 1746]
+  },
+  {
+    "text": "8.",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1756, 1758]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1936, 1946]
+  },
+  {
+    "text": "pcr",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1981, 1984]
+  },
+  {
+    "text": "dương tính",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1985, 1995]
+  },
+  {
+    "text": "siêu âm thận",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2045, 2057]
+  },
+  {
+    "text": "bình thường",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [2084, 2095]
+  },
+  {
+    "text": "Sinh thiết thận",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Q61.0"],
+    "assertions": [],
+    "position": [2191, 2206]
+  },
+  {
+    "text": "Bệnh lý thận do BK",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N15.0"],
+    "assertions": [],
+    "position": [2282, 2300]
+  },
+  {
+    "text": "Lo ngại về đào thải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F40.0"],
+    "assertions": [],
+    "position": [2313, 2332]
+  },
+  {
+    "text": "Không có bằng chứng đào thải kháng thể hữu hình cấp tính (trong sinh thiết)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z28.0"],
+    "assertions": ["isNegated"],
+    "position": [2345, 2420]
+  }
+]

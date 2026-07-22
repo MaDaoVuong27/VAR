@@ -1,0 +1,16 @@
+[
+  {
+    "text": "nghi ngờ xơ gan do rượu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K70.3"],
+    "assertions": ["isHistorical"],
+    "position": [52, 75]
+  },
+  {
+    "text": "hội chứng não gan",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F07.2"],
+    "assertions": [],
+    "position": [191, 208]
+  }
+]

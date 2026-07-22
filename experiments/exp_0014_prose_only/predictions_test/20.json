@@ -1,0 +1,19 @@
+[
+  {
+    "text": "thay đổi khí phế thủng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [1647, 1669]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2335, 2342]
+  },
+  {
+    "text": "âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2368, 2370]
+  }
+]

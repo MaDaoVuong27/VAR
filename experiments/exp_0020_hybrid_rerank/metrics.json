@@ -1,0 +1,12 @@
+{
+  "exp": "exp_0020_hybrid_rerank",
+  "desc": "NER dense + HYBRID BM25∪dense (RRF) + rerank off-the-shelf",
+  "ner": "models/ner_xlmr_v6_dense",
+  "dev_scores": {
+    "text_score": 0.2577,
+    "assertions_score": 0.6598,
+    "candidates_score": 0.3439,
+    "final_score": 0.4128
+  },
+  "n_dev": 15
+}

@@ -1,0 +1,234 @@
+[
+  {
+    "text": "Viêm loét đại tràng trong nhiều năm qua",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K51"],
+    "assertions": ["isHistorical"],
+    "position": [57, 96]
+  },
+  {
+    "text": "bằng chứng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [103, 113]
+  },
+  {
+    "text": "Bệnh gan do rượu ở vị trí 35cm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K70"],
+    "assertions": ["isHistorical"],
+    "position": [114, 144]
+  },
+  {
+    "text": "đã phẫu thuật tạo hậu môn nhân tạo kiểu túi nối hồi tràng - hậu môn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [181, 248]
+  },
+  {
+    "text": "thuốc giảm đau opioid",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [280, 301]
+  },
+  {
+    "text": "ăn uống kém",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [408, 419]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [423, 431]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [438, 446]
+  },
+  {
+    "text": "khó chịu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [447, 455]
+  },
+  {
+    "text": "tăng dần, đặc biệt ở vùng hạ vị bên trái (LLQ)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [466, 512]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [519, 527]
+  },
+  {
+    "text": "nôn x 1",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [534, 541]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [557, 560]
+  },
+  {
+    "text": "run rẩy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [564, 571]
+  },
+  {
+    "text": "mất cảm giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [578, 590]
+  },
+  {
+    "text": "ngon miệng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [591, 601]
+  },
+  {
+    "text": "chán ăn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [602, 609]
+  },
+  {
+    "text": "suy nhược",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [616, 625]
+  },
+  {
+    "text": "đáng kể lượng dịch từ ống thông hồi tràng từ 350 ml lên 1200 mltrong cùng khoảng thời gian",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [737, 827]
+  },
+  {
+    "text": "LLQ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [867, 870]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [898, 906]
+  },
+  {
+    "text": "khó chịu vùng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [907, 925]
+  },
+  {
+    "text": "nôn x 1",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [979, 986]
+  },
+  {
+    "text": "chủ quan",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1016, 1024]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1025, 1028]
+  },
+  {
+    "text": "run rẩy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1032, 1039]
+  },
+  {
+    "text": "mất cảm giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1041, 1053]
+  },
+  {
+    "text": "ngon miệng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1054, 1064]
+  },
+  {
+    "text": "chán ăn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1065, 1072]
+  },
+  {
+    "text": "suy nhược",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1074, 1083]
+  },
+  {
+    "text": "suy kiệt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1096, 1104]
+  },
+  {
+    "text": "thiểu niệu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1106, 1116]
+  },
+  {
+    "text": "chảy dịch từ lỗ dò",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1118, 1136]
+  },
+  {
+    "text": "ăn uống kém",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1188, 1199]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1203, 1211]
+  },
+  {
+    "text": ", được cho là do tác dụng phụ của thuốc giảm đau opioid",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Y50.1"],
+    "assertions": [],
+    "position": [1211, 1266]
+  },
+  {
+    "text": "ngừng thuốc giảm đau opioid vào hôm qua",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1273, 1312]
+  }
+]

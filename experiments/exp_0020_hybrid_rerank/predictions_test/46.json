@@ -1,0 +1,36 @@
+[
+  {
+    "text": "khó khăn với hạ huyết áp, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I95.9"],
+    "assertions": [],
+    "position": [200, 240]
+  },
+  {
+    "text": "đi khập khiễng cách quãng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [284, 309]
+  },
+  {
+    "text": "chụp cắt lớp vi tính (",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [343, 365]
+  },
+  {
+    "text": "chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [487, 507]
+  },
+  {
+    "text": "chụp mạch máu thận",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [586, 604]
+  },
+  {
+    "text": "stent",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [611, 616]
+  }
+]

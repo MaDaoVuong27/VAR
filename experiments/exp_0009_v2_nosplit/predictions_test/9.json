@@ -1,0 +1,138 @@
+[
+  {
+    "text": "Bệnh lý mãn tính:",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [21, 38]
+  },
+  {
+    "text": "u cơ trơn tử cung, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["D25.9"],
+    "assertions": ["isHistorical"],
+    "position": [39, 72]
+  },
+  {
+    "text": "iron",
+    "type": "THUỐC",
+    "candidates": ["90176"],
+    "assertions": ["isHistorical"],
+    "position": [104, 108]
+  },
+  {
+    "text": "đau bụng dưới",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [165, 178]
+  },
+  {
+    "text": "chảy máu nhiều",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [182, 196]
+  },
+  {
+    "text": "lower abdominal pain",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [228, 248]
+  },
+  {
+    "text": "chảy máu nhiều",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [255, 269]
+  },
+  {
+    "text": "huyết cầu tố",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [352, 364]
+  },
+  {
+    "text": "26.1",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [368, 372]
+  },
+  {
+    "text": "trị bảo tồn, điều trị nội khoa, can thiệp x-quang và điều trị ngoại khoa",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [438, 510]
+  },
+  {
+    "text": "cầu cắt bỏ u xơ tử cung qua đường bụng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [531, 569]
+  },
+  {
+    "text": "huyết cầu tố",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [694, 706]
+  },
+  {
+    "text": "26.1",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [707, 711]
+  },
+  {
+    "text": "Tử cung đo",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [792, 802]
+  },
+  {
+    "text": "14,2 x",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [803, 809]
+  },
+  {
+    "text": "8,8 x 7,5 cm",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [810, 822]
+  },
+  {
+    "text": "trơn lớn nhất ở đoạn dưới của tử cung",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [834, 871]
+  },
+  {
+    "text": "Dải nội mạc tử cung không thể xác định được",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N80.9"],
+    "assertions": ["isNegated"],
+    "position": [900, 943]
+  },
+  {
+    "text": "Cả hai buồng trứng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["L70.0"],
+    "assertions": [],
+    "position": [950, 968]
+  },
+  {
+    "text": "có vẻ bình thường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [973, 990]
+  },
+  {
+    "text": "Không thấy dịch tự do trong túi cùng Douglas",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isNegated"],
+    "position": [997, 1041]
+  },
+  {
+    "text": "Không có giãn bể thận",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isNegated"],
+    "position": [1048, 1069]
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "exp": "exp_0013_v4mix_split",
+  "desc": "NER XLM-R-large trên synthetic v4 (template 6k + Qwen-prose 2830) + SapBERT th0.7",
+  "ner": "models/ner_xlmr_v4_mix",
+  "dev_scores": {
+    "text_score": 0.2463,
+    "assertions_score": 0.6607,
+    "candidates_score": 0.3656,
+    "final_score": 0.4184
+  },
+  "n_dev": 15
+}

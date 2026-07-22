@@ -1,0 +1,59 @@
+[
+  {
+    "text": "vàng da",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [118, 125]
+  },
+  {
+    "text": "ngứa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [138, 142]
+  },
+  {
+    "text": "chức năng gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [201, 214]
+  },
+  {
+    "text": "bilirubin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [218, 227]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [294, 301]
+  },
+  {
+    "text": "ercp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [380, 384]
+  },
+  {
+    "text": "soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [390, 393]
+  },
+  {
+    "text": "bilirubin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [862, 871]
+  },
+  {
+    "text": "sinh thiết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [915, 925]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1013, 1020]
+  },
+  {
+    "text": "ercp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1099, 1103]
+  }
+]

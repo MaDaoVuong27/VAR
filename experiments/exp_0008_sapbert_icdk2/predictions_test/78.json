@@ -1,0 +1,104 @@
+[
+  {
+    "text": "ung thư vú",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["D05"],
+    "assertions": ["isHistorical"],
+    "position": [47, 57]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [81, 83]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [84, 91]
+  },
+  {
+    "text": "kéo dài tại nhà",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["X52"],
+    "assertions": ["isHistorical"],
+    "position": [92, 107]
+  },
+  {
+    "text": "thở oxy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [133, 140]
+  },
+  {
+    "text": "3L/p",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [141, 145]
+  },
+  {
+    "text": "suy nhược toàn thân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [197, 216]
+  },
+  {
+    "text": "khó thở  gần đây ,",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [260, 278]
+  },
+  {
+    "text": "hồi hộp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [319, 326]
+  },
+  {
+    "text": "đánh trống ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [328, 343]
+  },
+  {
+    "text": "suy nhược toàn thân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [380, 399]
+  },
+  {
+    "text": "khó thở liên tục",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [406, 422]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [446, 448]
+  },
+  {
+    "text": "hồi hộp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [455, 462]
+  },
+  {
+    "text": "đánh trống ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [464, 479]
+  },
+  {
+    "text": "chỉ số bão hòa oxy (đo độ bão hòa oxy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [498, 535]
+  },
+  {
+    "text": "Siêu âm tim: chèn ép tim",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Y84.0"],
+    "assertions": [],
+    "position": [562, 586]
+  }
+]

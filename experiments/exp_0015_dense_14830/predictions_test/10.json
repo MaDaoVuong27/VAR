@@ -1,0 +1,81 @@
+[
+  {
+    "text": "Đờm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [107, 110]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [113, 115]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [126, 134]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [142, 151]
+  },
+  {
+    "text": "đi ngoài ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [162, 177]
+  },
+  {
+    "text": "cea",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [247, 250]
+  },
+  {
+    "text": "(kháng nguyên ung thư phôi)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [251, 278]
+  },
+  {
+    "text": "tăng nhẹ lên",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [279, 291]
+  },
+  {
+    "text": "mri",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [325, 328]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [402, 409]
+  },
+  {
+    "text": "sinh thiết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [553, 563]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [578, 585]
+  },
+  {
+    "text": "khối u trực tràng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["D12.8"],
+    "assertions": [],
+    "position": [625, 642]
+  },
+  {
+    "text": "sinh thiết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [690, 700]
+  }
+]

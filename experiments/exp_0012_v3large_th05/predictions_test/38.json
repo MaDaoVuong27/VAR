@@ -1,0 +1,158 @@
+[
+  {
+    "text": "bệnh tim mạch do xơ vữa động mạch đặt stent",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I25.0"],
+    "assertions": ["isHistorical"],
+    "position": [75, 118]
+  },
+  {
+    "text": "Suy tim dãn tâm thu giữ nguyên trương lực",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F20.2"],
+    "assertions": ["isHistorical"],
+    "position": [125, 166]
+  },
+  {
+    "text": "đau họng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [261, 269]
+  },
+  {
+    "text": "đau họng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [369, 377]
+  },
+  {
+    "text": "nuốt vướng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [387, 397]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [404, 412]
+  },
+  {
+    "text": "họng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["D14.1"],
+    "assertions": [],
+    "position": [497, 501]
+  },
+  {
+    "text": "nuốt vướng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [530, 540]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [610, 618]
+  },
+  {
+    "text": "tăng cân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [625, 633]
+  },
+  {
+    "text": "Tự đo từ temperate đến tmax 102",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z89.3"],
+    "assertions": [],
+    "position": [701, 732]
+  },
+  {
+    "text": "tại nhà",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z60.2"],
+    "assertions": [],
+    "position": [737, 744]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [760, 767]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [773, 775]
+  },
+  {
+    "text": "đau họng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [864, 872]
+  },
+  {
+    "text": "viêm họng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [915, 924]
+  },
+  {
+    "text": "glucose",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [994, 1001]
+  },
+  {
+    "text": "537",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1002, 1005]
+  },
+  {
+    "text": "glucose",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1012, 1019]
+  },
+  {
+    "text": "cải thiện thành",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1020, 1035]
+  },
+  {
+    "text": "367",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1036, 1039]
+  },
+  {
+    "text": "bun (ure)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1046, 1055]
+  },
+  {
+    "text": "cr (creatinine)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1064, 1079]
+  },
+  {
+    "text": "ag (anion gap)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1090, 1104]
+  },
+  {
+    "text": "17",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1105, 1107]
+  },
+  {
+    "text": "ag (anion gap)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1114, 1128]
+  },
+  {
+    "text": "đóng",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1129, 1133]
+  }
+]

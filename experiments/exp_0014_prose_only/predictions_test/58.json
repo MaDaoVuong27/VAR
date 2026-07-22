@@ -1,0 +1,48 @@
+[
+  {
+    "text": "yếu sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [150, 157]
+  },
+  {
+    "text": "ct sọ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [697, 702]
+  },
+  {
+    "text": "ct sọ não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [922, 931]
+  },
+  {
+    "text": "co giật",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1333, 1340]
+  },
+  {
+    "text": "yếu sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1378, 1385]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1466, 1473]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1772, 1779]
+  },
+  {
+    "text": "yếu sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1875, 1882]
+  }
+]

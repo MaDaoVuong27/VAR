@@ -10,7 +10,7 @@ File này dành cho cả người (teammate mới join) lẫn LLM agent (Claude 
 - **LIÊM CHÍNH — output nộp bài phải do CODE tự động sinh ra, tái tạo được, KHÔNG được**: (1) hard-code kết quả theo từng file test; (2) dùng LLM mạnh/API ngoài (Claude, Codex, GPT...) để **suy luận ra output**; (3) người gán nhãn tay tập test rồi nộp. → Đây là gian lận, sẽ bị loại (BTC re-run source trên private test để kiểm). Dùng LLM ngoài để **viết code giải pháp** thì được; **sinh ra output** thì không. Mọi thứ trong `data/labeled/ground_truth/` (nhãn dev để tự chấm) **tách rời** khỏi output nộp bài — không được rò rỉ vào pipeline sinh submission.
 - **Synthetic data cũng phải tuân luật + nộp kèm**: nộp cả code sinh synthetic **và** file synthetic gốc (BTC re-run không tái tạo y hệt do ngẫu nhiên/LLM sampling — code chỉ để tham khảo cách làm). Vì code sinh synthetic bị BTC review → **khâu sinh synthetic chỉ được dùng model self-host ≤9B, không API ngoài** (không dùng Claude/GPT sinh data train). Chi tiết: `docs/DATA_PLAN.md` §PHẦN 2.
 - **`TASK/` chỉ đọc, không sửa** — đây là đề bài gốc do BTC cung cấp.
-- **`data/raw/input/` là tập test của BTC → CHỐNG DATA LEAKAGE**: (1) KHÔNG train trên chúng; (2) KHÔNG chia train/test từ 100 file này; (3) KHÔNG lấy chúng làm câu gốc/template để sinh synthetic — **kể cả chỉ "mượn cấu trúc câu"** (model sẽ học phân phối test = leakage). Synthetic phải từ nguồn của TA (template tự viết / KB / corpus ngoài hợp lệ). Được phép: hand-label một subset → `data/labeled/` để **tự chấm/chọn model** (không rò vào output nộp bài).
+- **`data/raw_new/input/` là tập test hiện hành của BTC → CHỐNG DATA LEAKAGE** (2026-07-16: BTC nâng cấp đề, cấp lại zip mới; nội dung 100 file `.txt` **giống hệt byte-for-byte** `data/raw/` cũ — nghi vấn phần nâng cấp nằm ở ground truth private, không phải input công khai — nhưng từ nay dùng `data/raw_new/` làm nguồn chuẩn, `data/raw/` cũ giữ lại để đối chiếu lịch sử): (1) KHÔNG train trên chúng; (2) KHÔNG chia train/test từ 100 file này; (3) KHÔNG lấy chúng làm câu gốc/template để sinh synthetic — **kể cả chỉ "mượn cấu trúc câu"** (model sẽ học phân phối test = leakage). Synthetic phải từ nguồn của TA (template tự viết / KB / corpus ngoài hợp lệ). Được phép: hand-label một subset → `data/labeled/` để **tự chấm/chọn model** (không rò vào output nộp bài).
 - **`knowledge_base/rxnorm/raw/` bị gitignore** (~2.1GB, nhiều file >100MB — vượt giới hạn cứng của GitHub) — nếu clone repo về mà thiếu, đọc `rxnorm/raw/SOURCE.md` để biết link tải + hướng dẫn, đừng tự bịa dữ liệu thay thế. `knowledge_base/icd10/raw/` thì được track bình thường (nhỏ, ~22MB). Thứ code thực sự dùng luôn là `knowledge_base/*/processed/*.csv` (luôn có trong git, không cần raw để chạy pipeline).
 - **Trước khi bắt đầu 1 task/phiên làm việc mới, đọc `docs/IDEAS.md` trước** — đây là bộ nhớ chính của dự án, tránh việc thử lại hướng đã biết không hiệu quả hoặc đi ngược ý tưởng đang theo đuổi.
 
@@ -21,7 +21,7 @@ File này dành cho cả người (teammate mới join) lẫn LLM agent (Claude 
 | `TASK/` | Đề bài gốc + metric, nguyên văn từ BTC | Chỉ đọc, không sửa |
 | `docs/` | Tài liệu tổng hợp — xem chi tiết bên dưới | Đọc đầu phiên làm việc; ghi sau khi có quyết định/kết quả mới |
 | `knowledge_base/` | ICD-10 (`icd10/`) + RxNorm (`rxnorm/`) — nguồn tri thức cho candidate mapping | Đọc từ `*/processed/*.csv` (luôn có trong git). `rxnorm/raw/` gitignore (~2.1GB) — không có sẵn khi clone, xem `SOURCE.md` nếu cần tự build lại |
-| `data/raw/` | 100 file `.txt` test của BTC, không nhãn | Chỉ đọc, dùng làm input cuối cùng để sinh submission |
+| `data/raw_new/` | 100 file `.txt` test hiện hành của BTC, không nhãn (`data/raw/` cũ giữ để đối chiếu, nội dung y hệt) | Chỉ đọc, dùng làm input cuối cùng để sinh submission |
 | `data/labeled/` | Tập dev tự gán nhãn (input + ground_truth) | Đọc để chạy `src/eval/`; ghi khi gán nhãn thêm sample mới |
 | `data/synthetic/` | Dữ liệu tự sinh thêm để train/fine-tune | Ghi khi có script sinh data mới; đọc khi train |
 | `models/` | Model weights/checkpoint dùng chung giữa các experiment | Weight thật bị gitignore — đọc `SOURCE.md` để biết cách tải/tái tạo |
@@ -63,6 +63,6 @@ Sau **mỗi lần chạy experiment mới** trong `experiments/`, thêm 1 dòng 
 
 1. Đọc `docs/IDEAS.md` (bối cảnh/ý tưởng hiện tại) + `docs/TASK_SPEC.md` (đề bài) nếu chưa nắm.
 2. Code/sửa logic trong `src/`.
-3. Chạy pipeline trên `data/labeled/` (hoặc `data/raw/input/` nếu chỉ để sinh submission), dùng `src/eval/` để tự chấm nếu có ground truth.
+3. Chạy pipeline trên `data/labeled/` (hoặc `data/raw_new/input/` nếu chỉ để sinh submission), dùng `src/eval/` để tự chấm nếu có ground truth.
 4. Lưu output vào 1 folder mới trong `experiments/exp_XXXX_<tên>/` (config + predictions + metrics).
 5. Cập nhật `docs/EXPERIMENTS_LOG.md` (luôn), `docs/CONFIG_REFERENCE.md` (nếu đổi model/tham số), `docs/IDEAS.md` (nếu ý tưởng thay đổi hướng hoặc bị loại bỏ).

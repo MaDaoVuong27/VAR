@@ -1,0 +1,29 @@
+[
+  {
+    "text": "Thai 41 tuần",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [45, 57]
+  },
+  {
+    "text": "co tử cung",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [105, 115]
+  },
+  {
+    "text": "thai máy tốt (FM +), \nchưa  ra huyết âm đạo (VB -),",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isNegated"],
+    "position": [118, 169]
+  },
+  {
+    "text": "vỡ ối/rỉ ối (LOF -).",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N64.0"],
+    "assertions": ["isNegated"],
+    "position": [175, 195]
+  }
+]

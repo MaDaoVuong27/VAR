@@ -1,0 +1,9 @@
+[
+  {
+    "text": "Khởi phát chuyển dạBệnh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["O62.0"],
+    "assertions": [],
+    "position": [17, 40]
+  }
+]

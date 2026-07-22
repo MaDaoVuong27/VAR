@@ -1,0 +1,24 @@
+[
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [325, 334]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [637, 646]
+  },
+  {
+    "text": "điện tâm đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [820, 831]
+  },
+  {
+    "text": "SpO2",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [981, 985]
+  }
+]

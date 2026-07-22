@@ -1,0 +1,16 @@
+[
+  {
+    "text": "Nhiều lần có ý định tự tử",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [21, 46]
+  },
+  {
+    "text": "tổn thương chi dưới do tự tử không thành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["T93"],
+    "assertions": ["isNegated"],
+    "position": [179, 219]
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "text": "phù chân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [699, 707]
+  },
+  {
+    "text": "phù chân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [718, 726]
+  }
+]

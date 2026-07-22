@@ -23,6 +23,27 @@ implement + document, coi đây là proxy, có thể lệch nhẹ so với score
    Jaccard(candidates) trên concept type CHẨN_ĐOÁN/THUỐC, trọng số mỗi concept =
    len(gold_candidates)+1. = Σ_i Σ_k J_k·w_k / Σ_i Σ_k w_k. Pred thừa: gold rỗng, w=1.
    (Tương đương công thức J_candidates(i)·Σ_k w_k / Σ w trong đề khi J(i) là weighted-avg.)
+
+5. ⚠️⚠️ CONCEPT THỪA + ABSTAIN ĂN J(∅,∅)=1 — ĐÃ KIỂM CHỨNG BẰNG BTC. ĐỪNG "SỬA" LẠI.
+   2026-07-15 tôi từng đổi thành "concept thừa = 0 điểm", lập luận từ lưu ý đề ("concept
+   sai type bị tính 2 lần, mỗi lần 0 điểm cả 3 metric"). **Bản sửa đó SAI.** Bằng chứng
+   là một A/B sạch tuyệt đối — exp_0010 vs exp_0012 CHỈ khác matcher candidate (BTC xác
+   nhận: WER 65.9308 và J_assertion 35.9491 giống hệt nhau ở cả hai):
+
+       sap_th 0.7 (coverage 49%)  ->  sap_th 0.5 (coverage 99%)
+       BTC thật     : 19.0448 -> 13.2899   TỤT 30%
+       metric NÀY   :  0.4902 ->  0.1725   TỤT 65%   ✅ đúng hướng
+       bản "đã sửa" :  0.1647 ->  0.1647   BẰNG NHAU  ❌ mù hoàn toàn
+
+   → BTC áp dụng ĐÚNG CHỮ NGHĨA quy ước Jaccard, kể cả cho concept không khớp gold. Lưu ý
+   "0 điểm cả 3 metric" trong đề chỉ nói ca SAI TYPE (text khớp gold nhưng type khác),
+   KHÔNG áp cho mọi false-positive. → **Abstain THẬT SỰ sinh điểm khi NER over-predict.**
+
+6. ⚠️ BÀI HỌC PHƯƠNG PHÁP: metric này lệch xa BTC về GIÁ TRỊ TUYỆT ĐỐI (0.49 vs 19.04) —
+   bình thường, không sao. Thứ cần là XẾP HẠNG đúng. Bản "sửa" khớp tuyệt đối đẹp hơn
+   (0.116 vs BTC 0.107) nhưng mất khả năng phân biệt → vô dụng. Độ khớp tuyệt đối là BẪY:
+   nó chỉ trùng hợp vì gold dev thiếu nhãn triệt tiêu ngược lỗi vừa tạo ra.
+   → KHÔNG BAO GIỜ tinh chỉnh metric này theo độ khớp tuyệt đối với BTC.
 """
 from __future__ import annotations
 

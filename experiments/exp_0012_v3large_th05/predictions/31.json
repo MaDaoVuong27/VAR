@@ -1,0 +1,28 @@
+[
+  {
+    "text": "Khởi phát chuyển dạBệnh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["O62.0"],
+    "assertions": [],
+    "position": [17, 40]
+  },
+  {
+    "text": "Thai 41 tuần",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["O30.2"],
+    "assertions": [],
+    "position": [45, 57]
+  },
+  {
+    "text": "co tử cung",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [105, 115]
+  },
+  {
+    "text": "ra huyết âm đạo",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [146, 161]
+  }
+]

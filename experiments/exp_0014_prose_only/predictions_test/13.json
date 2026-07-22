@@ -1,0 +1,28 @@
+[
+  {
+    "text": "Hội chứng kháng enzym tổng hợp protein",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [124, 162]
+  },
+  {
+    "text": "Sinh thiết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [247, 257]
+  },
+  {
+    "text": "cotrimoxazol",
+    "type": "THUỐC",
+    "candidates": ["2623"],
+    "assertions": [],
+    "position": [921, 933]
+  },
+  {
+    "text": "doxycyclin",
+    "type": "THUỐC",
+    "candidates": ["3640"],
+    "assertions": [],
+    "position": [953, 963]
+  }
+]

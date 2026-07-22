@@ -1,0 +1,15 @@
+[
+  {
+    "text": "sau phẫu thuật",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z54.0"],
+    "assertions": [],
+    "position": [127, 141]
+  },
+  {
+    "text": "tăng cân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [335, 343]
+  }
+]

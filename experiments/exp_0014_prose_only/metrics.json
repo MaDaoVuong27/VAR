@@ -1,0 +1,12 @@
+{
+  "exp": "exp_0014_prose_only",
+  "desc": "NER XLM-R-large trên CHỈ 2830 prose (ablation: prose vs template)",
+  "ner": "models/ner_xlmr_v5_prose_only",
+  "dev_scores": {
+    "text_score": 0.2194,
+    "assertions_score": 0.4607,
+    "candidates_score": 0.0538,
+    "final_score": 0.2256
+  },
+  "n_dev": 15
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "text": "khó thở khi gắng sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [59, 79]
+  },
+  {
+    "text": "Khó thở khi gắng sức",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["G44.2"],
+    "assertions": [],
+    "position": [190, 210]
+  },
+  {
+    "text": "siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [247, 258]
+  },
+  {
+    "text": "Chụp động mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [289, 308]
+  },
+  {
+    "text": "không có bệnh động mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isNegated"],
+    "position": [318, 346]
+  }
+]

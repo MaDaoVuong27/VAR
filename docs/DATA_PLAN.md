@@ -35,8 +35,17 @@ Metric chấm `position` theo ký tự trên **input gốc chưa sửa**. Nếu 
 
 Triết lý user (đồng ý): **thử từ cơ bản → nâng cao, đo từng cái — biết đâu cơ bản đã đủ tốt**. Mục tiêu chính của bài là *model học được KHI NÀO một cụm là khái niệm y tế* (span + type) — nên đôi khi giữ **cấu trúc câu** quan trọng hơn tính đúng y học của nội dung.
 
+> ### ⚠️ MÂU THUẪN NỘI BỘ CẦN CHỐT (ghi nhận 2026-07-15, CHƯA quyết)
+> Mục "Nguồn nguyên liệu" ngay dưới **cho phép** *"nhại lại cấu trúc 100 sample thật để giữ phân phối test"*, trong khi mục §CHỐNG DATA LEAKAGE bên dưới **cấm** *"kể cả chỉ mượn cấu trúc câu"*. `CLAUDE.md` theo vế cấm. **Code hiện theo vế cho phép.**
+>
+> **Đo được** (2026-07-15): **34/75 chuỗi literal trong `generate.py` (45%)** và **115/169 trong `lexicons.py` (68%)** xuất hiện NGUYÊN VĂN trong 100 file test. Nhưng phải tách 2 loại:
+> - **Trùng vô hại** (phần lớn `lexicons.py`): `"khó thở"`, `"đau bụng"`, `"công thức máu"` — là **sự thật về y học tiếng Việt**, corpus lâm sàng VN nào cũng có, sẽ trùng dù chưa từng mở file test. KHÔNG phải leakage.
+> - **Dấu vân tay tập test** (`FILLER_LINES` trong `generate.py`): `"Vị trí: N/A"`, `"Tần suất: N/A"`, `"Tình trạng ngay trước khi nhập viện:"`, `"Các phát hiện chẩn đoán khác:"` — **không phải tiếng Việt lâm sàng phổ thông**, mà là giàn giáo riêng của generator tạo ra bộ test. Chỉ viết được nếu ĐÃ đọc file test. Đây mới là thứ §CHỐNG LEAKAGE nhắm tới.
+>
+> **Đánh giá**: KHÔNG phải gian lận theo đề (đề phát test input công khai **không nhãn** + *khuyến khích* tự tạo data train; 3 điều đề cấm — hard-code output / LLM ngoài sinh output / gán nhãn tay test — đều không phạm). Rủi ro thật là **overfit private test**, tức vấn đề **điểm số**, không phải liêm chính. → Cần chốt 1 luật duy nhất, hiện đang treo.
+
 ### Nguồn nguyên liệu
-- **Template câu**: cấu trúc 100 sample thật (mục, bullet, câu văn xuôi) — nhại lại để giữ phân phối test.
+- **Template câu**: cấu trúc 100 sample thật (mục, bullet, câu văn xuôi) — nhại lại để giữ phân phối test. ⚠️ Xem callout mâu thuẫn ngay trên.
 - **Danh mục entity**: tên bệnh (ICD-10 VN+EN), tên thuốc (RxNorm), + **lexicon triệu chứng / tên xét nghiệm / kết quả** tự gom (từ 100 sample + guideline).
 - **Nguồn ngoài** (hợp lệ, đề khuyến khích tạo data train): MIMIC/i2b2/n2c2 (EN, dịch sang VN), VietMed-NER/ViMedNER.
 
@@ -52,7 +61,9 @@ Lấy **câu template TỰ VIẾT** (mô phỏng văn phong lâm sàng, KHÔNG c
 ### Cấp 2 — Template + slot-filling
 Viết template có slot (`Bệnh nhân {tiền_sử?} {DX}, được kê {DRUG} {liều}`) — **template do ta viết**, rồi điền slot ngẫu nhiên từ KB + bảng assertion. Sinh **cấu trúc mới**, kiểm soát phân phối type/assertion (cân bằng `isFamily` hiếm). *(Đây là cách `generate.py` hiện dùng.)*
 
-### Cấp 3 — LLM sinh ghi chú (reverse từ code) — CHỈ self-host ≤9B
+### Cấp 3 — LLM sinh ghi chú (reverse từ code) — CHỈ self-host ≤9B ✅ ĐÃ TRIỂN KHAI: `src/synthetic/llm_prose.py`
+> Qwen2.5-7B-Instruct 4-bit, chạy local qua `transformers`+`bitsandbytes` (**không** cần Ollama/systemd → BTC tái lập bằng `pip` thuần). Chọn entity TRƯỚC → LLM viết văn xuôi chứa nguyên văn → dò offset bằng tìm chuỗi; entity nào không tìm thấy thì **BỎ cả doc** (không đoán mò, nhãn luôn tuyệt đối đúng). Lệnh: `python -m src.synthetic.llm_prose --n 1500 --out data/synthetic/prose.jsonl`.
+
 Cho trước danh sách (mã ICD/RxNorm + assertion), yêu cầu **LLM self-host ≤9B** (vd Qwen2.5-7B, đã có qua Ollama) viết đoạn ghi chú lâm sàng VN chứa chúng theo văn phong test (kể cả văn xuôi xen kẽ — đúng thứ baseline chết). Vì ta *chọn trước* entity nên **nhãn biết sẵn** (chỉ cần căn offset lại trong câu LLM sinh). Đa dạng cao nhất, mô phỏng được prose.
 - ⚠️ **BẮT BUỘC self-host ≤9B, KHÔNG API ngoài** (xem callout đầu Phần 2). Không dùng Claude/GPT để sinh data train — code sinh bị BTC review, dùng API ngoài là vi phạm + không tái lập được. Model A100 của teammate chỉ để chạy nhanh hơn, vẫn phải là model self-host ≤9B.
 - Nộp kèm file synthetic gốc do bước này sinh ra (LLM sampling không tái tạo y hệt).
@@ -62,6 +73,22 @@ Trộn cấp 1-3; dùng rule/pipeline hiện tại **weak-label** thêm rồi ng
 
 ### Đảm bảo phủ feature (bắt buộc)
 Synthetic phải chứa cùng nhiễu với test: **token dính liền + code-switch** (spec ở `data/labeled/SELECTION.md`), câu văn xuôi xen kẽ (như sample 6/8), phủ định trong câu, `isFamily` hiếm. Nếu train trên data "sạch đẹp" thì model sẽ lại chết trên test bẩn.
+
+#### Synthetic v3 (2026-07-15) — đã sửa 3 lỗi đo được của v2
+
+| | v2 (cũ) | v3 | test thật |
+|---|---|---|---|
+| độ dài doc (median) | 560 ký tự | **1277** | **1229** |
+| % doc có nhiễu glue *(detector của `notebooks/eda_features.py`)* | 16% *(toàn từ template lặp)* | **40%** | **27%** |
+| mật độ entity | cố định 1/52 ký tự | **biến thiên** p10=32, median=49, p90=108 | *không biết* |
+
+1. **`_maybe_glue()` là code chết** — được định nghĩa nhưng KHÔNG BAO GIỜ được gọi → v2 có **0%** nhiễu dính chữ do template sinh ra (16% đo được là PHRASE_REPEAT của template lặp, không phải glue). v3 thay bằng `_Noise` + `_sep()`, bật ~27% doc.
+2. **Doc quá ngắn** (560 vs test 1229) → model chưa bao giờ thấy note dài lúc train. v3 sinh tới độ dài mục tiêu rút từ lognormal bám phân phối test.
+3. **`t_filler` gắn bullet vào header** → sinh ra `"- 1. Tiền sử bệnh"` vô nghĩa. v3 tách `FILLER_HEADERS`, header không bao giờ có bullet.
+
+⚠️ **Mật độ entity: KHÔNG có bằng chứng v2 "quá dày"** — `IDEAS.md` từng khẳng định vậy nhưng dựa trên dev gold **thiếu nhãn**. Số thật: dev gold cho **1 entity/150 ký tự** (chỉ là *cận dưới*), còn **ví dụ gốc của đề — nhãn THẬT của BTC — cho 1/28** (nhưng đó là danh sách thuốc = đậm đặc nhất). v2 ở 1/52 **nằm giữa hai mốc**. → v3 cho mật độ **biến thiên theo doc** để phủ cả dải, thay vì cược vào một giá trị ta không biết.
+
+⚠️ **Bug train/inference lệch nhau (sửa 2026-07-15)**: `scripts/train_ner.py` tokenize bằng `truncation=True` **không có sliding window**, trong khi `ner_extractor.py` lúc inference thì CÓ. Với v2 (560 ký tự ≈ 180 token) hầu như vô hại, nhưng v3 (1277 ký tự ≈ 400 token > maxlen 256) sẽ **mất 45.7% nhãn** (đo trên 300 doc: giữ 5154/9499 → 9499/9499 sau khi sửa), và mất theo kiểu thiên lệch — chỉ giữ đầu document.
 
 ### ⚠️ Nguyên tắc tách feature giữa DEV và TRAIN (đã chốt)
 Với 1 feature khó (vd văn xuôi xen kẽ — file baseline rỗng 6/8/25/93):

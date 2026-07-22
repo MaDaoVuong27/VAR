@@ -1,0 +1,36 @@
+[
+  {
+    "text": "Đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [434, 437]
+  },
+  {
+    "text": "đau dữ dội",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [499, 509]
+  },
+  {
+    "text": "đau đầu gối",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [609, 620]
+  },
+  {
+    "text": "dữ dội",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [705, 711]
+  },
+  {
+    "text": "x-quang",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1043, 1050]
+  },
+  {
+    "text": "chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1148, 1168]
+  }
+]

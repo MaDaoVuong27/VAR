@@ -1,0 +1,116 @@
+[
+  {
+    "text": "Bệnh lý mãn tính\n    - trầm cảm và  rối loạn lo âu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F41.2"],
+    "assertions": ["isHistorical"],
+    "position": [85, 135]
+  },
+  {
+    "text": "tổn thương chi dưới do tự tử không thành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["T93"],
+    "assertions": ["isNegated"],
+    "position": [179, 219]
+  },
+  {
+    "text": "trêu chọc",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [303, 312]
+  },
+  {
+    "text": "buồn chán",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [314, 323]
+  },
+  {
+    "text": "uống nhiều rượu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [325, 340]
+  },
+  {
+    "text": "hút cần sa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [341, 351]
+  },
+  {
+    "text": "xe đến một cây cầu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [364, 382]
+  },
+  {
+    "text": "nhảy từ trên cầu xuống",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [384, 406]
+  },
+  {
+    "text": "nhảy cầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [418, 426]
+  },
+  {
+    "text": "Không xác nhận đã bị trầm cảm trước đó,",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F32.9"],
+    "assertions": ["isNegated"],
+    "position": [534, 573]
+  },
+  {
+    "text": "Khám thấy bị tổn thương tổn thương chi dưới nghiêm trọng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["T93"],
+    "assertions": [],
+    "position": [609, 665]
+  },
+  {
+    "text": "Phẫu thuật cắt cụt chân trái bên trên gối  và cắt cụt chân phải bên dưới gối / biến chứng thuyên tắc phổi hai bên",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [678, 791]
+  },
+  {
+    "text": "nhiễm trùng chi dưới bên phải do",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [795, 827]
+  },
+  {
+    "text": "Enterococcus kháng vancomycin",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["U83.0"],
+    "assertions": [],
+    "position": [828, 857]
+  },
+  {
+    "text": "cắt cụt chân trái trên gối và chân phải dưới gối",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [888, 936]
+  },
+  {
+    "text": "suy nghĩ tích cực nghĩ cho tương lai ( nói rằng uộc sống không dừng lại vì một chấn thương từ bên ngoài)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isNegated"],
+    "position": [1011, 1115]
+  },
+  {
+    "text": "tâm thần nội trú",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1159, 1175]
+  }
+]

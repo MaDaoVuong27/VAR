@@ -1,0 +1,24 @@
+[
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [232, 241]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [334, 343]
+  },
+  {
+    "text": "inr",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [418, 421]
+  },
+  {
+    "text": "inr",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [606, 609]
+  }
+]

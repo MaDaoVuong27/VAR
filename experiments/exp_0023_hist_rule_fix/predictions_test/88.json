@@ -1,0 +1,82 @@
+[
+  {
+    "text": "Đái tháo đường típ 1 có biến chứng viêm thần kinh ngoại biên",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E10.4†"],
+    "assertions": ["isHistorical"],
+    "position": [48, 108]
+  },
+  {
+    "text": "Viêm gan virus C và B",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["B18.2"],
+    "assertions": ["isHistorical"],
+    "position": [115, 136]
+  },
+  {
+    "text": "Tăng áp động mạch phổi mức độ trung bình",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I27.0"],
+    "assertions": ["isHistorical"],
+    "position": [143, 183]
+  },
+  {
+    "text": "U lympho không hodgkin tế bàoB lớn lan toả)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["C83.3"],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [189, 232]
+  },
+  {
+    "text": "lasixđã",
+    "type": "THUỐC",
+    "candidates": ["202991"],
+    "assertions": ["isHistorical"],
+    "position": [383, 390]
+  },
+  {
+    "text": "Phù chân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [453, 461]
+  },
+  {
+    "text": "Lasix",
+    "type": "THUỐC",
+    "candidates": ["202991"],
+    "assertions": [],
+    "position": [604, 609]
+  },
+  {
+    "text": "phù chân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [699, 707]
+  },
+  {
+    "text": "phù chân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [718, 726]
+  },
+  {
+    "text": "Phù",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [834, 837]
+  },
+  {
+    "text": "Loét 2 bàn chân",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["L89.1"],
+    "assertions": [],
+    "position": [851, 866]
+  },
+  {
+    "text": "dõiLoét bàn chân nhiễm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M60.06"],
+    "assertions": [],
+    "position": [935, 957]
+  }
+]

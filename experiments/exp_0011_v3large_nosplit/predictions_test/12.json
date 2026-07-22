@@ -1,0 +1,129 @@
+[
+  {
+    "text": "U Sacoit tổn thương chủ yếu tại tim",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [48, 83]
+  },
+  {
+    "text": "ho x1 ngày",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [133, 143]
+  },
+  {
+    "text": "ho x1 ngày",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [230, 240]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [321, 323]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [327, 334]
+  },
+  {
+    "text": "ho ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [506, 515]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [562, 564]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [571, 578]
+  },
+  {
+    "text": "Đờm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [623, 626]
+  },
+  {
+    "text": "fever",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [646, 651]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [663, 666]
+  },
+  {
+    "text": "Đau bụng  âm ỉ  trong tháng qua",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R10.0"],
+    "assertions": [],
+    "position": [685, 716]
+  },
+  {
+    "text": "levofloxacin",
+    "type": "THUỐC",
+    "candidates": ["82122"],
+    "assertions": [],
+    "position": [876, 888]
+  },
+  {
+    "text": "viêm phế quản do viêm phổi mắc phải cộng đồng ở bệnh nhân phức tạp,  cùng tylenol",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["J41.8"],
+    "assertions": [],
+    "position": [901, 982]
+  },
+  {
+    "text": "công thức máu (cbc)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1035, 1054]
+  },
+  {
+    "text": "nâng cao lên",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1055, 1067]
+  },
+  {
+    "text": "11.3",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1068, 1072]
+  },
+  {
+    "text": "chụp x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1105, 1122]
+  },
+  {
+    "text": "viêm phổi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1139, 1148]
+  },
+  {
+    "text": "phù phổi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1154, 1162]
+  },
+  {
+    "text": "Lấy mẫu cấy máu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Y84.7"],
+    "assertions": [],
+    "position": [1195, 1210]
+  }
+]

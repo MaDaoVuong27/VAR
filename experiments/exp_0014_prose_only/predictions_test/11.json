@@ -1,0 +1,9 @@
+[
+  {
+    "text": "xơ gan mất bù",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K74.1"],
+    "assertions": ["isHistorical"],
+    "position": [191, 204]
+  }
+]

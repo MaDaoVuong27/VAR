@@ -1,0 +1,23 @@
+[
+  {
+    "text": "vết thương thấu bụng giữa bên phải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["S36.01", "S31.1"],
+    "assertions": [],
+    "position": [37, 71]
+  },
+  {
+    "text": "vết thương thấu bụng giữa bên phải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["S36.01", "S31.1"],
+    "assertions": [],
+    "position": [95, 129]
+  },
+  {
+    "text": "tổn thương rõ ràng khác trên chụp cắt lớp vi tính (ct) bụng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["S36.81", "S37.81"],
+    "assertions": ["isNegated"],
+    "position": [350, 409]
+  }
+]

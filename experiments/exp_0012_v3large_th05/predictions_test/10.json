@@ -1,0 +1,78 @@
+[
+  {
+    "text": "Đờm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [107, 110]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [113, 115]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [126, 134]
+  },
+  {
+    "text": "quặn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [135, 139]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [142, 151]
+  },
+  {
+    "text": "đi ngoài ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [162, 177]
+  },
+  {
+    "text": "tăng cân nhiều",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [186, 200]
+  },
+  {
+    "text": "tăng nhẹ lên",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [279, 291]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [402, 409]
+  },
+  {
+    "text": "sinh thiết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [553, 563]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [578, 585]
+  },
+  {
+    "text": "khối u trực tràng với hình ảnh của một u ác trực tràng đáng kể",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["C18.2"],
+    "assertions": [],
+    "position": [625, 687]
+  },
+  {
+    "text": "khám để phân giai đoạn phẫu thuật với tem (viết tắt)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z13.1"],
+    "assertions": [],
+    "position": [732, 784]
+  }
+]

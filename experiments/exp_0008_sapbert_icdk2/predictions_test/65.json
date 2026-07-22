@@ -1,0 +1,67 @@
+[
+  {
+    "text": "đỏ tươi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [212, 219]
+  },
+  {
+    "text": "gián đoạn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [220, 229]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [232, 241]
+  },
+  {
+    "text": "Vị trí",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [265, 271]
+  },
+  {
+    "text": "qua đường hậu môn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [273, 290]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [334, 343]
+  },
+  {
+    "text": "inr",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [418, 421]
+  },
+  {
+    "text": "rối loạn đông máu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["D68.9", "D68"],
+    "assertions": [],
+    "position": [489, 506]
+  },
+  {
+    "text": "inr",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [606, 609]
+  },
+  {
+    "text": "tăng",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [619, 623]
+  },
+  {
+    "text": "Cr",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [624, 626]
+  }
+]

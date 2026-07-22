@@ -1,0 +1,14 @@
+[
+  {
+    "text": "đen, nhầy, máu đỏ tươi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isNegated"],
+    "position": [446, 468]
+  },
+  {
+    "text": "spo2",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [952, 956]
+  }
+]

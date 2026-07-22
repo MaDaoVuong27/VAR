@@ -1,0 +1,82 @@
+[
+  {
+    "text": ": nữ, nhiều lần",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z35.4"],
+    "assertions": ["isHistorical"],
+    "position": [47, 62]
+  },
+  {
+    "text": "Thuyên tắc tĩnh mạch sâu chi dưới ở chân trái",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I83.0"],
+    "assertions": ["isHistorical"],
+    "position": [63, 108]
+  },
+  {
+    "text": "đau sau xương ức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [182, 198]
+  },
+  {
+    "text": "lan ra sau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [199, 214]
+  },
+  {
+    "text": "đau ngực trái",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [292, 305]
+  },
+  {
+    "text": "đau sau xương ức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [312, 328]
+  },
+  {
+    "text": "đau lan ra sau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [335, 354]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [404, 412]
+  },
+  {
+    "text": "lan ra sau lưng khi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [413, 432]
+  },
+  {
+    "text": "chụp cắt lớp vi tính mạch máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [486, 515]
+  },
+  {
+    "text": "thuyên tắc mạch phổi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I26"],
+    "assertions": ["isNegated"],
+    "position": [598, 618]
+  },
+  {
+    "text": "Phát hiện tổn thương bóc tách động mạch chủ Stanford loại B",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z95.1"],
+    "assertions": ["isNegated"],
+    "position": [620, 679]
+  },
+  {
+    "text": "chụp cắt lớp vi tính mạch máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [713, 742]
+  }
+]

@@ -1,0 +1,2 @@
+Fetching 11 files:   0%|          | 0/11 [00:00<?, ?it/s]Fetching 11 files:   9%|▉         | 1/11 [00:00<00:08,  1.24it/s]Fetching 11 files:  27%|██▋       | 3/11 [00:01<00:03,  2.58it/s]Fetching 11 files:  36%|███▋      | 4/11 [32:22<1:18:23, 671.90s/it]Fetching 11 files: 100%|██████████| 11/11 [32:22<00:00, 176.58s/it] 
+DONE /home/lenam/.cache/huggingface/hub/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28

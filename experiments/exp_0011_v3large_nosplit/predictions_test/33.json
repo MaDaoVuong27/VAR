@@ -1,0 +1,211 @@
+[
+  {
+    "text": "đái tháo đường được kiểm soát bằng chế độ ăn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [62, 106]
+  },
+  {
+    "text": "thở khi ngủ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["G47.3"],
+    "assertions": ["isHistorical"],
+    "position": [119, 130]
+  },
+  {
+    "text": "suy tim, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I50.9"],
+    "assertions": ["isHistorical"],
+    "position": [154, 177]
+  },
+  {
+    "text": "Dị ứng furosemide",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [190, 207]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [256, 263]
+  },
+  {
+    "text": "khó thở khi xem TV",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [362, 380]
+  },
+  {
+    "text": "sáng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [391, 395]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [441, 448]
+  },
+  {
+    "text": "khó nằm vào ban đêm để ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [455, 481]
+  },
+  {
+    "text": "trái (ngắt quãng, xảy ra vài lần mỗi ngày, kéo dài 5 phút)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [509, 567]
+  },
+  {
+    "text": "ho có đờm trắng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [582, 597]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [613, 616]
+  },
+  {
+    "text": "phù chi dưới",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [623, 635]
+  },
+  {
+    "text": "(ổn định)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [636, 645]
+  },
+  {
+    "text": "khó nằm vào ban đêm để ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [847, 873]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [877, 884]
+  },
+  {
+    "text": "ho có đờm trắng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [886, 901]
+  },
+  {
+    "text": "chủ quan",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [903, 911]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [912, 915]
+  },
+  {
+    "text": "phù chi dưới",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [917, 929]
+  },
+  {
+    "text": "bỏ lỡ 3 ngày dùng một số thuốc vì quên đổ thuốc vào hộp (tuần qua)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [972, 1038]
+  },
+  {
+    "text": "EMS",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [1049, 1052]
+  },
+  {
+    "text": "86",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1115, 1117]
+  },
+  {
+    "text": "oxy qua mask không hồi phục (NRB)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical", "isNegated"],
+    "position": [1163, 1196]
+  },
+  {
+    "text": "86",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1311, 1313]
+  },
+  {
+    "text": "bumetanide 2mg iv",
+    "type": "THUỐC",
+    "candidates": ["315502"],
+    "assertions": [],
+    "position": [1401, 1418]
+  },
+  {
+    "text": "vancomycin 1 gram",
+    "type": "THUỐC",
+    "candidates": ["1807512"],
+    "assertions": [],
+    "position": [1434, 1451]
+  },
+  {
+    "text": "levofloxacin 750mg iv",
+    "type": "THUỐC",
+    "candidates": ["330371"],
+    "assertions": [],
+    "position": [1467, 1488]
+  },
+  {
+    "text": "aspirin 325mg",
+    "type": "THUỐC",
+    "candidates": ["317300"],
+    "assertions": [],
+    "position": [1504, 1517]
+  },
+  {
+    "text": "albuterolipratropium nebulizer",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [1533, 1563]
+  },
+  {
+    "text": "methylprednisolone 125mg iv",
+    "type": "THUỐC",
+    "candidates": ["1743704"],
+    "assertions": [],
+    "position": [1579, 1606]
+  },
+  {
+    "text": "lợi tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1613, 1621]
+  },
+  {
+    "text": "600cc",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1622, 1627]
+  }
+]

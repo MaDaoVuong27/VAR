@@ -1,0 +1,26 @@
+[
+  {
+    "text": "giọng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [37, 42]
+  },
+  {
+    "text": "khàn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [43, 47]
+  },
+  {
+    "text": "giọng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [100, 105]
+  },
+  {
+    "text": "khàn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [106, 110]
+  }
+]
