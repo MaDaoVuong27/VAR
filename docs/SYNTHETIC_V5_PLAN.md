@@ -291,12 +291,94 @@ Mỗi idea: **vấn đề → cách làm → cách đo → rủi ro**.
   phụ thuộc mạnh vào surface form → mask nhiều sẽ dạy model đoán bừa. Vòng 2 mới thử mask
   **theo type** (cao cho CHẨN_ĐOÁN/TRIỆU_CHỨNG, thấp cho 2 type kia).
 
-### IDEA 7 — Paraphrase có kiểm soát từ test (nhánh rủi ro, tách riêng)
+### IDEA 7 — Transductive: khai thác pattern từ 100 file test ⭐ (chi tiết đầy đủ)
 
-- **Cách làm**: trích **khung** (thứ tự mục, kiểu dòng, nhịp câu, kiểu nhiễu) → viết lại bằng
-  Qwen với entity từ KB → qua LCS/n-gram gate §2.4.
-- **Đo**: bắt buộc A/B với nhánh không-paraphrase, cùng số mẫu.
-- **Rủi ro**: mất giá trị nếu BTC đổi test. **Luôn giữ nhánh control.**
+> Nguyên tắc xuyên suốt: **lấy KHUNG (cách viết), không lấy NỘI DUNG (viết về cái gì).**
+> Entity luôn đến từ KB. Đây là ranh giới quyết định giữa hợp lệ và overfit.
+
+#### Tầng 1 — Bộ xương tài liệu (skeleton)
+
+Header xuất hiện ≥5 file (đã trích được, **không chứa entity nào**):
+
+```
+ 56×  3. Đánh giá tại bệnh viện        27×  Đặc điểm triệu chứng
+ 51×  2. Tiền sử bệnh hiện tại         22×  Diễn biến bệnh
+ 38×  1. Tiền sử bệnh                  18×  Các bệnh lý mãn tính
+ 35×  1. Tiền sử bệnh nội khoa         16×  Các thủ thuật đã thực hiện
+ 33×  Triệu chứng hiện tại             16×  Kết quả xét nghiệm
+```
+
+→ Dùng làm **khung tài liệu** + xác suất chuyển mục. Đây thuần là *layout*, không phải tri thức
+y khoa của tập test.
+
+#### Tầng 2 — Phân bố kiểu dòng (đã đo, dùng để canh generator)
+
+| kiểu dòng | tỉ lệ |
+|---|---|
+| bullet (`- `, `* `) | **58.2%** |
+| dòng ngắn khác | 17.7% |
+| `nhãn: giá trị` | 11.3% |
+| đánh số (`1. `) | 9.5% |
+| **văn xuôi dài (>18 từ)** | **2.1%** |
+| `nhãn:` rỗng | 1.3% |
+
+⚠️ **Phát hiện quan trọng**: văn xuôi dài chỉ **2.1%**. Prose Qwen hiện chiếm ~32% tổng entity của
+train_mix → **ta đang train lệch nặng về prose so với thực tế**. v5 phải canh lại tỉ lệ này.
+
+#### Tầng 3 — Khung câu (frame mining) ⭐ phần giá trị nhất
+
+Dùng **chính predictions của ta** để định vị entity → đục lỗ thành slot → phần còn lại là khung
+tái dùng được. Đã trích **724 khung duy nhất**:
+
+```
+165×  - {CHẨN_ĐOÁN}                       6×  - được cho {THUỐC}
+122×  - {TRIỆU_CHỨNG}                      5×  - {TÊN_XÉT_NGHIỆM} cho thấy {CHẨN_ĐOÁN}
+ 26×  - {THUỐC}                            5×  Bệnh lý mãn tính: {CHẨN_ĐOÁN}
+ 18×  - Không {TRIỆU_CHỨNG}                4×  - {TÊN_XÉT_NGHIỆM} là {KẾT_QUẢ_XÉT_NGHIỆM}
+ 17×  - {TÊN_XÉT_NGHIỆM} {KẾT_QUẢ_XÉT_NGHIỆM}   3×  Thuốc trước khi nhập viện: {THUỐC}
+ 14×  Lý do nhập viện: {TRIỆU_CHỨNG}       3×  - phủ nhận {TRIỆU_CHỨNG}
+  8×  Lý do nhập viện: {CHẨN_ĐOÁN}         3×  - **{TRIỆU_CHỨNG}:**
+```
+
+Khung bắt được **4 thứ template tự viết không có**:
+1. **Vị trí cue phủ định thật**: `- Không {TRIỆU_CHỨNG}`, `- phủ nhận {TRIỆU_CHỨNG}` — khác hẳn
+   `"Bệnh nhân không ghi nhận X"` mà ta đang sinh.
+2. **Cách ghép cặp lab**: `{TÊN_XÉT_NGHIỆM} {KẾT_QUẢ_XÉT_NGHIỆM}` không dấu phân cách.
+3. **Artifact markdown thật**: `- **{TRIỆU_CHỨNG}:**`.
+4. **Mật độ slot/dòng thật**: đa số 1 slot/dòng, không phải dòng dày đặc như template.
+
+**Quy trình dùng**: chọn khung theo tần suất → điền slot bằng entity KB → nhãn = vị trí slot,
+**chính xác tuyệt đối theo thiết kế** (không cần dò lại).
+
+⚠️ **Khung đến từ predictions của ta nên MANG THEO LỖI của ta.** Ví dụ `- {CHẨN_ĐOÁN} {CHẨN_ĐOÁN}`
+(3×) rất có thể là artifact của lỗi tách span, không phải hiện tượng thật. → **phải lọc**: bỏ khung
+tần suất 1, bỏ khung có ≥2 slot cùng type liền nhau, và review tay top-50 khung.
+
+#### Tầng 4 — Nhiễu bề mặt
+
+Chỉ lấy **thống kê**, không lấy chuỗi: tỉ lệ doc có token dính liền (27%), double-space, độ dài
+doc (median 1229), phân bố ký tự/dòng. Đã có sẵn trong `notebooks/eda_features.py`.
+
+#### Ranh giới — cái gì KHÔNG lấy
+
+| lấy ✅ | không lấy ❌ |
+|---|---|
+| header, layout, kiểu dòng | tên bệnh/thuốc cụ thể xuất hiện trong test |
+| khung câu đã đục lỗ entity | câu nguyên văn còn entity |
+| thống kê nhiễu/độ dài | đoạn văn ≥10 từ liên tiếp |
+| vị trí/kiểu cue assertion | phân phối bệnh của test (→ sẽ là overfit thật) |
+
+**Vì sao ranh giới này quan trọng**: học *phân phối bệnh* của public test = tối ưu vào đúng 100
+file đó → sập khi đổi đề. Học *cách viết* = học generator của BTC → **giữ giá trị kể cả khi file
+đổi**, vì private test gần như chắc chắn cùng generator.
+
+#### Cổng kiểm soát (bắt buộc, xem §2.4)
+
+`LCS < 0.5` + `không n-gram ≥10 từ trùng` + `entity chỉ từ KB` + **luôn giữ nhánh control
+không-transductive để A/B**.
+
+- **Đo**: A/B với control cùng số mẫu; báo cả LCS/n-gram sau khi sinh.
+- **Rủi ro**: mất giá trị nếu BTC đổi generator (không chỉ đổi file). Giữ control để phát hiện.
 
 ### IDEA 8 — Learning curve đúng cách
 
@@ -379,7 +461,12 @@ LLM sinh. Đây là hướng riêng, không nằm trong v5 data plan.
 
 ### Phase 4 — Nhánh rủi ro (chỉ khi Phase 3 xong)
 
-- [ ] **4.1** Paraphrase-có-gate từ test (IDEA 7). *Đo*: A/B với control cùng số mẫu.
+- [ ] **4.1a** Trích 4 tầng pattern từ test → `data/patterns/` (skeleton, kiểu dòng, 724 khung, thống kê nhiễu).
+      *Đo*: số khung sau lọc; review tay top-50.
+- [ ] **4.1b** Generator điền slot từ khung + entity KB. *Đo*: LCS/n-gram gate pass 100%.
+- [ ] **4.1c** A/B transductive vs control cùng số mẫu. *Đo*: `text_score` dev + BTC.
+- [ ] **4.1d** Canh lại tỉ lệ prose (hiện ~32% entity vs test chỉ **2.1%** dòng văn xuôi dài).
+      *Đo*: phân bố kiểu dòng synthetic vs test.
 - [ ] **4.2** SapBERT-sweep thay lexicon-sweep (§6.2). *Đo*: entity bắt thêm, độ chính xác.
 - [ ] **4.3** Tách holdout khỏi dev (§6.3).
 

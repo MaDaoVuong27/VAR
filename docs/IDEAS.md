@@ -14,6 +14,7 @@ Xem thêm: [TASK_SPEC.md](TASK_SPEC.md) (đề+metric), [EDA_FINDINGS.md](EDA_FI
 | [IDEAS_3.md](IDEAS_3.md) | **Hướng C** — Multi-agent (lớp điều phối, đẩy trần) |
 | [DATA_PLAN.md](DATA_PLAN.md) | Làm sạch dữ liệu + **sinh synthetic data** (nền cho A/B/C) |
 | [SYNTHETIC_V5_PLAN.md](SYNTHETIC_V5_PLAN.md) | 🆕 **Kế hoạch xây lại synthetic v5** (quality-first ~1.000 doc) + chốt boundary convention + TODO theo phase |
+| [TRAINING_WORKFLOW_PLAN.md](TRAINING_WORKFLOW_PLAN.md) | 🆕 **Workflow training 3 khối** (NER / assertion / candidate) — áp OpenBioNER description vào reranker; description dựng RULE từ KB, không cần LLM |
 
 ---
 
