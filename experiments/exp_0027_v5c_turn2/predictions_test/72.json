@@ -1,0 +1,76 @@
+[
+  {
+    "text": "Rối loạn cảm xúc",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F60.3"],
+    "assertions": ["isHistorical"],
+    "position": [581, 597]
+  },
+  {
+    "text": "Rối loạn lưỡng cực",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F31"],
+    "assertions": ["isHistorical"],
+    "position": [605, 623]
+  },
+  {
+    "text": "klonopinclonidine",
+    "type": "THUỐC",
+    "candidates": ["2599"],
+    "assertions": ["isHistorical"],
+    "position": [746, 763]
+  },
+  {
+    "text": "clonidine",
+    "type": "THUỐC",
+    "candidates": ["2599"],
+    "assertions": ["isHistorical"],
+    "position": [784, 793]
+  },
+  {
+    "text": "suboxone",
+    "type": "THUỐC",
+    "candidates": ["352990"],
+    "assertions": ["isHistorical"],
+    "position": [821, 829]
+  },
+  {
+    "text": "Lạm dụng chất kích thích, chất gây nghiện opioid",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F11"],
+    "assertions": ["isHistorical"],
+    "position": [953, 1001]
+  },
+  {
+    "text": "suboxone",
+    "type": "THUỐC",
+    "candidates": ["352990"],
+    "assertions": [],
+    "position": [1343, 1351]
+  },
+  {
+    "text": "suboxone",
+    "type": "THUỐC",
+    "candidates": ["352990"],
+    "assertions": [],
+    "position": [1386, 1394]
+  },
+  {
+    "text": "lo âu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1486, 1491]
+  },
+  {
+    "text": "hoảng sợ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1492, 1500]
+  },
+  {
+    "text": "hoang tưởng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1507, 1518]
+  }
+]

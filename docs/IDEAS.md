@@ -35,6 +35,19 @@ Xem thêm: [TASK_SPEC.md](TASK_SPEC.md) (đề+metric), [EDA_FINDINGS.md](EDA_FI
 - ⚠️ **Từng "sửa" metric rồi HOÀN TÁC** (2026-07-15): đổi concept-thừa từ `J(∅,∅)=1` thành 0, dựa trên độ-khớp-tuyệt-đối với BTC → SAI, làm dev mù trước exp_0010 vs exp_0012. **Bài học: chỉ chỉnh metric theo XẾP HẠNG, không theo giá trị tuyệt đối.**
 - ✅ **Quy luật dùng dev (kiểm chứng 4/4 + cứu 1 quyết định thật ở exp_0013)**: **span GIỐNG nhau (chỉ đổi matcher) → dev xếp hạng ĐÚNG; span KHÁC → dev sai, và sai CÓ HƯỚNG** (giảm over-predict làm dev cand tụt dù cand thật tăng). Khi đổi NER model → **bóc tách numerator** (khớp-gold-thật vs credit-ảo-abstain) thay vì tin dev tổng. `text_score` luôn so trực tiếp được (không có cơ chế abstain).
 - **Đã loại bỏ**: dense retrieval off-the-shelf (exp_0002) — embedder general quá yếu (xem cuối trang).
+- 🆕🚨 **BTC cấp đề TEST TURN 2 (2026-07-23) — test set THẬT SỰ đổi** (khác "nâng cấp giả" 07-16,
+  lần đó byte-for-byte giống hệt). 0/100 file trùng nội dung với test cũ. Chi tiết:
+  [EDA_FINDINGS.md](EDA_FINDINGS.md) §0 + [EXPERIMENTS_LOG.md](EXPERIMENTS_LOG.md) §turn 2.
+  **exp_0026 (v4_mix, model y hệt exp_0022) chấm trên test turn 2 = 22.7685**, tụt **10.03 điểm**
+  so với chính nó trên test cũ (32.798) — cả 3 thành phần đều tụt, `J_candidates` tụt nặng nhất
+  (**−43% tương đối**, 23.47→13.30). Nguyên nhân (đã EDA): văn phong bài giáo dục sức khỏe (khác
+  ghi chú lâm sàng), redaction thuốc bằng `***` (30/100 file), nội dung lạc đề chèn giữa case
+  (37/100 file), tài liệu dài hơn 54%. **Top 1 leaderboard hiện tại: 40.5.**
+  → **`exp_0026` là điểm neo mới** cho mọi so sánh trên test turn 2 (thay `exp_0022` cho test cũ).
+- ✅ **Xác nhận phương pháp luận qua dịch chuyển phân phối**: `exp_0027` (v5c) trên CÙNG test turn
+  2 = 20.0336, THUA `exp_0026` ở cả 3 thành phần — đúng thứ tự `diagnose_boundary` đã dự đoán
+  trên test cũ. Quy luật "so bằng diagnose_boundary trước khi tốn lượt nộp" đáng tin cả khi dữ
+  liệu đổi mạnh.
 
 ### 🔑 Việc quan trọng nhất tiếp theo
 1. ✅ **Đã xong**: exp_0014 (prose-only, xác nhận prose bổ trợ chứ không thay template) + exp_0015 (dense 14830, xác nhận +3.16 của exp_0013 đến từ PROSE chứ không phải giảm template).

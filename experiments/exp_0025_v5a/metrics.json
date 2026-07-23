@@ -1,0 +1,12 @@
+{
+  "exp": "exp_0025_v5a",
+  "desc": "NER trên synthetic v5a (frame-heavy, prose~15% entity, 572 doc) — so với v4-mix (8830 doc)",
+  "ner": "models/ner_xlmr_v5a",
+  "dev_scores": {
+    "text_score": 0.2589,
+    "assertions_score": 0.5964,
+    "candidates_score": 0.3061,
+    "final_score": 0.379
+  },
+  "n_dev": 15
+}

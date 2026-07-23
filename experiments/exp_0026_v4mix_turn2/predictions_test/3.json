@@ -1,0 +1,195 @@
+[
+  {
+    "text": "run tay",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [35, 42]
+  },
+  {
+    "text": "run tay",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [79, 86]
+  },
+  {
+    "text": "Nitralmyl",
+    "type": "THUỐC",
+    "candidates": ["202521"],
+    "assertions": [],
+    "position": [190, 199]
+  },
+  {
+    "text": "thuốcVastarel (trimetazidin)",
+    "type": "THUỐC",
+    "candidates": ["10826"],
+    "assertions": [],
+    "position": [318, 346]
+  },
+  {
+    "text": "mất thăng bằng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [549, 563]
+  },
+  {
+    "text": "run rấy toàn thân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [576, 593]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [808, 817]
+  },
+  {
+    "text": "ù tai",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [819, 824]
+  },
+  {
+    "text": "rối loạn thị lực",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["G71.1"],
+    "assertions": [],
+    "position": [826, 842]
+  },
+  {
+    "text": "yếu sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [943, 950]
+  },
+  {
+    "text": "nhìn song thị",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["H53.2"],
+    "assertions": [],
+    "position": [1011, 1024]
+  },
+  {
+    "text": "yếu sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1288, 1295]
+  },
+  {
+    "text": "chụp ct sọ não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1710, 1724]
+  },
+  {
+    "text": "âm tính",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1734, 1741]
+  },
+  {
+    "text": "Code tai biến mạch máu não",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I63.4"],
+    "assertions": [],
+    "position": [1810, 1836]
+  },
+  {
+    "text": "co giật",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2126, 2133]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2259, 2266]
+  },
+  {
+    "text": "yếu chân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2306, 2314]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2565, 2572]
+  },
+  {
+    "text": "yếu sức chân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2668, 2680]
+  },
+  {
+    "text": "chụp ct sọ não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2706, 2720]
+  },
+  {
+    "text": "hạ huyết áp, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I95.9"],
+    "assertions": [],
+    "position": [2807, 2834]
+  },
+  {
+    "text": "Nằm sải trên sàn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [3059, 3075]
+  },
+  {
+    "text": "yếu sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [3108, 3115]
+  },
+  {
+    "text": "yếu nửa người",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [3272, 3285]
+  },
+  {
+    "text": "hạ huyết áp, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I95.9"],
+    "assertions": [],
+    "position": [3365, 3392]
+  },
+  {
+    "text": "chụp ct sọ não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [3555, 3569]
+  },
+  {
+    "text": "âm tính",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [3571, 3578]
+  },
+  {
+    "text": "ct sọ não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [3599, 3608]
+  },
+  {
+    "text": "âm tính",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [3610, 3617]
+  },
+  {
+    "text": "chụp ct sọ não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [3655, 3669]
+  },
+  {
+    "text": "Truyền dịch tĩnh mạch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I87.1"],
+    "assertions": ["isHistorical"],
+    "position": [3703, 3724]
+  }
+]

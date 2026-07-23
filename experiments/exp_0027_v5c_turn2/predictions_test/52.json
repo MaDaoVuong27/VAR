@@ -1,0 +1,49 @@
+[
+  {
+    "text": "ngứa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [102, 106]
+  },
+  {
+    "text": "ngứa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [188, 192]
+  },
+  {
+    "text": "dị ứng do thời tiết",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isFamily"],
+    "position": [357, 376]
+  },
+  {
+    "text": "thức ăn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [381, 388]
+  },
+  {
+    "text": "MÀY ĐAY VÔ CĂN",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["L50.1"],
+    "assertions": [],
+    "position": [733, 747]
+  },
+  {
+    "text": "MÀY ĐAY MẠN TÍNH",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["J32.4"],
+    "assertions": [],
+    "position": [839, 855]
+  },
+  {
+    "text": "Tổn thương mô bệnh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [857, 877]
+  }
+]

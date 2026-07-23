@@ -1,0 +1,61 @@
+[
+  {
+    "text": "cắt bỏ ống dẫn mật chủ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [67, 89]
+  },
+  {
+    "text": "cắt bỏ phân đoạn bên trái gan",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [96, 125]
+  },
+  {
+    "text": "ung thư đường mật không thể cắt bỏ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [183, 217]
+  },
+  {
+    "text": "run rẩy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [401, 408]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [493, 496]
+  },
+  {
+    "text": "các ổ dịch trong",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [500, 516]
+  },
+  {
+    "text": "ổ bụng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["C76.2"],
+    "assertions": [],
+    "position": [517, 523]
+  },
+  {
+    "text": "mrcp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [798, 802]
+  },
+  {
+    "text": "ổ dịch sau phẫu thuật",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E89.5"],
+    "assertions": [],
+    "position": [910, 931]
+  }
+]

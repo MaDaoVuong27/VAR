@@ -472,6 +472,55 @@ LLM sinh. Đây là hướng riêng, không nằm trong v5 data plan.
 
 ---
 
+## 7b. Trạng thái thực thi (2026) — Phase 0-2 đã xong, số liệu thật
+
+**Phase 0** (nền): `docs/ANNOTATION_GUIDELINE.md` viết xong (6 mục/type, trích dẫn 2 ví dụ đề +
+VietBioNER). `scripts/diagnose_boundary.py` dựng xong, baseline đo trên exp_0022: exact 58.6%.
+Sửa 5 span dev gold (đúng bằng số đo được, không phải "20+8" như ước tính ban đầu — audit kỹ hơn
+cho thấy dev gold đã đúng phần lớn). Sửa 2 bug hậu xử lý biên NER (`_snap_word` decimal,
+`_trim_narrative_paren`) → exact 58.6%→67.9% (exp_0024, chưa nộp BTC).
+
+**Phase 2** (sinh v5): dùng `scripts/mine_frames.py` trích **49 khung an toàn** từ predictions
+trên 100 file test (lọc khỏi 724 khung thô: 90% tần suất-1 bị loại, 13 khung bị gắn cờ mang nội
+dung y khoa cụ thể của test — KHÔNG dùng). `src/synthetic/frame_generate.py` sinh document bằng
+khung + entity KB, **assertion ép theo cue chữ trong khung** (không roll ngẫu nhiên khi khung có
+"Không"/"tiền sử") → combo assertion tự nhiên = 0%, khớp thiết kế.
+
+⚠️ **Phát hiện + sửa 1 vòng**: bản frame-generator đầu tiên cho **49 entity/doc** — dày hơn cả ví
+dụ đậm đặc nhất của đề (1/28 ký tự). Tăng tỉ lệ non-entity (header+filler) 20%→45% trong
+`gen_document()` → giảm còn **29.7 entity/doc** (~1/41 ký tự).
+
+`src/synthetic/llm_prose.py` nâng cấp: 12 thể loại (register) thay 4 cái chung chung, few-shot
+tự viết (kỹ thuật JMIR 2025 đo được hiệu quả), nhiệt độ rải `[0.7,1.0]` thay cố định 0.8, **lọc
+CJK** (Qwen code-switch tiếng Trung — đo được **13/300 = 4.3%** doc nhiễm, phải chặn cứng), lọc
+trùng nội bộ bằng trigram Jaccard (0 doc trùng ở quy mô 269 doc). Bộ lọc `natural_disease()`
+(loại danh pháp ICD trang trọng) được chuyển vào `Catalog` dùng chung cho cả 2 generator.
+
+**Kết quả audit cuối** (`scripts/audit_synthetic.py`, 0 lỗi offset mọi pool):
+
+| pool | doc | entity/doc | LCS leakage thật | n-gram-13 trùng test |
+|---|---|---|---|---|
+| `frame_v5.jsonl` | 1000 | 29.7 | 0 | 0.0023% |
+| `prose_v5.jsonl` | 269 | 5.9 | 0 | 0.0000% |
+| `train_v5a.jsonl` (prose ~15% entity) | 572 | 19.4 | 0 | 0.0018% |
+| `train_v5b.jsonl` (prose ~30% entity, ≈ tỉ trọng v4-mix cũ) | 394 | 13.5 | 0 | 0.0019% |
+| `val_v5a.jsonl` / `val_v5b.jsonl` | 67 / 50 | — | 0 | 0.0000% |
+
+⚠️ **Bài học đo được về công cụ audit**: LCS (subsequence) một mình cho **báo động giả** — 4 doc
+prose có LCS ≥0.5 (cao nhất 0.643) nhưng chuỗi khớp LIÊN TỤC dài nhất chỉ 2-3 từ (`"khó thở"`,
+`"ghi nhận"` — từ vựng y khoa phổ thông, không phải copy). Đã sửa `audit_synthetic.py` yêu cầu
+CẢ HAI (LCS cao + chuỗi liên tục ≥6 từ) mới tính leakage thật — 0 doc nào qua được ngưỡng kép.
+
+⚠️ **Hạn chế còn lại, chưa xử lý trong đợt này**: prose vẫn dùng `_assert()` roll độc lập 3 lần
+(kiểu cũ) → **9.2% combo assertion** trong `prose_v5.jsonl` (dev gold thật ~0%). Chưa áp kỹ thuật
+ép-theo-cue của `frame_generate.py` sang `llm_prose.py`. Không chặn tiến độ, ghi nhận cho vòng sau.
+
+**Mix theo tỉ lệ ENTITY, không phải DOC** (`scripts/mix_synthetic.py`): vì frame-doc (29.7
+entity/doc) và prose-doc (5.9 entity/doc) chênh lệch mật độ ~5×, trộn theo số doc sẽ cho tỉ lệ
+entity lệch hẳn ý định ban đầu. Hệ quả: dùng 303/1000 frame-doc cho v5a, 125/1000 cho v5b — pool
+1000 frame-doc là NGUỒN để chọn từ, không phải toàn bộ đều vào 1 mix. 700 frame-doc còn dư dùng
+được cho learning-curve subset lớn hơn hoặc mix khác ở Phase 3.
+
 ## 8. Bảng theo dõi (điền dần)
 
 | # | Thay đổi | dev text | dev assert | dev cand | BTC final | Kết luận |

@@ -1,0 +1,144 @@
+[
+  {
+    "text": "suy tim, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I50.9"],
+    "assertions": ["isHistorical"],
+    "position": [154, 177]
+  },
+  {
+    "text": "Dị ứng furosemide",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [190, 207]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [256, 263]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [441, 448]
+  },
+  {
+    "text": "khó nằm vào ban đêm để ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [455, 481]
+  },
+  {
+    "text": "ho có đờm trắng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [582, 597]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [613, 616]
+  },
+  {
+    "text": "phù chi dưới",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [623, 635]
+  },
+  {
+    "text": "căng cứng vai",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M62.61"],
+    "assertions": [],
+    "position": [737, 750]
+  },
+  {
+    "text": "căng cứng vai",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M62.61"],
+    "assertions": [],
+    "position": [798, 811]
+  },
+  {
+    "text": "khó nằm vào ban đêm để ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [847, 873]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [877, 884]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [886, 888]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [912, 915]
+  },
+  {
+    "text": "phù chi dưới",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [917, 929]
+  },
+  {
+    "text": "86",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1115, 1117]
+  },
+  {
+    "text": "86",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1311, 1313]
+  },
+  {
+    "text": "Loại hình tiếp xúc và loại động vật cắn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [1435, 1474]
+  },
+  {
+    "text": "aspirin 325mg",
+    "type": "THUỐC",
+    "candidates": ["317300"],
+    "assertions": [],
+    "position": [1522, 1535]
+  },
+  {
+    "text": "albuterolipratropium nebulizer",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [1551, 1581]
+  },
+  {
+    "text": "methylprednisolone 125mg iv",
+    "type": "THUỐC",
+    "candidates": ["1743704"],
+    "assertions": [],
+    "position": [1597, 1624]
+  },
+  {
+    "text": "lợi tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1631, 1639]
+  },
+  {
+    "text": "600cc",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1640, 1645]
+  }
+]

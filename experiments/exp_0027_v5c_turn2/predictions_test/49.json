@@ -1,0 +1,64 @@
+[
+  {
+    "text": "Ung thư vú di căn, tràn dịch màng phổi trái tái phát",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [195, 247]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [286, 293]
+  },
+  {
+    "text": "ung thư di căn theo đường bạch huyết ở hai phổi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [397, 444]
+  },
+  {
+    "text": "dẫn lưu dịch màng tim",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [474, 495]
+  },
+  {
+    "text": "Liệu phát miễn dịch tiếp xúc",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [1207, 1235]
+  },
+  {
+    "text": "diphenylcyclopropenone",
+    "type": "THUỐC",
+    "candidates": ["216561"],
+    "assertions": [],
+    "position": [1284, 1306]
+  },
+  {
+    "text": "diphencyprone)",
+    "type": "THUỐC",
+    "candidates": ["216561"],
+    "assertions": [],
+    "position": [1308, 1322]
+  },
+  {
+    "text": "dinitrochlorobenzene",
+    "type": "THUỐC",
+    "candidates": ["89548"],
+    "assertions": [],
+    "position": [1326, 1346]
+  },
+  {
+    "text": "viêm da tiếp xúc, mày đay",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["L50.6"],
+    "assertions": [],
+    "position": [1517, 1542]
+  }
+]

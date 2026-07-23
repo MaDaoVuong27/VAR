@@ -1,0 +1,50 @@
+[
+  {
+    "text": "cắt bỏ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [67, 73]
+  },
+  {
+    "text": "phẫu thuật nối ống gan",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [135, 157]
+  },
+  {
+    "text": "ung thư đường mật không thể cắt bỏ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [183, 217]
+  },
+  {
+    "text": "chụp đường mật",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [237, 251]
+  },
+  {
+    "text": "run rẩy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [401, 408]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [493, 496]
+  },
+  {
+    "text": "mrcp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [798, 802]
+  },
+  {
+    "text": "chụp cộng hưởng từ mật tụy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [804, 830]
+  }
+]

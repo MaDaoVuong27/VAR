@@ -1,0 +1,101 @@
+[
+  {
+    "text": "NSAID",
+    "type": "THUỐC",
+    "candidates": ["203411"],
+    "assertions": ["isHistorical"],
+    "position": [59, 64]
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [342, 353]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [357, 365]
+  },
+  {
+    "text": "nôn ói",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [404, 410]
+  },
+  {
+    "text": "đau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [442, 450]
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [632, 643]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [676, 684]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [703, 706]
+  },
+  {
+    "text": "đau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [743, 751]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [871, 879]
+  },
+  {
+    "text": "Nội soi thực quản - dạ dày - tá tràng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1157, 1194]
+  },
+  {
+    "text": "viêm dạ dày",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K29.7"],
+    "assertions": [],
+    "position": [1196, 1207]
+  },
+  {
+    "text": "Cộng hưởng từ mật tụy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1209, 1230]
+  },
+  {
+    "text": "sỏi đoạn cuối ống mật chủ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1233, 1258]
+  },
+  {
+    "text": "chụp cộng hưởng từ mật tụy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1411, 1437]
+  },
+  {
+    "text": "sỏi ống dẫn mật chung đoạn cuối",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1470, 1501]
+  }
+]

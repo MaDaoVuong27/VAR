@@ -1,0 +1,128 @@
+[
+  {
+    "text": "methadone",
+    "type": "THUỐC",
+    "candidates": ["6813"],
+    "assertions": [],
+    "position": [136, 145]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [203, 206]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [217, 220]
+  },
+  {
+    "text": "ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [224, 231]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [236, 239]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [295, 298]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [339, 342]
+  },
+  {
+    "text": "ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [349, 356]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [363, 366]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [468, 471]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [514, 517]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [536, 539]
+  },
+  {
+    "text": "ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [541, 548]
+  },
+  {
+    "text": "lơ mơ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [687, 692]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [775, 778]
+  },
+  {
+    "text": "MÀY đay VÔ CĂN",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["L50.1"],
+    "assertions": [],
+    "position": [918, 932]
+  },
+  {
+    "text": "Tổ thương mô bệnh học",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1029, 1050]
+  },
+  {
+    "text": "tế bào cột sống",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1266, 1281]
+  },
+  {
+    "text": "Bạn đay vô căn hộ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1607, 1624]
+  },
+  {
+    "text": "nền tảng có liên kết",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1765, 1785]
+  }
+]

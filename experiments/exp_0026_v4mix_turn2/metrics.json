@@ -1,0 +1,12 @@
+{
+  "exp": "exp_0026_v4mix_turn2",
+  "desc": "= exp_0024 (v4_mix + boundary fix) nhưng chạy trên test_turn_2 (đề mới, BTC cấp lại 2026-07-23)",
+  "ner": "models/ner_xlmr_v4_mix",
+  "dev_scores": {
+    "text_score": 0.2577,
+    "assertions_score": 0.6328,
+    "candidates_score": 0.3333,
+    "final_score": 0.4005
+  },
+  "n_dev": 15
+}

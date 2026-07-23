@@ -1,0 +1,62 @@
+[
+  {
+    "text": "bệnh gút không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M10.9"],
+    "assertions": ["isHistorical"],
+    "position": [77, 100]
+  },
+  {
+    "text": "bệnh thận mạn, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N18.9"],
+    "assertions": ["isHistorical"],
+    "position": [107, 136]
+  },
+  {
+    "text": "ung thư đại tràng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K29.8"],
+    "assertions": ["isHistorical"],
+    "position": [143, 160]
+  },
+  {
+    "text": "xơ gan",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K74.1"],
+    "assertions": [],
+    "position": [191, 197]
+  },
+  {
+    "text": "tràn dịch màng phổi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["J93"],
+    "assertions": [],
+    "position": [248, 267]
+  },
+  {
+    "text": "chọc dò màng phổi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [443, 460]
+  },
+  {
+    "text": "3L4",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [461, 464]
+  },
+  {
+    "text": "chọc dò dịch",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [471, 483]
+  },
+  {
+    "text": "ổ bụng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [484, 490]
+  },
+  {
+    "text": "7L",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [491, 493]
+  }
+]

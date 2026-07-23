@@ -1,0 +1,57 @@
+[
+  {
+    "text": "Thuyên tắc tĩnh mạch sâu chi dưới ở chân trái",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I83"],
+    "assertions": ["isHistorical"],
+    "position": [63, 108]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [156, 164]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [292, 300]
+  },
+  {
+    "text": "đau sau xương",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [312, 325]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [404, 412]
+  },
+  {
+    "text": "chụp cắt lớp vi tính mạch máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [486, 515]
+  },
+  {
+    "text": "tổn thương bóc tách động mạch chủ Stanford loại B",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [630, 679]
+  },
+  {
+    "text": "chụp cắt lớp vi tính mạch máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [713, 742]
+  },
+  {
+    "text": "bóc tách động mạch chủ loại B",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [804, 833]
+  }
+]

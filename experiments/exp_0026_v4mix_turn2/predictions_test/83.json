@@ -1,0 +1,22 @@
+[
+  {
+    "text": "Bạn đay vô căn hộ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [859, 876]
+  },
+  {
+    "text": "Quá giá trị",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z59.5"],
+    "assertions": [],
+    "position": [935, 946]
+  },
+  {
+    "text": "buồn ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1183, 1191]
+  }
+]

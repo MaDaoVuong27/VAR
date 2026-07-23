@@ -1,0 +1,156 @@
+[
+  {
+    "text": "ngứa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [102, 106]
+  },
+  {
+    "text": "ngứa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [188, 192]
+  },
+  {
+    "text": "dị ứng do thời tiết",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isFamily"],
+    "position": [357, 376]
+  },
+  {
+    "text": "thức ăn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [381, 388]
+  },
+  {
+    "text": "Bệnh bạch cầu dòng tủy mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["C92"],
+    "assertions": ["isHistorical"],
+    "position": [642, 673]
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "candidates": ["282386"],
+    "assertions": ["isHistorical"],
+    "position": [684, 691]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I11"],
+    "assertions": ["isHistorical"],
+    "position": [698, 711]
+  },
+  {
+    "text": "lipid máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [723, 732]
+  },
+  {
+    "text": "Đái tháo đường típ 2",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E11"],
+    "assertions": ["isHistorical"],
+    "position": [755, 775]
+  },
+  {
+    "text": "hẹp ống sống",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M48.0"],
+    "assertions": ["isHistorical"],
+    "position": [782, 794]
+  },
+  {
+    "text": "Giả gout",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M10.0"],
+    "assertions": ["isHistorical"],
+    "position": [801, 809]
+  },
+  {
+    "text": "bệnh thận mạn, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N18.9"],
+    "assertions": ["isHistorical"],
+    "position": [816, 845]
+  },
+  {
+    "text": "tăng sản tuyến tiền liệt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N40"],
+    "assertions": ["isHistorical"],
+    "position": [864, 888]
+  },
+  {
+    "text": "Ngã",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [917, 920]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [927, 934]
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "candidates": ["282386"],
+    "assertions": ["isHistorical"],
+    "position": [966, 973]
+  },
+  {
+    "text": "Toàn trạng suy kiệt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F41.1"],
+    "assertions": ["isHistorical"],
+    "position": [1061, 1080]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1108, 1115]
+  },
+  {
+    "text": "Lú lẫn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1131, 1137]
+  },
+  {
+    "text": "Cực kỳ yếu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z59.5"],
+    "assertions": ["isHistorical"],
+    "position": [1190, 1200]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1246, 1253]
+  },
+  {
+    "text": "hiển vi điện tử",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1551, 1569]
+  },
+  {
+    "text": "Nhuộm huỳnh quang miễn dịch tổn thương sinh thiết",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1686, 1741]
+  }
+]

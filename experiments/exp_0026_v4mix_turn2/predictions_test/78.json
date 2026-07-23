@@ -1,0 +1,67 @@
+[
+  {
+    "text": "choáng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [125, 131]
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [488, 494]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [513, 522]
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [659, 665]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [737, 746]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [759, 762]
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [875, 881]
+  },
+  {
+    "text": "đau ấn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [908, 914]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [935, 938]
+  },
+  {
+    "text": "choáng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1279, 1285]
+  },
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1329, 1336]
+  }
+]

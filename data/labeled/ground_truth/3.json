@@ -27,22 +27,22 @@
     "position": [452, 464]
   },
   {
-    "text": "Không đánh trống ngực",
+    "text": "đánh trống ngực",
     "type": "TRIỆU_CHỨNG",
     "assertions": ["isNegated"],
-    "position": [690, 711]
+    "position": [696, 711]
   },
   {
-    "text": "Không chóng mặt",
+    "text": "chóng mặt",
     "type": "TRIỆU_CHỨNG",
     "assertions": ["isNegated"],
-    "position": [733, 748]
+    "position": [739, 748]
   },
   {
-    "text": "Không buồn nôn",
+    "text": "buồn nôn",
     "type": "TRIỆU_CHỨNG",
     "assertions": ["isNegated"],
-    "position": [751, 765]
+    "position": [757, 765]
   },
   {
     "text": "đau ngực",

@@ -1,0 +1,20 @@
+[
+  {
+    "text": "bạch huyết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [463, 473]
+  },
+  {
+    "text": "Quá giá trị",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z59.5"],
+    "assertions": [],
+    "position": [1032, 1043]
+  },
+  {
+    "text": "buồn ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1280, 1288]
+  }
+]

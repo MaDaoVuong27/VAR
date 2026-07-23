@@ -1,0 +1,184 @@
+[
+  {
+    "text": "tinh dịch đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [530, 542]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [616, 623]
+  },
+  {
+    "text": "Hội chứng buồng trứng đa nang",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E28.2"],
+    "assertions": [],
+    "position": [982, 1011]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1040, 1047]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1169, 1177]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1179, 1182]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1184, 1187]
+  },
+  {
+    "text": "ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1189, 1196]
+  },
+  {
+    "text": "dịch rò rỉ quanh ống thông",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K11.4"],
+    "assertions": [],
+    "position": [1203, 1229]
+  },
+  {
+    "text": "cholangiogram",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1250, 1263]
+  },
+  {
+    "text": "8.5fr",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1423, 1428]
+  },
+  {
+    "text": "10.2 fr",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1433, 1440]
+  },
+  {
+    "text": "sinh thiết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1478, 1488]
+  },
+  {
+    "text": "dẫn mật ngoài-trong",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["H61.3"],
+    "assertions": [],
+    "position": [1823, 1842]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1939, 1947]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1949, 1952]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1954, 1962]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1969, 1976]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2011, 2014]
+  },
+  {
+    "text": "ống",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [2320, 2323]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2366, 2374]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2376, 2379]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2381, 2384]
+  },
+  {
+    "text": "ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2386, 2393]
+  },
+  {
+    "text": "dịch rò rỉ quanh ống thông",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K11.4"],
+    "assertions": [],
+    "position": [2400, 2426]
+  },
+  {
+    "text": "tắc nghẽn kéo dài gần chỗ nối mật tụy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K83.1"],
+    "assertions": [],
+    "position": [2486, 2523]
+  },
+  {
+    "text": "8.5fr",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [2609, 2614]
+  },
+  {
+    "text": "10.2 fr",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [2619, 2626]
+  },
+  {
+    "text": "sinh thiết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2664, 2674]
+  },
+  {
+    "text": "cholangiogram",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [3241, 3254]
+  },
+  {
+    "text": "tắc nghẽn kéo dài gần chỗ nối mật tụy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K83.1"],
+    "assertions": [],
+    "position": [3280, 3317]
+  }
+]

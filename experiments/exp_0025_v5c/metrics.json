@@ -1,0 +1,12 @@
+{
+  "exp": "exp_0025_v5c",
+  "desc": "NER trên synthetic v5c (full pool: frame 1000 + prose 269 = 1269 doc)",
+  "ner": "models/ner_xlmr_v5c",
+  "dev_scores": {
+    "text_score": 0.2504,
+    "assertions_score": 0.6612,
+    "candidates_score": 0.3014,
+    "final_score": 0.3941
+  },
+  "n_dev": 15
+}

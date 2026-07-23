@@ -1,0 +1,189 @@
+[
+  {
+    "text": "Bệnh tim mạch do xơ vữa động mạch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I25.1"],
+    "assertions": ["isHistorical"],
+    "position": [21, 54]
+  },
+  {
+    "text": "Rối loạn lipid máu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E75.5"],
+    "assertions": ["isHistorical"],
+    "position": [69, 87]
+  },
+  {
+    "text": "Cơn rối loạn ý thức",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F06.7"],
+    "assertions": [],
+    "position": [132, 151]
+  },
+  {
+    "text": "xuất huyết dưới nhện",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I60"],
+    "assertions": [],
+    "position": [253, 273]
+  },
+  {
+    "text": "Chụp cắt lớp vi tính sọ não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [275, 302]
+  },
+  {
+    "text": "xuất huyết dưới nhện vùng trán",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I60"],
+    "assertions": [],
+    "position": [317, 347]
+  },
+  {
+    "text": "bầm dập nhu mô vùng trán",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["O64.3"],
+    "assertions": [],
+    "position": [354, 378]
+  },
+  {
+    "text": "nang màng nhện",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M67.4"],
+    "assertions": [],
+    "position": [484, 498]
+  },
+  {
+    "text": "tụ dịch/tụ máu dưới màng cứng mạn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["H31.3"],
+    "assertions": [],
+    "position": [504, 542]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [711, 718]
+  },
+  {
+    "text": "tụ máu ngoài màng cứng phải cấp tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["S06.4"],
+    "assertions": [],
+    "position": [752, 788]
+  },
+  {
+    "text": "tê bì",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1056, 1061]
+  },
+  {
+    "text": "ngất",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1421, 1425]
+  },
+  {
+    "text": "kích thích",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1596, 1606]
+  },
+  {
+    "text": "run giật tay chân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1889, 1906]
+  },
+  {
+    "text": "cứng đờ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1914, 1921]
+  },
+  {
+    "text": "cắn lưỡi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1929, 1937]
+  },
+  {
+    "text": "Đau đầu vùng thái dương phải, đỉnh đầu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [2008, 2046]
+  },
+  {
+    "text": "ngất",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2194, 2198]
+  },
+  {
+    "text": "giai đoạn mất định hướng và đi lại không vững",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isFamily"],
+    "position": [2350, 2395]
+  },
+  {
+    "text": "nhắm mắt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2477, 2485]
+  },
+  {
+    "text": "co giật",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [2511, 2518]
+  },
+  {
+    "text": "cứng đờ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [2520, 2527]
+  },
+  {
+    "text": "cắn lưỡi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [2529, 2537]
+  },
+  {
+    "text": "CT sọ não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2581, 2590]
+  },
+  {
+    "text": "Bầm dập nhu mô vùng trán phải và trán - thái dương phải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [2645, 2700]
+  },
+  {
+    "text": "Lớp dịch dưới màng cứng mỏng vùng thùy trán phải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [2701, 2749]
+  },
+  {
+    "text": "nang màng nhện",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M67.4"],
+    "assertions": [],
+    "position": [2760, 2774]
+  },
+  {
+    "text": "tụ máu dưới màng cứng mạn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I21.4"],
+    "assertions": [],
+    "position": [2780, 2810]
+  }
+]

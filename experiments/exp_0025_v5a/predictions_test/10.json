@@ -1,0 +1,83 @@
+[
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [113, 115]
+  },
+  {
+    "text": "đau bụng quặn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [126, 139]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [142, 151]
+  },
+  {
+    "text": "đi ngoài ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [162, 177]
+  },
+  {
+    "text": "tăng cân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [186, 194]
+  },
+  {
+    "text": "(kháng nguyên ung thư phôi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [251, 277]
+  },
+  {
+    "text": "4.9",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [292, 295]
+  },
+  {
+    "text": "mri",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [325, 328]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [402, 409]
+  },
+  {
+    "text": "sinh thiết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [553, 563]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [578, 585]
+  },
+  {
+    "text": "khối u trực tràng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["C45.0"],
+    "assertions": [],
+    "position": [625, 642]
+  },
+  {
+    "text": "sinh thiết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [690, 700]
+  },
+  {
+    "text": "phân giai đoạn phẫu thuật với tem (viết tắt)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [740, 784]
+  }
+]

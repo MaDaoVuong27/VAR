@@ -1,0 +1,36 @@
+[
+  {
+    "text": "xơ gan mất bù",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K74.0"],
+    "assertions": [],
+    "position": [1019, 1032]
+  },
+  {
+    "text": "tăng áp lực tĩnh mạch cửa",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K76.6"],
+    "assertions": [],
+    "position": [1036, 1061]
+  },
+  {
+    "text": "chọc dò màng phổi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1271, 1288]
+  },
+  {
+    "text": "bụng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1314, 1318]
+  },
+  {
+    "text": "7L",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1319, 1321]
+  },
+  {
+    "text": "acid uric máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1404, 1417]
+  }
+]

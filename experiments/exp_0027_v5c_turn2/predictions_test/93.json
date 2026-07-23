@@ -1,0 +1,63 @@
+[
+  {
+    "text": "160/70 mmHg",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [89, 100]
+  },
+  {
+    "text": "170/60 mmHg",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [123, 134]
+  },
+  {
+    "text": "150/60 mmHg",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [159, 170]
+  },
+  {
+    "text": "hồi hợp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [197, 204]
+  },
+  {
+    "text": "rợn người",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [215, 224]
+  },
+  {
+    "text": "rợn người",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [436, 445]
+  },
+  {
+    "text": "hồi hộp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [447, 454]
+  },
+  {
+    "text": "XN",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [523, 525]
+  },
+  {
+    "text": "huyết áp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [806, 814]
+  },
+  {
+    "text": "chụp ctchưa",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1302, 1313]
+  },
+  {
+    "text": "Theo dõi đại tràng giãn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z30.5"],
+    "assertions": [],
+    "position": [1373, 1396]
+  }
+]

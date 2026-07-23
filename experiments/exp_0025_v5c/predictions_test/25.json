@@ -1,0 +1,23 @@
+[
+  {
+    "text": "tách thành động mạch chủ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I71"],
+    "assertions": [],
+    "position": [48, 72]
+  },
+  {
+    "text": "biến chứng bởi liệt hai chân",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [74, 102]
+  },
+  {
+    "text": "Rò động - tĩnh mạch đùi phải do thủ thuật can thiệp ,",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [335, 388]
+  }
+]

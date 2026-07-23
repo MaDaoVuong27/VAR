@@ -1,0 +1,71 @@
+[
+  {
+    "text": "Chụp động mạch vành",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [255, 274]
+  },
+  {
+    "text": "bệnh ba thân động mạch vành nghiêm trọng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [284, 324]
+  },
+  {
+    "text": "Chụp động mạch vành",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [355, 374]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [552, 560]
+  },
+  {
+    "text": "cồn cào",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [561, 568]
+  },
+  {
+    "text": "ợ hơi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [578, 583]
+  },
+  {
+    "text": "ợ chua",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [585, 591]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [612, 620]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [626, 629]
+  },
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [720, 727]
+  },
+  {
+    "text": "nội soi dạ dày",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [887, 901]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1747, 1750]
+  }
+]

@@ -6,6 +6,75 @@ Liên kết: [TASK_SPEC.md](TASK_SPEC.md) (đề bài/metric), [IDEAS.md](IDEAS.
 
 ---
 
+## 0. 🆕 Test set TURN 2 (2026-07-23) — BTC cấp lại đề, lần này là THẬT
+
+> ⚠️ Phân biệt với mục "BTC nâng cấp đề 2026-07-16" trong `EXPERIMENTS_LOG.md` — lần đó
+> input **byte-for-byte giống hệt** bản cũ (giả). Lần này (turn 2, file
+> `data/raw_turn_2/input_turn2_vong1.zip`, giải nén vào `data/raw_turn_2/input/`) input
+> **THẬT SỰ khác**: đã verify **0/100 file trùng byte** với `data/raw_new/input/` cũ.
+
+### Bằng chứng: đây là case bệnh nhân MỚI, không phải case cũ + nhiễu
+
+So khớp n-gram-8 giữa file mới[i] và CHÍNH file cũ[i] (cùng số thứ tự): **median 0.0%, max
+1.1%** trên cả 100 file — nội dung hoàn toàn mới, không phải "case cũ chèn thêm đoạn lạ" (dù
+hiện tượng "chèn đoạn lạc đề" — xem dưới — làm ta nghi điều đó lúc đầu).
+
+### Bảng so sánh turn 2 vs input cũ
+
+| Chỉ số | Cũ (`data/raw_new`) | Mới (`data/raw_turn_2`) |
+|---|---|---|
+| Tổng ký tự | 132.336 | 203.817 (**+54%**) |
+| Độ dài median / min / max | 1.229 / 136 / 4.428 | 1.845 / **1.293** / 4.481 |
+| Redaction thuốc bằng `***` | 0/100 file | **30/100 file** (99 lần) |
+| Nội dung lạc đề (bài giáo dục sức khỏe / forum Q&A chèn giữa case) | 0/100 | **37/100** |
+| ≥1 trong 2 hiện tượng mới trên | 0/100 | **55/100** — hơn nửa bộ test |
+| Giữ khung mục cũ (`1. Tiền sử/2..../3. Đánh giá`) | 98/100 | 70/100 (vẫn đa số) |
+| Code-switch VN-EN (≥4 token ASCII thuần/file) | 77/100 | 99/100 (gần phổ quát) |
+| Token dính liền (glue noise) | 27/100 | **55/100** (gấp đôi) |
+| Filler `N/A` | 1/100 | 0/100 |
+| Bracket placeholder `[Ngày]`, `[Tên bác sĩ]`... | 3/100 | 5/100 (đã có từ trước, không phải mới) |
+
+### Hai hiện tượng mới — ví dụ thật
+
+**(a) Redaction thuốc bằng dấu `*`** (file `1.txt`, mới):
+```
+Thuốc giảm đau, hạ sốt chứa ******* hoặc **********
+Kháng sinh nhóm ***********, ********
+Thuốc kháng sốt rét như *******, ***********, **********
+```
+Verify bằng cách chạy thử exp_0026/exp_0027 (xem `EXPERIMENTS_LOG.md`): **không model nào tag
+được entity gần vùng `***`** — dễ hiểu vì không có tín hiệu lexical để nhận diện. Không phải bug,
+là hệ quả tự nhiên của NER dựa trên pattern. Chưa rõ ground truth có kỳ vọng tag được span này
+không — nếu có, `candidates` chắc chắn phải rỗng (không thể suy mã RxNorm từ `***`).
+
+**(b) Nội dung lạc đề chèn giữa case** (file `2.txt`, mới) — toàn bộ file là bài "Bệnh Kawasaki
+là gì?" văn phong bách khoa/tờ rơi y tế (khác hẳn ghi chú lâm sàng), nhưng giữa bài có 1 đoạn
+hoàn toàn không liên quan bị dính vào:
+```
+- Sẽ không điển hình cho Bệnh đa xơ cứng theo ý kiến của bác sĩ thần kinh
+- Ảo giác do rượu (suy nghĩ)
+- Không được coi là thực sự loạn thần
+```
+File `5.txt`: khung vẫn là case đặt stent đường mật, nhưng giữa mục "2. Tiền sử bệnh hiện tại"
+bị chèn nguyên 1 đoạn Q&A tư vấn vô sinh (`"Chào bạn... Chúc bạn nhiều sức khoẻ!"`) rồi case gốc
+tiếp tục ngay sau — không có ranh giới rõ ràng giữa 2 loại nội dung.
+
+### Hệ quả / câu hỏi mở cho pipeline
+
+1. **Văn phong "giáo dục sức khỏe"** (11-37/100 file tuỳ cách đếm) khác hẳn văn phong ghi chú
+   lâm sàng mà synthetic hiện tại (`frame_v5`/`prose_v5`) nhắm tới — câu đầy đủ, mô tả bệnh nói
+   chung ("Bệnh Kawasaki là...") thay vì "bệnh nhân có...". **Chưa rõ** ground truth có tag các
+   khái niệm trong đoạn này không — nếu synthetic v6 cần bổ sung, nên đợi tín hiệu từ BTC (điểm
+   thật) trước khi đầu tư, vì đây là thay đổi lớn về phân phối input.
+2. **Redaction `***`** — không sửa gì vội; cần biết điểm thật mới đánh giá được đây có phải nút
+   thắt hay không.
+3. **Glue noise tăng gấp đôi** (27%→55%) — tham số nhiễu đã calib cho `frame_generate.py` theo
+   input cũ (~27%) giờ thấp hơn thực tế; đáng cân nhắc tăng khi làm synthetic vòng sau.
+4. **`data/raw_new/` cũ vẫn giữ nguyên**, không xoá — dùng để đối chiếu lịch sử. Từ nay
+   `data/raw_turn_2/input/` là input để sinh submission thật.
+
+---
+
 ## 1. Nguồn gốc & cấu trúc dữ liệu
 
 - Là **ghi chú lâm sàng tiếng Việt**, văn phong dịch máy/nửa dịch từ bệnh án tiếng Anh (kiểu MIMIC: discharge summary / history of present illness). Rất nhiều thuật ngữ, tên thuốc, cụm bệnh giữ nguyên tiếng Anh.

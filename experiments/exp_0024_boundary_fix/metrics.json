@@ -1,0 +1,12 @@
+{
+  "exp": "exp_0024_boundary_fix",
+  "desc": "exp_0022 + fix _snap_word decimal + _trim_narrative_paren (A2/A3)",
+  "ner": "models/ner_xlmr_v4_mix",
+  "dev_scores": {
+    "text_score": 0.2577,
+    "assertions_score": 0.6328,
+    "candidates_score": 0.3333,
+    "final_score": 0.4005
+  },
+  "n_dev": 15
+}

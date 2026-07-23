@@ -1,0 +1,39 @@
+[
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [513, 522]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [737, 746]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [759, 762]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [935, 938]
+  },
+  {
+    "text": "ngoáy mũi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["J34.3"],
+    "assertions": [],
+    "position": [1116, 1125]
+  },
+  {
+    "text": "choáng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1279, 1285]
+  }
+]

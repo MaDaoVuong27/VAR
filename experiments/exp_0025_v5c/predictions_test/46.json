@@ -1,0 +1,50 @@
+[
+  {
+    "text": "R BK-pop đến DP BPG",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [122, 141]
+  },
+  {
+    "text": "hạ huyết áp, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I95.9"],
+    "assertions": [],
+    "position": [213, 240]
+  },
+  {
+    "text": "chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [343, 363]
+  },
+  {
+    "text": "ct)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [365, 368]
+  },
+  {
+    "text": "tắc hẹp 80% động mạch thận trái",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [393, 424]
+  },
+  {
+    "text": "chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [487, 507]
+  },
+  {
+    "text": "tắc hẹp 80% động mạch thận trái",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [522, 553]
+  },
+  {
+    "text": "chụp mạch máu thận",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [586, 604]
+  }
+]

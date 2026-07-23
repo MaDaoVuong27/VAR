@@ -1,0 +1,16 @@
+[
+  {
+    "text": "chứng béo phì do có nhiều nếp gấp da",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E66"],
+    "assertions": [],
+    "position": [300, 336]
+  },
+  {
+    "text": "Bệnh do nhiễm nấm da mà thành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["B40.3"],
+    "assertions": [],
+    "position": [339, 368]
+  }
+]

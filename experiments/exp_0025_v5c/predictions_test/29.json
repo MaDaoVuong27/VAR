@@ -1,0 +1,15 @@
+[
+  {
+    "text": "tiểu tiện không tự chủ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R15"],
+    "assertions": [],
+    "position": [177, 199]
+  },
+  {
+    "text": "bí tiếu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [242, 249]
+  }
+]

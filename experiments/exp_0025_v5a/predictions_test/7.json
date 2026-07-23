@@ -1,0 +1,144 @@
+[
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [48, 50]
+  },
+  {
+    "text": "Rối loạn cảm xúc (trầm cảm)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F60.3"],
+    "assertions": ["isHistorical"],
+    "position": [51, 78]
+  },
+  {
+    "text": "hội chứng nghiện rượu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F10.2"],
+    "assertions": ["isHistorical"],
+    "position": [129, 150]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [237, 246]
+  },
+  {
+    "text": "hội chứng nghiện rượu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F10.2"],
+    "assertions": ["isHistorical"],
+    "position": [323, 344]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [516, 525]
+  },
+  {
+    "text": "Ảo thanh (AH) (ảo giác thính giác)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R44.0"],
+    "assertions": ["isHistorical"],
+    "position": [660, 694]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [840, 849]
+  },
+  {
+    "text": "Khó khăn về thị lực gần",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [856, 879]
+  },
+  {
+    "text": "ảo giác thị giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [939, 955]
+  },
+  {
+    "text": "Ảo thanh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R44.0"],
+    "assertions": [],
+    "position": [957, 965]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [981, 988]
+  },
+  {
+    "text": "chụp ct sọ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1278, 1288]
+  },
+  {
+    "text": "bệnh lý chất trắng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M94.2"],
+    "assertions": [],
+    "position": [1335, 1353]
+  },
+  {
+    "text": "chọc dò dịch não tủy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1360, 1380]
+  },
+  {
+    "text": "không phát hiện bất thường",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1384, 1410]
+  },
+  {
+    "text": "chọc dò dịch não tủy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1754, 1774]
+  },
+  {
+    "text": "âm tính",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1778, 1785]
+  },
+  {
+    "text": "chụp ct sọ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1818, 1828]
+  },
+  {
+    "text": "Đột sống thắt lưng)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["S33.1"],
+    "assertions": [],
+    "position": [1938, 1957]
+  },
+  {
+    "text": "Bệnh đa xơ cứng theo",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["G35"],
+    "assertions": ["isHistorical"],
+    "position": [2185, 2205]
+  },
+  {
+    "text": "Ảo giác do rượu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K70.4"],
+    "assertions": ["isHistorical"],
+    "position": [2240, 2255]
+  },
+  {
+    "text": "loạn thần",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2299, 2308]
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "text": "Bệnh bạch cầu dòng tủy mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["C92"],
+    "assertions": ["isHistorical"],
+    "position": [301, 332]
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "candidates": ["282386"],
+    "assertions": ["isHistorical"],
+    "position": [343, 350]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I11"],
+    "assertions": ["isHistorical"],
+    "position": [357, 370]
+  },
+  {
+    "text": "Đái tháo đường típ 2",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E11"],
+    "assertions": ["isHistorical"],
+    "position": [414, 434]
+  },
+  {
+    "text": "Giả gout",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M10.0"],
+    "assertions": ["isHistorical"],
+    "position": [460, 468]
+  },
+  {
+    "text": "bệnh thận mạn, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N18.9"],
+    "assertions": ["isHistorical"],
+    "position": [475, 504]
+  },
+  {
+    "text": "tăng sản tuyến tiền liệt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N40"],
+    "assertions": ["isHistorical"],
+    "position": [523, 547]
+  },
+  {
+    "text": "Ngã",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [576, 579]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [586, 593]
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "candidates": ["282386"],
+    "assertions": ["isHistorical"],
+    "position": [625, 632]
+  },
+  {
+    "text": "Toàn trạng suy kiệt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F41.1"],
+    "assertions": ["isHistorical"],
+    "position": [720, 739]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [767, 774]
+  },
+  {
+    "text": "Lú lẫn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [790, 796]
+  },
+  {
+    "text": "Cực kỳ yếu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z59.5"],
+    "assertions": ["isHistorical"],
+    "position": [849, 859]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [905, 912]
+  },
+  {
+    "text": "Lú lẫn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [937, 943]
+  },
+  {
+    "text": "yếu cơ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [983, 989]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1067, 1074]
+  },
+  {
+    "text": "nipt",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1397, 1401]
+  }
+]

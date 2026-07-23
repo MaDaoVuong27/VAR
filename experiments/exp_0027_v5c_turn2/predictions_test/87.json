@@ -1,0 +1,113 @@
+[
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [34, 42]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [112, 120]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [129, 132]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [163, 171]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [182, 185]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [257, 260]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [278, 285]
+  },
+  {
+    "text": "Da niêm mạc hồng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [286, 302]
+  },
+  {
+    "text": "KHông phù, không xuất huyết",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I61.9"],
+    "assertions": ["isHistorical"],
+    "position": [304, 331]
+  },
+  {
+    "text": "Phổi RRPN thô",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [347, 360]
+  },
+  {
+    "text": "Bụng mềm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R19.3"],
+    "assertions": ["isHistorical"],
+    "position": [362, 370]
+  },
+  {
+    "text": "110/ 70 mmHg",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [387, 399]
+  },
+  {
+    "text": "70 l/p",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [417, 423]
+  },
+  {
+    "text": "Đo hoạt độ AST",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [586, 600]
+  },
+  {
+    "text": "(GOT",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [602, 606]
+  },
+  {
+    "text": "Đo hoạt độ ALT",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [609, 623]
+  },
+  {
+    "text": "Điện giải đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [660, 672]
+  },
+  {
+    "text": "Cl",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [681, 683]
+  }
+]

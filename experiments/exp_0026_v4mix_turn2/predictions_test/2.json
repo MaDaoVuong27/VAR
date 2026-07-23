@@ -1,0 +1,110 @@
+[
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [53, 56]
+  },
+  {
+    "text": "phát ban toàn thân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [84, 102]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1423, 1426]
+  },
+  {
+    "text": "Sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1439, 1442]
+  },
+  {
+    "text": "Sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1458, 1461]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1509, 1512]
+  },
+  {
+    "text": "Bệnh đa xơ cứng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["G35"],
+    "assertions": [],
+    "position": [1916, 1931]
+  },
+  {
+    "text": "Ảo giác do rượu (suy nghĩ)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K70.4"],
+    "assertions": ["isHistorical"],
+    "position": [1971, 1997]
+  },
+  {
+    "text": "Công thức máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2042, 2055]
+  },
+  {
+    "text": "CRP",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2057, 2060]
+  },
+  {
+    "text": "Men gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2074, 2081]
+  },
+  {
+    "text": "albumin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2083, 2090]
+  },
+  {
+    "text": "Siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2144, 2155]
+  },
+  {
+    "text": "ECG",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2204, 2207]
+  },
+  {
+    "text": "điện tâm đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2208, 2219]
+  },
+  {
+    "text": "siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2841, 2852]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [3550, 3553]
+  },
+  {
+    "text": "đỏ mắt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [3587, 3593]
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [3595, 3601]
+  }
+]

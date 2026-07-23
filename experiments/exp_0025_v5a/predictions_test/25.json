@@ -1,0 +1,23 @@
+[
+  {
+    "text": "tách thành động mạch chủ  biến chứng bởi liệt hai chân",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M16.2"],
+    "assertions": ["isHistorical"],
+    "position": [48, 102]
+  },
+  {
+    "text": "Rò động",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [335, 342]
+  },
+  {
+    "text": "tĩnh mạch đùi phải do thủ thuật can thiệp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [345, 386]
+  }
+]

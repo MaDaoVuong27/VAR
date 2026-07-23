@@ -1,0 +1,37 @@
+[
+  {
+    "text": "R BKpop-DP bypass bằng tĩnh mạch hiển",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [75, 112]
+  },
+  {
+    "text": "loét mới ở ngón chân út",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [204, 227]
+  },
+  {
+    "text": "loét đau",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N64.4"],
+    "assertions": [],
+    "position": [268, 276]
+  },
+  {
+    "text": "loét đỏ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["L74.0"],
+    "assertions": [],
+    "position": [283, 290]
+  },
+  {
+    "text": "loét sưng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [297, 306]
+  }
+]

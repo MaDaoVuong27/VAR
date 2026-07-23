@@ -1,0 +1,63 @@
+[
+  {
+    "text": "run tay",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isFamily"],
+    "position": [203, 210]
+  },
+  {
+    "text": "run rẩy tay chân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [338, 354]
+  },
+  {
+    "text": "mất thăng bằng khi đi đứng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [356, 382]
+  },
+  {
+    "text": "run tay",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isFamily"],
+    "position": [417, 424]
+  },
+  {
+    "text": "run tay",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [725, 732]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1201, 1208]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1210, 1219]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1221, 1229]
+  },
+  {
+    "text": "đỏ mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1231, 1237]
+  },
+  {
+    "text": "Nitramyl",
+    "type": "THUỐC",
+    "candidates": ["7394"],
+    "assertions": [],
+    "position": [1508, 1516]
+  }
+]

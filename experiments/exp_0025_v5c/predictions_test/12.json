@@ -1,0 +1,148 @@
+[
+  {
+    "text": "U Sacoit tổn thương chủ yếu tại tim",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [48, 83]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [133, 135]
+  },
+  {
+    "text": "ho ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [156, 165]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [230, 232]
+  },
+  {
+    "text": "ho ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [247, 256]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [321, 323]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [327, 334]
+  },
+  {
+    "text": "101.8°F",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [477, 484]
+  },
+  {
+    "text": "ho ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [506, 515]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [562, 564]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [571, 578]
+  },
+  {
+    "text": "ho ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [585, 594]
+  },
+  {
+    "text": "Đờm pha màu hồng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["H31.4"],
+    "assertions": ["isHistorical"],
+    "position": [623, 639]
+  },
+  {
+    "text": "fever",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [646, 651]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [663, 666]
+  },
+  {
+    "text": "Đau bụng  âm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R07.4"],
+    "assertions": ["isHistorical"],
+    "position": [685, 697]
+  },
+  {
+    "text": "levofloxacin",
+    "type": "THUỐC",
+    "candidates": ["82122"],
+    "assertions": [],
+    "position": [876, 888]
+  },
+  {
+    "text": "viêm phế quản do viêm phổi mắc phải cộng đồng ở bệnh nhân phức tạp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["J20.5"],
+    "assertions": [],
+    "position": [901, 967]
+  },
+  {
+    "text": "tylenol",
+    "type": "THUỐC",
+    "candidates": ["202433"],
+    "assertions": [],
+    "position": [975, 982]
+  },
+  {
+    "text": "công thức máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1035, 1048]
+  },
+  {
+    "text": "cbc",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1050, 1053]
+  },
+  {
+    "text": "11.3",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1068, 1072]
+  },
+  {
+    "text": "chụp x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1105, 1122]
+  },
+  {
+    "text": "Lấy mẫu cấy máu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z52.0"],
+    "assertions": [],
+    "position": [1195, 1210]
+  }
+]

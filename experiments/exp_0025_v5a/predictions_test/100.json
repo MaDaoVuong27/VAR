@@ -1,0 +1,133 @@
+[
+  {
+    "text": "11.6",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [87, 91]
+  },
+  {
+    "text": "ác của đại tràng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["C18"],
+    "assertions": ["isHistorical"],
+    "position": [125, 141]
+  },
+  {
+    "text": "cường cận giáp nguyên phát",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E21.0"],
+    "assertions": ["isHistorical"],
+    "position": [148, 174]
+  },
+  {
+    "text": "Xơ vữa động mạch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I70"],
+    "assertions": ["isHistorical"],
+    "position": [181, 197]
+  },
+  {
+    "text": "đau thắt ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [208, 221]
+  },
+  {
+    "text": "canxi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [446, 451]
+  },
+  {
+    "text": "12.0",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [455, 459]
+  },
+  {
+    "text": "canxi ion hóa",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [461, 474]
+  },
+  {
+    "text": "6.8",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [475, 478]
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [504, 512]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [673, 681]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [683, 690]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [692, 701]
+  },
+  {
+    "text": "động kinh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [741, 750]
+  },
+  {
+    "text": "MRI",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [769, 772]
+  },
+  {
+    "text": "nhồi máu cũ nhỏ ở vỏ não đỉnh trái",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [796, 830]
+  },
+  {
+    "text": "thương cấp tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R52.0"],
+    "assertions": [],
+    "position": [845, 860]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [895, 903]
+  },
+  {
+    "text": "12.0",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1196, 1200]
+  },
+  {
+    "text": "6.8",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1216, 1219]
+  },
+  {
+    "text": "nhồi máu cũ nhỏ ở vỏ não đỉnh trái",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1341, 1375]
+  },
+  {
+    "text": "Laxis 20mg tiêm tĩnh mạch",
+    "type": "THUỐC",
+    "candidates": ["200801"],
+    "assertions": ["isHistorical"],
+    "position": [1441, 1466]
+  }
+]

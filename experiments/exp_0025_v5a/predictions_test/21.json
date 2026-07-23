@@ -1,0 +1,16 @@
+[
+  {
+    "text": "bệnh thận mạn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N18"],
+    "assertions": ["isHistorical"],
+    "position": [98, 111]
+  },
+  {
+    "text": "không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [113, 127]
+  }
+]

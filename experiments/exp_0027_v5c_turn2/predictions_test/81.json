@@ -1,0 +1,26 @@
+[
+  {
+    "text": "que thử",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [272, 279]
+  },
+  {
+    "text": "ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1124, 1130]
+  },
+  {
+    "text": "chảy máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1195, 1203]
+  },
+  {
+    "text": "tắc mạch do cục máu đông",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["O88.2"],
+    "assertions": [],
+    "position": [1420, 1444]
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [113, 115]
+  },
+  {
+    "text": "đau bụng quặn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [126, 139]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [142, 151]
+  },
+  {
+    "text": "đi ngoài ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [162, 177]
+  },
+  {
+    "text": "cea",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [247, 250]
+  },
+  {
+    "text": "4.9",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [292, 295]
+  },
+  {
+    "text": "mri",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [325, 328]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [402, 409]
+  },
+  {
+    "text": "sinh thiết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [553, 563]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [578, 585]
+  },
+  {
+    "text": "sinh thiết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [690, 700]
+  }
+]

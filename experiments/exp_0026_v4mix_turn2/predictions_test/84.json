@@ -1,0 +1,9 @@
+[
+  {
+    "text": "Bệnh do nhiễm nấm da mà thành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["B40.3"],
+    "assertions": [],
+    "position": [339, 368]
+  }
+]

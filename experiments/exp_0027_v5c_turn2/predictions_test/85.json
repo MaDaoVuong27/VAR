@@ -1,0 +1,139 @@
+[
+  {
+    "text": "Tiểu đường loại 1",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E10"],
+    "assertions": ["isHistorical"],
+    "position": [54, 71]
+  },
+  {
+    "text": "béo phì",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [150, 157]
+  },
+  {
+    "text": "Nhiễm trùng đường tiết niệu (UTIs) tái phát",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [164, 207]
+  },
+  {
+    "text": "nhiễm khuẩn đường tiết niệu, vị trí không xác định",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N39.0"],
+    "assertions": ["isHistorical"],
+    "position": [208, 258]
+  },
+  {
+    "text": "đau bàn chân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [307, 319]
+  },
+  {
+    "text": "đau bàn chân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [360, 372]
+  },
+  {
+    "text": "mất thăng bằng khi đi lại",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [384, 409]
+  },
+  {
+    "text": "viêm bể thận",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["H04.0"],
+    "assertions": [],
+    "position": [473, 485]
+  },
+  {
+    "text": "không vững khi đứng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [781, 800]
+  },
+  {
+    "text": "hct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [869, 872]
+  },
+  {
+    "text": "hematocrit",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [874, 884]
+  },
+  {
+    "text": "8.126.3",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [886, 893]
+  },
+  {
+    "text": "tiểu cầu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [900, 908]
+  },
+  {
+    "text": "478",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [921, 924]
+  },
+  {
+    "text": "hco3-",
+    "type": "THUỐC",
+    "candidates": ["393039"],
+    "assertions": ["isHistorical"],
+    "position": [931, 936]
+  },
+  {
+    "text": "ag",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [960, 962]
+  },
+  {
+    "text": "13",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [975, 977]
+  },
+  {
+    "text": "glucose",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1022, 1029]
+  },
+  {
+    "text": "đường huyết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1031, 1042]
+  },
+  {
+    "text": "316",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1044, 1047]
+  },
+  {
+    "text": "tổng phân tích nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1111, 1135]
+  },
+  {
+    "text": "chụp x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1251, 1268]
+  },
+  {
+    "text": "chụp x-quang",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1347, 1359]
+  },
+  {
+    "text": "viêm xương tủy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M86"],
+    "assertions": [],
+    "position": [1405, 1419]
+  }
+]

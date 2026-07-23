@@ -1,0 +1,70 @@
+[
+  {
+    "text": "bệnh tim mạch do xơ vữa động mạch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I25.1"],
+    "assertions": ["isHistorical"],
+    "position": [131, 164]
+  },
+  {
+    "text": "bệnh thận mạn, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N18.9"],
+    "assertions": ["isHistorical"],
+    "position": [233, 262]
+  },
+  {
+    "text": "Suy giảm nhận thức nhẹ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F06.7"],
+    "assertions": ["isHistorical"],
+    "position": [269, 291]
+  },
+  {
+    "text": "Cảm giác thắt chặt ngực",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I20"],
+    "assertions": [],
+    "position": [451, 474]
+  },
+  {
+    "text": "Cảm giác thắt chặt ngực dưới xương ức nghiêm trọng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [622, 672]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [679, 686]
+  },
+  {
+    "text": "Xảy ra khi nghỉ ngơi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [872, 892]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [952, 959]
+  },
+  {
+    "text": "Cơn đau thắt ngực không ổn định",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I20.0"],
+    "assertions": ["isHistorical"],
+    "position": [1048, 1079]
+  },
+  {
+    "text": "Cơn đau thắt ngực không ổn định cần can thiệp mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I20.0"],
+    "assertions": ["isHistorical"],
+    "position": [1174, 1229]
+  }
+]

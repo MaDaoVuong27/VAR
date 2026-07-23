@@ -1,0 +1,21 @@
+[
+  {
+    "text": "thai máy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [118, 126]
+  },
+  {
+    "text": "vỡ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isNegated"],
+    "position": [175, 177]
+  },
+  {
+    "text": "ối/rỉ ối",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [178, 186]
+  }
+]

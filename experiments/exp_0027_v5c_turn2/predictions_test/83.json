@@ -1,0 +1,22 @@
+[
+  {
+    "text": "Tổ thương mô bệnh học",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [281, 302]
+  },
+  {
+    "text": "Bạn đay vô căn hộ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [859, 876]
+  },
+  {
+    "text": "buồn ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1183, 1191]
+  }
+]

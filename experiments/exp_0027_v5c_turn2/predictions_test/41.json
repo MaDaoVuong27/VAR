@@ -1,0 +1,99 @@
+[
+  {
+    "text": "Sản xuất quá nhiều chất bã nhờn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [485, 516]
+  },
+  {
+    "text": "Bít tắc nang lông bởi chất bã và tế bào sừng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["L11.0"],
+    "assertions": ["isHistorical"],
+    "position": [517, 561]
+  },
+  {
+    "text": "Vi hệ tại nang lông bởi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["L11.0"],
+    "assertions": ["isHistorical"],
+    "position": [562, 585]
+  },
+  {
+    "text": "Giải phóng các chất trung gian gây viêm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["L24.0"],
+    "assertions": ["isHistorical"],
+    "position": [641, 680]
+  },
+  {
+    "text": "Đặc trưng bởi nhân mụn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [730, 752]
+  },
+  {
+    "text": "Đặc trưng bởi sẹo, mụn mủ, nốt sần, và nang",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [761, 804]
+  },
+  {
+    "text": "Trứng cá",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["L70"],
+    "assertions": [],
+    "position": [808, 816]
+  },
+  {
+    "text": "Tăng sản tuyến bã nhờn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E32.0"],
+    "assertions": ["isHistorical"],
+    "position": [850, 872]
+  },
+  {
+    "text": "Sừng hóa nang lông bất thường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["L11.0"],
+    "assertions": ["isHistorical"],
+    "position": [875, 904]
+  },
+  {
+    "text": "Vi khuẩn C. acne",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [907, 923]
+  },
+  {
+    "text": "Viêm tại chỗ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["L20"],
+    "assertions": ["isHistorical"],
+    "position": [926, 938]
+  },
+  {
+    "text": "Nhân mụn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [952, 960]
+  },
+  {
+    "text": "Trứng cá viêm nhẹ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["L08.0"],
+    "assertions": ["isHistorical"],
+    "position": [982, 999]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1115, 1123]
+  }
+]

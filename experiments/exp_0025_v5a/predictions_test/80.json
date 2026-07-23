@@ -1,0 +1,19 @@
+[
+  {
+    "text": "chấn thương gãy xương sườn trái",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["S53.2"],
+    "assertions": [],
+    "position": [304, 335]
+  },
+  {
+    "text": "chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [359, 379]
+  },
+  {
+    "text": "chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [425, 445]
+  }
+]

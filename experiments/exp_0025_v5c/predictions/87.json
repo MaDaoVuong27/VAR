@@ -1,0 +1,49 @@
+[
+  {
+    "text": "tổn thương chi dưới do tự tử không thành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["T93"],
+    "assertions": [],
+    "position": [179, 219]
+  },
+  {
+    "text": "buồn chán",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [314, 323]
+  },
+  {
+    "text": "trầm cảm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [555, 563]
+  },
+  {
+    "text": "tổn thương tổn thương chi dưới nghiêm trọng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["T93"],
+    "assertions": [],
+    "position": [622, 665]
+  },
+  {
+    "text": "Phẫu thuật cắt cụt chân",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M62.06"],
+    "assertions": [],
+    "position": [678, 701]
+  },
+  {
+    "text": "biến chứng thuyên tắc phổi hai bên",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["J95.0"],
+    "assertions": [],
+    "position": [757, 791]
+  },
+  {
+    "text": "nhiễm trùng chi dưới",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["T35.5"],
+    "assertions": [],
+    "position": [795, 815]
+  }
+]

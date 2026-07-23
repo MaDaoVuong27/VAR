@@ -1,0 +1,82 @@
+[
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [386, 394]
+  },
+  {
+    "text": "chảy máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [403, 411]
+  },
+  {
+    "text": "teo niêm mạc tử cung",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N80.9"],
+    "assertions": [],
+    "position": [801, 821]
+  },
+  {
+    "text": "bồn chồn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1317, 1325]
+  },
+  {
+    "text": "lo lắng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1327, 1334]
+  },
+  {
+    "text": "lãnh cảm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1376, 1384]
+  },
+  {
+    "text": "sưng nề",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1649, 1656]
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1694, 1700]
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1778, 1784]
+  },
+  {
+    "text": "cephalexin",
+    "type": "THUỐC",
+    "candidates": ["2231"],
+    "assertions": ["isHistorical"],
+    "position": [1930, 1940]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2008, 2017]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2232, 2241]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [2254, 2257]
+  }
+]

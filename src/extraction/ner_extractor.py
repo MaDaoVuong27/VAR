@@ -14,7 +14,7 @@ import re
 
 from .extractor import Mention, _iter_lines, _match_header, _LABEL
 from ..common.text_norm import normalize_for_match
-from ..schema import TYPE_KQ_XN
+from ..schema import TYPE_CHAN_DOAN, TYPE_KQ_XN, TYPE_THUOC
 from .ner_common import ID2LABEL, token_labels_to_char_spans
 
 _ROOT = Path(__file__).resolve().parent.parent.parent
@@ -54,16 +54,68 @@ def _split_newlines(raw: str, s: int, e: int):
 
 
 def _snap_word(raw: str, s: int, e: int):
-    """Co biên span để không cắt giữa từ (tránh 'Ng' từ 'Ngừng'); rồi strip khoảng trắng."""
-    while s > 0 and _WORDCH.match(raw[s - 1] or "") and _WORDCH.match(raw[s] or ""):
-        s -= 1
-    while e < len(raw) and _WORDCH.match(raw[e - 1] or "") and _WORDCH.match(raw[e] or ""):
-        e += 1
+    """Co biên span để không cắt giữa từ (tránh 'Ng' từ 'Ngừng'); rồi strip khoảng trắng.
+
+    Mở rộng thêm qua DẤU THẬP PHÂN (`.`/`,` giữa 2 chữ số) — bug đo được: model trúng '2' trong
+    '5.2' -> bản cũ cắt còn '2', mất '5.'. KHÔNG thêm '.'/',' vào `_WORDCH` chung (sẽ phá ranh giới
+    câu ở mọi chỗ khác dùng nó) — chỉ khớp đúng pattern hẹp digit-sep-digit. Xem
+    docs/ANNOTATION_GUIDELINE.md §6 + docs/EXPERIMENTS_LOG.md (nhóm lỗi "cắt giữa số").
+    """
+    while s > 0:
+        if _WORDCH.match(raw[s - 1] or "") and _WORDCH.match(raw[s] or ""):
+            s -= 1
+        elif s >= 2 and raw[s - 1] in ".," and raw[s - 2].isdigit() and raw[s].isdigit():
+            s -= 2
+        else:
+            break
+    while e < len(raw):
+        if _WORDCH.match(raw[e - 1] or "") and _WORDCH.match(raw[e] or ""):
+            e += 1
+        elif e + 1 < len(raw) and raw[e] in ".," and raw[e - 1].isdigit() and raw[e + 1].isdigit():
+            e += 2
+        else:
+            break
     while s < e and raw[s].isspace():
         s += 1
     while e > s and raw[e - 1].isspace():
         e -= 1
     return s, e
+
+
+# Cue tường thuật/sự kiện bên trong ngoặc — KHÁC với ngoặc là 1 phần tên (brand, đồng nghĩa).
+# Xem docs/ANNOTATION_GUIDELINE.md §3.2: "prograf (dose decreased...)" loại, "Rosuvastatin
+# (Crestor)" giữ nguyên vì không có động từ mô tả sự kiện bên trong.
+_NARRATIVE_CUE = re.compile(
+    r"\b(decreased|increased|changed|discontinued|started|stopped|switched|held|"
+    r"đang dùng|đã dùng|giảm liều|tăng liều|ngừng|bắt đầu|quyết định|chuyển sang|tiền sử)\b",
+    re.IGNORECASE,
+)
+
+
+def _trim_narrative_paren(raw: str, s: int, e: int) -> int:
+    """Cắt đuôi span (CHẨN_ĐOÁN/THUỐC) nếu kết thúc bằng ngoặc tường thuật. Trả end mới.
+
+    2 trường hợp (đều đo được trong exp_0022 predictions):
+    (a) ngoặc MỞ nhưng KHÔNG đóng trong span — luôn cắt, đây là artifact cắt ngang cửa sổ/dòng,
+        không bao giờ là biên hợp lệ. VD: "Bệnh thận đa nang (tiền sử" -> "Bệnh thận đa nang".
+    (b) ngoặc đã ĐÓNG ở cuối span, nội dung bên trong có cue tường thuật -> cắt.
+        VD: "prograf (dose decreased from 5mg bid to 1mg bid)" -> "prograf".
+        KHÔNG cắt nếu nội dung không có cue (brand/đồng nghĩa): "Rosuvastatin (Crestor)" giữ nguyên.
+    """
+    text = raw[s:e]
+    open_idx = text.rfind("(")
+    if open_idx < 0:
+        return e
+    close_idx = text.rfind(")")
+    if close_idx < open_idx:  # (a) chưa đóng trong span
+        e2 = s + open_idx
+    elif _NARRATIVE_CUE.search(text[open_idx + 1:close_idx]):  # (b) đã đóng, có cue
+        e2 = s + open_idx
+    else:
+        return e
+    while e2 > s and raw[e2 - 1] in " \t":
+        e2 -= 1
+    return e2 if e2 > s else e
 
 
 def _is_garbage(text: str, typ: str) -> bool:
@@ -170,6 +222,10 @@ class NERExtractor:
                 s, e = _snap_word(raw, s0, e0)
                 if e <= s:
                     continue
+                if sp["type"] in (TYPE_CHAN_DOAN, TYPE_THUOC):
+                    e = _trim_narrative_paren(raw, s, e)
+                    if e <= s:
+                        continue
                 text = raw[s:e]
                 if not text.strip() or _is_garbage(text, sp["type"]):
                     continue

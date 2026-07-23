@@ -1,0 +1,631 @@
+{
+  "source": {
+    "pred_dir": "experiments/exp_0024_boundary_fix/predictions_test",
+    "input_dir": "data/raw_new/input"
+  },
+  "skeleton_headers": [
+    {
+      "text": "3.  Đánh giá tại bệnh viện",
+      "freq": 56
+    },
+    {
+      "text": "2.  Tiền sử bệnh hiện tại",
+      "freq": 51
+    },
+    {
+      "text": "1.  Tiền sử bệnh",
+      "freq": 38
+    },
+    {
+      "text": "1.  Tiền sử bệnh nội khoa",
+      "freq": 35
+    },
+    {
+      "text": "Triệu chứng hiện tại",
+      "freq": 33
+    },
+    {
+      "text": "Đặc điểm triệu chứng",
+      "freq": 27
+    },
+    {
+      "text": "Diễn biến bệnh",
+      "freq": 22
+    },
+    {
+      "text": "2. Bệnh sử hiện tại",
+      "freq": 21
+    },
+    {
+      "text": "3. Đánh giá tại bệnh viện",
+      "freq": 18
+    },
+    {
+      "text": "Các bệnh lý mãn tính",
+      "freq": 18
+    },
+    {
+      "text": "Các thủ thuật đã thực hiện",
+      "freq": 16
+    },
+    {
+      "text": "Kết quả xét nghiệm",
+      "freq": 16
+    },
+    {
+      "text": "Các phát hiện chẩn đoán khác",
+      "freq": 15
+    },
+    {
+      "text": "Kết quả chẩn đoán hình ảnh",
+      "freq": 14
+    },
+    {
+      "text": "Các bệnh lý mạn tính",
+      "freq": 14
+    },
+    {
+      "text": "Thời điểm khởi phát triệu chứng",
+      "freq": 11
+    },
+    {
+      "text": "1. Tiền sử bệnh",
+      "freq": 10
+    },
+    {
+      "text": "Các triệu chứng hiện tại",
+      "freq": 10
+    },
+    {
+      "text": "Triệu chứng khi nhập viện",
+      "freq": 9
+    },
+    {
+      "text": "2.  Bệnh sử hiện tại",
+      "freq": 9
+    },
+    {
+      "text": "Sự kiện trước khi nhập viện",
+      "freq": 9
+    },
+    {
+      "text": "Cận lâm sàng",
+      "freq": 7
+    },
+    {
+      "text": "Dấu hiệu lâm sàng",
+      "freq": 7
+    },
+    {
+      "text": "Thuốc trước khi nhập viện",
+      "freq": 7
+    }
+  ],
+  "line_kind_dist": {
+    "bullet": 0.5815,
+    "short_other": 0.1769,
+    "label_value": 0.1132,
+    "numbered": 0.0952,
+    "prose_long": 0.0205,
+    "label_empty": 0.0127
+  },
+  "frame_stats": {
+    "total_raw": 710,
+    "dropped_freq1": 639,
+    "dropped_adjacent_same_type": 9,
+    "kept": 62,
+    "flagged_unsafe_residual": 13
+  },
+  "frames": [
+    {
+      "template": "- {CHẨN_ĐOÁN}",
+      "types": [
+        "CHẨN_ĐOÁN"
+      ],
+      "freq": 165,
+      "safe": true
+    },
+    {
+      "template": "- {TRIỆU_CHỨNG}",
+      "types": [
+        "TRIỆU_CHỨNG"
+      ],
+      "freq": 122,
+      "safe": true
+    },
+    {
+      "template": "- {TÊN_XÉT_NGHIỆM} {KẾT_QUẢ_XÉT_NGHIỆM}",
+      "types": [
+        "TÊN_XÉT_NGHIỆM",
+        "KẾT_QUẢ_XÉT_NGHIỆM"
+      ],
+      "freq": 28,
+      "safe": true
+    },
+    {
+      "template": "- {THUỐC}",
+      "types": [
+        "THUỐC"
+      ],
+      "freq": 26,
+      "safe": true
+    },
+    {
+      "template": "- Không {TRIỆU_CHỨNG}",
+      "types": [
+        "TRIỆU_CHỨNG"
+      ],
+      "freq": 18,
+      "safe": true
+    },
+    {
+      "template": "- {TÊN_XÉT_NGHIỆM} là {KẾT_QUẢ_XÉT_NGHIỆM}",
+      "types": [
+        "TÊN_XÉT_NGHIỆM",
+        "KẾT_QUẢ_XÉT_NGHIỆM"
+      ],
+      "freq": 15,
+      "safe": true
+    },
+    {
+      "template": "Lý do nhập viện: {TRIỆU_CHỨNG}",
+      "types": [
+        "TRIỆU_CHỨNG"
+      ],
+      "freq": 14,
+      "safe": true
+    },
+    {
+      "template": "{CHẨN_ĐOÁN}",
+      "types": [
+        "CHẨN_ĐOÁN"
+      ],
+      "freq": 9,
+      "safe": true
+    },
+    {
+      "template": "Lý do nhập viện: {CHẨN_ĐOÁN}",
+      "types": [
+        "CHẨN_ĐOÁN"
+      ],
+      "freq": 8,
+      "safe": true
+    },
+    {
+      "template": "- {TÊN_XÉT_NGHIỆM}",
+      "types": [
+        "TÊN_XÉT_NGHIỆM"
+      ],
+      "freq": 8,
+      "safe": true
+    },
+    {
+      "template": "- {TRIỆU_CHỨNG}:",
+      "types": [
+        "TRIỆU_CHỨNG"
+      ],
+      "freq": 8,
+      "safe": true
+    },
+    {
+      "template": "- được cho {THUỐC}",
+      "types": [
+        "THUỐC"
+      ],
+      "freq": 6,
+      "safe": true
+    },
+    {
+      "template": "{CHẨN_ĐOÁN}.",
+      "types": [
+        "CHẨN_ĐOÁN"
+      ],
+      "freq": 5,
+      "safe": true
+    },
+    {
+      "template": "- {TÊN_XÉT_NGHIỆM} cho thấy {CHẨN_ĐOÁN}",
+      "types": [
+        "TÊN_XÉT_NGHIỆM",
+        "CHẨN_ĐOÁN"
+      ],
+      "freq": 5,
+      "safe": true
+    },
+    {
+      "template": "Bệnh lý mãn tính: {CHẨN_ĐOÁN}",
+      "types": [
+        "CHẨN_ĐOÁN"
+      ],
+      "freq": 5,
+      "safe": true
+    },
+    {
+      "template": "{TRIỆU_CHỨNG}.",
+      "types": [
+        "TRIỆU_CHỨNG"
+      ],
+      "freq": 5,
+      "safe": true
+    },
+    {
+      "template": "- {CHẨN_ĐOÁN}.",
+      "types": [
+        "CHẨN_ĐOÁN"
+      ],
+      "freq": 4,
+      "safe": true
+    },
+    {
+      "template": "Thuốc trước khi nhập viện: {THUỐC}",
+      "types": [
+        "THUỐC"
+      ],
+      "freq": 3,
+      "safe": true
+    },
+    {
+      "template": "- phủ nhận {TRIỆU_CHỨNG}",
+      "types": [
+        "TRIỆU_CHỨNG"
+      ],
+      "freq": 3,
+      "safe": true
+    },
+    {
+      "template": "- **{TRIỆU_CHỨNG}:**",
+      "types": [
+        "TRIỆU_CHỨNG"
+      ],
+      "freq": 3,
+      "safe": true
+    },
+    {
+      "template": "- Không ghi nhận {TRIỆU_CHỨNG}",
+      "types": [
+        "TRIỆU_CHỨNG"
+      ],
+      "freq": 3,
+      "safe": true
+    },
+    {
+      "template": "Không có {TRIỆU_CHỨNG}",
+      "types": [
+        "TRIỆU_CHỨNG"
+      ],
+      "freq": 3,
+      "safe": true
+    },
+    {
+      "template": "{TÊN_XÉT_NGHIỆM}: {KẾT_QUẢ_XÉT_NGHIỆM}",
+      "types": [
+        "TÊN_XÉT_NGHIỆM",
+        "KẾT_QUẢ_XÉT_NGHIỆM"
+      ],
+      "freq": 3,
+      "safe": true
+    },
+    {
+      "template": "- Phủ nhận {TRIỆU_CHỨNG}",
+      "types": [
+        "TRIỆU_CHỨNG"
+      ],
+      "freq": 3,
+      "safe": true
+    },
+    {
+      "template": "- {TÊN_XÉT_NGHIỆM} (anion gap) {KẾT_QUẢ_XÉT_NGHIỆM}",
+      "types": [
+        "TÊN_XÉT_NGHIỆM",
+        "KẾT_QUẢ_XÉT_NGHIỆM"
+      ],
+      "freq": 2,
+      "safe": true
+    },
+    {
+      "template": "* {TÊN_XÉT_NGHIỆM} cho thấy chỉ số kháng trở bình thường.",
+      "types": [
+        "TÊN_XÉT_NGHIỆM"
+      ],
+      "freq": 2,
+      "safe": false
+    },
+    {
+      "template": "* {TÊN_XÉT_NGHIỆM} không có bằng chứng đào thải kháng thể hữu hình cấp tính.",
+      "types": [
+        "TÊN_XÉT_NGHIỆM"
+      ],
+      "freq": 2,
+      "safe": false
+    },
+    {
+      "template": "* {CHẨN_ĐOÁN}",
+      "types": [
+        "CHẨN_ĐOÁN"
+      ],
+      "freq": 2,
+      "safe": true
+    },
+    {
+      "template": "Triệu chứng hiện tại: {TRIỆU_CHỨNG}",
+      "types": [
+        "TRIỆU_CHỨNG"
+      ],
+      "freq": 2,
+      "safe": true
+    },
+    {
+      "template": "- không {TRIỆU_CHỨNG}",
+      "types": [
+        "TRIỆU_CHỨNG"
+      ],
+      "freq": 2,
+      "safe": true
+    },
+    {
+      "template": "- {TRIỆU_CHỨNG} phù hai mắt cá chân",
+      "types": [
+        "TRIỆU_CHỨNG"
+      ],
+      "freq": 2,
+      "safe": false
+    },
+    {
+      "template": "- {TRIỆU_CHỨNG} nhiều",
+      "types": [
+        "TRIỆU_CHỨNG"
+      ],
+      "freq": 2,
+      "safe": true
+    },
+    {
+      "template": "- cảm thấy {TRIỆU_CHỨNG}",
+      "types": [
+        "TRIỆU_CHỨNG"
+      ],
+      "freq": 2,
+      "safe": true
+    },
+    {
+      "template": "-{CHẨN_ĐOÁN}",
+      "types": [
+        "CHẨN_ĐOÁN"
+      ],
+      "freq": 2,
+      "safe": true
+    },
+    {
+      "template": "{THUỐC}: đã hết thuốc khoảng 3 tuần trước nhập viện.",
+      "types": [
+        "THUỐC"
+      ],
+      "freq": 2,
+      "safe": false
+    },
+    {
+      "template": "- {TRIỆU_CHỨNG} ngày càng nặng",
+      "types": [
+        "TRIỆU_CHỨNG"
+      ],
+      "freq": 2,
+      "safe": true
+    },
+    {
+      "template": "- không {CHẨN_ĐOÁN}.",
+      "types": [
+        "CHẨN_ĐOÁN"
+      ],
+      "freq": 2,
+      "safe": true
+    },
+    {
+      "template": "- chủ quan {TRIỆU_CHỨNG}",
+      "types": [
+        "TRIỆU_CHỨNG"
+      ],
+      "freq": 2,
+      "safe": true
+    },
+    {
+      "template": "Kết quả xét nghiệm: {TÊN_XÉT_NGHIỆM} là {KẾT_QUẢ_XÉT_NGHIỆM}",
+      "types": [
+        "TÊN_XÉT_NGHIỆM",
+        "KẾT_QUẢ_XÉT_NGHIỆM"
+      ],
+      "freq": 2,
+      "safe": true
+    },
+    {
+      "template": "{TRIỆU_CHỨNG}",
+      "types": [
+        "TRIỆU_CHỨNG"
+      ],
+      "freq": 2,
+      "safe": true
+    },
+    {
+      "template": "- Triệu chứng kèm theo: {TRIỆU_CHỨNG}",
+      "types": [
+        "TRIỆU_CHỨNG"
+      ],
+      "freq": 2,
+      "safe": true
+    },
+    {
+      "template": "- Không có {CHẨN_ĐOÁN}",
+      "types": [
+        "CHẨN_ĐOÁN"
+      ],
+      "freq": 2,
+      "safe": true
+    },
+    {
+      "template": "- {TRIỆU_CHỨNG} phải",
+      "types": [
+        "TRIỆU_CHỨNG"
+      ],
+      "freq": 2,
+      "safe": true
+    },
+    {
+      "template": "- Bác sĩ PCP khuyên dùng {THUỐC} cho đau",
+      "types": [
+        "THUỐC"
+      ],
+      "freq": 2,
+      "safe": false
+    },
+    {
+      "template": "- Triệu chứng liên quan: {TRIỆU_CHỨNG}",
+      "types": [
+        "TRIỆU_CHỨNG"
+      ],
+      "freq": 2,
+      "safe": true
+    },
+    {
+      "template": "- đã dùng {THUỐC}",
+      "types": [
+        "THUỐC"
+      ],
+      "freq": 2,
+      "safe": true
+    },
+    {
+      "template": "Các bệnh lý mãn tính: {CHẨN_ĐOÁN}",
+      "types": [
+        "CHẨN_ĐOÁN"
+      ],
+      "freq": 2,
+      "safe": true
+    },
+    {
+      "template": "- {TRIỆU_CHỨNG} ít",
+      "types": [
+        "TRIỆU_CHỨNG"
+      ],
+      "freq": 2,
+      "safe": true
+    },
+    {
+      "template": "- {TÊN_XÉT_NGHIỆM} cho thấy giãn đường dẫn mật trong gan ở ống mật chủ 15 mm tại mức tuyến tụy",
+      "types": [
+        "TÊN_XÉT_NGHIỆM"
+      ],
+      "freq": 2,
+      "safe": false
+    },
+    {
+      "template": "- {TRIỆU_CHỨNG} gián đoạn",
+      "types": [
+        "TRIỆU_CHỨNG"
+      ],
+      "freq": 2,
+      "safe": true
+    },
+    {
+      "template": "- bảng {TÊN_XÉT_NGHIỆM} {KẾT_QUẢ_XÉT_NGHIỆM}",
+      "types": [
+        "TÊN_XÉT_NGHIỆM",
+        "KẾT_QUẢ_XÉT_NGHIỆM"
+      ],
+      "freq": 2,
+      "safe": true
+    },
+    {
+      "template": "- {TRIỆU_CHỨNG} trở nên tồi tệ hơn gần đây",
+      "types": [
+        "TRIỆU_CHỨNG"
+      ],
+      "freq": 2,
+      "safe": false
+    },
+    {
+      "template": "- đi tiêu bình thường, không {TRIỆU_CHỨNG}",
+      "types": [
+        "TRIỆU_CHỨNG"
+      ],
+      "freq": 2,
+      "safe": false
+    },
+    {
+      "template": "Các yếu tố nguy cơ liên quan: {CHẨN_ĐOÁN}",
+      "types": [
+        "CHẨN_ĐOÁN"
+      ],
+      "freq": 2,
+      "safe": false
+    },
+    {
+      "template": "- {TÊN_XÉT_NGHIỆM} (cho thấy nhiều loét tá tràng và hồi tràng)",
+      "types": [
+        "TÊN_XÉT_NGHIỆM"
+      ],
+      "freq": 2,
+      "safe": false
+    },
+    {
+      "template": "- {TRIỆU_CHỨNG} mạn tính có đờm vàng loãng",
+      "types": [
+        "TRIỆU_CHỨNG"
+      ],
+      "freq": 2,
+      "safe": false
+    },
+    {
+      "template": "Nhiệt độ : {KẾT_QUẢ_XÉT_NGHIỆM}",
+      "types": [
+        "KẾT_QUẢ_XÉT_NGHIỆM"
+      ],
+      "freq": 2,
+      "safe": true
+    },
+    {
+      "template": "- thỉnh thoảng {TRIỆU_CHỨNG} các thuốc của ông ấy",
+      "types": [
+        "TRIỆU_CHỨNG"
+      ],
+      "freq": 2,
+      "safe": false
+    },
+    {
+      "template": "- Tiền sử 2 tháng {TRIỆU_CHỨNG} liên tục",
+      "types": [
+        "TRIỆU_CHỨNG"
+      ],
+      "freq": 2,
+      "safe": false
+    },
+    {
+      "template": "- Không có {TRIỆU_CHỨNG}",
+      "types": [
+        "TRIỆU_CHỨNG"
+      ],
+      "freq": 2,
+      "safe": true
+    },
+    {
+      "template": "- tăng {TÊN_XÉT_NGHIỆM}",
+      "types": [
+        "TÊN_XÉT_NGHIỆM"
+      ],
+      "freq": 2,
+      "safe": true
+    },
+    {
+      "template": "- {TRIỆU_CHỨNG} bên phải",
+      "types": [
+        "TRIỆU_CHỨNG"
+      ],
+      "freq": 2,
+      "safe": true
+    }
+  ],
+  "noise_stats": {
+    "n_docs": 100,
+    "len_min": 136,
+    "len_median": 1229,
+    "len_max": 4428,
+    "pct_doc_has_glue": 0.14
+  }
+}

@@ -1,0 +1,240 @@
+[
+  {
+    "text": "suy tim, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I50.9"],
+    "assertions": [],
+    "position": [66, 89]
+  },
+  {
+    "text": "phù chi dưới",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [154, 166]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [169, 177]
+  },
+  {
+    "text": "yếu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [263, 266]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [317, 320]
+  },
+  {
+    "text": "chán ăn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [364, 371]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [391, 394]
+  },
+  {
+    "text": "phù chi dưới",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [475, 487]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [490, 498]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [501, 508]
+  },
+  {
+    "text": "weak",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [512, 516]
+  },
+  {
+    "text": "Thường xuyên ngủ quên hoặc có thể ngất",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R40"],
+    "assertions": [],
+    "position": [519, 557]
+  },
+  {
+    "text": "Đau buốt khi đi tiểu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R30"],
+    "assertions": [],
+    "position": [610, 630]
+  },
+  {
+    "text": "chán ăn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [633, 640]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [643, 646]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [690, 698]
+  },
+  {
+    "text": "nhói",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [761, 765]
+  },
+  {
+    "text": "tê bì",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [814, 819]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [844, 847]
+  },
+  {
+    "text": "shortness of breath",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [981, 1000]
+  },
+  {
+    "text": "yếu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1034, 1037]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1071, 1074]
+  },
+  {
+    "text": "Nôn mửa",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R09.0"],
+    "assertions": ["isHistorical"],
+    "position": [1154, 1161]
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1208, 1216]
+  },
+  {
+    "text": "đánh trống ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1335, 1350]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1352, 1361]
+  },
+  {
+    "text": "80mg po lasix",
+    "type": "THUỐC",
+    "candidates": ["566621"],
+    "assertions": ["isFamily"],
+    "position": [1432, 1445]
+  },
+  {
+    "text": "2 sl ntg",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [1688, 1696]
+  },
+  {
+    "text": "80mg lasix iv",
+    "type": "THUỐC",
+    "candidates": ["566621"],
+    "assertions": ["isHistorical"],
+    "position": [1715, 1728]
+  },
+  {
+    "text": "8mg morphine",
+    "type": "THUỐC",
+    "candidates": ["227713"],
+    "assertions": ["isHistorical"],
+    "position": [1736, 1748]
+  },
+  {
+    "text": "1mg dilaudid",
+    "type": "THUỐC",
+    "candidates": ["897655"],
+    "assertions": ["isHistorical"],
+    "position": [1756, 1768]
+  },
+  {
+    "text": "po metoprolol",
+    "type": "THUỐC",
+    "candidates": ["6918"],
+    "assertions": ["isHistorical"],
+    "position": [1780, 1793]
+  },
+  {
+    "text": "10mg iv diltiazem",
+    "type": "THUỐC",
+    "candidates": ["762947"],
+    "assertions": [],
+    "position": [1805, 1822]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1862, 1869]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1886, 1894]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1913, 1920]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1937, 1945]
+  },
+  {
+    "text": "nhịp tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1956, 1964]
+  }
+]

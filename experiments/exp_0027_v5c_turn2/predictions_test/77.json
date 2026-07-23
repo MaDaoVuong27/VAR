@@ -1,0 +1,123 @@
+[
+  {
+    "text": "đau vùng xương bánh chè – đùi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M22.2"],
+    "assertions": [],
+    "position": [73, 102]
+  },
+  {
+    "text": "Đau bánh chè đùi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M79.65"],
+    "assertions": [],
+    "position": [434, 450]
+  },
+  {
+    "text": "đau đầu gối",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [609, 620]
+  },
+  {
+    "text": "Hình ảnh giãn nh đường mật trong gan",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [681, 717]
+  },
+  {
+    "text": "âm Doppler tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [733, 747]
+  },
+  {
+    "text": "Buồng thất trái giãn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Q24.0"],
+    "assertions": ["isHistorical"],
+    "position": [759, 779]
+  },
+  {
+    "text": "chức năng tâm thu thất",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [781, 803]
+  },
+  {
+    "text": "EF BP",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [821, 826]
+  },
+  {
+    "text": "28%)",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [828, 832]
+  },
+  {
+    "text": "Hở hai lá vừa",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I34.0"],
+    "assertions": [],
+    "position": [834, 847]
+  },
+  {
+    "text": "Hở chủ nhẹ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [849, 859]
+  },
+  {
+    "text": "Hở ba lá nhiều",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I07.1"],
+    "assertions": [],
+    "position": [861, 875]
+  },
+  {
+    "text": "Thất phải giãn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I86.2"],
+    "assertions": [],
+    "position": [877, 891]
+  },
+  {
+    "text": "chức năng tâm thu thất",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [893, 915]
+  },
+  {
+    "text": "FAC",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [927, 930]
+  },
+  {
+    "text": "30%",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [932, 935]
+  },
+  {
+    "text": "Tăng áp lực động mạch phổi vừa",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I27.0"],
+    "assertions": [],
+    "position": [938, 968]
+  },
+  {
+    "text": "suy thận mạn giai đoạn 5tăng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N18.5"],
+    "assertions": [],
+    "position": [1039, 1067]
+  },
+  {
+    "text": "x-quang",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1409, 1416]
+  },
+  {
+    "text": "chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1514, 1534]
+  }
+]

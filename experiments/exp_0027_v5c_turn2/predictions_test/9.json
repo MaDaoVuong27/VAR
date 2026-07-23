@@ -1,0 +1,74 @@
+[
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [297, 304]
+  },
+  {
+    "text": "ói",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [838, 840]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1030, 1038]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1347, 1354]
+  },
+  {
+    "text": "Alverin citrate 40mg",
+    "type": "THUỐC",
+    "candidates": ["437513"],
+    "assertions": ["isHistorical"],
+    "position": [2094, 2114]
+  },
+  {
+    "text": "Simethicon 100mg",
+    "type": "THUỐC",
+    "candidates": ["333293"],
+    "assertions": ["isHistorical"],
+    "position": [2118, 2134]
+  },
+  {
+    "text": "metoclopramide 10mg",
+    "type": "THUỐC",
+    "candidates": ["328464"],
+    "assertions": ["isHistorical"],
+    "position": [2145, 2164]
+  },
+  {
+    "text": "ợ nóng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2346, 2352]
+  },
+  {
+    "text": "trào ngược dạ dày thực quản",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K21"],
+    "assertions": [],
+    "position": [2358, 2385]
+  },
+  {
+    "text": "bạch cầuNgày",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2813, 2825]
+  },
+  {
+    "text": "chụp CT",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2860, 2867]
+  },
+  {
+    "text": "lơ mơ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2980, 2985]
+  }
+]

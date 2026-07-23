@@ -1,0 +1,83 @@
+[
+  {
+    "text": "Đái tháo đường típ 1 có biến chứng viêm thần kinh ngoại biên",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E10.4†"],
+    "assertions": ["isHistorical"],
+    "position": [48, 108]
+  },
+  {
+    "text": "Viêm gan virus C và B",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["B18.2"],
+    "assertions": ["isHistorical"],
+    "position": [115, 136]
+  },
+  {
+    "text": "U lympho không hodgkin tế bàoB lớn lan toả)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["C83.3"],
+    "assertions": ["isHistorical"],
+    "position": [189, 232]
+  },
+  {
+    "text": "Phẫu thuật thay toàn bộ khớp háng phải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [270, 308]
+  },
+  {
+    "text": "Phù chân trái và hoại tử",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M21.3"],
+    "assertions": [],
+    "position": [453, 477]
+  },
+  {
+    "text": "đi tiểu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [624, 631]
+  },
+  {
+    "text": "phù chân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [699, 707]
+  },
+  {
+    "text": "phù chân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [718, 726]
+  },
+  {
+    "text": "Phù 2 chân nặng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [834, 849]
+  },
+  {
+    "text": "Loét 2 bàn chân,",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["L89.1"],
+    "assertions": [],
+    "position": [851, 867]
+  },
+  {
+    "text": "chảy dịch vàng và",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [868, 885]
+  },
+  {
+    "text": "dõiLoét bàn chân nhiễm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M60.06"],
+    "assertions": [],
+    "position": [935, 957]
+  }
+]

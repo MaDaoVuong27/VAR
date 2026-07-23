@@ -1,0 +1,69 @@
+[
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [69, 77]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [92, 99]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [123, 131]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [139, 146]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [149, 158]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [182, 190]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [239, 246]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [330, 339]
+  },
+  {
+    "text": "thiếu máu cơ tim vùng dưới và thành bên",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I25.6"],
+    "assertions": [],
+    "position": [513, 552]
+  },
+  {
+    "text": "Chụp động mạch vành",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [553, 572]
+  },
+  {
+    "text": "Bệnh động mạch vành mạn tính có thiếu máu cơ tim",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I25"],
+    "assertions": [],
+    "position": [699, 747]
+  }
+]

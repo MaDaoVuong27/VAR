@@ -1,0 +1,80 @@
+[
+  {
+    "text": "nội soi mật",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [53, 64]
+  },
+  {
+    "text": "khối u thần kinh nội tiết ở thân tụy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["T87.3"],
+    "assertions": ["isHistorical"],
+    "position": [130, 166]
+  },
+  {
+    "text": "Tuột sonde dẫn lưu ổ bụng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [346, 371]
+  },
+  {
+    "text": "biến chứng rò ống tuỵ mật",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["J95.0"],
+    "assertions": [],
+    "position": [459, 484]
+  },
+  {
+    "text": "ERCP",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [523, 527]
+  },
+  {
+    "text": "dẫn tụy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [588, 595]
+  },
+  {
+    "text": "nhiễm Clostridioides difficile",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A04.7"],
+    "assertions": [],
+    "position": [665, 695]
+  },
+  {
+    "text": "nhiễm trùng vết mổổ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["T87.4"],
+    "assertions": [],
+    "position": [700, 719]
+  },
+  {
+    "text": "tuột ống sonde dẫn lưu ổ bụng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [853, 882]
+  },
+  {
+    "text": "Nhịn ăn uống đường miệng, nuôi dưỡng đường tĩnh mạch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [1216, 1268]
+  },
+  {
+    "text": "Catheter PICC",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [1270, 1283]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1327, 1334]
+  }
+]

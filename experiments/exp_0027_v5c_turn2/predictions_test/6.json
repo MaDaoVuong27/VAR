@@ -1,0 +1,275 @@
+[
+  {
+    "text": "Bệnh tim mạch do xơ vữa động mạch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I25.1"],
+    "assertions": ["isHistorical"],
+    "position": [21, 54]
+  },
+  {
+    "text": "huyết áp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [60, 68]
+  },
+  {
+    "text": "Rối loạn lipid máu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E75.5"],
+    "assertions": ["isHistorical"],
+    "position": [69, 87]
+  },
+  {
+    "text": "Đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E14"],
+    "assertions": ["isHistorical"],
+    "position": [89, 103]
+  },
+  {
+    "text": "Cơn rối loạn ý thức thoáng qua",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F06.7"],
+    "assertions": [],
+    "position": [132, 162]
+  },
+  {
+    "text": "xuất huyết dưới nhện",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I60"],
+    "assertions": [],
+    "position": [253, 273]
+  },
+  {
+    "text": "Chụp cắt lớp vi tính sọ não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [275, 302]
+  },
+  {
+    "text": "xuất huyết dưới nhện",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I60"],
+    "assertions": [],
+    "position": [317, 337]
+  },
+  {
+    "text": "lớp dịch dưới màng cứng mỏng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [419, 447]
+  },
+  {
+    "text": "nang màng nhện",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M67.4"],
+    "assertions": [],
+    "position": [484, 498]
+  },
+  {
+    "text": "tụ dịch/tụ máu dưới màng cứng mạn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["H31.3"],
+    "assertions": [],
+    "position": [504, 542]
+  },
+  {
+    "text": "chụp CT",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [553, 560]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [711, 718]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1001, 1008]
+  },
+  {
+    "text": "tê bì",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1056, 1061]
+  },
+  {
+    "text": "mất định hướng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1376, 1390]
+  },
+  {
+    "text": "ngất",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1421, 1425]
+  },
+  {
+    "text": "kích thích",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1596, 1606]
+  },
+  {
+    "text": "run giật tay chân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1889, 1906]
+  },
+  {
+    "text": "cứng đờ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1914, 1921]
+  },
+  {
+    "text": "cắn lưỡi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1929, 1937]
+  },
+  {
+    "text": "Đau đầu vùng thái dương phải, đỉnh đầu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [2008, 2046]
+  },
+  {
+    "text": "Cơn rối loạn ý thức thoáng qua",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F06.7"],
+    "assertions": [],
+    "position": [2128, 2158]
+  },
+  {
+    "text": "Mất định hướng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R41.0"],
+    "assertions": [],
+    "position": [2159, 2173]
+  },
+  {
+    "text": "mất định hướng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2360, 2374]
+  },
+  {
+    "text": "kích thích",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2442, 2452]
+  },
+  {
+    "text": "nhắm mắt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2477, 2485]
+  },
+  {
+    "text": "Chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2496, 2516]
+  },
+  {
+    "text": "Tiểu khung thường quy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [2538, 2559]
+  },
+  {
+    "text": "Điện tâm đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2655, 2666]
+  },
+  {
+    "text": "WBC",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2828, 2831]
+  },
+  {
+    "text": "14.99 G/L",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [2834, 2843]
+  },
+  {
+    "text": "NEUT%",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2844, 2849]
+  },
+  {
+    "text": "82.9 %",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [2852, 2858]
+  },
+  {
+    "text": "HGB",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2867, 2870]
+  },
+  {
+    "text": "Hemoglobin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2872, 2882]
+  },
+  {
+    "text": "92 g/L",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [2885, 2891]
+  },
+  {
+    "text": "INR",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2897, 2900]
+  },
+  {
+    "text": "1.05",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [2902, 2906]
+  },
+  {
+    "text": "CT sọ não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2921, 2930]
+  },
+  {
+    "text": "xuất huyết dưới nhện vùng trán",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I60"],
+    "assertions": [],
+    "position": [2949, 2979]
+  },
+  {
+    "text": "Bầm dập nhu mô vùng trán",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["O64.3"],
+    "assertions": [],
+    "position": [2985, 3009]
+  },
+  {
+    "text": "Lớp dịch dưới màng cứng mỏng vùng thùy trán",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [3041, 3084]
+  },
+  {
+    "text": "nang màng nhện",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M67.4"],
+    "assertions": [],
+    "position": [3100, 3114]
+  },
+  {
+    "text": "Tụ máu ngoài màng cứng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["S06.4"],
+    "assertions": [],
+    "position": [3151, 3173]
+  }
+]

@@ -27,10 +27,10 @@
     "position": [529, 541]
   },
   {
-    "text": "Không chảy máu mũi",
+    "text": "chảy máu mũi",
     "type": "TRIỆU_CHỨNG",
     "assertions": ["isNegated"],
-    "position": [746, 764]
+    "position": [752, 764]
   },
   {
     "text": "đau ngực",
@@ -67,10 +67,10 @@
     "position": [1100, 1103]
   },
   {
-    "text": "heparin",
+    "text": "heparin truyền tĩnh mạch liên tục",
     "type": "THUỐC",
     "candidates": ["5224"],
     "assertions": [],
-    "position": [1130, 1137]
+    "position": [1130, 1163]
   }
 ]

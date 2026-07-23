@@ -1,0 +1,50 @@
+[
+  {
+    "text": "2mcg",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [524, 528]
+  },
+  {
+    "text": "2,2mcg",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [617, 623]
+  },
+  {
+    "text": "viêm teo niêm mạc dạ dày",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K29.4"],
+    "assertions": [],
+    "position": [700, 724]
+  },
+  {
+    "text": "rối loạn sản xuất máu ở tủy xương",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["D46"],
+    "assertions": [],
+    "position": [792, 825]
+  },
+  {
+    "text": "dị cảm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [858, 864]
+  },
+  {
+    "text": "cúm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1381, 1384]
+  },
+  {
+    "text": "chụp x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1421, 1438]
+  },
+  {
+    "text": "Tăng gánh nhẹ tuần hoàn phổi, tràn dịch màng phổi hai bên nhẹ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K40.1"],
+    "assertions": [],
+    "position": [1440, 1501]
+  }
+]

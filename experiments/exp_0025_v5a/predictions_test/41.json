@@ -1,0 +1,385 @@
+[
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [73, 81]
+  },
+  {
+    "text": "tập viêm dạ dày ruột do virus",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A08.3"],
+    "assertions": ["isHistorical"],
+    "position": [140, 169]
+  },
+  {
+    "text": "Nôn ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [176, 186]
+  },
+  {
+    "text": "hội chứng ruột kích thích",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K58"],
+    "assertions": [],
+    "position": [226, 251]
+  },
+  {
+    "text": "hội chứng ruột kích thích",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K58"],
+    "assertions": [],
+    "position": [268, 293]
+  },
+  {
+    "text": "Nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [353, 360]
+  },
+  {
+    "text": "Nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [411, 418]
+  },
+  {
+    "text": "loét tá tràng và hồi tràng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K26"],
+    "assertions": [],
+    "position": [435, 461]
+  },
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [469, 476]
+  },
+  {
+    "text": "Viêm thực quản độ C",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K20"],
+    "assertions": ["isHistorical"],
+    "position": [478, 497]
+  },
+  {
+    "text": "loét nông sạch đáy ở tá tràng và hồi tràng sớm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [546, 592]
+  },
+  {
+    "text": "test hơi thở h",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [654, 668]
+  },
+  {
+    "text": "Nôn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["D41.0"],
+    "assertions": [],
+    "position": [726, 729]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [809, 817]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [821, 830]
+  },
+  {
+    "text": "Tập viêm dạ dày ruột do virus",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A08.3"],
+    "assertions": ["isHistorical"],
+    "position": [838, 867]
+  },
+  {
+    "text": "khó khăn khi ăn uống qua đường miệng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R13"],
+    "assertions": [],
+    "position": [899, 935]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [937, 945]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [949, 958]
+  },
+  {
+    "text": "Nôn ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1008, 1018]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1115, 1123]
+  },
+  {
+    "text": "nôn ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1127, 1137]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1244, 1252]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1256, 1265]
+  },
+  {
+    "text": "hội chứng ruột kích thích",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K58"],
+    "assertions": [],
+    "position": [1277, 1302]
+  },
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1332, 1339]
+  },
+  {
+    "text": "viêm dạ dày ruột do virus",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A08.3"],
+    "assertions": [],
+    "position": [1406, 1431]
+  },
+  {
+    "text": "viêm dạ dày ruột do virus",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A08.3"],
+    "assertions": [],
+    "position": [1460, 1485]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1534, 1542]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1544, 1553]
+  },
+  {
+    "text": "nôn ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1555, 1565]
+  },
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1567, 1574]
+  },
+  {
+    "text": "loét tá tràng và hồi tràng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K26"],
+    "assertions": [],
+    "position": [1590, 1616]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1776, 1784]
+  },
+  {
+    "text": "nôn ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1788, 1798]
+  },
+  {
+    "text": "nôn ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1846, 1856]
+  },
+  {
+    "text": "nausea",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1930, 1936]
+  },
+  {
+    "text": "diarrhea",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1943, 1951]
+  },
+  {
+    "text": "abdominal pain",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1958, 1972]
+  },
+  {
+    "text": "viêm dạ dày ruột do virus",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A08.3"],
+    "assertions": [],
+    "position": [2025, 2050]
+  },
+  {
+    "text": "khó khăn khi ăn uống qua đường miệng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R13"],
+    "assertions": [],
+    "position": [2082, 2118]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2120, 2128]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2132, 2141]
+  },
+  {
+    "text": "viêm dạ dày ruột do virus",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A08.3"],
+    "assertions": [],
+    "position": [2158, 2183]
+  },
+  {
+    "text": "nôn ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2204, 2214]
+  },
+  {
+    "text": "viêm dạ dày ruột do virus",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A08.3"],
+    "assertions": [],
+    "position": [2231, 2256]
+  },
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2264, 2271]
+  },
+  {
+    "text": "loét tá tràng và hồi tràng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K26"],
+    "assertions": [],
+    "position": [2287, 2313]
+  },
+  {
+    "text": "viêm dạ dày ruột do virus",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A08.3"],
+    "assertions": [],
+    "position": [2330, 2355]
+  },
+  {
+    "text": "viêm dạ dày ruột do virus",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A08.3"],
+    "assertions": [],
+    "position": [2426, 2451]
+  },
+  {
+    "text": "nôn ra máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2656, 2666]
+  },
+  {
+    "text": "viêm dạ dày ruột do virus",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A08.3"],
+    "assertions": [],
+    "position": [2807, 2832]
+  },
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2925, 2932]
+  },
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2958, 2965]
+  },
+  {
+    "text": "loét tá tràng và hồi tràng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K26"],
+    "assertions": [],
+    "position": [2982, 3008]
+  },
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [3016, 3023]
+  },
+  {
+    "text": "Viêm thực quản độ C",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K20"],
+    "assertions": ["isHistorical"],
+    "position": [3025, 3044]
+  },
+  {
+    "text": "loét nông sạch đáy ở tá tràng và hồi tràng sớm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [3093, 3139]
+  },
+  {
+    "text": "Viêm thực quản độ C ở thực quản dưới",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [3180, 3216]
+  },
+  {
+    "text": "Loét loét thực quản",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K22.1"],
+    "assertions": ["isHistorical"],
+    "position": [3223, 3242]
+  },
+  {
+    "text": "Nhiều loét sạch đáy loét ở tá tràng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K26.1"],
+    "assertions": ["isHistorical"],
+    "position": [3269, 3304]
+  }
+]

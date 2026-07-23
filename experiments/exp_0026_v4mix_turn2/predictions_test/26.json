@@ -1,0 +1,229 @@
+[
+  {
+    "text": "Coronary Artery Disease – CAD)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I51.6"],
+    "assertions": ["isHistorical"],
+    "position": [17, 47]
+  },
+  {
+    "text": "LDL",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [425, 428]
+  },
+  {
+    "text": "Lắng đọng lipid",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E75.6"],
+    "assertions": ["isHistorical"],
+    "position": [449, 464]
+  },
+  {
+    "text": "Hút thuốc lá",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z72.0"],
+    "assertions": ["isHistorical"],
+    "position": [699, 711]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I11"],
+    "assertions": ["isHistorical"],
+    "position": [716, 729]
+  },
+  {
+    "text": "Đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E14"],
+    "assertions": ["isHistorical"],
+    "position": [733, 747]
+  },
+  {
+    "text": "Rối loạn lipid máu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E75.5"],
+    "assertions": ["isHistorical"],
+    "position": [752, 770]
+  },
+  {
+    "text": "Béo phì, ít vận động",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E66"],
+    "assertions": ["isHistorical"],
+    "position": [774, 794]
+  },
+  {
+    "text": "Stress kéo dài",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [798, 812]
+  },
+  {
+    "text": "Đau thắt ngực (triệu chứng điển hình)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I20"],
+    "assertions": ["isHistorical"],
+    "position": [838, 875]
+  },
+  {
+    "text": "nitroglycerin",
+    "type": "THUỐC",
+    "candidates": ["4917"],
+    "assertions": [],
+    "position": [1029, 1042]
+  },
+  {
+    "text": "Hội chứng vành cấp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M75.4"],
+    "assertions": ["isHistorical"],
+    "position": [1124, 1142]
+  },
+  {
+    "text": "Đau dữ dội",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1146, 1156]
+  },
+  {
+    "text": "Nhồi máu cơ tim ST chênh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I21"],
+    "assertions": ["isHistorical"],
+    "position": [1198, 1222]
+  },
+  {
+    "text": "Nhồi máu không ST chênh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I63.3"],
+    "assertions": ["isHistorical"],
+    "position": [1226, 1249]
+  },
+  {
+    "text": "Đau thắt ngực không ổn định",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I20.0"],
+    "assertions": ["isHistorical"],
+    "position": [1253, 1280]
+  },
+  {
+    "text": "Khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1345, 1352]
+  },
+  {
+    "text": "Mệt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1356, 1359]
+  },
+  {
+    "text": "Buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1363, 1371]
+  },
+  {
+    "text": "Đau thượng vị",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1375, 1388]
+  },
+  {
+    "text": "Khai thác đau ngực",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R07.4"],
+    "assertions": ["isHistorical"],
+    "position": [1418, 1436]
+  },
+  {
+    "text": "thuật cắt bỏ tuyến tiền liệt (u ác của tuyến tiền liệt)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [1581, 1636]
+  },
+  {
+    "text": "rối loạn cảm xúc lưỡng cực khác",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F31.8"],
+    "assertions": ["isHistorical"],
+    "position": [1643, 1674]
+  },
+  {
+    "text": "eliquis",
+    "type": "THUỐC",
+    "candidates": ["1364436"],
+    "assertions": [],
+    "position": [1813, 1820]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1883, 1886]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1890, 1898]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1951, 1959]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2015, 2018]
+  },
+  {
+    "text": "Giảm stress",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [2173, 2184]
+  },
+  {
+    "text": "HA",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2195, 2197]
+  },
+  {
+    "text": "đường huyết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2200, 2211]
+  },
+  {
+    "text": "– lipid",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [2212, 2219]
+  },
+  {
+    "text": "Dự phòng thứ phát (đã mắc bệnh)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [2221, 2252]
+  },
+  {
+    "text": "LDL",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2296, 2299]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2353, 2361]
+  }
+]

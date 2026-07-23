@@ -1,0 +1,31 @@
+[
+  {
+    "text": "Khởi phát chuyển dạBệnh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["B08.2"],
+    "assertions": ["isHistorical"],
+    "position": [17, 40]
+  },
+  {
+    "text": "cơn co tử cung",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N85.7"],
+    "assertions": [],
+    "position": [101, 115]
+  },
+  {
+    "text": "thai máy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [118, 126]
+  },
+  {
+    "text": "VB",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [163, 165]
+  },
+  {
+    "text": "LOF",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [188, 191]
+  }
+]

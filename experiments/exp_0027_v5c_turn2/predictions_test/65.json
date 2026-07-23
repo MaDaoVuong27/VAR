@@ -1,0 +1,42 @@
+[
+  {
+    "text": "thiếu máu cơ tim cục bộ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I25.5"],
+    "assertions": [],
+    "position": [998, 1021]
+  },
+  {
+    "text": "ST",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1033, 1035]
+  },
+  {
+    "text": "diphenylcyclopropenone",
+    "type": "THUỐC",
+    "candidates": ["216561"],
+    "assertions": [],
+    "position": [1116, 1138]
+  },
+  {
+    "text": "diphencyprone",
+    "type": "THUỐC",
+    "candidates": ["23370"],
+    "assertions": [],
+    "position": [1140, 1153]
+  },
+  {
+    "text": "dinitrochlorobenzene",
+    "type": "THUỐC",
+    "candidates": ["89548"],
+    "assertions": [],
+    "position": [1158, 1178]
+  },
+  {
+    "text": "viêm da tiếp xúc, mày đay",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["L50.6"],
+    "assertions": [],
+    "position": [1349, 1374]
+  }
+]

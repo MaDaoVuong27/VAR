@@ -1,0 +1,187 @@
+[
+  {
+    "text": "NSAID",
+    "type": "THUỐC",
+    "candidates": ["203411"],
+    "assertions": ["isHistorical"],
+    "position": [59, 64]
+  },
+  {
+    "text": "omeprazole",
+    "type": "THUỐC",
+    "candidates": ["7646"],
+    "assertions": ["isHistorical"],
+    "position": [106, 116]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [341, 344]
+  },
+  {
+    "text": "ảnh hưởng tinh trùng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["T75.0"],
+    "assertions": [],
+    "position": [513, 533]
+  },
+  {
+    "text": "Giãn thừng tinh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I86.2"],
+    "assertions": [],
+    "position": [592, 607]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [958, 966]
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [991, 1002]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1010, 1018]
+  },
+  {
+    "text": "Nôn mửa",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R09.0"],
+    "assertions": [],
+    "position": [1036, 1043]
+  },
+  {
+    "text": "đau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1064, 1072]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1117, 1125]
+  },
+  {
+    "text": "đau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1140, 1148]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1281, 1289]
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1291, 1302]
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1337, 1348]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1351, 1359]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1372, 1375]
+  },
+  {
+    "text": "đau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1377, 1385]
+  },
+  {
+    "text": "nội soi thực quản",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1446, 1463]
+  },
+  {
+    "text": "omeprazole",
+    "type": "THUỐC",
+    "candidates": ["7646"],
+    "assertions": [],
+    "position": [1575, 1585]
+  },
+  {
+    "text": "Chụp cộng hưởng từ mật tụy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1587, 1613]
+  },
+  {
+    "text": "sỏi đoạn cuối ống mật chủ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1624, 1649]
+  },
+  {
+    "text": "men gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1685, 1692]
+  },
+  {
+    "text": "men gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1841, 1848]
+  },
+  {
+    "text": "Nội soi thực quản - dạ dày - tá tràng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1880, 1917]
+  },
+  {
+    "text": "Cộng hưởng từ mật tụy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1932, 1953]
+  },
+  {
+    "text": "sỏi đoạn cuối ống mật chủ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1956, 1981]
+  },
+  {
+    "text": "Nội soi mật tụy ngược dòng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [2011, 2037]
+  },
+  {
+    "text": "chụp cộng hưởng từ mật tụy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2134, 2160]
+  },
+  {
+    "text": "sỏi ống dẫn mật chung đoạn cuối",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [2193, 2224]
+  }
+]

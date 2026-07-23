@@ -1,0 +1,34 @@
+[
+  {
+    "text": "Ung thư vú di căn, tràn dịch màng phổi trái tái phát",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [25, 77]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [116, 123]
+  },
+  {
+    "text": "mức độ trung bình",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [181, 198]
+  },
+  {
+    "text": "ung thư di căn theo đường bạch huyết ở hai phổi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [227, 274]
+  },
+  {
+    "text": "gây dính màng phổi bằng talc",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["J62.0"],
+    "assertions": ["isNegated"],
+    "position": [344, 372]
+  }
+]

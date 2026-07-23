@@ -1,0 +1,144 @@
+[
+  {
+    "text": "Yếu nửa người trái",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I50.1"],
+    "assertions": ["isHistorical"],
+    "position": [123, 141]
+  },
+  {
+    "text": "va đập đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [304, 314]
+  },
+  {
+    "text": "chụp ct não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [328, 339]
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [386, 394]
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [466, 474]
+  },
+  {
+    "text": "yếu sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [691, 698]
+  },
+  {
+    "text": "khó khăn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [827, 835]
+  },
+  {
+    "text": "khó khăn khi ăn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [886, 901]
+  },
+  {
+    "text": "cảm giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1006, 1014]
+  },
+  {
+    "text": "Yếu nửa người trái",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I50.1"],
+    "assertions": [],
+    "position": [1309, 1327]
+  },
+  {
+    "text": "yếu sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1343, 1350]
+  },
+  {
+    "text": "Khó kéo khóa quần",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [1387, 1404]
+  },
+  {
+    "text": "Hơi vụng về",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R06.7"],
+    "assertions": ["isHistorical"],
+    "position": [1411, 1422]
+  },
+  {
+    "text": "Cánh tay trái lơ lửng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M25.22"],
+    "assertions": ["isHistorical"],
+    "position": [1510, 1531]
+  },
+  {
+    "text": "khó khăn khi ăn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1589, 1604]
+  },
+  {
+    "text": "vụng về",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2056, 2063]
+  },
+  {
+    "text": "khó khăn khi ăn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2190, 2205]
+  },
+  {
+    "text": "cảm giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2207, 2215]
+  },
+  {
+    "text": "chấn thương đầu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R51"],
+    "assertions": ["isNegated"],
+    "position": [2291, 2306]
+  },
+  {
+    "text": "đập đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [2357, 2364]
+  },
+  {
+    "text": "chụp ct não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2378, 2389]
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2436, 2444]
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2508, 2516]
+  }
+]

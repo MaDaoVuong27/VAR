@@ -1,0 +1,47 @@
+[
+  {
+    "text": "Theo hẹn hóa trị huy động tế bào gốc",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [96, 132]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [165, 167]
+  },
+  {
+    "text": "đau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [174, 182]
+  },
+  {
+    "text": "phim chụp CT",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [227, 239]
+  },
+  {
+    "text": "tổn thương tiêu xương lan tỏa",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [249, 278]
+  },
+  {
+    "text": "đa u tuỷ xương",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["C90.0"],
+    "assertions": [],
+    "position": [360, 374]
+  },
+  {
+    "text": "Đa u tủy xương",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["C90.0"],
+    "assertions": [],
+    "position": [485, 499]
+  }
+]

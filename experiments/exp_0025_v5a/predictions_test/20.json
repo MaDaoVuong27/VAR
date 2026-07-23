@@ -1,0 +1,312 @@
+[
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I11"],
+    "assertions": ["isHistorical"],
+    "position": [48, 61]
+  },
+  {
+    "text": "bệnh thận mạn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N18"],
+    "assertions": ["isHistorical"],
+    "position": [68, 81]
+  },
+  {
+    "text": "không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [83, 97]
+  },
+  {
+    "text": "bệnh tim mạch do xơ vữa động mạch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I25.1"],
+    "assertions": ["isHistorical"],
+    "position": [104, 137]
+  },
+  {
+    "text": "Nhồi máu cơ tim gần đây",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I21"],
+    "assertions": ["isHistorical"],
+    "position": [142, 165]
+  },
+  {
+    "text": "rung nhĩ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [172, 180]
+  },
+  {
+    "text": "tăng sản tuyến tiền liệt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N40"],
+    "assertions": ["isHistorical"],
+    "position": [197, 221]
+  },
+  {
+    "text": "metoprolol (reduced from 50mg to 25mg daily)",
+    "type": "THUỐC",
+    "candidates": ["331561"],
+    "assertions": ["isHistorical"],
+    "position": [354, 398]
+  },
+  {
+    "text": "desmopressin",
+    "type": "THUỐC",
+    "candidates": ["3251"],
+    "assertions": ["isHistorical"],
+    "position": [405, 417]
+  },
+  {
+    "text": "Cựu chiến binh Thế chiến II",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Y36"],
+    "assertions": ["isHistorical"],
+    "position": [457, 484]
+  },
+  {
+    "text": "Rối loạn dáng đi với",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R26"],
+    "assertions": ["isHistorical"],
+    "position": [491, 511]
+  },
+  {
+    "text": "gãy cổ xương đùi di lệch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["S72.0"],
+    "assertions": [],
+    "position": [651, 675]
+  },
+  {
+    "text": "ngã",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [746, 749]
+  },
+  {
+    "text": "Gọi xe cứu thương",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [861, 878]
+  },
+  {
+    "text": "gãy cổ xương đùi di lệch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["S72.0"],
+    "assertions": [],
+    "position": [898, 922]
+  },
+  {
+    "text": "Đau ở hông phải khi cử động và thay đổi tư thế",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [954, 1000]
+  },
+  {
+    "text": "Chấn thương tù ở Chi dưới phải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [1173, 1203]
+  },
+  {
+    "text": "vết thương hở phần khác của chi dưới",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["S81.8"],
+    "assertions": ["isHistorical"],
+    "position": [1216, 1252]
+  },
+  {
+    "text": "gãy cổ xương đùi di lệch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["S72.0"],
+    "assertions": [],
+    "position": [1412, 1436]
+  },
+  {
+    "text": "chụp x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1467, 1484]
+  },
+  {
+    "text": "hơi vùng ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1505, 1518]
+  },
+  {
+    "text": "chụp ct ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1526, 1538]
+  },
+  {
+    "text": "tràn dịch màng tim,",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["S26.0"],
+    "assertions": [],
+    "position": [1578, 1597]
+  },
+  {
+    "text": "tràn dịch màng phổi hai bên",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["J93"],
+    "assertions": [],
+    "position": [1598, 1625]
+  },
+  {
+    "text": "vị hoành nhỏ,",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1633, 1646]
+  },
+  {
+    "text": "thay đổi khí phế thủng,",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1647, 1670]
+  },
+  {
+    "text": "xẹp phổi hai đáy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["J98.1"],
+    "assertions": [],
+    "position": [1674, 1690]
+  },
+  {
+    "text": "chụp x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2023, 2040]
+  },
+  {
+    "text": "chụp ct ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2061, 2073]
+  },
+  {
+    "text": "tràn dịch màng tim,",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["S26.0"],
+    "assertions": [],
+    "position": [2105, 2124]
+  },
+  {
+    "text": "tràn dịch màng phổi hai bên",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["J93"],
+    "assertions": [],
+    "position": [2125, 2152]
+  },
+  {
+    "text": "thoát vị hoành nhỏ,",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [2154, 2173]
+  },
+  {
+    "text": "thay đổi khí phế thủng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [2174, 2196]
+  },
+  {
+    "text": "xẹp phổi hai đáy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["J98.1"],
+    "assertions": [],
+    "position": [2198, 2214]
+  },
+  {
+    "text": "siêu âm tim qua thành ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2335, 2361]
+  },
+  {
+    "text": "hở van ba lá vừa-nặng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I07.1"],
+    "assertions": [],
+    "position": [2422, 2443]
+  },
+  {
+    "text": "hở van hai lá/van động mạch chủ nhẹ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I08.0"],
+    "assertions": [],
+    "position": [2463, 2498]
+  },
+  {
+    "text": "Gãy xương hông phải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [2517, 2536]
+  },
+  {
+    "text": "gãy cổ xương đùi phải,",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["S72.0"],
+    "assertions": [],
+    "position": [2538, 2560]
+  },
+  {
+    "text": "chụp ct ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2611, 2623]
+  },
+  {
+    "text": "chụp xạ hình tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2714, 2730]
+  },
+  {
+    "text": "Transurethral Resection of the Prostate",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [2767, 2806]
+  },
+  {
+    "text": "Nhồi máu cơ tim vùng vách liên thất, mạn tính và đỉnh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I21.4"],
+    "assertions": ["isHistorical"],
+    "position": [2847, 2900]
+  },
+  {
+    "text": "rung nhĩ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2907, 2915]
+  },
+  {
+    "text": "Nhồi máu cơ tim",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I21"],
+    "assertions": ["isHistorical"],
+    "position": [2941, 2956]
+  },
+  {
+    "text": "tiểu đêm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2963, 2971]
+  },
+  {
+    "text": "tăng sản tuyến tiền liệt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N40"],
+    "assertions": [],
+    "position": [2983, 3007]
+  }
+]

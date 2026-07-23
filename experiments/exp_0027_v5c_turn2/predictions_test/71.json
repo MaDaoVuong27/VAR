@@ -1,0 +1,44 @@
+[
+  {
+    "text": "tổn thương tổn thương chi dưới nghiêm trọng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["T93"],
+    "assertions": [],
+    "position": [173, 216]
+  },
+  {
+    "text": "biến chứng thuyên tắc phổi hai bên",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["J95.0"],
+    "assertions": [],
+    "position": [308, 342]
+  },
+  {
+    "text": "nhiễm trùng chi dưới",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["T35.5"],
+    "assertions": [],
+    "position": [346, 366]
+  },
+  {
+    "text": "nổi sần tạo thành lớp sừng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [763, 789]
+  },
+  {
+    "text": "suy giảm chức năng gan",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M10.3"],
+    "assertions": [],
+    "position": [1387, 1409]
+  },
+  {
+    "text": "bệnh vảy nến",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["L40"],
+    "assertions": [],
+    "position": [1423, 1435]
+  }
+]

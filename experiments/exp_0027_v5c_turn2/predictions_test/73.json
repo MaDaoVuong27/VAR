@@ -1,0 +1,153 @@
+[
+  {
+    "text": "Bệnh gan do rượu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K70"],
+    "assertions": [],
+    "position": [114, 130]
+  },
+  {
+    "text": "tạo hậu môn nhân tạo kiểu túi nối hồi tràng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N81.6"],
+    "assertions": ["isHistorical"],
+    "position": [195, 238]
+  },
+  {
+    "text": "ăn uống kém",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [408, 419]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [423, 431]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [438, 446]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [519, 527]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [534, 537]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [557, 560]
+  },
+  {
+    "text": "run rẩy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [564, 571]
+  },
+  {
+    "text": "mất cảm giác ngon miệng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [578, 601]
+  },
+  {
+    "text": "suy nhược",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [616, 625]
+  },
+  {
+    "text": "Toàn trạng suy kiệt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F41.1"],
+    "assertions": ["isHistorical"],
+    "position": [633, 652]
+  },
+  {
+    "text": "nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [670, 679]
+  },
+  {
+    "text": "1800 ml",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [683, 690]
+  },
+  {
+    "text": "300 ml",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [701, 707]
+  },
+  {
+    "text": "350 ml",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [782, 788]
+  },
+  {
+    "text": "1200 mltrong",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [793, 805]
+  },
+  {
+    "text": "Bệnh amyloidosis di truyền hoặc gia đình",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E85"],
+    "assertions": ["isHistorical"],
+    "position": [862, 902]
+  },
+  {
+    "text": "Bệnh thoái hóa tinh bột",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E85"],
+    "assertions": ["isFamily"],
+    "position": [903, 926]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1211, 1214]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1257, 1260]
+  },
+  {
+    "text": "run rẩy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1264, 1271]
+  },
+  {
+    "text": "chảy dịch từ lỗ dò",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K11.4"],
+    "assertions": [],
+    "position": [1350, 1368]
+  },
+  {
+    "text": "ăn uống kém",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1420, 1431]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1435, 1443]
+  }
+]

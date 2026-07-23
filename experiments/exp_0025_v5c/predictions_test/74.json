@@ -1,0 +1,183 @@
+[
+  {
+    "text": "sp TLH",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [53, 59]
+  },
+  {
+    "text": "cipro",
+    "type": "THUỐC",
+    "candidates": ["203563"],
+    "assertions": ["isHistorical"],
+    "position": [165, 170]
+  },
+  {
+    "text": "bactrim",
+    "type": "THUỐC",
+    "candidates": ["151399"],
+    "assertions": ["isHistorical"],
+    "position": [177, 184]
+  },
+  {
+    "text": "Kháng sinh cho nhiễm khuẩn đường tiết niệu, vị trí không xác định",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [191, 256]
+  },
+  {
+    "text": "đau bụng dưới",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [360, 373]
+  },
+  {
+    "text": "Đau tiến triển và lan vào sườn trái và",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [480, 518]
+  },
+  {
+    "text": "Tứ phân vị dưới trái)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [524, 545]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [563, 571]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [599, 602]
+  },
+  {
+    "text": "iv morphineiv morphine and toradol",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [634, 668]
+  },
+  {
+    "text": "đau bụng dưới",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [700, 713]
+  },
+  {
+    "text": "ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [720, 727]
+  },
+  {
+    "text": "khó chịu khi đi tiểu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [734, 754]
+  },
+  {
+    "text": "khó chịu khi đại tiện",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [761, 782]
+  },
+  {
+    "text": "nhiễm khuẩn đường tiết niệu, vị trí không xác định",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N39.0"],
+    "assertions": [],
+    "position": [895, 945]
+  },
+  {
+    "text": "cipro",
+    "type": "THUỐC",
+    "candidates": ["203563"],
+    "assertions": [],
+    "position": [1012, 1017]
+  },
+  {
+    "text": "bactrim",
+    "type": "THUỐC",
+    "candidates": ["151399"],
+    "assertions": [],
+    "position": [1021, 1028]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1075, 1078]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1124, 1127]
+  },
+  {
+    "text": "ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1187, 1194]
+  },
+  {
+    "text": "đau đớn khi đi tiểu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1284, 1303]
+  },
+  {
+    "text": "tiểu gấp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1305, 1313]
+  },
+  {
+    "text": "chảy máu âm đạo",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N89.7"],
+    "assertions": [],
+    "position": [1420, 1435]
+  },
+  {
+    "text": "công thức máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1527, 1540]
+  },
+  {
+    "text": "cbc",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1542, 1545]
+  },
+  {
+    "text": "12",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1550, 1552]
+  },
+  {
+    "text": "chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1597, 1617]
+  },
+  {
+    "text": "khoang chứa dịch phức tạp lớn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1649, 1678]
+  },
+  {
+    "text": "Lo ngại về áp xe",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1757, 1773]
+  }
+]

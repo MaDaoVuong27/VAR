@@ -1,0 +1,21 @@
+[
+  {
+    "text": "sa âm đạo",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N81.5"],
+    "assertions": [],
+    "position": [96, 105]
+  },
+  {
+    "text": "tiểu tiện",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [177, 186]
+  },
+  {
+    "text": "bí tiếu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [242, 249]
+  }
+]

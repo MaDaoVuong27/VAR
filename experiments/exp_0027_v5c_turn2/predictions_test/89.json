@@ -1,0 +1,170 @@
+[
+  {
+    "text": "Đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E14"],
+    "assertions": ["isHistorical"],
+    "position": [31, 45]
+  },
+  {
+    "text": "Đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E14"],
+    "assertions": ["isHistorical"],
+    "position": [55, 69]
+  },
+  {
+    "text": "tăng huyết áp vô căn (nguyên phát))",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I10"],
+    "assertions": ["isHistorical"],
+    "position": [88, 123]
+  },
+  {
+    "text": "xét nghiệm gắng sức",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [172, 191]
+  },
+  {
+    "text": "khó chịu vùng ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [294, 312]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [325, 334]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [337, 344]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [346, 353]
+  },
+  {
+    "text": "đổ mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [357, 366]
+  },
+  {
+    "text": "Chiếu r xạ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [503, 513]
+  },
+  {
+    "text": "Hoạt động gắng sức",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z73.0"],
+    "assertions": ["isHistorical"],
+    "position": [552, 570]
+  },
+  {
+    "text": "Nghỉ ngơi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z54"],
+    "assertions": ["isHistorical"],
+    "position": [598, 607]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [637, 646]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [648, 655]
+  },
+  {
+    "text": "đổ mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [657, 666]
+  },
+  {
+    "text": "xét nghiệm gắng sức",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [700, 719]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [796, 799]
+  },
+  {
+    "text": "điện tâm đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [820, 831]
+  },
+  {
+    "text": "bình thường",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [832, 843]
+  },
+  {
+    "text": "36.7°c",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [911, 917]
+  },
+  {
+    "text": "139/68 mmhg",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [928, 939]
+  },
+  {
+    "text": "67 lần/phút",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [946, 957]
+  },
+  {
+    "text": "16 lần/phút",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [968, 979]
+  },
+  {
+    "text": "SpO2",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [981, 985]
+  },
+  {
+    "text": "100%",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [986, 990]
+  },
+  {
+    "text": "139/68 mmhg",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1034, 1045]
+  },
+  {
+    "text": "67 lần/phút",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1056, 1067]
+  },
+  {
+    "text": "16 lần/phút",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1078, 1089]
+  },
+  {
+    "text": "Đoạn ST chênh xuống kiểu xuống dốc",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1302, 1336]
+  }
+]

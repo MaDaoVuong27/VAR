@@ -1,0 +1,81 @@
+[
+  {
+    "text": "u cơ trơn tử cung, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["D25.9"],
+    "assertions": ["isHistorical"],
+    "position": [39, 72]
+  },
+  {
+    "text": "iron",
+    "type": "THUỐC",
+    "candidates": ["90176"],
+    "assertions": ["isHistorical"],
+    "position": [104, 108]
+  },
+  {
+    "text": "đau bụng dưới",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [165, 178]
+  },
+  {
+    "text": "chảy máu nhiều",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [182, 196]
+  },
+  {
+    "text": "chảy máu nhiều",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [255, 269]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [312, 319]
+  },
+  {
+    "text": "huyết cầu tố",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [352, 364]
+  },
+  {
+    "text": "26.1",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [368, 372]
+  },
+  {
+    "text": "x-quang",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [480, 487]
+  },
+  {
+    "text": "huyết cầu tố",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [694, 706]
+  },
+  {
+    "text": "26.1",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [707, 711]
+  },
+  {
+    "text": "siêu âm tử cung",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [749, 764]
+  },
+  {
+    "text": "14,2",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [803, 807]
+  },
+  {
+    "text": "giãn bể thận",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N13.6"],
+    "assertions": ["isNegated"],
+    "position": [1057, 1069]
+  }
+]

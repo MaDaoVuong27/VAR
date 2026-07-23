@@ -1,0 +1,133 @@
+[
+  {
+    "text": "viêm tủy xương và bàng quang thần kinh có biến chứng liệt hai chi dưới",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I83.2"],
+    "assertions": [],
+    "position": [52, 122]
+  },
+  {
+    "text": "hạ thân nhiệt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [191, 204]
+  },
+  {
+    "text": "hạ huyết áp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [208, 219]
+  },
+  {
+    "text": "thức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [389, 393]
+  },
+  {
+    "text": "hạ thân nhiệt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [395, 408]
+  },
+  {
+    "text": "90",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [446, 448]
+  },
+  {
+    "text": "hạ thân nhiệt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [506, 519]
+  },
+  {
+    "text": "Khó thở khi nằm đầu bằng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [520, 544]
+  },
+  {
+    "text": "SpO2",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [546, 550]
+  },
+  {
+    "text": "99%",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [551, 554]
+  },
+  {
+    "text": "chướng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [749, 755]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [806, 809]
+  },
+  {
+    "text": "tiểu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [811, 815]
+  },
+  {
+    "text": "Đợt cấp COPD",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [853, 865]
+  },
+  {
+    "text": "Tâm phế mạn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["J43.2"],
+    "assertions": ["isHistorical"],
+    "position": [868, 879]
+  },
+  {
+    "text": "Cơn tim nhanh nhĩ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I47"],
+    "assertions": ["isHistorical"],
+    "position": [882, 899]
+  },
+  {
+    "text": "Nhiễm khuẩn đường tiêu hóa",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["B46.2"],
+    "assertions": ["isHistorical"],
+    "position": [902, 928]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I11"],
+    "assertions": ["isHistorical"],
+    "position": [931, 944]
+  },
+  {
+    "text": "chụp x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1003, 1020]
+  },
+  {
+    "text": "chụp x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1080, 1097]
+  },
+  {
+    "text": "điện tâm đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1235, 1246]
+  },
+  {
+    "text": "đường huyết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1275, 1286]
+  }
+]

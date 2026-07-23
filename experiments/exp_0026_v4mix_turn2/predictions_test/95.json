@@ -1,0 +1,48 @@
+[
+  {
+    "text": "gout",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1076, 1080]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1086, 1089]
+  },
+  {
+    "text": "đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E14"],
+    "assertions": [],
+    "position": [1165, 1179]
+  },
+  {
+    "text": "ngưng thở khi ngủ do tắc nghẽn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["G47.3"],
+    "assertions": [],
+    "position": [1220, 1250]
+  },
+  {
+    "text": "tylenol",
+    "type": "THUỐC",
+    "candidates": ["202433"],
+    "assertions": ["isHistorical"],
+    "position": [1287, 1294]
+  },
+  {
+    "text": "mucinex d",
+    "type": "THUỐC",
+    "candidates": ["352777"],
+    "assertions": ["isHistorical"],
+    "position": [1301, 1310]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1330, 1339]
+  }
+]

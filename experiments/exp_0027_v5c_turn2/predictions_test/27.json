@@ -1,0 +1,85 @@
+[
+  {
+    "text": "suy giảm miễn dịch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["D84"],
+    "assertions": [],
+    "position": [529, 547]
+  },
+  {
+    "text": "hoại tử nhu mô phổi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["C38.4"],
+    "assertions": [],
+    "position": [551, 570]
+  },
+  {
+    "text": "Viêm phổi hoại tử",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R09.1"],
+    "assertions": [],
+    "position": [572, 589]
+  },
+  {
+    "text": "màng phổi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["J81"],
+    "assertions": [],
+    "position": [729, 738]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1488, 1495]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1538, 1545]
+  },
+  {
+    "text": "nhìn mờ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1560, 1567]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1621, 1628]
+  },
+  {
+    "text": "nhìn mờ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1670, 1677]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1741, 1748]
+  },
+  {
+    "text": "Phù gai thị",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["H47.1"],
+    "assertions": [],
+    "position": [1999, 2010]
+  },
+  {
+    "text": "Tăng nhãn áp so",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["H44.4"],
+    "assertions": ["isHistorical"],
+    "position": [2114, 2129]
+  },
+  {
+    "text": "chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2134, 2154]
+  }
+]

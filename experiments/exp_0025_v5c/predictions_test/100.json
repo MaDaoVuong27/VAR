@@ -1,0 +1,117 @@
+[
+  {
+    "text": "11.6",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [87, 91]
+  },
+  {
+    "text": "Xơ vữa động mạch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I70"],
+    "assertions": ["isHistorical"],
+    "position": [181, 197]
+  },
+  {
+    "text": "canxi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [446, 451]
+  },
+  {
+    "text": "12.0",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [455, 459]
+  },
+  {
+    "text": "6.8",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [475, 478]
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [504, 512]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [673, 681]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [683, 690]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [692, 701]
+  },
+  {
+    "text": "MRI",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [769, 772]
+  },
+  {
+    "text": "nhồi máu cũ nhỏ ở vỏ não đỉnh trái",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [796, 830]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [895, 903]
+  },
+  {
+    "text": "nitroglycerin",
+    "type": "THUỐC",
+    "candidates": ["4917"],
+    "assertions": [],
+    "position": [996, 1009]
+  },
+  {
+    "text": "canxi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1177, 1182]
+  },
+  {
+    "text": "canxi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1202, 1207]
+  },
+  {
+    "text": "12.3",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1245, 1249]
+  },
+  {
+    "text": "cr",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1256, 1258]
+  },
+  {
+    "text": "MRI",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1308, 1311]
+  },
+  {
+    "text": "Laxis 20mg tiêm tĩnh mạch",
+    "type": "THUỐC",
+    "candidates": ["200801"],
+    "assertions": ["isHistorical"],
+    "position": [1441, 1466]
+  },
+  {
+    "text": "Truyền  dịch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Y84.4"],
+    "assertions": ["isHistorical"],
+    "position": [1473, 1485]
+  }
+]

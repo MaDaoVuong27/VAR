@@ -1,0 +1,92 @@
+[
+  {
+    "text": "ớn lạnh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [118, 127]
+  },
+  {
+    "text": "đau nửa đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [438, 449]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [619, 627]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [696, 699]
+  },
+  {
+    "text": "đau dữ dội",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [709, 719]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [773, 781]
+  },
+  {
+    "text": "biến chứng suy thoái võng mạc",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["H35.9"],
+    "assertions": [],
+    "position": [1211, 1240]
+  },
+  {
+    "text": "Thuốc giảm đau",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [1492, 1506]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1562, 1569]
+  },
+  {
+    "text": "ảo giácxuất",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1650, 1661]
+  },
+  {
+    "text": "nhiễm khuẩn đường tiết niệu, vị trí không xác định",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N39.0"],
+    "assertions": [],
+    "position": [1714, 1764]
+  },
+  {
+    "text": "nhiễm khuẩn đường tiết niệu, vị trí không xác định",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N39.0"],
+    "assertions": [],
+    "position": [1863, 1913]
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "candidates": ["282386"],
+    "assertions": [],
+    "position": [1950, 1957]
+  },
+  {
+    "text": "allopurinol",
+    "type": "THUỐC",
+    "candidates": ["519"],
+    "assertions": [],
+    "position": [1996, 2007]
+  }
+]

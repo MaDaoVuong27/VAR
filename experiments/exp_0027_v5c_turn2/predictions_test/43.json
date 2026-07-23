@@ -1,0 +1,114 @@
+[
+  {
+    "text": "Bệnh bạch cầu dòng tủy mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["C92"],
+    "assertions": ["isHistorical"],
+    "position": [57, 88]
+  },
+  {
+    "text": "cholesterol máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [100, 115]
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "candidates": ["282386"],
+    "assertions": ["isHistorical"],
+    "position": [190, 197]
+  },
+  {
+    "text": "allopurinol",
+    "type": "THUỐC",
+    "candidates": ["519"],
+    "assertions": ["isHistorical"],
+    "position": [239, 250]
+  },
+  {
+    "text": "Thuốc giảm đau",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [293, 307]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [363, 370]
+  },
+  {
+    "text": "ảo giácxuất",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [451, 462]
+  },
+  {
+    "text": "nhiễm khuẩn đường tiết niệu, vị trí không xác định",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N39.0"],
+    "assertions": [],
+    "position": [515, 565]
+  },
+  {
+    "text": "nhiễm khuẩn đường tiết niệu, vị trí không xác định",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N39.0"],
+    "assertions": [],
+    "position": [664, 714]
+  },
+  {
+    "text": "allopurinol",
+    "type": "THUỐC",
+    "candidates": ["519"],
+    "assertions": [],
+    "position": [797, 808]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [847, 854]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [919, 926]
+  },
+  {
+    "text": "Ảo giác không mang tính chất ra lệnh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R44.3"],
+    "assertions": [],
+    "position": [1076, 1112]
+  },
+  {
+    "text": "Enterogermina",
+    "type": "THUỐC",
+    "candidates": ["2104332"],
+    "assertions": [],
+    "position": [1706, 1719]
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "candidates": ["282386"],
+    "assertions": [],
+    "position": [1743, 1750]
+  },
+  {
+    "text": "allopurinol",
+    "type": "THUỐC",
+    "candidates": ["519"],
+    "assertions": ["isHistorical"],
+    "position": [1788, 1799]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1872, 1879]
+  }
+]

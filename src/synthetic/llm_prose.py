@@ -44,10 +44,48 @@ SYSTEM = (
     "văn phong ngắn gọn, tự nhiên như ghi chú thật trong bệnh viện."
 )
 
-# Prompt yêu cầu LLM DÙNG NGUYÊN VĂN cụm từ -> để dò lại offset được.
-TEMPLATE = """Viết một đoạn ghi chú bệnh án tiếng Việt ({nsent} câu, văn xuôi liền mạch, KHÔNG dùng gạch đầu dòng, KHÔNG đánh số).
+# Đa dạng THỂ LOẠI (register) — trước đây prompt luôn giống nhau -> Qwen hội tụ về cùng vài cách
+# diễn đạt. Mỗi thể loại kéo theo văn phong/cấu trúc câu khác nhau tự nhiên (không cần chỉ dẫn
+# thêm). Xem docs/SYNTHETIC_V5_PLAN.md — kỹ thuật đa dạng hoá prose.
+REGISTERS = [
+    "một đoạn ghi chú nhập viện (admission note)",
+    "một đoạn tóm tắt xuất viện (discharge summary)",
+    "một đoạn ghi chú điều dưỡng theo dõi bệnh nhân",
+    "một đoạn ghi chú cấp cứu ban đầu",
+    "một đoạn ghi chú tái khám ngoại trú",
+    "một đoạn ghi chú hội chẩn chuyên khoa",
+    "một đoạn bệnh sử do bác sĩ nội trú ghi lại",
+    "một đoạn tóm tắt diễn biến trong quá trình nằm viện",
+    "một đoạn ghi chú giao ban buổi sáng",
+    "một đoạn ghi chú khám bệnh định kỳ",
+    "một đoạn ghi chú chuyển khoa",
+    "một đoạn ghi chú của bác sĩ trực đêm",
+]
 
-Đoạn ghi chú BẮT BUỘC chứa các cụm từ sau, giữ NGUYÊN VĂN từng ký tự, không dịch, không đổi thứ tự chữ, không thêm bớt chữ nào bên trong cụm:
+# Few-shot TỰ VIẾT (kỹ thuật đo được hiệu quả trong JMIR 2025: few-shot > definitions > zero-shot
+# cho GPT-3.5-Turbo) — KHÔNG lấy nội dung từ test, chỉ minh hoạ văn phong mong muốn.
+FEWSHOT = """Ví dụ minh hoạ cách viết (KHÔNG chép lại nội dung ví dụ, chỉ tham khảo văn phong):
+
+Yêu cầu ví dụ:
+- "đau khớp gối" (đã có TRONG QUÁ KHỨ, nay không còn cấp tính)
+- "sốt" (bệnh nhân KHÔNG có điều này)
+
+Đoạn văn ví dụ đúng:
+Bệnh nhân có tiền sử đau khớp gối cách đây 2 năm, hiện đã ổn định. Không ghi nhận sốt trong đợt
+khám này.
+
+Yêu cầu ví dụ:
+- "hen phế quản" (là tình trạng của NGƯỜI NHÀ, KHÔNG phải của bệnh nhân)
+
+Đoạn văn ví dụ đúng:
+Mẹ bệnh nhân có tiền sử hen phế quản nhiều năm nay, hiện đang điều trị ổn định tại nhà.
+
+"""
+
+# Prompt yêu cầu LLM DÙNG NGUYÊN VĂN cụm từ -> để dò lại offset được.
+TEMPLATE = """Viết {register} bằng tiếng Việt ({nsent} câu, văn xuôi liền mạch, KHÔNG dùng gạch đầu dòng, KHÔNG đánh số).
+
+{fewshot}Đoạn ghi chú BẮT BUỘC chứa các cụm từ sau, giữ NGUYÊN VĂN từng ký tự, không dịch, không đổi thứ tự chữ, không thêm bớt chữ nào bên trong cụm:
 {items}
 
 Yêu cầu:
@@ -70,37 +108,9 @@ _CTX = {
 }
 
 
-# Danh pháp ICD trang trọng KHÔNG phải lời bác sĩ viết trong bệnh sử. Ép LLM nhồi nguyên văn
-# "joint disorder, unspecified, lower leg" vào văn xuôi tiếng Việt -> câu hỏng, dạy NER sai.
-# Prose chỉ lấy tên bệnh NGẮN, TIẾNG VIỆT, không có đuôi phân loại.
-_FORMAL = re.compile(
-    r"không xác định|không phân loại|chưa xác định|không đặc hiệu|phần khác|"
-    r"nơi khác|các loại khác|khác và không|unspecified|other specified|"
-    r", part |, level |NOS\b|\bNEC\b", re.IGNORECASE)
-
-
-# Chỉ ký tự CÓ DẤU tiếng Việt. Dùng `ord(c)>127` là SAI: ký hiệu ICD như '†' trong
-# "arthropathy in neoplastic disease (C00-D48†)" cũng >127 -> tên tiếng Anh lọt lưới (đã đo).
-_VN_CHARS = re.compile(r"[àáảãạăắằẳẵặâấầẩẫậèéẻẽẹêếềểễệìíỉĩịòóỏõọôốồổỗộơớờởỡợ"
-                       r"ùúủũụưứừửữựỳýỷỹỵđ]", re.IGNORECASE)
-
-
-def _is_natural_vi(name: str) -> bool:
-    """Tên bệnh dùng được trong văn xuôi: tiếng Việt, ngắn, không đuôi phân loại ICD."""
-    if _FORMAL.search(name):
-        return False
-    if not (1 <= len(name.split()) <= 6):
-        return False
-    if re.search(r"\(|\)|†|\*|[A-Z]\d{2}", name):  # ký hiệu/mã ICD lẫn trong tên
-        return False
-    return bool(_VN_CHARS.search(name))
-
-
-def natural_diseases(cat: Catalog):
-    pool = [d for d in cat.diseases if _is_natural_vi(d.text)]
-    if not pool:
-        raise SystemExit("[llm_prose] Không lọc được tên bệnh tự nhiên nào — kiểm tra icd10_vn.csv")
-    return pool
+# Bộ lọc "tên bệnh tự nhiên" (loại danh pháp ICD trang trọng kiểu "joint disorder, unspecified,
+# lower leg") giờ SỐNG TRONG Catalog (dùng chung với frame_generate.py) — xem
+# Catalog.natural_disease() / _is_natural_vi() trong catalog.py.
 
 
 def _plan(cat: Catalog, rng: random.Random, dis_pool=None):
@@ -149,13 +159,18 @@ def _plan(cat: Catalog, rng: random.Random, dis_pool=None):
     return out
 
 
-def _prompt(specs, rng):
+def _prompt(specs, rng, use_fewshot: bool = True):
     lines = []
     for s in specs:
         ctx = [_CTX[a] for a in s["assertions"]]
         note = f" ({', '.join(ctx)})" if ctx else ""
         lines.append(f'- "{s["text"]}"{note}')
-    return TEMPLATE.format(nsent=rng.randint(3, 7), items="\n".join(lines))
+    return TEMPLATE.format(
+        register=rng.choice(REGISTERS),
+        nsent=rng.randint(3, 7),
+        fewshot=FEWSHOT if use_fewshot else "",
+        items="\n".join(lines),
+    )
 
 
 def _locate(text: str, specs, min_keep: float = 0.6):
@@ -233,6 +248,37 @@ def _sweep_extra(text: str, concepts: List[dict], sweep_vocab, kb) -> int:
     return added
 
 
+def _trigrams(text: str):
+    w = re.findall(r"\S+", text.lower())
+    if len(w) < 3:
+        return {tuple(w)} if w else set()
+    return {tuple(w[i:i + 3]) for i in range(len(w) - 2)}
+
+
+def _dedup_pool(docs: List[dict], threshold: float = 0.5):
+    """Lọc trùng NỘI BỘ (khác LCS-vs-test trong audit_synthetic.py): Qwen có xu hướng lặp lại
+    cùng khuôn câu giữa các lần gọi dù prompt/register khác nhau. So trigram Jaccard giữa các
+    doc PROSE VỚI NHAU, loại doc quá giống 1 doc đã giữ trước đó (greedy, O(n^2) nhưng n nhỏ
+    ở quy mô v5 ~vài trăm-nghìn doc nên chấp nhận được).
+    """
+    kept, kept_tg = [], []
+    dropped = 0
+    for d in docs:
+        tg = _trigrams(d["text"])
+        if tg and any(len(tg & kt) / len(tg | kt) >= threshold for kt in kept_tg if kt):
+            dropped += 1
+            continue
+        kept.append(d)
+        kept_tg.append(tg)
+    return kept, dropped
+
+
+# Qwen2.5 đôi khi code-switch sang tiếng Trung/Nhật/Hàn giữa chừng, đặc biệt ở nhiệt độ cao
+# (đo được: "母亲，我们没有进行头部CT检查..." lọt vào 1 doc ở temp~0.98). Vietnamese không dùng
+# 3 hệ chữ này -> phát hiện là loại thẳng, không cố sửa.
+_CJK = re.compile(r"[一-鿿぀-ヿ가-힯]")
+
+
 def _clean(out: str) -> str:
     """Bỏ rác quanh đoạn LLM sinh (markdown, lời dẫn) — KHÔNG đụng nội dung."""
     out = out.strip()
@@ -251,6 +297,12 @@ def main():
     ap.add_argument("--max-new", type=int, default=420)
     ap.add_argument("--min-keep", type=float, default=0.6,
                     help="bỏ doc nếu tỉ lệ entity dò được offset < ngưỡng (0.6 = giữ doc có >=60%)")
+    ap.add_argument("--temp-min", type=float, default=0.7)
+    ap.add_argument("--temp-max", type=float, default=1.0,
+                    help="nhiệt độ RẢI theo batch trong [temp-min,temp-max] — tránh hội tụ về "
+                         "cùng vài cách diễn đạt khi nhiệt độ cố định")
+    ap.add_argument("--dedup-threshold", type=float, default=0.5,
+                    help="ngưỡng trigram Jaccard coi là trùng NỘI BỘ giữa 2 doc prose (0=tắt)")
     args = ap.parse_args()
 
     import torch
@@ -259,7 +311,7 @@ def main():
     root = Path(__file__).resolve().parent.parent.parent
     cat = Catalog(seed=args.seed).load()
     rng = random.Random(args.seed)
-    dis_pool = natural_diseases(cat)
+    dis_pool = cat._natural_diseases
     print(f"[llm_prose] tên bệnh dùng cho prose: {len(dis_pool)}/{len(cat.diseases)} "
           f"(đã lọc danh pháp ICD trang trọng + tên tiếng Anh)")
 
@@ -281,37 +333,58 @@ def main():
 
     out_path = root / args.out
     out_path.parent.mkdir(parents=True, exist_ok=True)
-    kept = dropped = 0
-    with open(out_path, "w", encoding="utf-8") as f:
-        for i in range(0, args.n, args.batch):
-            batch_specs = [_plan(cat, rng, dis_pool) for _ in range(min(args.batch, args.n - i))]
-            prompts = [tok.apply_chat_template(
-                [{"role": "system", "content": SYSTEM},
-                 {"role": "user", "content": _prompt(s, rng)}],
-                tokenize=False, add_generation_prompt=True) for s in batch_specs]
-            enc = tok(prompts, return_tensors="pt", padding=True).to("cuda:0")
-            with torch.no_grad():
-                gen = model.generate(**enc, max_new_tokens=args.max_new, do_sample=True,
-                                     temperature=0.8, top_p=0.9,
-                                     pad_token_id=tok.pad_token_id or tok.eos_token_id)
-            for j, specs in enumerate(batch_specs):
-                text = _clean(tok.decode(gen[j][enc["input_ids"].shape[1]:], skip_special_tokens=True))
-                concepts, ok = _locate(text, specs, min_keep=args.min_keep)
-                if not ok or not text.strip():
-                    dropped += 1
-                    continue
-                n_swept += _sweep_extra(text, concepts, sweep_vocab, kb)
-                # chốt an toàn: offset phải khớp tuyệt đối, nếu không thì bỏ
-                if any(text[c["position"][0]:c["position"][1]] != c["text"] for c in concepts):
-                    dropped += 1
-                    continue
-                f.write(json.dumps({"text": text, "concepts": concepts}, ensure_ascii=False) + "\n")
-                kept += 1
-            if (i // args.batch) % 5 == 0:
-                print(f"  {i + len(batch_specs)}/{args.n} | giữ {kept} | bỏ {dropped}", flush=True)
+    kept = dropped = n_cjk = 0
+    docs: List[dict] = []
+    for i in range(0, args.n, args.batch):
+        batch_specs = [_plan(cat, rng, dis_pool) for _ in range(min(args.batch, args.n - i))]
+        prompts = [tok.apply_chat_template(
+            [{"role": "system", "content": SYSTEM},
+             {"role": "user", "content": _prompt(s, rng)}],
+            tokenize=False, add_generation_prompt=True) for s in batch_specs]
+        enc = tok(prompts, return_tensors="pt", padding=True).to("cuda:0")
+        # Nhiệt độ RẢI theo batch (không cố định 0.8) -> tránh hội tụ về cùng vài cách diễn đạt
+        # giữa các lần gọi (bổ sung cho REGISTERS/FEWSHOT, không thay thế).
+        temp = rng.uniform(args.temp_min, args.temp_max)
+        with torch.no_grad():
+            gen = model.generate(**enc, max_new_tokens=args.max_new, do_sample=True,
+                                 temperature=temp, top_p=0.9,
+                                 pad_token_id=tok.pad_token_id or tok.eos_token_id)
+        for j, specs in enumerate(batch_specs):
+            text = _clean(tok.decode(gen[j][enc["input_ids"].shape[1]:], skip_special_tokens=True))
+            if not text.strip() or _CJK.search(text):
+                dropped += 1
+                n_cjk += 1
+                continue
+            concepts, ok = _locate(text, specs, min_keep=args.min_keep)
+            if not ok:
+                dropped += 1
+                continue
+            n_swept += _sweep_extra(text, concepts, sweep_vocab, kb)
+            # chốt an toàn: offset phải khớp tuyệt đối, nếu không thì bỏ
+            if any(text[c["position"][0]:c["position"][1]] != c["text"] for c in concepts):
+                dropped += 1
+                continue
+            docs.append({"text": text, "concepts": concepts})
+            kept += 1
+        if (i // args.batch) % 5 == 0:
+            print(f"  {i + len(batch_specs)}/{args.n} | giữ {kept} | bỏ {dropped} | temp={temp:.2f}",
+                  flush=True)
 
-    print(f"\nXong: giữ {kept}, bỏ {dropped} ({dropped / max(1, kept + dropped) * 100:.0f}% "
-          f"— LLM không giữ nguyên văn cụm từ) -> {out_path}")
+    n_dup = 0
+    if args.dedup_threshold > 0 and docs:
+        docs, n_dup = _dedup_pool(docs, threshold=args.dedup_threshold)
+
+    with open(out_path, "w", encoding="utf-8") as f:
+        for d in docs:
+            f.write(json.dumps(d, ensure_ascii=False) + "\n")
+
+    print(f"\nXong: giữ {kept}, bỏ {dropped} ({dropped / max(1, kept + dropped) * 100:.0f}%), "
+          f"trong đó {n_cjk} bị loại vì lẫn CJK (Qwen code-switch tiếng Trung/Nhật/Hàn)")
+    if args.dedup_threshold > 0:
+        print(f"Lọc trùng nội bộ (trigram Jaccard >= {args.dedup_threshold}): "
+              f"loại {n_dup}/{kept} doc, còn {len(docs)} -> {out_path}")
+    else:
+        print(f"-> {out_path}")
     print(f"Quét bù {n_swept} entity LLM tự thêm (nếu bỏ mặc, train sẽ dạy chúng là 'O').")
     print(f"README khi nộp: model={args.model} (self-host ≤9B, offline), seed={args.seed}. "
           f"LLM sampling KHÔNG tái tạo bit-exact -> NỘP KÈM file jsonl gốc này.")

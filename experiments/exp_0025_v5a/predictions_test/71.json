@@ -1,0 +1,131 @@
+[
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I11"],
+    "assertions": ["isHistorical"],
+    "position": [39, 52]
+  },
+  {
+    "text": "Tăng lipid máu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E78.5"],
+    "assertions": ["isHistorical"],
+    "position": [55, 69]
+  },
+  {
+    "text": "Đái tháo đường típ 2",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E11"],
+    "assertions": ["isHistorical"],
+    "position": [72, 92]
+  },
+  {
+    "text": "bệnh tim mạch do xơ vữa động mạch sau CABG",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I25.1"],
+    "assertions": ["isHistorical"],
+    "position": [95, 137]
+  },
+  {
+    "text": "hệ số tống máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [164, 178]
+  },
+  {
+    "text": "50 inch",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [179, 186]
+  },
+  {
+    "text": "Tăng huyết áp phổi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I27.0"],
+    "assertions": ["isHistorical"],
+    "position": [189, 207]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [342, 349]
+  },
+  {
+    "text": "ho khan ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [379, 389]
+  },
+  {
+    "text": "khó thở khi nằm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [419, 434]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [437, 440]
+  },
+  {
+    "text": "Suy tim sung huyết cấp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I50.0"],
+    "assertions": [],
+    "position": [485, 507]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [592, 599]
+  },
+  {
+    "text": "ho khan ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [630, 640]
+  },
+  {
+    "text": "thông tim trái và phải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [724, 746]
+  },
+  {
+    "text": "graft lima",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [831, 841]
+  },
+  {
+    "text": "Bệnh động mạch vành phải nặng hơn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [852, 885]
+  },
+  {
+    "text": "RCA",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [907, 910]
+  },
+  {
+    "text": "Động mạch vành trái",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I77.5"],
+    "assertions": ["isHistorical"],
+    "position": [913, 932]
+  },
+  {
+    "text": "áp lực nạp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [947, 957]
+  },
+  {
+    "text": "áp lực tĩnh mạch",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [989, 1005]
+  }
+]

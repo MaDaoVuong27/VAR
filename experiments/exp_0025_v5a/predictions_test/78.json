@@ -1,0 +1,110 @@
+[
+  {
+    "text": "ung thư vú",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["D05"],
+    "assertions": ["isHistorical"],
+    "position": [47, 57]
+  },
+  {
+    "text": "ung thư phổi gây ho",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["J85.1"],
+    "assertions": ["isHistorical"],
+    "position": [64, 83]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [84, 91]
+  },
+  {
+    "text": "thở",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [133, 136]
+  },
+  {
+    "text": "oxy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [137, 140]
+  },
+  {
+    "text": "3L/p",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [141, 145]
+  },
+  {
+    "text": "suy nhược toàn thân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [197, 216]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [260, 267]
+  },
+  {
+    "text": "hồi hộp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [319, 326]
+  },
+  {
+    "text": "đánh trống ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [328, 343]
+  },
+  {
+    "text": "suy nhược toàn thân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [380, 399]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [406, 413]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [446, 448]
+  },
+  {
+    "text": "hồi hộp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [455, 462]
+  },
+  {
+    "text": "oxy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [513, 516]
+  },
+  {
+    "text": "oxy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [532, 535]
+  },
+  {
+    "text": "dưới",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [536, 540]
+  },
+  {
+    "text": "90 %",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [541, 545]
+  },
+  {
+    "text": "Siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [562, 573]
+  }
+]

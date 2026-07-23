@@ -1,0 +1,102 @@
+[
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [34, 42]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [112, 120]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [163, 171]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [278, 285]
+  },
+  {
+    "text": "Troponin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [571, 579]
+  },
+  {
+    "text": "AST",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [597, 600]
+  },
+  {
+    "text": "ALT",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [620, 623]
+  },
+  {
+    "text": "Creatinin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [643, 652]
+  },
+  {
+    "text": "Điện giải đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [660, 672]
+  },
+  {
+    "text": "Na",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [674, 676]
+  },
+  {
+    "text": "Glucose",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [698, 705]
+  },
+  {
+    "text": "NT",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [718, 720]
+  },
+  {
+    "text": "Tổng phân tích tế bào máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [742, 767]
+  },
+  {
+    "text": "Siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [801, 808]
+  },
+  {
+    "text": "Siêu âm Doppler tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [811, 830]
+  },
+  {
+    "text": "Cơn đau thắt ngực không ổn định",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I20.0"],
+    "assertions": ["isHistorical"],
+    "position": [900, 931]
+  },
+  {
+    "text": "bệnh tăng HA vô căn(nguyên phát)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I10"],
+    "assertions": [],
+    "position": [932, 964]
+  },
+  {
+    "text": "khám vì sau cân sau phẫu thuật",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z09.0"],
+    "assertions": [],
+    "position": [1112, 1142]
+  }
+]

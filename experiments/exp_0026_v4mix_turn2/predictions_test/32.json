@@ -1,0 +1,179 @@
+[
+  {
+    "text": "Rối loạn chuyển hóa tinh bột (amyloidosis)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E85"],
+    "assertions": [],
+    "position": [29, 71]
+  },
+  {
+    "text": "Bệnh bạch cầu dòng tủy mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["C92"],
+    "assertions": ["isHistorical"],
+    "position": [765, 796]
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "candidates": ["282386"],
+    "assertions": ["isHistorical"],
+    "position": [807, 814]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I11"],
+    "assertions": ["isHistorical"],
+    "position": [821, 834]
+  },
+  {
+    "text": "tăng lipid máu, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E78.5"],
+    "assertions": ["isHistorical"],
+    "position": [841, 871]
+  },
+  {
+    "text": "Đái tháo đường típ 2",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E11"],
+    "assertions": ["isHistorical"],
+    "position": [878, 898]
+  },
+  {
+    "text": "hẹp ống sống",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M48.0"],
+    "assertions": ["isHistorical"],
+    "position": [905, 917]
+  },
+  {
+    "text": "Giả gout",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M10.0"],
+    "assertions": ["isHistorical"],
+    "position": [924, 932]
+  },
+  {
+    "text": "bệnh thận mạn, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N18.9"],
+    "assertions": ["isHistorical"],
+    "position": [939, 968]
+  },
+  {
+    "text": "Giai đoạn 4",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [969, 980]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [1050, 1057]
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "candidates": ["282386"],
+    "assertions": ["isHistorical"],
+    "position": [1089, 1096]
+  },
+  {
+    "text": "ảo giác dai dẳng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1231, 1247]
+  },
+  {
+    "text": "Lú lẫn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1254, 1260]
+  },
+  {
+    "text": "yếu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1320, 1323]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1369, 1376]
+  },
+  {
+    "text": "Lú lẫn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1401, 1407]
+  },
+  {
+    "text": "yếu cơ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1447, 1453]
+  },
+  {
+    "text": "suy kiệt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1516, 1524]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1531, 1538]
+  },
+  {
+    "text": "Lú lẫn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1545, 1551]
+  },
+  {
+    "text": "Ăn uống kém",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1558, 1569]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1581, 1584]
+  },
+  {
+    "text": "Bệnh amyloidosis chuỗi nhẹ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E85"],
+    "assertions": ["isHistorical"],
+    "position": [1637, 1663]
+  },
+  {
+    "text": "Bệnh amyloidosis tự miễn dịch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E85"],
+    "assertions": ["isHistorical"],
+    "position": [1673, 1702]
+  },
+  {
+    "text": "Bệnh amyloidosis di truyền hoặc gia đình",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E85"],
+    "assertions": ["isHistorical"],
+    "position": [1712, 1752]
+  },
+  {
+    "text": "Bệnh thoái hóa tinh bột",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E85"],
+    "assertions": ["isHistorical"],
+    "position": [1753, 1776]
+  }
+]

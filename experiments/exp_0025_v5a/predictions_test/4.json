@@ -1,0 +1,204 @@
+[
+  {
+    "text": "omeprazole",
+    "type": "THUỐC",
+    "candidates": ["7646"],
+    "assertions": ["isHistorical"],
+    "position": [106, 116]
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [342, 353]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [357, 365]
+  },
+  {
+    "text": "nôn ói",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [404, 410]
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [632, 643]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [676, 684]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [703, 706]
+  },
+  {
+    "text": "đau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [743, 751]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [979, 987]
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1012, 1023]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1031, 1039]
+  },
+  {
+    "text": "Nôn mửa",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R09.0"],
+    "assertions": ["isHistorical"],
+    "position": [1057, 1064]
+  },
+  {
+    "text": "đau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1085, 1093]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1302, 1310]
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1312, 1323]
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1358, 1369]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1372, 1380]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1393, 1396]
+  },
+  {
+    "text": "đau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1398, 1406]
+  },
+  {
+    "text": "nội soi thực quản",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1467, 1484]
+  },
+  {
+    "text": "omeprazole",
+    "type": "THUỐC",
+    "candidates": ["7646"],
+    "assertions": [],
+    "position": [1596, 1606]
+  },
+  {
+    "text": "sỏi đoạn cuối",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1645, 1658]
+  },
+  {
+    "text": "ống mật chủ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1659, 1670]
+  },
+  {
+    "text": "chức năng gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1683, 1696]
+  },
+  {
+    "text": "men gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1706, 1713]
+  },
+  {
+    "text": "chức năng gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1834, 1847]
+  },
+  {
+    "text": "men gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1862, 1869]
+  },
+  {
+    "text": "Cộng hưởng từ mật tụy",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1953, 1974]
+  },
+  {
+    "text": "sỏi đoạn cuối",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1977, 1990]
+  },
+  {
+    "text": "ống mật chủ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1991, 2002]
+  },
+  {
+    "text": "sỏi tại đoạn cuối",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [2112, 2129]
+  },
+  {
+    "text": "ống mật chủ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [2130, 2141]
+  },
+  {
+    "text": "sỏi ống dẫn mật chung đoạn cuối",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [2214, 2245]
+  }
+]

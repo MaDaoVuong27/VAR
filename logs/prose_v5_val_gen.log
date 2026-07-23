@@ -1,0 +1,10 @@
+[llm_prose] tên bệnh dùng cho prose: 3372/22461 (đã lọc danh pháp ICD trang trọng + tên tiếng Anh)
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]/home/lenam/miniconda3/envs/rag/lib/python3.10/site-packages/bitsandbytes/backends/cuda/ops.py:213: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:04,  1.50s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.70s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:05<00:01,  1.76s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:06<00:00,  1.57s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:06<00:00,  1.61s/it]
+  8/40 | giữ 8 | bỏ 0 | temp=0.73
+
+Xong: giữ 39, bỏ 1 (2%), trong đó 1 bị loại vì lẫn CJK (Qwen code-switch tiếng Trung/Nhật/Hàn)
+Lọc trùng nội bộ (trigram Jaccard >= 0.5): loại 0/39 doc, còn 39 -> /data/MADAOVUONG/BAI_LAB/VAR/data/synthetic/prose_v5_val.jsonl
+Quét bù 2 entity LLM tự thêm (nếu bỏ mặc, train sẽ dạy chúng là 'O').
+README khi nộp: model=Qwen/Qwen2.5-7B-Instruct (self-host ≤9B, offline), seed=999. LLM sampling KHÔNG tái tạo bit-exact -> NỘP KÈM file jsonl gốc này.

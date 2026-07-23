@@ -1,0 +1,65 @@
+[
+  {
+    "text": "đau vùng xương bánh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M25.5"],
+    "assertions": [],
+    "position": [73, 92]
+  },
+  {
+    "text": "chè – đùi phải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [93, 107]
+  },
+  {
+    "text": "Đau bánh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M79.6"],
+    "assertions": [],
+    "position": [434, 442]
+  },
+  {
+    "text": "chè đùi phải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [443, 455]
+  },
+  {
+    "text": "đau đau dữ dội",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [495, 509]
+  },
+  {
+    "text": "đau đầu gối",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [609, 620]
+  },
+  {
+    "text": "dữ dội",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [705, 711]
+  },
+  {
+    "text": "x-quang",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1043, 1050]
+  },
+  {
+    "text": "chè đùi phải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1129, 1141]
+  },
+  {
+    "text": "chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1148, 1168]
+  }
+]

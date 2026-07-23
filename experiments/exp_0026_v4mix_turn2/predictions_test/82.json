@@ -1,0 +1,108 @@
+[
+  {
+    "text": "NSAID",
+    "type": "THUỐC",
+    "candidates": ["203411"],
+    "assertions": ["isHistorical"],
+    "position": [59, 64]
+  },
+  {
+    "text": "đau đầu gối",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [77, 88]
+  },
+  {
+    "text": "omeprazole",
+    "type": "THUỐC",
+    "candidates": ["7646"],
+    "assertions": ["isHistorical"],
+    "position": [106, 116]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [206, 209]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [315, 318]
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [342, 353]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [357, 365]
+  },
+  {
+    "text": "đau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [442, 450]
+  },
+  {
+    "text": "Đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [551, 559]
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [632, 643]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [676, 684]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [703, 706]
+  },
+  {
+    "text": "đau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [743, 751]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [871, 879]
+  },
+  {
+    "text": "Nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1157, 1164]
+  },
+  {
+    "text": "Cộng hưởng từ mật",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1209, 1226]
+  },
+  {
+    "text": "Nội soi mật",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1288, 1299]
+  },
+  {
+    "text": "cộng hưởng từ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1416, 1429]
+  }
+]
