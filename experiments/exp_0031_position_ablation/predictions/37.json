@@ -1,0 +1,222 @@
+[
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I11"],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "Đái tháo đường, có biến chứng bệnh lý thần kinh ngoại biên",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E13.4†"],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "Suy tim không do thiếu máu cơ tim",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I50.9"],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "Bệnh thận mạn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N18"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "Torsemide",
+    "type": "THUỐC",
+    "candidates": ["38413"],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "Isosorbide",
+    "type": "THUỐC",
+    "candidates": ["6057"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "Rosuvastatin",
+    "type": "THUỐC",
+    "candidates": ["301542"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "Carvedilol",
+    "type": "THUỐC",
+    "candidates": ["20352"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "kali máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "Creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "Torsemide",
+    "type": "THUỐC",
+    "candidates": ["38413"],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "torsemide",
+    "type": "THUỐC",
+    "candidates": ["38413"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "đường huyết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "đường máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "glucose",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "glargine",
+    "type": "THUỐC",
+    "candidates": ["274783"],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "Dùng xe đẩy hàng làm dụng cụ hỗ trợ đi lại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "kali",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "kali",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "6.3, mẫu không tan máu",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "83",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "5.7",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "hemoglobin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "7.8",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "hba1c",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "6.5",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "bnp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "21,000",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "tổng phân tích nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "bình thường",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "cúm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "âm tính",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "chụp x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "Tăng gánh nhẹ tuần hoàn phổi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "dextrose",
+    "type": "THUỐC",
+    "candidates": ["1299920"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "kali máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "iv lasix 40 mg once",
+    "type": "THUỐC",
+    "candidates": ["565458"],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  }
+]

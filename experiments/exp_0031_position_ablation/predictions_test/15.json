@@ -1,0 +1,132 @@
+[
+  {
+    "text": "Bệnh phổi kẽ do sử dụng corticoid liều cao kéo dài",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "Thở oxy tại nhà",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "Hội chứng kháng enzym tổng hợp protein.",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "béo phì",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E66"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "Tăng huyết áp nguyên phát",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I27.0"],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "bactrim",
+    "type": "THUỐC",
+    "candidates": ["151399"],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "doxycycline",
+    "type": "THUỐC",
+    "candidates": ["3640"],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "Suy giảm miễn dịch do sử dụng corticoid kéo dài",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "cotrimoxazol",
+    "type": "THUỐC",
+    "candidates": ["2623"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "doxycyclin",
+    "type": "THUỐC",
+    "candidates": ["3640"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "metoclopramide",
+    "type": "THUỐC",
+    "candidates": ["6915"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "bactrim",
+    "type": "THUỐC",
+    "candidates": ["151399"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "doxycycline",
+    "type": "THUỐC",
+    "candidates": ["3640"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "doxycyclinebactrim",
+    "type": "THUỐC",
+    "candidates": ["3640"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "Nhiễm virus Herpes simplex (HSV)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["B00.7"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "Bệnh thủy đậu/Zona",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["B01"],
+    "assertions": [],
+    "position": [0, 0]
+  }
+]

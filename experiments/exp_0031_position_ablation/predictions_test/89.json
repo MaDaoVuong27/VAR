@@ -1,0 +1,116 @@
+[
+  {
+    "text": "Đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E14"],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "Tăng huyết áp (tăng huyết áp vô căn (nguyên phát))",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I10"],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "gắng sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "thường",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "khó chịu vùng ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "đổ mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "đổ mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [0, 0]
+  },
+  {
+    "text": "điện tâm đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "bình thường",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "36.7°c",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "SpO2",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "Liệu phát miễn dịch tiếp xúc (contac immunotherapy)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "Đoạn ST chênh xuống kiểu xuống dốc",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [0, 0]
+  }
+]

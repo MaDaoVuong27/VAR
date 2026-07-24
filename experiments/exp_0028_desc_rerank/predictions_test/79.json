@@ -1,0 +1,42 @@
+[
+  {
+    "text": "Rối loạn chuyển hóa tinh bột (amyloidosis)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E85.9"],
+    "assertions": [],
+    "position": [29, 71]
+  },
+  {
+    "text": "đa u tủy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["C90.0"],
+    "assertions": [],
+    "position": [1110, 1118]
+  },
+  {
+    "text": "Bệnh amyloidosis chuỗi nhẹ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E85.9"],
+    "assertions": ["isHistorical"],
+    "position": [1190, 1216]
+  },
+  {
+    "text": "Bệnh amyloidosis tự miễn dịch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E85.9"],
+    "assertions": ["isHistorical"],
+    "position": [1226, 1255]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1301, 1309]
+  },
+  {
+    "text": "khó chịu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1310, 1318]
+  }
+]

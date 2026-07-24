@@ -41,6 +41,12 @@ Ràng buộc: nếu dùng LLM/agent, **TỔNG tham số mọi model local ≤ 9B
 
 ⚠️ **val F1 ≈ 0.9998 là VÔ NGHĨA** để đánh giá năng lực thật: `val.jsonl` sinh từ **cùng `generate.py`** với train (chỉ khác seed) → nó đo "model có học thuộc template không", không đo generalization sang bệnh án thật. Thước đo thật chỉ có dev (15 file thật) và BTC.
 
+`--mask-prob` (mặc định 0.0 = tắt, hành vi cũ): whole-entity masking kiểu OpenBioNER, che **toàn
+bộ token** của 1 entity bằng `[MASK]` lúc train (không áp cho val) để ép model dùng ngữ cảnh thay
+vì học thuộc mặt chữ. **Đã A/B trên `train_v5c` (exp_0030, xem EXPERIMENTS_LOG.md): p=0.1 tín hiệu
+trái chiều (candidates tốt hơn, assertions tệ hơn, final thấp hơn), p=0.3 tệ mọi mặt → KHÔNG bật
+mặc định, giữ 0.0 cho mọi checkpoint đang dùng.**
+
 ## Retrieval / Knowledge base settings — fuzzy (`src/normalization/kb.py`)
 
 | Thành phần | Giá trị | Ghi chú |
@@ -83,6 +89,19 @@ python scripts/run_pipeline_exp.py --exp <tên> --ner models/ner_xlmr_v4_mix --m
 | Kết quả BTC | cand 23.16→23.47 (+1.3%), final +0.12 | Cải tiến NHỎ — xem EXPERIMENTS_LOG §exp_0018 để hiểu vì sao dev báo sai hướng cho ca này |
 
 ⚠️ **2 lần fine-tune SapBERT riêng (contrastive) đã THẤT BẠI** trên dev, không nộp BTC — xem `scripts/finetune_sapbert.py` + EXPERIMENTS_LOG §exp_0016/0017 (naive & hard-negative, cả hai đều làm cand tụt trên dev vì contrastive loss dịch chuyển toàn phổ similarity, threshold 0.7 mất hiệu lực).
+
+📌 Trên **test turn 2** (BTC cấp lại 2026-07-23), cấu hình BEST ở trên (`ner_xlmr_v4_mix` + boundary-fix
+inference-time trong `ner_extractor.py`) = `exp_0026`, BTC thật **final 22.7685** (WER 72.17, J_assert
+30.33, J_cand 13.30) — anchor mới để so sánh trên test hiện hành (thay `exp_0022`=32.798 đo trên test cũ,
+xem EXPERIMENTS_LOG §turn2).
+
+`RerankMatcher(use_description=...)`: đã thêm tuỳ chọn cho reranker "ăn" **mô tả KB** (phân cấp
+ICD + đồng nghĩa RxNorm, rule-based 100%, `build_icd_descriptions()`/`build_rxnorm_descriptions()`)
+thay tên trần, kỳ vọng giúp disambiguate tốt hơn (hướng OpenBioNER). **Đã thử + loại bỏ** (exp_0028/
+0029, xem EXPERIMENTS_LOG): mô tả dài làm loãng tín hiệu relevance của cross-encoder off-the-shelf,
+dev candidates_score tệ hơn ở cả `max_length=64` (0.3011) và `max_length=160` (0.2903) so với tên
+trần (0.3333). **Default đã revert về `use_description=False`** — không đổi hành vi cấu hình BEST
+ở trên.
 
 ## Assertion classifier (`src/assertion/classifier.py`, exp_0022+) — THẮNG RULE trên BTC dù dev nói ngược
 

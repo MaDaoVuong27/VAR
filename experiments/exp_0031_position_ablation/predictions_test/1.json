@@ -1,0 +1,115 @@
+[
+  {
+    "text": "hồng cầu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "hồng cầu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "hồng cầu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "Sốt cao",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "Vàng da",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "vàng mắt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "thiếu máu do tan huyết",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["D59"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "hồng cầu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "vàng da",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "vàng mắt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "vàng da",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "hồng cầu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "vàng da",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "Bại não",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["G80"],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "Chậm phát triển trí tuệ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F70"],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "Rối loạn vận động",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F82"],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "vàng da",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  }
+]

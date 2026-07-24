@@ -1,0 +1,256 @@
+[
+  {
+    "text": "tái phát u ác trực tràng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "vancomycin",
+    "type": "THUỐC",
+    "candidates": ["11124"],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "ceftazidime",
+    "type": "THUỐC",
+    "candidates": ["2191"],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "amiodarone",
+    "type": "THUỐC",
+    "candidates": ["703"],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "thay thế bicarbonate",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "máu trong phân, trong trực tràng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["J94.2"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "vancomycin",
+    "type": "THUỐC",
+    "candidates": ["11124"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "ceftazidime",
+    "type": "THUỐC",
+    "candidates": ["2191"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "rung nhĩ điển hình",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I48"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "sốc điện đồng bộ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["T75.4"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "amiodarone",
+    "type": "THUỐC",
+    "candidates": ["703"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "rối loạn cân bằng kiềm toan phối hợp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E87.4"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "hct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "24.5",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "hct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "24.7.",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "sưng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "sưng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "viêm phổi thuỳ, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["J18.1"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "rung cuống nhĩ với đáp ứng thất nhanh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "suy giảm huyết động",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E16.2"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "rối loạn cân bằng kiềm toan phối hợp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E87.4"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "sưng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "sưng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "hct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "24.7.",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "sưng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "sưng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "hct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "24.5",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "hct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "26.1",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "hct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "24.7",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "rối loạn cân bằng kiềm toan phối hợp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E87.4"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "Chuyển nhịp bằng sốc điện đồng bộ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "tái phát u ác trực tràng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "rung cuống nhĩ với đáp ứng thất nhanh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [0, 0]
+  }
+]

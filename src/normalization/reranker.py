@@ -17,12 +17,62 @@ tập ứng viên mà SapBERT đã chấp nhận, không quyết định có abs
 """
 from __future__ import annotations
 
-from typing import Dict, List, Tuple
+import csv
+from typing import Dict, List, Optional, Tuple
 
 import numpy as np
 
-from .sapbert import _ICDIndex, _RxnIndex, _Encoder
+from .sapbert import _ICDIndex, _RxnIndex, _Encoder, _ICD, _RXN
 from ..common.text_norm import normalize_for_match
+
+
+def build_icd_descriptions() -> Dict[str, str]:
+    """Mô tả mã ICD dựng RULE THUẦN từ chính KB — KHÔNG cần LLM (xem
+    docs/TRAINING_WORKFLOW_PLAN.md §C1). Độ phủ đã đo: ten_benh_vi/disease_name_en/
+    ten_nhom_3ky_tu_vi/ten_khoi_vi/ten_chuong_vi = 100%, huong_dan_bo_sung_vi (đồng nghĩa) = 40%.
+    """
+    desc: Dict[str, str] = {}
+    with open(_ICD, encoding="utf-8-sig", newline="") as f:
+        for row in csv.DictReader(f):
+            code = (row.get("ma_benh") or "").strip()
+            if not code or code in desc:
+                continue
+            vi = (row.get("ten_benh_vi") or "").strip()
+            en = (row.get("disease_name_en") or "").strip()
+            syn = (row.get("huong_dan_bo_sung_vi") or "").strip()
+            grp = (row.get("ten_nhom_3ky_tu_vi") or "").strip()
+            blk = (row.get("ten_khoi_vi") or "").strip()
+            chap = (row.get("ten_chuong_vi") or "").strip()
+            if not vi and not en:
+                continue
+            parts = [vi or en]
+            if syn:
+                parts.append(f"(còn gọi: {syn})")
+            if grp or blk or chap:
+                parts.append(f"Thuộc nhóm {grp}, khối {blk}, chương {chap}.")
+            if en and vi:
+                parts.append(f"Tên tiếng Anh: {en}.")
+            desc[code] = " ".join(p for p in parts if p)
+    return desc
+
+
+def build_rxnorm_descriptions() -> Dict[str, str]:
+    """Mô tả mã RxNorm từ TÊN ĐA DẠNG cùng rxcui (IN/SCD/SBD/SY/PSN/TMSY...) — 31% rxcui có
+    >1 TTY, dùng làm 'đồng nghĩa' miễn phí (xem docs/TRAINING_WORKFLOW_PLAN.md §C1)."""
+    variants: Dict[str, List[str]] = {}
+    with open(_RXN, encoding="utf-8-sig", newline="") as f:
+        for row in csv.DictReader(f):
+            rx = (row.get("rxcui") or "").strip()
+            s = (row.get("str") or "").strip()
+            if rx and s:
+                variants.setdefault(rx, [])
+                if s not in variants[rx]:
+                    variants[rx].append(s)
+    desc: Dict[str, str] = {}
+    for rx, names in variants.items():
+        primary, others = names[0], names[1:3]
+        desc[rx] = f"{primary}. Còn gọi: {'; '.join(others)}." if others else primary
+    return desc
 
 
 class _CrossEncoder:
@@ -43,11 +93,12 @@ class _CrossEncoder:
         return cls._tok, cls._model, cls._dev
 
     @classmethod
-    def score(cls, name: str, query: str, passages: List[str]) -> List[float]:
+    def score(cls, name: str, query: str, passages: List[str], max_length: int = 64) -> List[float]:
         import torch
         tok, model, dev = cls.get(name)
         pairs = [[query, p] for p in passages]
-        enc = tok(pairs, padding=True, truncation=True, max_length=64, return_tensors="pt").to(dev)
+        enc = tok(pairs, padding=True, truncation=True, max_length=max_length,
+                  return_tensors="pt").to(dev)
         with torch.no_grad():
             logits = model(**enc).logits.view(-1).float()
         return logits.cpu().tolist()
@@ -126,7 +177,7 @@ class RerankMatcher:
     """Duck-typed cho pipeline: match_icd/match_rxnorm. SapBERT retrieval + cross-encoder rerank."""
 
     def __init__(self, icd_threshold=0.7, rxn_threshold=0.7, icd_k=1, rxn_k=1,
-                 reranker_name="BAAI/bge-reranker-v2-m3", topn=10):
+                 reranker_name="BAAI/bge-reranker-v2-m3", topn=10, use_description=False):
         self.icd = _ICDIndex()
         self.rxn = _RxnIndex()
         self.icd_th = icd_threshold
@@ -135,6 +186,9 @@ class RerankMatcher:
         self.rxn_k = rxn_k
         self.reranker_name = reranker_name
         self.topn = topn
+        self.use_description = use_description
+        self.icd_desc: Dict[str, str] = {}
+        self.rxn_desc: Dict[str, str] = {}
 
     def build(self, force=False):
         self.icd.build(force=force)
@@ -147,25 +201,35 @@ class RerankMatcher:
         n2, c2 = self.rxn._read()
         assert c2 == self.rxn.codes
         self.rxn.names = n2
+        if self.use_description:
+            # Mô tả RULE THUẦN từ KB (§C1 TRAINING_WORKFLOW_PLAN.md) — cross-encoder thấy
+            # phân cấp/đồng nghĩa thay vì chỉ 1 tên trần, giúp phân biệt mã gần nghĩa
+            # ("suy thận cấp" vs "suy thận mạn" nằm khác nhóm 3 ký tự).
+            self.icd_desc = build_icd_descriptions()
+            self.rxn_desc = build_rxnorm_descriptions()
         _CrossEncoder.get(self.reranker_name)  # nạp trước, tránh lazy-load lệch lúc đo thời gian
         return self
 
-    def _match(self, index, text: str, th: float, k: int) -> List[str]:
+    def _match(self, index, text: str, th: float, k: int, desc_map: Dict[str, str]) -> List[str]:
         cands = _topk_with_names(index, text, th, self.topn)
         if not cands:
             return []
         if len(cands) == 1:
             return [cands[0][0]]
-        names = [nm for _, nm, _ in cands]
-        scores = _CrossEncoder.score(self.reranker_name, text, names)
+        passages = [desc_map.get(code, nm) for code, nm, _ in cands]
+        # mô tả KB dài hơn tên trần -> max_length=64 cắt cụt phần phân cấp/đồng nghĩa ở cuối
+        # câu (đã đo: max_length=64 làm dev cand TỆ HƠN 0.3333->0.3011). 160 đủ cho mô tả dài
+        # nhất mà không tốn quá nhiều so với 64.
+        maxlen = 160 if self.use_description else 64
+        scores = _CrossEncoder.score(self.reranker_name, text, passages, max_length=maxlen)
         order = sorted(zip(cands, scores), key=lambda x: x[1], reverse=True)
         return [c for (c, _, _), _ in order[:k]]
 
     def match_icd(self, text: str, k: int = None) -> List[str]:
-        return self._match(self.icd, text, self.icd_th, self.icd_k)
+        return self._match(self.icd, text, self.icd_th, self.icd_k, self.icd_desc)
 
     def match_rxnorm(self, text: str, k: int = None) -> List[str]:
-        return self._match(self.rxn, text, self.rxn_th, self.rxn_k)
+        return self._match(self.rxn, text, self.rxn_th, self.rxn_k, self.rxn_desc)
 
 
 class HybridRerankMatcher(RerankMatcher):

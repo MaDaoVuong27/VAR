@@ -1,0 +1,108 @@
+[
+  {
+    "text": "men gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [36, 43]
+  },
+  {
+    "text": "bilirubin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [53, 62]
+  },
+  {
+    "text": "ast",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [68, 71]
+  },
+  {
+    "text": "421",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [72, 75]
+  },
+  {
+    "text": "alt",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [77, 80]
+  },
+  {
+    "text": "336",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [81, 84]
+  },
+  {
+    "text": "alp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [86, 89]
+  },
+  {
+    "text": "185",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [90, 93]
+  },
+  {
+    "text": "bilirubin toàn",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [95, 109]
+  },
+  {
+    "text": "0.9",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [115, 118]
+  },
+  {
+    "text": "âm tính",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [121, 128]
+  },
+  {
+    "text": "siêu âm bụng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [129, 141]
+  },
+  {
+    "text": "doppler",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [145, 152]
+  },
+  {
+    "text": "âm tính",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [155, 162]
+  },
+  {
+    "text": "chụp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [163, 167]
+  },
+  {
+    "text": "nac",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [235, 238]
+  },
+  {
+    "text": "ercp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [270, 274]
+  },
+  {
+    "text": "ercp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [277, 281]
+  },
+  {
+    "text": "bilirubin máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [463, 476]
+  },
+  {
+    "text": "men gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [485, 492]
+  },
+  {
+    "text": "buồn ngủ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1631, 1639]
+  }
+]

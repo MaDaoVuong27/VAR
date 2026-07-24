@@ -1,0 +1,218 @@
+[
+  {
+    "text": "tiểu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [73, 77]
+  },
+  {
+    "text": "Phù",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [212, 215]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [308, 311]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [324, 327]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [381, 384]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [408, 411]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [421, 424]
+  },
+  {
+    "text": "Albumin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [505, 512]
+  },
+  {
+    "text": "Tổn thương cầu thận mạn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["S35.4"],
+    "assertions": ["isHistorical"],
+    "position": [557, 585]
+  },
+  {
+    "text": "sỏi đài bể thận, niệu quản, theo dõi viêm cầu thận",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isNegated"],
+    "position": [740, 790]
+  },
+  {
+    "text": "Ure",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [818, 821]
+  },
+  {
+    "text": "6,4",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [823, 826]
+  },
+  {
+    "text": "Creatinin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [835, 844]
+  },
+  {
+    "text": "79 micromol/l",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [846, 859]
+  },
+  {
+    "text": "HC",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [885, 887]
+  },
+  {
+    "text": "4,49 T/l",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [889, 897]
+  },
+  {
+    "text": "HST",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [899, 902]
+  },
+  {
+    "text": "103 g/l",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [904, 911]
+  },
+  {
+    "text": "Na+",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [930, 933]
+  },
+  {
+    "text": "141 mmol/l",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [935, 945]
+  },
+  {
+    "text": "K+",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [947, 949]
+  },
+  {
+    "text": "5 mmol/l",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [951, 959]
+  },
+  {
+    "text": "Cl-",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [961, 964]
+  },
+  {
+    "text": "106 mmol/l",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [966, 976]
+  },
+  {
+    "text": "Ca++",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [978, 982]
+  },
+  {
+    "text": "2 mmol/l",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [984, 992]
+  },
+  {
+    "text": "Viêm cầu thận mạn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N03"],
+    "assertions": ["isHistorical"],
+    "position": [1102, 1119]
+  },
+  {
+    "text": "Hội chứng thận hư",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N04.0"],
+    "assertions": ["isHistorical"],
+    "position": [1122, 1139]
+  },
+  {
+    "text": "protein máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1299, 1310]
+  },
+  {
+    "text": "albumin máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1312, 1323]
+  },
+  {
+    "text": "điện giải đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1325, 1337]
+  },
+  {
+    "text": "(2 lạng thịt/ngày), không lipid",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1404, 1435]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1561, 1564]
+  },
+  {
+    "text": "giảm thải protein",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1582, 1599]
+  },
+  {
+    "text": "Omez 20mg",
+    "type": "THUỐC",
+    "candidates": ["316408"],
+    "assertions": ["isHistorical"],
+    "position": [1697, 1706]
+  },
+  {
+    "text": "FNA của một nốt sần tuyến giáp phải có cấu trúc vi nang",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1826, 1881]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1972, 1979]
+  },
+  {
+    "text": "Zestril 10mg x 1 viên",
+    "type": "THUỐC",
+    "candidates": ["104377"],
+    "assertions": [],
+    "position": [2007, 2028]
+  }
+]

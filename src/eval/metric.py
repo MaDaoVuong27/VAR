@@ -44,6 +44,19 @@ implement + document, coi đây là proxy, có thể lệch nhẹ so với score
    (0.116 vs BTC 0.107) nhưng mất khả năng phân biệt → vô dụng. Độ khớp tuyệt đối là BẪY:
    nó chỉ trùng hợp vì gold dev thiếu nhãn triệt tiêu ngược lỗi vừa tạo ra.
    → KHÔNG BAO GIỜ tinh chỉnh metric này theo độ khớp tuyệt đối với BTC.
+
+7. 🚨 **`_match()` MÔ PHỎNG SAI ĐỘ NHẠY của scorer BTC thật với lỗi `position` NẶNG** (phát hiện
+   2026-07-24, exp_0031): test A/B cực đoan — lấy predictions đã ăn BTC thật 22.7685 (exp_0026),
+   ghi đè TOÀN BỘ `position` thành `[0,0]`, giữ nguyên text/type/candidates/assertions, rồi nộp
+   thật. Proxy này (OR: text-match hoặc position-IoU>0.5) dự đoán final chỉ giảm **−3.3%** (còn
+   nhiều pair vẫn ghép được qua text). BTC thật giảm **−66%** (WER 72.17→100, J_assertion
+   30.33→0). → scorer BTC thật có vẻ **dựa vào position CHẶT hơn nhiều** để ghép cặp — gần như
+   bắt buộc, không phải fallback nhẹ như ở đây. Quy luật "cùng span → dev xếp hạng đáng tin" VẪN
+   ĐÚNG cho so sánh giữa các model bình thường (đã kiểm chứng nhiều lần, position luôn hợp lý ở
+   mọi trường hợp đó) — phát hiện này CHỈ áp dụng cho trường hợp cực đoan (position sai lệch
+   hoàn toàn/vô nghĩa), không phải phản chứng cho quy luật đó. Nhưng nó ngụ ý: cải tiến độ chính
+   xác BOUNDARY (position) có giá trị thật cao hơn con số dev proxy từng thể hiện — xem
+   `experiments/exp_0031_position_ablation/notes.md` + `docs/EXPERIMENTS_LOG.md` §exp_0031.
 """
 from __future__ import annotations
 

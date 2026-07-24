@@ -1,0 +1,35 @@
+[
+  {
+    "text": "ăn chay trường diễn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "giảm cảm giác vị thế",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R43.2"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "hạ huyết áp tư thế đứng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I95.1"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "chụp x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "u xơ tuyến vú",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N60.2"],
+    "assertions": [],
+    "position": [0, 0]
+  }
+]

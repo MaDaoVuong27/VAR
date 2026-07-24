@@ -1,0 +1,22 @@
+[
+  {
+    "text": "âu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [133, 135]
+  },
+  {
+    "text": "tổn thương chi dưới do tự tử không thành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["T93.9"],
+    "assertions": [],
+    "position": [179, 219]
+  },
+  {
+    "text": "buồn chán",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [314, 323]
+  }
+]

@@ -1,0 +1,239 @@
+[
+  {
+    "text": "Bệnh bạch cầu dòng tủy mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["C92"],
+    "assertions": ["isHistorical"],
+    "position": [57, 88]
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "candidates": ["282386"],
+    "assertions": ["isHistorical"],
+    "position": [99, 106]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I11"],
+    "assertions": ["isHistorical"],
+    "position": [113, 126]
+  },
+  {
+    "text": "Đái tháo đường típ 2",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E11"],
+    "assertions": ["isHistorical"],
+    "position": [170, 190]
+  },
+  {
+    "text": "Giả gout",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M10.0"],
+    "assertions": ["isHistorical"],
+    "position": [216, 224]
+  },
+  {
+    "text": "bệnh thận mạn, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N18.9"],
+    "assertions": ["isHistorical"],
+    "position": [231, 260]
+  },
+  {
+    "text": "tăng sản tuyến tiền liệt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N40"],
+    "assertions": ["isHistorical"],
+    "position": [279, 303]
+  },
+  {
+    "text": "Ngã",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [332, 335]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [342, 349]
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "candidates": ["282386"],
+    "assertions": ["isHistorical"],
+    "position": [381, 388]
+  },
+  {
+    "text": "Toàn trạng suy kiệt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F41.1"],
+    "assertions": ["isHistorical"],
+    "position": [476, 495]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [523, 530]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [661, 668]
+  },
+  {
+    "text": "yếu cơ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [739, 745]
+  },
+  {
+    "text": "ngã",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [754, 757]
+  },
+  {
+    "text": "toàn trạng suy kiệt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F41.1"],
+    "assertions": [],
+    "position": [797, 816]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [823, 830]
+  },
+  {
+    "text": "Lú lẫn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [837, 843]
+  },
+  {
+    "text": "Ăn uống kém, ăn vào dễ nôn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["P92.3"],
+    "assertions": [],
+    "position": [850, 876]
+  },
+  {
+    "text": "Nôn không ra máu, không ra dịch mật",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K92.0"],
+    "assertions": [],
+    "position": [884, 919]
+  },
+  {
+    "text": "ảo giác",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1000, 1007]
+  },
+  {
+    "text": "gleevec",
+    "type": "THUỐC",
+    "candidates": ["282386"],
+    "assertions": ["isHistorical"],
+    "position": [1047, 1054]
+  },
+  {
+    "text": "Toàn trạng suy kiệt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F41.1"],
+    "assertions": ["isHistorical"],
+    "position": [1101, 1120]
+  },
+  {
+    "text": "yếu cơ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1150, 1156]
+  },
+  {
+    "text": "Nôn không ra máu, không ra dịch mật",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K92.0"],
+    "assertions": ["isHistorical"],
+    "position": [1197, 1232]
+  },
+  {
+    "text": "bạch cầu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1290, 1298]
+  },
+  {
+    "text": "39.2",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1307, 1311]
+  },
+  {
+    "text": "creatinin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1318, 1327]
+  },
+  {
+    "text": "3.0",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1331, 1334]
+  },
+  {
+    "text": "troponin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1341, 1349]
+  },
+  {
+    "text": "inr",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1364, 1367]
+  },
+  {
+    "text": "1.4",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1371, 1374]
+  },
+  {
+    "text": "alt",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1399, 1402]
+  },
+  {
+    "text": "176",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1406, 1409]
+  },
+  {
+    "text": "ast",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1413, 1416]
+  },
+  {
+    "text": "287",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1420, 1423]
+  },
+  {
+    "text": "tổng phân tích nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1430, 1454]
+  },
+  {
+    "text": "chụp x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1519, 1536]
+  },
+  {
+    "text": "bình thường",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1540, 1551]
+  }
+]

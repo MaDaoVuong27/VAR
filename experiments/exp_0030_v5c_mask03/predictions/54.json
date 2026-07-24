@@ -1,0 +1,333 @@
+[
+  {
+    "text": "tái phát u ác trực tràng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [39, 63]
+  },
+  {
+    "text": "ung thư biểu mô tế bào thận sau",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [66, 97]
+  },
+  {
+    "text": "cắt bỏ một phần thận phải và tuyến thượng thận phải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [98, 149]
+  },
+  {
+    "text": "DC cardioversion",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [244, 260]
+  },
+  {
+    "text": "vancomycin",
+    "type": "THUỐC",
+    "candidates": ["11124"],
+    "assertions": ["isHistorical"],
+    "position": [298, 308]
+  },
+  {
+    "text": "ceftazidime",
+    "type": "THUỐC",
+    "candidates": ["2191"],
+    "assertions": ["isHistorical"],
+    "position": [311, 322]
+  },
+  {
+    "text": "amiodarone",
+    "type": "THUỐC",
+    "candidates": ["703"],
+    "assertions": ["isHistorical"],
+    "position": [325, 335]
+  },
+  {
+    "text": "Tái phát u ác trực tràng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [495, 519]
+  },
+  {
+    "text": "chụp x",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [686, 692]
+  },
+  {
+    "text": "quang",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [693, 698]
+  },
+  {
+    "text": "vancomycin",
+    "type": "THUỐC",
+    "candidates": ["11124"],
+    "assertions": [],
+    "position": [728, 738]
+  },
+  {
+    "text": "vancomycinvà",
+    "type": "THUỐC",
+    "candidates": ["11124"],
+    "assertions": [],
+    "position": [763, 775]
+  },
+  {
+    "text": "ceftazidime",
+    "type": "THUỐC",
+    "candidates": ["2191"],
+    "assertions": [],
+    "position": [776, 787]
+  },
+  {
+    "text": "rung nhĩ điển hình kèm theo đáp ứng thất nhanh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [815, 861]
+  },
+  {
+    "text": "rối loạn huyết động",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F90"],
+    "assertions": [],
+    "position": [865, 884]
+  },
+  {
+    "text": "Tiến",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [888, 892]
+  },
+  {
+    "text": "chuyển nhịp bằng sốc điện đồng bộ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [898, 931]
+  },
+  {
+    "text": "amiodarone",
+    "type": "THUỐC",
+    "candidates": ["703"],
+    "assertions": [],
+    "position": [950, 960]
+  },
+  {
+    "text": "rối loạn cân bằng kiềm toan phối hợp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E87.4"],
+    "assertions": [],
+    "position": [977, 1013]
+  },
+  {
+    "text": "hct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1049, 1052]
+  },
+  {
+    "text": "24.5",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1075, 1079]
+  },
+  {
+    "text": "26.1.",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1093, 1098]
+  },
+  {
+    "text": "hct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1231, 1234]
+  },
+  {
+    "text": "24.7.",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1245, 1250]
+  },
+  {
+    "text": "1 L",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [1377, 1380]
+  },
+  {
+    "text": "ns",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [1381, 1383]
+  },
+  {
+    "text": "thiếu máu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1633, 1642]
+  },
+  {
+    "text": "viêm phổi thuỳ, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["J18.1"],
+    "assertions": [],
+    "position": [1691, 1721]
+  },
+  {
+    "text": "rung cuống nhĩ với đáp ứng thất nhanh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1724, 1761]
+  },
+  {
+    "text": "suy giảm huyết động",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E16.2"],
+    "assertions": [],
+    "position": [1764, 1783]
+  },
+  {
+    "text": "rối loạn cân bằng kiềm toan phối hợp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E87.4"],
+    "assertions": [],
+    "position": [1786, 1822]
+  },
+  {
+    "text": "sưng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1825, 1829]
+  },
+  {
+    "text": "sưng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1831, 1835]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1841, 1844]
+  },
+  {
+    "text": "hct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1964, 1967]
+  },
+  {
+    "text": "24.7.",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1978, 1983]
+  },
+  {
+    "text": "98.1 11663",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [2253, 2263]
+  },
+  {
+    "text": "rò và ống dẫn niệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N36.0"],
+    "assertions": [],
+    "position": [2371, 2389]
+  },
+  {
+    "text": "sưng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2482, 2486]
+  },
+  {
+    "text": "đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2498, 2501]
+  },
+  {
+    "text": "hct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2556, 2559]
+  },
+  {
+    "text": "24.5",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [2582, 2586]
+  },
+  {
+    "text": "hct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2589, 2592]
+  },
+  {
+    "text": "26.1",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [2605, 2609]
+  },
+  {
+    "text": "hct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2612, 2615]
+  },
+  {
+    "text": "24.7",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [2626, 2630]
+  },
+  {
+    "text": "rối loạn cân bằng kiềm toan phối hợp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E87.4"],
+    "assertions": [],
+    "position": [2656, 2692]
+  },
+  {
+    "text": "viêm phổi thùy dưới trái bằng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K51.5"],
+    "assertions": [],
+    "position": [2731, 2760]
+  },
+  {
+    "text": "Chuyển nhịp bằng sốc điện đồng bộ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [2799, 2832]
+  },
+  {
+    "text": "truyền máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2835, 2845]
+  },
+  {
+    "text": "suy thận cấp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N17"],
+    "assertions": [],
+    "position": [2877, 2889]
+  },
+  {
+    "text": "tái phát u ác trực tràng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [2892, 2916]
+  },
+  {
+    "text": "rung cuống nhĩ với đáp ứng thất nhanh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [2919, 2956]
+  }
+]

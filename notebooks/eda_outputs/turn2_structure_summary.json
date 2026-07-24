@@ -1,0 +1,621 @@
+{
+  "input_dir": "data/raw_turn_2/input",
+  "document_count": 100,
+  "corpus_totals": {
+    "chars": 203817,
+    "tokens": 42438,
+    "physical_lines": 3028,
+    "nonempty_lines": 2775
+  },
+  "length": {
+    "chars": {
+      "min": 1293,
+      "p25": 1582.75,
+      "median": 1838.0,
+      "p75": 2370.0,
+      "max": 4481
+    },
+    "tokens": {
+      "min": 264,
+      "p25": 324.5,
+      "median": 382.5,
+      "p75": 489.0,
+      "max": 954
+    },
+    "physical_lines": {
+      "min": 2,
+      "p25": 18.0,
+      "median": 29.0,
+      "p75": 36.25,
+      "max": 93
+    },
+    "nonempty_lines": {
+      "min": 2,
+      "p25": 16.75,
+      "median": 26.0,
+      "p75": 35.25,
+      "max": 77
+    },
+    "paragraphs": {
+      "min": 1,
+      "p25": 2.0,
+      "median": 3.0,
+      "p75": 4.0,
+      "max": 20
+    },
+    "max_line_chars": {
+      "min": 111,
+      "p25": 241.0,
+      "median": 416.0,
+      "p75": 590.25,
+      "max": 1890
+    }
+  },
+  "layout_proxy_counts": {
+    "fragment_or_compacted": 7,
+    "freeform_or_hybrid": 7,
+    "narrative_case": 5,
+    "numbered_clinical_template": 31,
+    "numbered_health_article": 5,
+    "qa_dialogue": 45
+  },
+  "genre_combination_counts": {
+    "clinical": 40,
+    "qa": 31,
+    "qa+clinical": 20,
+    "unclassified": 4,
+    "clinical+education": 3,
+    "education": 2
+  },
+  "genre_counts_multilabel": {
+    "qa": 51,
+    "clinical": 63,
+    "health_education": 5,
+    "mixed_major_genre": 23
+  },
+  "structure_counts": {
+    "has_any_numbered_heading": 76,
+    "has_any_canonical_clinical_heading": 72,
+    "canonical_full_exact_1_2_3": 21,
+    "canonical_partial_or_malformed": 51,
+    "canonical_sequence_counts": {
+      "none": 28,
+      "1,2,3": 21,
+      "1,2": 17,
+      "2": 13,
+      "3": 10,
+      "2,3": 6,
+      "1": 2,
+      "1,3": 2,
+      "1,2,2": 1
+    },
+    "has_all_3_clinical_sections": 21,
+    "complete_qa_labels": 35,
+    "partial_qa_labels": 24,
+    "qa_marker_any": 59,
+    "qa_question_only": 11,
+    "qa_answer_only": 13,
+    "compacted_layout": 7,
+    "fragment_start": 8,
+    "list_marker_count_quantiles": {
+      "min": 0,
+      "p25": 4.0,
+      "median": 12.0,
+      "p75": 22.0,
+      "max": 61
+    },
+    "has_dash_list": 88,
+    "has_unicode_bullet_list": 12,
+    "has_numbered_line_start": 77,
+    "has_bullet_line": 90,
+    "has_inline_bullet": 11,
+    "has_heading_inline_bullet": 1,
+    "has_duplicate_numbered_heading": 0,
+    "has_repeated_canonical_heading": 1,
+    "qa_marker_and_canonical_heading": 35,
+    "list_density_buckets": {
+      "0": 3,
+      "1_to_4": 24,
+      "5_to_9": 17,
+      "10_to_19": 24,
+      "20_plus": 32
+    }
+  },
+  "noise_counts": {
+    "redaction": 30,
+    "redaction_run_total": 99,
+    "redaction_run_length_min": 3,
+    "redaction_run_length_max": 36,
+    "placeholder": 5,
+    "placeholder_total": 24,
+    "placeholder_types": {
+      "[Ngày]": 9,
+      "[Date]": 7,
+      "[Số]": 3,
+      "[Name]": 2,
+      "[Tên cuộc họp]": 2,
+      "[Tên bác sĩ]": 1
+    },
+    "lower_upper_glue": 23,
+    "punctuation_upper_glue": 15,
+    "punctuation_upper_glue_total": 33,
+    "heading_glue": 2,
+    "legacy_glue_or_repeat_proxy": 55,
+    "word_or_phrase_repeat": 28,
+    "internal_repeated_line_file_count": 11,
+    "internal_repeated_line_type_total": 17,
+    "internal_repeated_line_extra_total": 17,
+    "attached_number_unit_file_count": 32,
+    "attached_number_unit_total": 65,
+    "decomposed_unicode": 20,
+    "mojibake": 0,
+    "markdown_syntax": 0,
+    "leading_indent": 81,
+    "leading_indent_line_total": 1356,
+    "trailing_space": 66,
+    "trailing_space_line_total": 278,
+    "tab": 1,
+    "zero_width_space": 2,
+    "nbsp": 2,
+    "carriage_return": 0,
+    "utf8_bom": 0,
+    "one_or_more_600_char_lines": 24,
+    "one_or_more_300_char_lines": 65,
+    "one_or_more_500_char_lines": 34,
+    "one_or_more_1000_char_lines": 12
+  },
+  "stitching_counts": {
+    "mixed_major_genre": 23,
+    "clinical_heading_intrusion": 16,
+    "clinical_field_intrusion": 13,
+    "abnormal_qa_label_position": 17,
+    "at_least_1_high_precision_signal": 47,
+    "at_least_2_high_precision_signals": 15
+  },
+  "cross_document_reuse": {
+    "material_pair_count": 104,
+    "files_with_any_reused_12gram": 92,
+    "files_with_any_reused_7gram": 99,
+    "files_with_any_exact_repeated_line_ge_45_chars": 83,
+    "files_with_2_exact_repeated_lines_ge_45_chars": 69,
+    "files_with_5_exact_repeated_lines_ge_45_chars": 48,
+    "files_reused_7gram_ratio_ge_0_50": 58,
+    "files_reused_7gram_ratio_ge_0_75": 44,
+    "files_reused_7gram_ratio_ge_0_90": 27,
+    "files_reused_12gram_ratio_ge_0_25": 66,
+    "files_nearest_containment_ge_0_30": 67,
+    "files_nearest_containment_ge_0_50": 53,
+    "files_nearest_containment_ge_0_75": 38,
+    "reused_12gram_ratio": {
+      "min": 0.0,
+      "p25": 0.142725,
+      "median": 0.6451,
+      "p75": 0.874675,
+      "max": 0.9736
+    },
+    "reused_7gram_ratio": {
+      "min": 0.0,
+      "p25": 0.17729999999999999,
+      "median": 0.6738,
+      "p75": 0.9033500000000001,
+      "max": 0.9879,
+      "mean": 0.553241
+    },
+    "components_at_containment_0_45": [
+      [
+        "35.txt",
+        "56.txt",
+        "67.txt",
+        "86.txt",
+        "89.txt",
+        "94.txt"
+      ],
+      [
+        "14.txt",
+        "19.txt",
+        "28.txt",
+        "52.txt"
+      ],
+      [
+        "30.txt",
+        "44.txt",
+        "76.txt",
+        "83.txt"
+      ],
+      [
+        "13.txt",
+        "16.txt",
+        "20.txt"
+      ],
+      [
+        "21.txt",
+        "32.txt",
+        "79.txt"
+      ],
+      [
+        "23.txt",
+        "45.txt",
+        "50.txt"
+      ],
+      [
+        "41.txt",
+        "59.txt",
+        "60.txt"
+      ],
+      [
+        "6.txt",
+        "11.txt"
+      ],
+      [
+        "7.txt",
+        "9.txt"
+      ],
+      [
+        "12.txt",
+        "15.txt"
+      ],
+      [
+        "37.txt",
+        "48.txt"
+      ],
+      [
+        "39.txt",
+        "47.txt"
+      ],
+      [
+        "42.txt",
+        "62.txt"
+      ],
+      [
+        "43.txt",
+        "63.txt"
+      ],
+      [
+        "49.txt",
+        "65.txt"
+      ],
+      [
+        "51.txt",
+        "70.txt"
+      ],
+      [
+        "53.txt",
+        "57.txt"
+      ],
+      [
+        "55.txt",
+        "93.txt"
+      ],
+      [
+        "72.txt",
+        "98.txt"
+      ],
+      [
+        "73.txt",
+        "74.txt"
+      ],
+      [
+        "75.txt",
+        "84.txt"
+      ],
+      [
+        "80.txt",
+        "95.txt"
+      ]
+    ],
+    "components_at_containment_0_50": [
+      [
+        "35.txt",
+        "56.txt",
+        "67.txt",
+        "86.txt",
+        "94.txt"
+      ],
+      [
+        "14.txt",
+        "19.txt",
+        "28.txt",
+        "52.txt"
+      ],
+      [
+        "30.txt",
+        "44.txt",
+        "76.txt",
+        "83.txt"
+      ],
+      [
+        "13.txt",
+        "16.txt",
+        "20.txt"
+      ],
+      [
+        "21.txt",
+        "32.txt",
+        "79.txt"
+      ],
+      [
+        "23.txt",
+        "45.txt",
+        "50.txt"
+      ],
+      [
+        "41.txt",
+        "59.txt",
+        "60.txt"
+      ],
+      [
+        "6.txt",
+        "11.txt"
+      ],
+      [
+        "7.txt",
+        "9.txt"
+      ],
+      [
+        "12.txt",
+        "15.txt"
+      ],
+      [
+        "37.txt",
+        "48.txt"
+      ],
+      [
+        "39.txt",
+        "47.txt"
+      ],
+      [
+        "42.txt",
+        "62.txt"
+      ],
+      [
+        "43.txt",
+        "63.txt"
+      ],
+      [
+        "49.txt",
+        "65.txt"
+      ],
+      [
+        "51.txt",
+        "70.txt"
+      ],
+      [
+        "55.txt",
+        "93.txt"
+      ],
+      [
+        "72.txt",
+        "98.txt"
+      ],
+      [
+        "73.txt",
+        "74.txt"
+      ],
+      [
+        "75.txt",
+        "84.txt"
+      ],
+      [
+        "80.txt",
+        "95.txt"
+      ]
+    ],
+    "components_at_containment_0_75": [
+      [
+        "35.txt",
+        "56.txt",
+        "67.txt",
+        "86.txt",
+        "94.txt"
+      ],
+      [
+        "14.txt",
+        "19.txt",
+        "28.txt",
+        "52.txt"
+      ],
+      [
+        "30.txt",
+        "44.txt",
+        "76.txt",
+        "83.txt"
+      ],
+      [
+        "13.txt",
+        "16.txt",
+        "20.txt"
+      ],
+      [
+        "6.txt",
+        "11.txt"
+      ],
+      [
+        "7.txt",
+        "9.txt"
+      ],
+      [
+        "21.txt",
+        "79.txt"
+      ],
+      [
+        "37.txt",
+        "48.txt"
+      ],
+      [
+        "42.txt",
+        "62.txt"
+      ],
+      [
+        "49.txt",
+        "65.txt"
+      ],
+      [
+        "51.txt",
+        "70.txt"
+      ],
+      [
+        "55.txt",
+        "93.txt"
+      ],
+      [
+        "72.txt",
+        "98.txt"
+      ],
+      [
+        "75.txt",
+        "84.txt"
+      ],
+      [
+        "80.txt",
+        "95.txt"
+      ]
+    ]
+  },
+  "selected_file_lists": {
+    "mixed_major_genre": [
+      "3.txt",
+      "5.txt",
+      "8.txt",
+      "9.txt",
+      "12.txt",
+      "14.txt",
+      "21.txt",
+      "26.txt",
+      "27.txt",
+      "29.txt",
+      "30.txt",
+      "31.txt",
+      "32.txt",
+      "34.txt",
+      "35.txt",
+      "51.txt",
+      "55.txt",
+      "58.txt",
+      "60.txt",
+      "63.txt",
+      "80.txt",
+      "90.txt",
+      "96.txt"
+    ],
+    "compacted_layout": [
+      "44.txt",
+      "56.txt",
+      "67.txt",
+      "76.txt",
+      "83.txt",
+      "86.txt",
+      "94.txt"
+    ],
+    "fragment_start": [
+      "18.txt",
+      "30.txt",
+      "44.txt",
+      "76.txt",
+      "83.txt",
+      "89.txt",
+      "90.txt",
+      "94.txt"
+    ],
+    "redaction": [
+      "1.txt",
+      "2.txt",
+      "4.txt",
+      "7.txt",
+      "9.txt",
+      "14.txt",
+      "15.txt",
+      "16.txt",
+      "18.txt",
+      "19.txt",
+      "24.txt",
+      "25.txt",
+      "28.txt",
+      "30.txt",
+      "40.txt",
+      "41.txt",
+      "44.txt",
+      "45.txt",
+      "46.txt",
+      "49.txt",
+      "53.txt",
+      "54.txt",
+      "64.txt",
+      "65.txt",
+      "72.txt",
+      "76.txt",
+      "83.txt",
+      "87.txt",
+      "97.txt",
+      "100.txt"
+    ],
+    "heading_glue": [
+      "48.txt",
+      "82.txt"
+    ],
+    "stitching_signal_ge_2": [
+      "1.txt",
+      "9.txt",
+      "13.txt",
+      "14.txt",
+      "21.txt",
+      "27.txt",
+      "30.txt",
+      "32.txt",
+      "34.txt",
+      "60.txt",
+      "82.txt",
+      "90.txt",
+      "95.txt",
+      "96.txt",
+      "100.txt"
+    ],
+    "nearest_containment_ge_0_75": [
+      "6.txt",
+      "7.txt",
+      "9.txt",
+      "11.txt",
+      "13.txt",
+      "14.txt",
+      "16.txt",
+      "19.txt",
+      "20.txt",
+      "21.txt",
+      "28.txt",
+      "30.txt",
+      "35.txt",
+      "37.txt",
+      "42.txt",
+      "44.txt",
+      "48.txt",
+      "49.txt",
+      "51.txt",
+      "52.txt",
+      "55.txt",
+      "56.txt",
+      "62.txt",
+      "65.txt",
+      "67.txt",
+      "70.txt",
+      "72.txt",
+      "75.txt",
+      "76.txt",
+      "79.txt",
+      "80.txt",
+      "83.txt",
+      "84.txt",
+      "86.txt",
+      "93.txt",
+      "94.txt",
+      "95.txt",
+      "98.txt"
+    ]
+  },
+  "method_notes": [
+    "All categories are heuristic, multi-axis EDA features, not gold labels.",
+    "No file ID is used to classify a document.",
+    "Cross-document reuse uses exact NFC-normalized token 7/8/12-grams.",
+    "Pair containment is intersection divided by the smaller shingle set.",
+    "Repeated-line statistics use exact NFC/case/space-normalized lines of at least 45 characters.",
+    "Counts from public competition input must not be used as training templates."
+  ]
+}

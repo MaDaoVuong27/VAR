@@ -1,0 +1,23 @@
+[
+  {
+    "text": "bumetanide 2mg iv",
+    "type": "THUỐC",
+    "candidates": ["315502"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "vancomycin 1 gram",
+    "type": "THUỐC",
+    "candidates": ["1807513"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "levofloxacin 750mg iv",
+    "type": "THUỐC",
+    "candidates": ["330371"],
+    "assertions": [],
+    "position": [0, 0]
+  }
+]

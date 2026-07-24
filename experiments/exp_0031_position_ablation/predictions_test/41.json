@@ -1,0 +1,36 @@
+[
+  {
+    "text": "Vi hệ tại nang lông bởi Propionibacterium acnes (vi khuẩn kỵ khí thông thường)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "Tăng sản tuyến bã nhờn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E32.0"],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "Sừng hóa nang lông bất thường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["L11.0"],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "Vi khuẩn C. acne",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "exp": "exp_0030_v5c_mask01",
+  "desc": "Masking A/B: v5c NER với entity-masking p=01 lúc train (A2 TRAINING_WORKFLOW_PLAN.md); test-input=dev để so sánh nhanh, KHÔNG dùng để nộp",
+  "ner": "models/ner_xlmr_v5c_mask01",
+  "dev_scores": {
+    "text_score": 0.2474,
+    "assertions_score": 0.5514,
+    "candidates_score": 0.3302,
+    "final_score": 0.3717
+  },
+  "n_dev": 15
+}

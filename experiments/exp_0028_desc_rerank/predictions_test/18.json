@@ -1,0 +1,198 @@
+[
+  {
+    "text": "Điện tâm đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [14, 25]
+  },
+  {
+    "text": "ECG",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [27, 30]
+  },
+  {
+    "text": "ST",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [35, 37]
+  },
+  {
+    "text": "Siêu âm tim",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [149, 160]
+  },
+  {
+    "text": "Rối loạn vận động vùng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F44.4"],
+    "assertions": ["isHistorical"],
+    "position": [164, 186]
+  },
+  {
+    "text": "Can thiệp mạch vành qua da (PCI)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [645, 677]
+  },
+  {
+    "text": "Nong bóng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [681, 690]
+  },
+  {
+    "text": "Đặt stent",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [694, 703]
+  },
+  {
+    "text": "Phẫu thuật bắc cầu mạch vành (CABG)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [705, 740]
+  },
+  {
+    "text": "Khi tổn thương nhiều nhánh, nặng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["T04.2"],
+    "assertions": ["isHistorical"],
+    "position": [744, 776]
+  },
+  {
+    "text": "Dự phòng bệnh mạch vành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [782, 805]
+  },
+  {
+    "text": "Dự phòng tiên phát (chưa mắc bệnh)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [808, 842]
+  },
+  {
+    "text": "Ăn ít mỡ bão hòa – ít muối",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [844, 870]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [895, 903]
+  },
+  {
+    "text": "Tự ý bỏ về từ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1046, 1059]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1113, 1116]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1283, 1286]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1293, 1301]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1331, 1334]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1605, 1613]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1615, 1618]
+  },
+  {
+    "text": "ớn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1620, 1622]
+  },
+  {
+    "text": "thay",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1629, 1633]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1654, 1662]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1664, 1671]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1818, 1825]
+  },
+  {
+    "text": "lipase",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1985, 1991]
+  },
+  {
+    "text": "623",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [2010, 2013]
+  },
+  {
+    "text": "men gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2047, 2054]
+  },
+  {
+    "text": "tbr",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2087, 2090]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2294, 2301]
+  },
+  {
+    "text": "chụp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2405, 2409]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2480, 2487]
+  }
+]

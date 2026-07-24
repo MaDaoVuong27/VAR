@@ -1,0 +1,50 @@
+[
+  {
+    "text": "trầm cảm và  rối loạn lo âu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F41.2"],
+    "assertions": [],
+    "position": [108, 135]
+  },
+  {
+    "text": "tổn thương chi dưới do tự tử không thành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["T93"],
+    "assertions": [],
+    "position": [179, 219]
+  },
+  {
+    "text": "buồn chán",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [314, 323]
+  },
+  {
+    "text": "tổn thương tổn thương chi dưới nghiêm trọng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["T93"],
+    "assertions": [],
+    "position": [622, 665]
+  },
+  {
+    "text": "Phẫu thuật cắt cụt chân trái bên trên gối",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [678, 719]
+  },
+  {
+    "text": "biến chứng thuyên tắc phổi hai bên",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["J95.0"],
+    "assertions": [],
+    "position": [757, 791]
+  },
+  {
+    "text": "Enterococcus kháng vancomycin",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["U83.0"],
+    "assertions": [],
+    "position": [828, 857]
+  }
+]

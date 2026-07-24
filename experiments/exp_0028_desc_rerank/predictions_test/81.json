@@ -1,0 +1,20 @@
+[
+  {
+    "text": "que thử",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [272, 279]
+  },
+  {
+    "text": "nhiều",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [593, 599]
+  },
+  {
+    "text": "phụ thuốc vào gen đột biến",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1317, 1343]
+  }
+]

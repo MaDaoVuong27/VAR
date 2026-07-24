@@ -1,0 +1,84 @@
+[
+  {
+    "text": "Rối loạn cảm xúc",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F60.3"],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "Rối loạn lưỡng cực",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F31"],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "rối loạn lo âu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F41.1"],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "Thuốc kê đơn (tên không được chỉ định)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "klonopinclonidine",
+    "type": "THUỐC",
+    "candidates": ["2599"],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "clonidine",
+    "type": "THUỐC",
+    "candidates": ["2599"],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "suboxone",
+    "type": "THUỐC",
+    "candidates": ["352990"],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "Lạm dụng chất kích thích, chất gây nghiện opioid",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F11"],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "suboxone",
+    "type": "THUỐC",
+    "candidates": ["352990"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "suboxone",
+    "type": "THUỐC",
+    "candidates": ["352990"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "lo âu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "hoảng sợ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  }
+]

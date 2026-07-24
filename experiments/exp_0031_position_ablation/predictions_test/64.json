@@ -1,0 +1,85 @@
+[
+  {
+    "text": "Vastarel",
+    "type": "THUỐC",
+    "candidates": ["218792"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "run tay",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isFamily"],
+    "position": [0, 0]
+  },
+  {
+    "text": "bệnh Graves",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["A01.0"],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "tăng lipid máu, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E78.5"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "mất thăng bằng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "run tay",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isFamily"],
+    "position": [0, 0]
+  },
+  {
+    "text": "run tay",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "đỏ mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "tụt huyết áp thế đứng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I95.1"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "Nitramyl",
+    "type": "THUỐC",
+    "candidates": ["7394"],
+    "assertions": [],
+    "position": [0, 0]
+  }
+]

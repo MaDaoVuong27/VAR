@@ -1,0 +1,55 @@
+[
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1488, 1495]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1538, 1545]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1621, 1628]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1741, 1748]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1909, 1912]
+  },
+  {
+    "text": "Phù",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1999, 2002]
+  },
+  {
+    "text": "Tăng nhãn áp so với",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["H44.4"],
+    "assertions": ["isHistorical"],
+    "position": [2114, 2133]
+  },
+  {
+    "text": "chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2134, 2154]
+  },
+  {
+    "text": "ct",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2156, 2158]
+  }
+]

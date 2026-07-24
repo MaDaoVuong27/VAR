@@ -1,0 +1,100 @@
+[
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [45, 52]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [219, 226]
+  },
+  {
+    "text": "Glucose máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [337, 348]
+  },
+  {
+    "text": "Torsemide",
+    "type": "THUỐC",
+    "candidates": ["38413"],
+    "assertions": [],
+    "position": [554, 563]
+  },
+  {
+    "text": "Isosorbide",
+    "type": "THUỐC",
+    "candidates": ["6057"],
+    "assertions": [],
+    "position": [679, 689]
+  },
+  {
+    "text": "Rosuvastatin",
+    "type": "THUỐC",
+    "candidates": ["301542"],
+    "assertions": [],
+    "position": [735, 747]
+  },
+  {
+    "text": "Carvedilol",
+    "type": "THUỐC",
+    "candidates": ["20352"],
+    "assertions": [],
+    "position": [803, 813]
+  },
+  {
+    "text": "kali máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [925, 933]
+  },
+  {
+    "text": "Creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [937, 947]
+  },
+  {
+    "text": "Torsemide",
+    "type": "THUỐC",
+    "candidates": ["38413"],
+    "assertions": ["isHistorical"],
+    "position": [1071, 1080]
+  },
+  {
+    "text": "đường huyết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1180, 1191]
+  },
+  {
+    "text": "đường máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1228, 1237]
+  },
+  {
+    "text": "glucose",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1241, 1248]
+  },
+  {
+    "text": "glargine",
+    "type": "THUỐC",
+    "candidates": ["274783"],
+    "assertions": ["isHistorical"],
+    "position": [1273, 1281]
+  },
+  {
+    "text": "Dùng xe đẩy hàng làm dụng cụ hỗ trợ đi lại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [1309, 1351]
+  },
+  {
+    "text": "Kiểm soát đường máu, điều chỉnh rối loạn lipid máu, điều chỉnh HA, phòng ngừa biến chứng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [1404, 1492]
+  }
+]

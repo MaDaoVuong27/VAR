@@ -1,0 +1,82 @@
+[
+  {
+    "text": "đau dữ dội",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "đau đầu gối",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "Siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "Siêu âm Doppler",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "chức năng tâm thu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "EF BP",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "Hở hai lá vừa",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I34.0"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "Hở chủ nhẹ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "Hở ba lá nhiều",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I07.1"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "chức năng tâm thu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "FAC",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "suy thận mạn giai đoạn 5tăng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N18.5"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "x-quang",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  }
+]

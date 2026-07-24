@@ -1,0 +1,31 @@
+[
+  {
+    "text": "ngứa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "ngứa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "cộng hưởng từ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "mri",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "hẹp lỗ liên hợp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["M99.74"],
+    "assertions": [],
+    "position": [0, 0]
+  }
+]

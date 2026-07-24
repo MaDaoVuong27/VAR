@@ -1,0 +1,14 @@
+[
+  {
+    "text": "sinh thiết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [90, 100]
+  },
+  {
+    "text": "Bệnh do nhiễm nấm da mà thành",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["B40.3"],
+    "assertions": [],
+    "position": [445, 474]
+  }
+]

@@ -73,6 +73,28 @@ tiếp tục ngay sau — không có ranh giới rõ ràng giữa 2 loại nội
 4. **`data/raw_new/` cũ vẫn giữ nguyên**, không xoá — dùng để đối chiếu lịch sử. Từ nay
    `data/raw_turn_2/input/` là input để sinh submission thật.
 
+### Cập nhật 2026-07-24 — deep structural EDA
+
+Đã đọc thủ công toàn bộ 100 file và chạy feature/reuse analysis tái lập. Báo cáo đầy đủ:
+[`EDA_RAW_TURN_2_DEEP_DIVE.md`](EDA_RAW_TURN_2_DEEP_DIVE.md).
+
+Các kết luận mới quan trọng:
+
+- Không nên phân loại độc quyền ở cấp file. Dữ liệu thường là montage nhiều block, gồm bệnh án,
+  Q&A và bài giáo dục sức khỏe; có cả topology `A → B → A` và seam giữa một dòng.
+- **72/100** file có ít nhất một numbered clinical heading nhưng chỉ **21/100** đủ đúng chuỗi
+  `1 → 2 → 3`; 51 file còn lại chỉ giữ fragment/lặp/malformed frame.
+- **59/100** có Q hoặc A marker, nhưng chỉ **35** có đủ hai phía; **35/100** đồng thời có
+  Q&A marker và clinical heading.
+- Exact reuse rất cao: median **67,4%** normalized token 7-gram của một file xuất hiện ở file
+  khác; graph containment `≥45%` tạo 22 component phủ 56 file. Đây là bằng chứng mạnh cho dữ
+  liệu recombine từ chunk bank.
+- Single-review manual triage flag 71 macro/obvious montage và 29 localized/borderline
+  seam/format intrusion; đây là snapshot chủ quan để audit, không phải gold. Con số `37/100`
+  trước đây chỉ là lower bound hẹp cho article/Q&A contamination dễ thấy.
+- Hướng xử lý nên là **raw-offset-preserving segment router**, trước mắt dùng để cô lập context
+  và assertion scope. Không tự động drop donor/generic block khi chưa biết gold policy.
+
 ---
 
 ## 1. Nguồn gốc & cấu trúc dữ liệu

@@ -1,0 +1,20 @@
+[
+  {
+    "text": "ngứa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "chức năng gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "bệnh vảy nến",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["L40"],
+    "assertions": [],
+    "position": [0, 0]
+  }
+]

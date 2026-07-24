@@ -1,0 +1,100 @@
+[
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "Glucose máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "Torsemide",
+    "type": "THUỐC",
+    "candidates": ["38413"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "Isosorbide",
+    "type": "THUỐC",
+    "candidates": ["6057"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "Rosuvastatin",
+    "type": "THUỐC",
+    "candidates": ["301542"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "Carvedilol",
+    "type": "THUỐC",
+    "candidates": ["20352"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "kali máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "Creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "Torsemide",
+    "type": "THUỐC",
+    "candidates": ["38413"],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "đường huyết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "đường máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "glucose",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "glargine",
+    "type": "THUỐC",
+    "candidates": ["274783"],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "Dùng xe đẩy hàng làm dụng cụ hỗ trợ đi lại",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "Kiểm soát đường máu, điều chỉnh rối loạn lipid máu, điều chỉnh HA, phòng ngừa biến chứng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  }
+]

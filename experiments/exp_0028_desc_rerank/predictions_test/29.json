@@ -1,0 +1,116 @@
+[
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [43, 45]
+  },
+  {
+    "text": "Bệnh bạch cầu dòng tủy mãn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["D47.1"],
+    "assertions": ["isHistorical"],
+    "position": [46, 77]
+  },
+  {
+    "text": "Tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I15"],
+    "assertions": ["isHistorical"],
+    "position": [80, 93]
+  },
+  {
+    "text": "Đái tháo đường típ 2",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E11.8"],
+    "assertions": ["isHistorical"],
+    "position": [96, 116]
+  },
+  {
+    "text": "Rung nhĩ kèm đáp ứng thất nhanh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I48.0"],
+    "assertions": ["isHistorical"],
+    "position": [122, 153]
+  },
+  {
+    "text": "bệnh thận mạn, không đặc hiệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N18.9"],
+    "assertions": [],
+    "position": [156, 185]
+  },
+  {
+    "text": "Khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [222, 229]
+  },
+  {
+    "text": "nghẹt ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [343, 353]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [358, 361]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [414, 417]
+  },
+  {
+    "text": "nghẹt ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [435, 445]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [504, 511]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [548, 551]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [640, 643]
+  },
+  {
+    "text": "đau vai",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [647, 654]
+  },
+  {
+    "text": "Siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1116, 1123]
+  },
+  {
+    "text": "hội chứng bàn chân bẹt bẩm sinh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Q66.5"],
+    "assertions": [],
+    "position": [1309, 1340]
+  },
+  {
+    "text": "bệnh bàn chân bẹt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Q66.5"],
+    "assertions": [],
+    "position": [1700, 1717]
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "text": "Bệnh tim mạch do xơ vữa động mạch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I25.1"],
+    "assertions": ["isHistorical"],
+    "position": [21, 54]
+  },
+  {
+    "text": "Rối loạn lipid máu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E78.5"],
+    "assertions": ["isHistorical"],
+    "position": [69, 87]
+  },
+  {
+    "text": "co giật",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [177, 184]
+  },
+  {
+    "text": "Chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [275, 295]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [711, 718]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1001, 1008]
+  },
+  {
+    "text": "tê bì",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1056, 1061]
+  },
+  {
+    "text": "ngất",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1421, 1425]
+  },
+  {
+    "text": "run giật",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1889, 1897]
+  },
+  {
+    "text": "cứng đờ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1914, 1921]
+  },
+  {
+    "text": "Đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2008, 2015]
+  },
+  {
+    "text": "Tê bì",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2077, 2082]
+  },
+  {
+    "text": "Mất định hướng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2159, 2173]
+  },
+  {
+    "text": "Mất thăng bằng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2175, 2189]
+  },
+  {
+    "text": "ngất",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2194, 2198]
+  },
+  {
+    "text": "giai đoạn mất định hướng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["F32"],
+    "assertions": [],
+    "position": [2350, 2374]
+  },
+  {
+    "text": "Chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2496, 2516]
+  },
+  {
+    "text": "CT Scanner",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2518, 2528]
+  },
+  {
+    "text": "Tiểu khung thường quy (máy 64 đến 128 dãy, có tiêm thuốc cản quang)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [2538, 2605]
+  },
+  {
+    "text": "Điện tâm đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2655, 2666]
+  },
+  {
+    "text": "máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2824, 2827]
+  },
+  {
+    "text": "WBC",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2828, 2831]
+  },
+  {
+    "text": "14.99 G/L",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [2834, 2843]
+  },
+  {
+    "text": "NEUT%",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2844, 2849]
+  },
+  {
+    "text": "82.9 %",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [2852, 2858]
+  },
+  {
+    "text": "HGB",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2867, 2870]
+  },
+  {
+    "text": "Hemoglobin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2872, 2882]
+  },
+  {
+    "text": "92 g/L",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [2885, 2891]
+  },
+  {
+    "text": "PT",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2892, 2894]
+  },
+  {
+    "text": "INR",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2897, 2900]
+  },
+  {
+    "text": "1.05",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [2902, 2906]
+  },
+  {
+    "text": "CT sọ não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2921, 2930]
+  }
+]

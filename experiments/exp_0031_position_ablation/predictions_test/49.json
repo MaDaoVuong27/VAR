@@ -1,0 +1,43 @@
+[
+  {
+    "text": "bệnh rụng tóc từng mảng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["L63"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "Ung thư vú di căn, tràn dịch màng phổi trái tái phát",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "tràn dịch màng ngoài tim",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I31.3"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "Liệu phát miễn dịch tiếp xúc (contac immunotherapy)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "dinitrochlorobenzene",
+    "type": "THUỐC",
+    "candidates": ["89548"],
+    "assertions": [],
+    "position": [0, 0]
+  }
+]

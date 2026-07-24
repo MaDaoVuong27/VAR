@@ -1,0 +1,47 @@
+[
+  {
+    "text": "đau khi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [780, 787]
+  },
+  {
+    "text": "hôi miệng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1536, 1545]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1677, 1680]
+  },
+  {
+    "text": "bệnh mạch máu ngoại biên",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I79.2*"],
+    "assertions": ["isHistorical"],
+    "position": [1850, 1874]
+  },
+  {
+    "text": "bệnh phổi tắc nghẽn mạn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["J44"],
+    "assertions": ["isHistorical"],
+    "position": [1881, 1909]
+  },
+  {
+    "text": "Ung thư biểu mô tế bào vảy xâm nhập của dương vậtbiệt hóa kém, sau cắt bao quy đầu với bờ diện cắt dương tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [1969, 2078]
+  },
+  {
+    "text": "hôi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2340, 2343]
+  }
+]

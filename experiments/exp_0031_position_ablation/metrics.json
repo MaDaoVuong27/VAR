@@ -1,0 +1,41 @@
+{
+  "exp": "exp_0031_position_ablation",
+  "desc": "= exp_0026 (best confirmed BTC 22.7685) nhưng TOÀN BỘ field position bị ghi đè thành [0, 0]. Mục đích: đo position có thực sự quan trọng với scorer không (dev = proxy đáng tin, có gold thật; test = cần nộp BTC mới biết số thật).",
+  "ner": "models/ner_xlmr_v4_mix",
+  "note": "predictions/predictions_test giống hệt exp_0026 VỀ NỘI DUNG (text/type/candidates/assertions), CHỈ khác position=[0,0]. Không train lại gì, không đổi model.",
+  "dev_scores_original_exp_0026": {
+    "text_score": 0.2577,
+    "assertions_score": 0.6328,
+    "candidates_score": 0.3333,
+    "final_score": 0.4005
+  },
+  "dev_scores_position_zeroed": {
+    "text_score": 0.234,
+    "assertions_score": 0.6318,
+    "candidates_score": 0.3191,
+    "final_score": 0.3874
+  },
+  "dev_delta": {
+    "text_score": -0.0237,
+    "assertions_score": -0.001,
+    "candidates_score": -0.0142,
+    "final_score": -0.0131,
+    "final_relative": "-3.3%"
+  },
+  "n_dev": 15,
+  "btc_score_test_turn2": {
+    "submitted_at": "2026-07-24T10:20:00",
+    "WER": 100,
+    "J_assertion": 0.0,
+    "J_candidates": 0.1933,
+    "final_score_pct": 7.732,
+    "note_scale": "leaderboard hiển thị final dạng phân số (0.0773) lần này thay vì %; quy đổi 0-100 khớp công thức: 0.3*(100-100)+0.3*0+0.4*19.33=7.732"
+  },
+  "delta_vs_exp_0026": {
+    "WER": "+27.83 (tệ hơn, 72.1682 -> 100 = mismatch TOÀN BỘ)",
+    "J_assertion": "-30.33 (30.33 -> 0)",
+    "J_candidates": "+6.03 (13.30 -> 19.33, TĂNG — bất ngờ, xem notes.md)",
+    "final": "-15.04 (-66% tương đối, 22.7685 -> ~7.73)"
+  },
+  "headline_finding": "Dev proxy (metric.py) dự đoán SAI HƯỚNG ĐỘ LỚN: chỉ -3.3% nhưng BTC thật -66%. -> position là bắt buộc/rất nặng trong matcher BTC thật, không phải fallback nhẹ như metric.py nội bộ giả định. Xem notes.md."
+}

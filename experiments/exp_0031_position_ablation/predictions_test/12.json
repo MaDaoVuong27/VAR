@@ -1,0 +1,132 @@
+[
+  {
+    "text": "Bệnh phổi kẽ do sử dụng corticoid liều cao kéo dài",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "Thở oxy tại nhà",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "Hội chứng kháng enzym tổng hợp protein.",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "béo phì",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E66"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "Tăng huyết áp nguyên phát",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I27.0"],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "bactrim",
+    "type": "THUỐC",
+    "candidates": ["151399"],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "doxycycline",
+    "type": "THUỐC",
+    "candidates": ["3640"],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "Suy giảm miễn dịch do sử dụng corticoid kéo dài",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "tổn thương đơn độc",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["T14.9"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "cotrimoxazol",
+    "type": "THUỐC",
+    "candidates": ["2623"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "doxycyclin",
+    "type": "THUỐC",
+    "candidates": ["3640"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "ban đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "dị tật thiểu sản vành tai",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Q17.2"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "tịt ống tai ngoài bẩm sinh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "chụp cắt lớp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "doxycyclinebactrim",
+    "type": "THUỐC",
+    "candidates": ["3640"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "Viêm mô tế bào",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["L03"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "Nhiễm virus Herpes simplex (HSV)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["B00.7"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "Bệnh thủy đậu/Zona (do Varicella Zoster Virus)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["B02"],
+    "assertions": [],
+    "position": [0, 0]
+  }
+]

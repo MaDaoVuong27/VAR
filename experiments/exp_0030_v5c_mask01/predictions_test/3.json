@@ -1,0 +1,399 @@
+[
+  {
+    "text": "bệnh tim mạch do xơ vữa động mạch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I25.1"],
+    "assertions": ["isHistorical"],
+    "position": [217, 250]
+  },
+  {
+    "text": "phình động mạch chủ nhỏ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I35.1"],
+    "assertions": ["isHistorical"],
+    "position": [269, 292]
+  },
+  {
+    "text": "không tuân thủ điều trị bằng thuốc",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [328, 362]
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [456, 464]
+  },
+  {
+    "text": "mất ý thức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [595, 605]
+  },
+  {
+    "text": "đánh trống ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [696, 711]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [739, 748]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [757, 765]
+  },
+  {
+    "text": "đổ mồ hôi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [774, 783]
+  },
+  {
+    "text": "mất kiểm soát đại tiện hoặc tiểu tiện",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["R15"],
+    "assertions": ["isNegated"],
+    "position": [792, 829]
+  },
+  {
+    "text": "đau chân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [832, 840]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [867, 875]
+  },
+  {
+    "text": "khó thở khi gắng sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [878, 898]
+  },
+  {
+    "text": "khó thở về đêm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [901, 915]
+  },
+  {
+    "text": "khó thở khi nằm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [918, 933]
+  },
+  {
+    "text": "phù mắt cá chân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [936, 951]
+  },
+  {
+    "text": "đánh trống ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [954, 969]
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [972, 980]
+  },
+  {
+    "text": "Xỉu trước",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [983, 992]
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1016, 1024]
+  },
+  {
+    "text": "khó chịu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1284, 1292]
+  },
+  {
+    "text": "khó chịu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1304, 1312]
+  },
+  {
+    "text": "choáng váng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1319, 1330]
+  },
+  {
+    "text": "chóng mặt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1332, 1341]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1343, 1351]
+  },
+  {
+    "text": "đánh trống ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1353, 1368]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1375, 1383]
+  },
+  {
+    "text": "đau chân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1433, 1441]
+  },
+  {
+    "text": "Đi bộ vài chặng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [1562, 1577]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1640, 1648]
+  },
+  {
+    "text": "khó thở khi gắng sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1837, 1857]
+  },
+  {
+    "text": "Gắng sức",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["Z54"],
+    "assertions": ["isHistorical"],
+    "position": [1979, 1987]
+  },
+  {
+    "text": "khó thở về đêm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2052, 2066]
+  },
+  {
+    "text": "khó thở khi nằm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2256, 2271]
+  },
+  {
+    "text": "phù mắt cá chân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2459, 2474]
+  },
+  {
+    "text": "Mắt cá chân",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["S82.5"],
+    "assertions": ["isHistorical"],
+    "position": [2486, 2497]
+  },
+  {
+    "text": "đánh trống ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2500, 2515]
+  },
+  {
+    "text": "ngất xỉu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2611, 2619]
+  },
+  {
+    "text": "Xỉu trước",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [2807, 2816]
+  },
+  {
+    "text": "mạch",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [3117, 3121]
+  },
+  {
+    "text": "83",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [3122, 3124]
+  },
+  {
+    "text": "huyết áp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [3126, 3134]
+  },
+  {
+    "text": "159/72",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [3135, 3141]
+  },
+  {
+    "text": "nhịp thở",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [3143, 3151]
+  },
+  {
+    "text": "20",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [3152, 3154]
+  },
+  {
+    "text": "spo2",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [3156, 3160]
+  },
+  {
+    "text": "94-95",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [3178, 3183]
+  },
+  {
+    "text": "Phát",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [3190, 3194]
+  },
+  {
+    "text": "rung nhĩ kèm",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I48"],
+    "assertions": [],
+    "position": [3200, 3212]
+  },
+  {
+    "text": "130-150",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [3242, 3249]
+  },
+  {
+    "text": "điện tâm đồ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [3288, 3299]
+  },
+  {
+    "text": "nhồi máu cơ tim vùng dưới cũ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I25.2"],
+    "assertions": [],
+    "position": [3336, 3364]
+  },
+  {
+    "text": "công thức máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [3465, 3478]
+  },
+  {
+    "text": "chức năng gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [3485, 3498]
+  },
+  {
+    "text": "phân tích nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [3506, 3525]
+  },
+  {
+    "text": "troponin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [3578, 3586]
+  },
+  {
+    "text": "0.01.",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [3587, 3592]
+  },
+  {
+    "text": "chụp x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [3595, 3612]
+  },
+  {
+    "text": "chụp cắt lớp vi tính sọ não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [3667, 3694]
+  },
+  {
+    "text": "công thức sinh hóa máu cơ bản",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [3978, 4007]
+  },
+  {
+    "text": "công thức máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [4027, 4040]
+  },
+  {
+    "text": "chức năng gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [4060, 4073]
+  },
+  {
+    "text": "phân tích nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [4092, 4111]
+  },
+  {
+    "text": "troponin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [4126, 4134]
+  },
+  {
+    "text": "0.01",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [4135, 4139]
+  },
+  {
+    "text": "nhồi máu cơ tim vùng dưới cũ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I25.2"],
+    "assertions": [],
+    "position": [4239, 4267]
+  },
+  {
+    "text": "Tim to",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I51.7"],
+    "assertions": ["isHistorical"],
+    "position": [4360, 4366]
+  },
+  {
+    "text": "chụp cắt lớp vi tính sọ não",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [4389, 4416]
+  }
+]

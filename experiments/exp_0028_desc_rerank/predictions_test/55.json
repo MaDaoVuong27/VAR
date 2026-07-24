@@ -1,0 +1,64 @@
+[
+  {
+    "text": "rợn người",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [215, 224]
+  },
+  {
+    "text": "rợn người",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [436, 445]
+  },
+  {
+    "text": "hồi hộp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [447, 454]
+  },
+  {
+    "text": "Suy thận mạn giai đoạn V do đái tháo đường và tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["N18.5"],
+    "assertions": ["isHistorical"],
+    "position": [910, 969]
+  },
+  {
+    "text": "u ác của tuyến tiền liệt điều trị bằng xạ trị cấy hạt",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [976, 1029]
+  },
+  {
+    "text": "Phẫu thuật cắt bỏ u dây thần kinh số VIII",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [1072, 1113]
+  },
+  {
+    "text": "Sinh thiết",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1179, 1189]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1249, 1256]
+  },
+  {
+    "text": "mất trí nhớ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1258, 1269]
+  },
+  {
+    "text": "lo âu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1376, 1381]
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "exp": "exp_0028_desc_rerank",
+  "desc": "= exp_0026 nhưng reranker ăn MÔ TẢ KB (phân cấp+đồng nghĩa) thay vì tên trần (C1+C2 TRAINING_WORKFLOW_PLAN.md)",
+  "ner": "models/ner_xlmr_v4_mix",
+  "dev_scores": {
+    "text_score": 0.2577,
+    "assertions_score": 0.6328,
+    "candidates_score": 0.3011,
+    "final_score": 0.3876
+  },
+  "n_dev": 15
+}

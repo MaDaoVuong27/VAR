@@ -1,0 +1,14 @@
+[
+  {
+    "text": "Khởi phát chuyển dạBệnh",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["B08.2"],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "LOF",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  }
+]

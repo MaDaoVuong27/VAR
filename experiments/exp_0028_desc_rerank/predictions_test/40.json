@@ -1,0 +1,206 @@
+[
+  {
+    "text": "Đi ngoài phân đen",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["K92.1"],
+    "assertions": [],
+    "position": [34, 51]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [53, 60]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [106, 114]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [126, 129]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [169, 176]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [196, 199]
+  },
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [223, 230]
+  },
+  {
+    "text": "Van động mạch chủ cơ học điều trị thuốc không đều",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [370, 419]
+  },
+  {
+    "text": "thay khớp háng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [421, 435]
+  },
+  {
+    "text": "glasgow",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [503, 510]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [567, 570]
+  },
+  {
+    "text": "chướng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [705, 711]
+  },
+  {
+    "text": "Xuất huyết tiêu hóa theo dõi quá liều kháng vitamin K",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [812, 865]
+  },
+  {
+    "text": "Viêm phổi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["J18.9"],
+    "assertions": ["isHistorical"],
+    "position": [868, 877]
+  },
+  {
+    "text": "Van động mạch chủ cơ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I35.1"],
+    "assertions": ["isHistorical"],
+    "position": [881, 901]
+  },
+  {
+    "text": "học",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [903, 906]
+  },
+  {
+    "text": "Đái tháo đường",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E23.2"],
+    "assertions": ["isHistorical"],
+    "position": [909, 923]
+  },
+  {
+    "text": "TS thay khớp háng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [926, 943]
+  },
+  {
+    "text": "Khí máu động mạch",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [993, 1010]
+  },
+  {
+    "text": "Tổng phân tích tế bào máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1048, 1073]
+  },
+  {
+    "text": "Na",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1400, 1402]
+  },
+  {
+    "text": "cl",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1409, 1411]
+  },
+  {
+    "text": "Men gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1415, 1422]
+  },
+  {
+    "text": "AST",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1435, 1438]
+  },
+  {
+    "text": "ALT",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1448, 1451]
+  },
+  {
+    "text": "CRP",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1486, 1489]
+  },
+  {
+    "text": "co giật",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isNegated"],
+    "position": [1568, 1575]
+  },
+  {
+    "text": "cứng đờ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1577, 1584]
+  },
+  {
+    "text": "CRP",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1647, 1650]
+  },
+  {
+    "text": "227.0 mg/L",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1652, 1662]
+  },
+  {
+    "text": "Creatinin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1663, 1672]
+  },
+  {
+    "text": "46 µmol/L",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1675, 1684]
+  },
+  {
+    "text": "Kali +",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1685, 1691]
+  },
+  {
+    "text": "3.6",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1693, 1696]
+  },
+  {
+    "text": "Tiểu khung (64–128 dãy, có thuốc cản quang, không in phim):",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [1758, 1817]
+  }
+]

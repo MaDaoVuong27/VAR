@@ -44,8 +44,13 @@ def main():
     ap.add_argument("--maxlen", type=int, default=256)
     ap.add_argument("--stride", type=int, default=48, help="khớp với ner_extractor lúc inference")
     ap.add_argument("--lr", type=float, default=3e-5)
+    ap.add_argument("--mask-prob", type=float, default=0.0,
+                    help="Whole-entity masking (OpenBioNER): xác suất thay TOÀN BỘ 1 entity bằng "
+                         "[MASK] lúc train (KHÔNG áp cho val) -> ép model dùng ngữ cảnh thay vì "
+                         "học thuộc mặt chữ. 0 = tắt (mặc định, hành vi cũ). Xem TRAINING_WORKFLOW_PLAN.md §A2.")
     args = ap.parse_args()
 
+    import random as pyrandom
     import torch
     from transformers import (AutoTokenizer, AutoModelForTokenClassification,
                               TrainingArguments, Trainer, DataCollatorForTokenClassification)
@@ -54,7 +59,28 @@ def main():
 
     tok = AutoTokenizer.from_pretrained(args.base)
 
-    def encode(batch):
+    def _mask_entities(input_ids, labels, mask_id, p, rng):
+        """Whole-entity masking: thay TOÀN BỘ token của 1 entity (nhóm B-X liền I-X) bằng
+        [MASK] với xác suất p — áp theo TỪNG ENTITY, không phải từng token, để giữ đúng ngữ
+        nghĩa "che cả cụm" (khác random token masking kiểu BERT-MLM thường)."""
+        out = list(input_ids)
+        i, n = 0, len(labels)
+        while i < n:
+            lab = ID2LABEL.get(labels[i], "O")
+            if lab.startswith("B-"):
+                typ = lab[2:]
+                j = i + 1
+                while j < n and ID2LABEL.get(labels[j], "O") == f"I-{typ}":
+                    j += 1
+                if rng.random() < p:
+                    for k in range(i, j):
+                        out[k] = mask_id
+                i = j
+            else:
+                i += 1
+        return out
+
+    def make_encoder(mask_prob: float):
         """Sliding window KHỚP inference (ner_extractor.py): doc dài -> nhiều cửa sổ chồng lấn.
 
         ⚠️ Trước đây chỉ `truncation=True` (không overflow) → doc dài hơn maxlen bị CẮT CỤT,
@@ -63,20 +89,29 @@ def main():
         offset_mapping của fast tokenizer luôn theo toạ độ ký tự của chuỗi GỐC, kể cả khi
         overflow → char_spans_to_token_labels dùng trực tiếp được.
         """
-        enc = tok(batch["text"], truncation=True, max_length=args.maxlen, stride=args.stride,
-                  return_overflowing_tokens=True, return_offsets_mapping=True)
-        sample_map = enc.pop("overflow_to_sample_mapping")
-        all_labels = []
-        for i, offsets in enumerate(enc["offset_mapping"]):
-            all_labels.append(char_spans_to_token_labels(offsets, batch["concepts"][sample_map[i]]))
-        enc["labels"] = all_labels
-        enc.pop("offset_mapping")
-        return enc
+        rng = pyrandom.Random(0)
+
+        def encode(batch):
+            enc = tok(batch["text"], truncation=True, max_length=args.maxlen, stride=args.stride,
+                      return_overflowing_tokens=True, return_offsets_mapping=True)
+            sample_map = enc.pop("overflow_to_sample_mapping")
+            all_labels = []
+            mask_id = tok.mask_token_id
+            for i, offsets in enumerate(enc["offset_mapping"]):
+                labs = char_spans_to_token_labels(offsets, batch["concepts"][sample_map[i]])
+                all_labels.append(labs)
+                if mask_prob > 0 and mask_id is not None:
+                    enc["input_ids"][i] = _mask_entities(enc["input_ids"][i], labs, mask_id,
+                                                         mask_prob, rng)
+            enc["labels"] = all_labels
+            enc.pop("offset_mapping")
+            return enc
+        return encode
 
     train_ds = Dataset.from_list(load_jsonl(ROOT / args.train)).map(
-        encode, batched=True, remove_columns=["text", "concepts"])
+        make_encoder(args.mask_prob), batched=True, remove_columns=["text", "concepts"])
     val_ds = Dataset.from_list(load_jsonl(ROOT / args.val)).map(
-        encode, batched=True, remove_columns=["text", "concepts"])
+        make_encoder(0.0), batched=True, remove_columns=["text", "concepts"])
 
     model = AutoModelForTokenClassification.from_pretrained(
         args.base, num_labels=len(LABELS), id2label=ID2LABEL, label2id=LABEL2ID)

@@ -1,0 +1,211 @@
+[
+  {
+    "text": "Suy tim không do thiếu máu cơ tim",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I25.5"],
+    "assertions": ["isHistorical"],
+    "position": [114, 147]
+  },
+  {
+    "text": "HA",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [370, 372]
+  },
+  {
+    "text": "Glucose",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [411, 418]
+  },
+  {
+    "text": "5,8",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [420, 423]
+  },
+  {
+    "text": "Cholesterol",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [440, 451]
+  },
+  {
+    "text": "4,7",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [453, 456]
+  },
+  {
+    "text": "Triglycerid",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [465, 476]
+  },
+  {
+    "text": "1,9mmol/l",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [478, 487]
+  },
+  {
+    "text": "LDL",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [497, 500]
+  },
+  {
+    "text": "cholesterol",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [503, 514]
+  },
+  {
+    "text": "2,2 mmol/l",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [516, 526]
+  },
+  {
+    "text": "HDL",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [528, 531]
+  },
+  {
+    "text": "2mmol/l",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [547, 554]
+  },
+  {
+    "text": "HbA1c",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [564, 569]
+  },
+  {
+    "text": "Đái tháo đường typ II/",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E11.9"],
+    "assertions": ["isHistorical"],
+    "position": [825, 847]
+  },
+  {
+    "text": "Tăng HA độ III",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [847, 861]
+  },
+  {
+    "text": "isosorbide, crestor, carvedilol",
+    "type": "THUỐC",
+    "candidates": ["20352"],
+    "assertions": ["isHistorical"],
+    "position": [1014, 1045]
+  },
+  {
+    "text": "kali",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1179, 1183]
+  },
+  {
+    "text": "6.3 mẫu không tan máu",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1187, 1208]
+  },
+  {
+    "text": "kali",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1330, 1334]
+  },
+  {
+    "text": "6.3, mẫu không tan máu",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1335, 1357]
+  },
+  {
+    "text": "83",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1383, 1385]
+  },
+  {
+    "text": "creatinine",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1388, 1398]
+  },
+  {
+    "text": "5.7",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1399, 1402]
+  },
+  {
+    "text": "hemoglobin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1405, 1415]
+  },
+  {
+    "text": "7.8",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1416, 1419]
+  },
+  {
+    "text": "hba1c",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1422, 1427]
+  },
+  {
+    "text": "6.5",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1428, 1431]
+  },
+  {
+    "text": "bnp",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1434, 1437]
+  },
+  {
+    "text": "21,000",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1438, 1444]
+  },
+  {
+    "text": "tổng phân tích nước tiểu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1447, 1471]
+  },
+  {
+    "text": "bình thường",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1472, 1483]
+  },
+  {
+    "text": "cúm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1486, 1489]
+  },
+  {
+    "text": "âm tính",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [1490, 1497]
+  },
+  {
+    "text": "chụp x-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1526, 1543]
+  },
+  {
+    "text": "Tăng gánh nhẹ tuần hoàn phổi",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1545, 1573]
+  },
+  {
+    "text": "dextrose",
+    "type": "THUỐC",
+    "candidates": ["1299920"],
+    "assertions": [],
+    "position": [1665, 1673]
+  },
+  {
+    "text": "kali máu",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [1683, 1691]
+  },
+  {
+    "text": "iv lasix 40 mg once",
+    "type": "THUỐC",
+    "candidates": ["565458"],
+    "assertions": ["isHistorical"],
+    "position": [1694, 1713]
+  }
+]

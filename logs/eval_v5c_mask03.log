@@ -1,0 +1,18 @@
+The tokenizer you are loading from '/data/MADAOVUONG/BAI_LAB/VAR/models/ner_xlmr_v5c_mask03' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+The tokenizer you are loading from '/data/MADAOVUONG/BAI_LAB/VAR/models/assertion_xlmr' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+[exp] NER model: models/ner_xlmr_v5c_mask03 (min_conf=0.95, split_newlines=True)
+[exp] candidate: SapBERT retrieval + RERANK (BAAI/bge-reranker-v2-m3)
+[exp] assertion: classifier models/assertion_xlmr
+Wrote 17 predictions to /data/MADAOVUONG/BAI_LAB/VAR/experiments/exp_0030_v5c_mask03/predictions
+Wrote 17 predictions to /data/MADAOVUONG/BAI_LAB/VAR/experiments/exp_0030_v5c_mask03/predictions_test
+
+=== DEV scores (15 file) ===
+{
+  "text_score": 0.2302,
+  "assertions_score": 0.5941,
+  "candidates_score": 0.2814,
+  "final_score": 0.3598
+}
+
+Wrote submission -> /data/MADAOVUONG/BAI_LAB/VAR/experiments/exp_0030_v5c_mask03/output.zip
+Wrote metrics -> /data/MADAOVUONG/BAI_LAB/VAR/experiments/exp_0030_v5c_mask03/metrics.json

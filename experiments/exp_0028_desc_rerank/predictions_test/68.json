@@ -1,0 +1,58 @@
+[
+  {
+    "text": "bệnh động mạch vành, bệnh lý thần kinh ngoại biên",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["G90.0"],
+    "assertions": ["isHistorical"],
+    "position": [34, 83]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [160, 167]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [199, 206]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": ["isHistorical"],
+    "position": [248, 255]
+  },
+  {
+    "text": "Khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [258, 265]
+  },
+  {
+    "text": "Chụp động mạch vành",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [621, 640]
+  },
+  {
+    "text": "bệnh ba thân động mạch vành nghiêm trọng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [650, 690]
+  },
+  {
+    "text": "Augmentin (amoxicillin/acid clavulanic)",
+    "type": "THUỐC",
+    "candidates": ["151392"],
+    "assertions": [],
+    "position": [799, 838]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1434, 1443]
+  }
+]

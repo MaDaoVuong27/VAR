@@ -1,0 +1,13 @@
+{
+  "exp": "exp_0029_desc_rerank_v2",
+  "desc": "= exp_0028 nhưng fix max_length cross-encoder 64->160 (giả thuyết: mô tả KB dài hơn tên trần bị cắt cụt). KẾT QUẢ: KHÔNG cứu được, còn TỆ hơn -> bỏ hướng description-augmented reranker, revert use_description default về False.",
+  "ner": "models/ner_xlmr_v4_mix",
+  "dev_scores": {
+    "text_score": 0.2577,
+    "assertions_score": 0.6328,
+    "candidates_score": 0.2903,
+    "final_score": 0.3833
+  },
+  "n_dev": 15,
+  "note": "predictions_test KHÔNG chạy đầy đủ (run gốc bị kill giữa chừng, exit 143) - dev scores tính trực tiếp từ predictions/ đã có sẵn (không tốn thêm compute vì đã confirm hướng này thua). Không đóng gói output.zip, không dùng để nộp."
+}

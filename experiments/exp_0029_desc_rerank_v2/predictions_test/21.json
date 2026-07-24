@@ -1,0 +1,167 @@
+[
+  {
+    "text": "Rối loạn chuyển hóa tinh bột (amyloidosis)",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E85"],
+    "assertions": [],
+    "position": [29, 71]
+  },
+  {
+    "text": "Tình trạng lắng đọng của protein amyloid",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [759, 799]
+  },
+  {
+    "text": "đa u tủy",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["C90.0"],
+    "assertions": [],
+    "position": [1110, 1118]
+  },
+  {
+    "text": "Bệnh amyloidosis chuỗi nhẹ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E85.9"],
+    "assertions": ["isHistorical"],
+    "position": [1190, 1216]
+  },
+  {
+    "text": "Bệnh amyloidosis tự miễn dịch",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E85.9"],
+    "assertions": ["isHistorical"],
+    "position": [1226, 1255]
+  },
+  {
+    "text": "Bệnh amyloidosis di truyền hoặc gia đình",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["E85.0"],
+    "assertions": ["isHistorical"],
+    "position": [1265, 1305]
+  },
+  {
+    "text": "ngăn chặn tổn thương",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [1548, 1568]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1605, 1613]
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1638, 1649]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1657, 1665]
+  },
+  {
+    "text": "Nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1683, 1686]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1764, 1772]
+  },
+  {
+    "text": "đau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1787, 1795]
+  },
+  {
+    "text": "đau bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1928, 1936]
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1938, 1949]
+  },
+  {
+    "text": "chướng bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1984, 1995]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [1998, 2006]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2019, 2022]
+  },
+  {
+    "text": "đau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [2024, 2032]
+  },
+  {
+    "text": "nội soi",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2093, 2100]
+  },
+  {
+    "text": "omeprazole",
+    "type": "THUỐC",
+    "candidates": ["7646"],
+    "assertions": [],
+    "position": [2222, 2232]
+  },
+  {
+    "text": "cộng hưởng từ",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2239, 2252]
+  },
+  {
+    "text": "sỏi đoạn cuối ống mật chủ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [2271, 2296]
+  },
+  {
+    "text": "chức năng gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2309, 2322]
+  },
+  {
+    "text": "men gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2332, 2339]
+  },
+  {
+    "text": "chức năng gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2460, 2473]
+  },
+  {
+    "text": "men gan",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [2488, 2495]
+  }
+]

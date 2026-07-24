@@ -1,0 +1,105 @@
+[
+  {
+    "text": "chụp cắt lớp vi tính",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [0, 0]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "phù gai thị",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["H47.1"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "Phẫu thuật đặt cảng để",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "tăng nhãn áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["H44.4"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "Hệ thống dẫn lưu được chỉnh sửa/thay thế",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": ["isHistorical"],
+    "position": [0, 0]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "mờ mắt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "nhìn mờ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "phù gai thị",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["H47.1"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "dị vật đường thở bỏ quên",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["T17"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "giảm bắt thuốc cản quang",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "Phù gai thị",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["H47.1"],
+    "assertions": [],
+    "position": [0, 0]
+  }
+]

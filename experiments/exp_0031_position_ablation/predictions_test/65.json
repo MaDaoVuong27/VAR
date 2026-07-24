@@ -1,0 +1,30 @@
+[
+  {
+    "text": "bệnh rụng tóc từng mảng",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["L63"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "thiếu máu cơ tim cục bộ",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": ["I25.5"],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "diphenylcyclopropenone (diphencyprone)",
+    "type": "THUỐC",
+    "candidates": [],
+    "assertions": [],
+    "position": [0, 0]
+  },
+  {
+    "text": "dinitrochlorobenzene",
+    "type": "THUỐC",
+    "candidates": ["89548"],
+    "assertions": [],
+    "position": [0, 0]
+  }
+]
